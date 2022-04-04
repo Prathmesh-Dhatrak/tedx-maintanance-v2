@@ -1,24 +1,19 @@
 import React from "react";
-// import Banner from "../components/banner";
-// import AboutMain from "../components/aboutMain";
-// import Pandemonium from "../components/pandemonium";
-// import Speakers from "../components/speakers";
-// import Timeline from "../components/timeLine";
+import BannerSection from "./BannerSection";
+import AboutSection from "./AboutSection";
+import PandemoniumSection from "./PandemoniumSection";
+import SpeakersSection from "./SpeakersSection";
+import TimelineSection from "./TimelineSection";
 
 const Home = ({ dimensions }) => {
   return (
-    <>Home</>
-    // <>
-    //   {/* {animationComplete === false ? <IntroOverlay /> : ""} */}
-    //   <Banner />
-    //   <Pandemonium />
-    //   <Speakers />
-    //   {/* <PreviousEvents /> */}
-    //   <Timeline />
-    //   <AboutMain />
-
-    //   {/* <Cases /> */}
-    // </>
+    <>
+      <BannerSection />
+      <PandemoniumSection />
+      {/* <SpeakersSection />
+      <TimelineSection />
+      <AboutSection /> */}
+    </>
   );
 };
 

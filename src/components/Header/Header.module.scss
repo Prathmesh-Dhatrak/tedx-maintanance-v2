@@ -1,0 +1,159 @@
+@import "../../styles/variables";
+.header {
+  // background: $color-primary-dark;
+  width: 100%;
+  height: 100px;
+  padding: 0 1.5rem;
+  font-family: "Aileron";
+  font-style: normal;
+  @include breakpoint(md) {
+    padding: 0 3rem;
+  }
+  transition: 0.3s ease all;
+
+  &__content {
+    overflow: hidden;
+    // color: $color-primary-light;
+    margin: 0 auto;
+    max-width: 1920px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 100;
+
+    &__logo {
+      & img {
+        width: 18rem;
+      }
+    }
+
+    &__nav {
+      top: 0;
+      right: 100%;
+      bottom: 0;
+      width: 100%;
+      height: 100vh;
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: rgba($color-primary-dark, 0.9);
+      backdrop-filter: blur(2px);
+      transform: translate(0);
+      transition: 0.3s ease transform;
+
+      @include breakpoint(md) {
+        transform: none;
+        flex-direction: row;
+        background: transparent;
+        width: auto;
+        height: 100%;
+        position: static;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 32px;
+        font-size: 1.7rem;
+        @include breakpoint(md) {
+          flex-direction: row;
+          align-items: center;
+          margin-bottom: 0;
+          margin-right: calc(0.5rem + #{16px});
+        }
+        li {
+          &:not(:last-child) {
+            margin-bottom: 32px;
+            @include breakpoint(md) {
+              margin-bottom: 0;
+              margin-right: 16px;
+            }
+          }
+          a {
+            text-decoration: none;
+            color: inherit;
+            display: inline-block;
+            padding: 0.75rem 1.25rem;
+            border-radius: 12px;
+            transition: 0.3s ease all;
+            &:after {
+              display: block;
+              content: "";
+              border-bottom: solid 3px $color-primary-main;
+              transform: scaleX(0);
+              transition: transform 250ms ease-in-out;
+            }
+            &:hover:after {
+              transform: scaleX(1);
+            }
+          }
+        }
+      }
+      button {
+        cursor: pointer;
+        outline: none;
+        padding: 0.55rem 2rem;
+        border-radius: 10px;
+        font-size: 1.5rem;
+        font-family: inherit;
+        border: 1px solid transparent;
+        transition: 0.3s ease all;
+
+        &:hover {
+          border-color: $color-primary-light;
+          background: rgba($color-primary-main, 0.1);
+          color: $color-primary-light;
+        }
+        &:active {
+          border-color: $color-primary-light;
+          background: linear-gradient(
+            rgba($color-primary-light, 0.2),
+            rgba($color-primary-light, 0.3)
+          );
+          color: $color-primary-light;
+        }
+      }
+
+      &.isMenu {
+        transform: translate(100%);
+      }
+    }
+
+    &__toggle {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      font-size: 2rem;
+      transition: 0.3s ease all;
+      position: relative;
+
+      &:hover {
+        color: $color-primary-light;
+      }
+
+      @include breakpoint(md) {
+        display: none;
+      }
+    }
+  }
+}
+.dropdown {
+  background-color: $color-primary-dark;
+  color: $color-primary-light;
+  font-family: "Aileron-Light";
+  outline: none;
+  border: 1px solid transparent;
+  font-size: 1.7rem;
+}
+.select-selected {
+  background-color: DodgerBlue;
+}
+.dropdown:after {
+  line-height: 2rem;
+}

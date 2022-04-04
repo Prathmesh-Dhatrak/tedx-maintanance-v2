@@ -10,7 +10,7 @@ const Accordian = (props) => {
     function toggleAccor() {
         setActiveState(setActive === "" ? "active" : "");
         setHeightState(setActive === "active" ? "0px" : `${content.current.scrollHeight}px`);
-        console.log(content.current.scrollHeight);
+        
     }
 
 

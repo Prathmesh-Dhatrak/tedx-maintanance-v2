@@ -14,9 +14,13 @@ const Faqs = () => {
       <h2 className={styles.category}>About TEDxVITPune</h2>
 
       <Accordian question="What is TEDx?" answer="TEDxVITPune is an event where live talks with unique ideas and performances are shared with the community to educate and engage them." />
+      {/*<Accordian question="How can I reach out to the organising team of TEDxVITPune?" 
+      answer="
+  <p style=color:red>You can reach out to us through our Social Media handles</p>" />*/}
+
       <Accordian question="How can I reach out to the organising team of TEDxVITPune?" 
       answer="
-      <p style=color:red>You can reach out to us through our Social Media handles</p>" />
+      <p>You can reach out to us through our Social Media handles</p>" />
 
       <Accordian question="Where can I see previous TEDxVITPune talks?" 
       // eslint-disable-next-line no-template-curly-in-string

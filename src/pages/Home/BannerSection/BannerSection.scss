@@ -1,0 +1,73 @@
+@import "../../../styles/_variables";
+
+.banner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6rem 3rem;
+  & .banner-section1,
+  .banner-section2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    & .banner-small-title {
+      margin: 0;
+      font-size: 39px;
+      margin-bottom: 15px;
+    }
+    & .banner-heading-title {
+      display: flex;
+      flex-direction: row;
+      & h1 {
+        font-size: 95px;
+        white-space: nowrap;
+      }
+      & .banner-title-1 {
+        color: $color-primary-main;
+      }
+    }
+    & .banner-paragraph {
+      letter-spacing: 1px;
+      line-height: 30px;
+      font-size: 15px;
+    }
+    & img {
+      object-fit: contain;
+      border-radius: 3rem;
+    }
+  }
+}
+
+@media screen and (max-width: $medium) {
+  .banner-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+    & .banner-section1,
+    .banner-section2 {
+      width: 100%;
+      & .banner-small-title {
+        font-size: 19px;
+      }
+      & .banner-heading-title {
+        flex-direction: column;
+        & h1 {
+          white-space: pre-wrap;
+          font-size: 55px;
+        }
+      }
+      & .banner-paragraph {
+        font-size: 10px;
+      }
+    }
+    & .sm-padding {
+      padding-bottom: 1rem;
+    }
+  }
+}
+// @media screen and (max-width: $small) {
+//   .banner-container {
+//     flex-direction: column;
+//   }
+// }

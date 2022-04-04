@@ -1,0 +1,43 @@
+.time-container {
+    margin: auto auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    background-color: rgba(17, 17, 17, 0.88);
+    & .events-text-center {
+      padding-top: 5rem;
+      margin: auto 10rem;
+      text-align: left;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      & img {
+        width: 119.09px;
+        height: 146.81px;
+      }
+      & .time-text-info {
+        padding-left: 2rem;
+      }
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .time-container {
+      & .timeline-inner {
+        width: 100% !important;
+      }
+  
+      padding-top: 1rem;
+      .events-text-center {
+        flex-direction: column !important;
+        text-align: left;
+        margin: 0;
+        justify-content: center !important;
+        align-items: center !important;
+        & .time-text-info {
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+  

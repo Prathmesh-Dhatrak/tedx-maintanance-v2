@@ -13,30 +13,37 @@ import {
 } from "./pages";
 
 const routes = [
-  { path: "/", name: "Home", Component: Home },
-  { path: "/partners", name: "Partners", Component: Partners },
-  { path: "/faqs", name: "Faqs", Component: Faqs },
-  { path: "/blog", name: "Blog", Component: Blog },
-  { path: "/newsletter", name: "Newsletter", Component: Newsletter },
-  { path: "/about", name: "about", Component: About },
-  { path: "/contact", name: "Contact", Component: Contact },
-  { path: "/privacy", name: "Privacy", Component: Privacy },
+  { path: "/", darkHader: true, name: "Home", Component: Home },
+  {
+    path: "/partners",
+    darkHader: false,
+    name: "Partners",
+    Component: Partners,
+  },
+  { path: "/faqs", darkHader: false, name: "Faqs", Component: Faqs },
+  { path: "/blog", darkHader: false, name: "Blog", Component: Blog },
+  {
+    path: "/newsletter",
+    darkHader: false,
+    name: "Newsletter",
+    Component: Newsletter,
+  },
+  { path: "/about", darkHader: false, name: "about", Component: About },
+  { path: "/contact", darkHader: false, name: "Contact", Component: Contact },
+  { path: "/privacy", darkHader: false, name: "Privacy", Component: Privacy },
 ];
 
 function App() {
   return (
-    <>
-      <Header />
-
-      <div className="App">
-        {routes.map(({ path, Component }) => (
-          <Route key={path} exact path={path}>
-            <Component />
-          </Route>
-        ))}
-      </div>
+    <div className="App">
+      {routes.map(({ darkHader, path, Component }) => (
+        <Route key={path} exact path={path}>
+          {darkHader ? <Header dark={true} /> : <Header dark={false} />}
+          <Component />
+        </Route>
+      ))}
       <Footer />
-    </>
+    </div>
   );
 }
 

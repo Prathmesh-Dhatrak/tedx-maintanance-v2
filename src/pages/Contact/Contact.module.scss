@@ -1,0 +1,213 @@
+.touch {
+    background-color: #fcfcfc;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    color: #333333;
+    align-items: center;
+    .touch_left {
+        width: 50%;
+        padding: 5% 9%;
+        h1 {
+            font-family: "Montserrat", sans-serif;
+            font-size: 60px;
+            font-weight: 700;
+        }
+        p {
+            font-family: "Rotunda_Light", sans-serif;
+            font-size: 20px;
+            line-height: 36px;
+            font-weight: 800;
+            padding: 30px 0;
+        }
+    }
+    .touch_right{
+        width: 50%;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+@media (max-width:910px){
+    .touch {
+        background-color: #fcfcfc;
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        color: #333333;
+        align-items: center;
+        flex-direction: column;
+        .touch_left {
+            width: 100%;
+            padding: 5% 9%;
+            h1 {
+                font-family: "Montserrat", sans-serif;
+                font-size: 60px;
+                font-weight: 700;
+            }
+            p {
+                font-family: "Rotunda_Light", sans-serif;
+                font-size: 20px;
+                line-height: 36px;
+                font-weight: 800;
+                padding: 30px 0;
+            }
+        }
+        .touch_right{
+            width: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+/* Contactsection*/
+.contact_para {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #222222;
+    color: #ffffff;
+    font-family: "Rotunda_Light", sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .cp_left {
+
+        width: 50%;
+        margin: 3.5%;
+        margin-left: 7.5%;
+
+        #h_3 {
+            font-size: 36px;
+            font-weight: 600;
+        }
+        p {
+            padding: 30px 0;
+            color: #888888;
+            padding-right: 17%;
+            font-size: 20px;
+            line-height: 36px;
+        }
+        h4 {
+            font-size: 22px;
+            padding: 10px 0;
+            padding-right: 30px;
+            line-height: 36px;
+            a {
+                text-decoration: none;
+                color: #ffffff;
+            }
+        }
+    }
+    .cp_right {
+        width: 50%;
+        margin: 3.5%;
+        #h_3 {
+            font-size: 36px;
+            font-weight: 600;
+        }
+        p {
+            padding: 30px 0;
+            color: #888888;
+            padding-right: 17%;
+            font-size: 20px;
+            line-height: 36px;
+        }
+        h4 {
+            display: flex;
+            flex-direction: column;
+            font-size: 22px;
+            padding: 10px 0;
+            padding-right: 30px;
+            line-height: 36px;
+            a {
+                flex-wrap: wrap;
+                text-decoration: none;
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+.line{
+    background-color: #222222;
+    padding-left: 9.5%;
+    overflow: hidden;
+}
+
+@media (max-width:881px){
+    .contact_para {
+        min-height: 100vh;
+        width: 100%;
+        background-color: #222222;
+        color: #ffffff;
+        font-family: "Rotunda_Light", sans-serif;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        .cp_left {
+    
+           width: 95%;
+            padding: 5%;
+            
+            //margin-left: 7.5%;
+    
+            #h_3 {
+                font-size: 36px;
+                font-weight: 600;
+            }
+            p {
+                padding: 30px 0;
+                color: #888888;
+                padding-right: 17%;
+                font-size: 20px;
+                line-height: 36px;
+            }
+            h4 {
+                font-size: 22px;
+                padding: 10px 0;
+                padding-right: 30px;
+                line-height: 36px;
+                a {
+                    text-decoration: none;
+                    color: #ffffff;
+                }
+            }
+        }
+        .cp_right {
+            padding: 5%;
+            width: 95%;
+            //margin: 3.5%;
+            #h_3 {
+                font-size: 36px;
+                font-weight: 600;
+            }
+            p {
+                padding: 30px 0;
+                color: #888888;
+                padding-right: 17%;
+                font-size: 20px;
+                line-height: 36px;
+            }
+            h4 {
+                font-size: 22px;
+                padding: 10px 0;
+                padding-right: 30px;
+                line-height: 36px;
+                a {
+                    font-size: large;
+                    text-decoration: none;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}

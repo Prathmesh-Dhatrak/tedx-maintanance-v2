@@ -1,0 +1,40 @@
+.privacy_policy {
+    text-align: center;
+  }
+  .privacy_policy h1 {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    color: #333333;
+    text-align: left;
+    padding-left: 70px;
+  }
+  .privacy_policy p {
+    padding: 70px;
+    padding-top: 40px;
+    text-align: left;
+    font-family: "Rotunda_Light";
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: justify;
+    margin-right: 20%;
+  }
+  .headings_privacy {
+    font-size: 20px;
+    font-family: "Rotunda_Bold";
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  @media screen and (max-width: 510px) {
+    .privacy_policy p {
+      padding: 30px;
+      padding-top: 0;
+      margin-right: 0;
+    }
+    .privacy_policy h1 {
+      font-size: 30px;
+    }
+  }

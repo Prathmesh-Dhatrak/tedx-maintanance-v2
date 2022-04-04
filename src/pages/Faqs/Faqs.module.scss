@@ -28,11 +28,16 @@
     font-size: 26px;
     line-height: 36px;
     .questions {
+        &:hover, .active{
+            cursor: pointer;
+            color: rgb(155, 155, 155);
+
+        }
         p {
             padding: 2% 20% 2% 20%;
             display: block;
             text-align: center;
-            cursor: pointer;
+            
         }
     }
     .answer {
@@ -44,11 +49,23 @@
         color: #333333;
         font-size: 20px;
         line-height: 26px;
-        max-height: 100px;
+        //max-height: 100px;
+        
+        background-color: white;
         overflow: hidden;
-        transition: max-height 0.2s ease-out;
+        transition: max-height 0.5s ease;
         p {
             padding: 0% 20% 2% 20%
         }
     }
+}
+
+.social_media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2%;
+}
+.para{
+    font-weight: bold;
 }

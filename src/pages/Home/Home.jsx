@@ -1,9 +1,10 @@
 import React from "react";
 import BannerSection from "./BannerSection";
-import AboutSection from "./AboutSection";
+
 import PandemoniumSection from "./PandemoniumSection";
-import SpeakersSection from "./SpeakersSection";
-import TimelineSection from "./TimelineSection";
+// import SpeakersSection from "./SpeakersSection";
+// import TimelineSection from "./TimelineSection";
+// import AboutSection from "./AboutSection";
 
 const Home = ({ dimensions }) => {
   return (

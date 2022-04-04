@@ -32,7 +32,7 @@ const Faqs = () => {
 
       <Accordian question=" Is TEDxVITPune a part of TED?" answer="No, it is an independently organized TEDx event licensed by TED. " />
       <Accordian question="How do I suggest a Speaker for TEDxVITPune?" answer="
-      <p>If you’d like to nominate someone to be a speaker at TEDxVITPune, you can fill out our <a href=`${https://tedxvitpune.in/speaker-nomination}`><b>Speaker Nomination Form</b></a>  with a few details about the speaker and their ideas.  </p>
+      If you’d like to nominate someone to be a speaker at TEDxVITPune, you can fill out our <a href=`{https://tedxvitpune.in/speaker-nomination}`><b>Speaker Nomination Form</b></a>  with a few details about the speaker and their ideas.
       " />
 
       <h2 className={styles.category}>Event specific queries</h2>

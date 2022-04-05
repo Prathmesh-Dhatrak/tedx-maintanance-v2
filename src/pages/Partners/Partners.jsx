@@ -114,6 +114,7 @@ const Partners = () => {
             return (
               <>
                 <div className={styles.partners_line}>
+
                   <div className={styles.numbers}>
                     <div className={styles.partners_line}>
                       <p className={styles.num} data-target="7">
@@ -122,6 +123,7 @@ const Partners = () => {
                     </div>
                     <p className={styles.para}>Events</p>
                   </div>
+
                   <div className={styles.numbers}>
                     <div className={styles.partners_line}>
                       <p className={styles.num} data-target="50">
@@ -131,6 +133,7 @@ const Partners = () => {
                     </div>
                     <p className={styles.para}>Speakers and Performers</p>
                   </div>
+
                   <div className={styles.numbers}>
                     <div className={styles.partners_line}>
                       <p className={styles.num} data-target="700">
@@ -140,6 +143,7 @@ const Partners = () => {
                     </div>
                     <p className={styles.para}>Attendees</p>
                   </div>
+
                   <div className={styles.numbers}>
                     <div className={styles.partners_line}>
                       <p className={styles.num} data-target="600000">
@@ -150,7 +154,9 @@ const Partners = () => {
                     </div>
                     <p className={styles.para}>Total Video Views</p>
                   </div>
+                  
                 </div>
+
                 <div className={`${styles.partners_line} ${styles.second}`}>
                   <div className={styles.numbers2}>
                     <div className={styles.partners_line}>

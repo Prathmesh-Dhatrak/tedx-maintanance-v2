@@ -150,7 +150,10 @@ const SpeakersSection = () => {
           </div>
         </div>
       ) : (
-        <div className="speakers-wrapper  sm-padding">
+        <div
+          className="speakers-wrapper  sm-padding"
+          style={{ display: "block" }}
+        >
           <Slider {...settings}>
             {speakersData.map(({ img }, idx) => (
               <div

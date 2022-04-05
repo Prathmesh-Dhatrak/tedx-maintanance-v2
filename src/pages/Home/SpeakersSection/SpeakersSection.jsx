@@ -124,7 +124,26 @@ const SpeakersSection = () => {
   return (
     <div className="speakers-container">
       <h2>Our Previous Speakers</h2>
-
+      {!singleContainer ? (
+        <div
+          className="speakers-wrapper  sm-padding"
+          style={{ display: "block" }}
+        >
+          <Slider {...settings}>
+            {speakersData.map(({ img }, idx) => (
+              <div
+                key={idx}
+                className={idx === imageIndex ? "slide activeSlide" : "slide"}
+              >
+                <img className="slide-img" src={img} alt={img} />
+                <div className="view-btn" onClick={() => singleSpeakers(idx)}>
+                  View Details
+                </div>
+              </div>
+            ))}
+          </Slider>
+        </div>
+      ) : null}
       {singleContainer ? (
         <div className={`single-speakers`}>
           <FaAngleLeft
@@ -149,26 +168,7 @@ const SpeakersSection = () => {
             </div>
           </div>
         </div>
-      ) : (
-        <div
-          className="speakers-wrapper  sm-padding"
-          style={{ display: "block" }}
-        >
-          <Slider {...settings}>
-            {speakersData.map(({ img }, idx) => (
-              <div
-                key={idx}
-                className={idx === imageIndex ? "slide activeSlide" : "slide"}
-              >
-                <img className="slide-img" src={img} alt={img} />
-                <div className="view-btn" onClick={() => singleSpeakers(idx)}>
-                  View Details
-                </div>
-              </div>
-            ))}
-          </Slider>
-        </div>
-      )}
+      ) : null}
     </div>
   );
 };

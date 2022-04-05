@@ -1,8 +1,9 @@
+@import '../../styles/variables';
 .faqs {
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Aileron";
     font-size: 60px;
     line-height: 70px;
     color: #333333;
@@ -10,7 +11,7 @@
 .category {
     padding: 2%;
     text-align: center;
-    font-family: "Rotunda_Bold", sans-serif;
+    font-family: "Aileron";
     font-size: 40px;
     line-height: 50px;
     color: #333333;
@@ -22,7 +23,7 @@
     position: relative;
     justify-content: center;
     text-align: center;
-    font-family: "Rotunda_Light", sans-serif;
+    font-family: "Candara";
     font-weight: 600;
     color: #333333;
     font-size: 25px;
@@ -75,7 +76,6 @@
         text-align: center;
         padding-top: 5%;
         padding-bottom: 5%;
-        font-family: "Montserrat", sans-serif;
         font-size: 48px;
         line-height: 70px;
         color: #333333;
@@ -83,7 +83,6 @@
     .category {
         padding: 2%;
         text-align: center;
-        font-family: "Rotunda_Bold", sans-serif;
         font-size: 38px;
         line-height: 50px;
         color: #333333;
@@ -95,7 +94,6 @@
         position: relative;
         justify-content: center;
         text-align: center;
-        font-family: "Rotunda_Light", sans-serif;
         font-weight: 600;
         color: #333333;
         font-size: 24px;
@@ -117,7 +115,6 @@
     
             justify-content: center;
             text-align: center;
-            font-family: "Rotunda_Light", sans-serif;
             font-weight: 400;
             color: #333333;
             font-size: 19px;
@@ -140,7 +137,6 @@
         text-align: center;
         padding-top: 5%;
         padding-bottom: 5%;
-        font-family: "Montserrat", sans-serif;
         font-size: 38px;
         line-height: 55px;
         color: #333333;
@@ -149,7 +145,6 @@
         margin-top: 2%;
         padding: 2%;
         text-align: center;
-        font-family: "Rotunda_Bold", sans-serif;
         font-size: 30px;
         line-height: 40px;
         color: #333333;
@@ -161,7 +156,6 @@
         position: relative;
         justify-content: center;
         text-align: center;
-        font-family: "Rotunda_Light", sans-serif;
         font-weight: 600;
         color: #333333;
         font-size: 20px;
@@ -186,7 +180,6 @@
     
             justify-content: center;
             text-align: left;
-            font-family: "Rotunda_Light", sans-serif;
             font-weight: 400;
             color: #333333;
             font-size: 19px;

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.scss";
-import { Link } from "react-router-dom";
 import logo from "../../images/Header/logo_light.png";
+// import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (

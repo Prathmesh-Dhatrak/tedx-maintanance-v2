@@ -11,7 +11,7 @@
     font-weight: 600;
     line-height: 41px;
     font-size: 24px;
-    color: #ffffff;
+    color: $color-primary-light;
   }
   & .about-inner-container {
     font-family: "Candara";
@@ -28,7 +28,7 @@
 
     letter-spacing: 0.1em;
 
-    color: #ffffff;
+    color: $color-primary-light;
     & .about-section2 {
       display: flex;
       flex-direction: row;

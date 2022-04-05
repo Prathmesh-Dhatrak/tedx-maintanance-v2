@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./SpeakersSection.scss";
 import Slider from "react-slick";
 import { Speaker1, Speaker2, Speaker3 } from "../../../images/Home";
@@ -117,54 +117,58 @@ const SpeakersSection = () => {
 
     setSingleContainer(!singleContainer);
   };
+  useEffect(() => {
+    console.log(Speaker3);
+  }, []);
 
   return (
     <div className="speakers-container">
       <h2>Our Previous Speakers</h2>
-      <div
-        className="speakers-wrapper  sm-padding"
-        style={{ display: !singleContainer ? "block" : "none" }}
-      >
-        <Slider {...settings}>
-          {speakersData.map(({ img }, idx) => (
-            <div
-              key={idx}
-              className={idx === imageIndex ? "slide activeSlide" : "slide"}
-            >
-              <img className="slide-img" src={img} alt={img} />
-              <div className="view-btn" onClick={() => singleSpeakers(idx)}>
-                View Details
-              </div>
+
+      {singleContainer ? (
+        <div className={`single-speakers`}>
+          <FaAngleLeft
+            onClick={() => setSingleContainer(!singleContainer)}
+            className="back-arrow"
+            size={30}
+          />
+          <div className={"slide-single"}>
+            <div className="single-slide-container-img">
+              <img
+                className="single-slide-img"
+                src={singleImage.img}
+                alt={singleImage}
+              />
             </div>
-          ))}
-        </Slider>
-      </div>
-      <div
-        className={`single-speakers`}
-        style={{ display: singleContainer ? "inline-block" : "none" }}
-      >
-        <FaAngleLeft
-          onClick={() => setSingleContainer(!singleContainer)}
-          className="back-arrow"
-          size={30}
-        />
-        <div className={"slide-single"}>
-          <div className="single-slide-container-img">
-            <img
-              className="single-slide-img"
-              src={singleImage.img}
-              alt={singleImage}
-            />
-          </div>
-          <div className="slide-info-container">
-            <h1>{singleImage.title}</h1>
-            <p>{singleImage.para}</p>
-            <a href={singleImage.link}>
-              Watch Talk <FaCaretRight size={30}></FaCaretRight>
-            </a>
+            <div className="slide-info-container">
+              <h1>{singleImage.title}</h1>
+              <p>{singleImage.para}</p>
+              <a href={singleImage.link}>
+                Watch Talk <FaCaretRight size={30}></FaCaretRight>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
+      ) : (
+        <div
+          className="speakers-wrapper  sm-padding"
+          style={{ display: "block" }}
+        >
+          <Slider {...settings}>
+            {speakersData.map(({ img }, idx) => (
+              <div
+                key={idx}
+                className={idx === imageIndex ? "slide activeSlide" : "slide"}
+              >
+                <img className="slide-img" src={img} alt={img} />
+                <div className="view-btn" onClick={() => singleSpeakers(idx)}>
+                  View Details
+                </div>
+              </div>
+            ))}
+          </Slider>
+        </div>
+      )}
     </div>
   );
 };

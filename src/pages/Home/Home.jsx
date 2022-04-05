@@ -11,9 +11,9 @@ const Home = ({ dimensions }) => {
     <>
       <BannerSection />
       <PandemoniumSection />
-      <hr></hr>
+      {/* <hr></hr> */}
       <SpeakersSection />
-      <hr></hr>
+      {/* <hr></hr> */}
       <TimelineSection />
       <AboutSection />
     </>

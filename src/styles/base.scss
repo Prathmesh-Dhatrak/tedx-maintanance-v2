@@ -1,43 +1,43 @@
-@import '../fonts/Aileron/Aileron';   // titles text fonts
-@import '../fonts/Candara/Candara';   // paragraph text fonts
-@import './_variables.scss';
+@import "../fonts/Aileron/Aileron"; // titles text fonts
+@import "../fonts/Candara/Candara"; // paragraph text fonts
+@import "./_variables.scss";
 
 @font-face {
-    font-family: 'Rotunda_Bold';
-    src: url('../fonts/webkit/rotunda-bold-webfont.woff');
-    src: local('☺'), 
-         url('../fonts/webkit/rotunda-bold-webfont.woff2') format('woff2'), 
-  }
-  @font-face {
-    font-family: 'Rotunda_Bold_Italic';
-    src: url('../fonts/webkit/rotunda-bolditalic-webfont.woff');
-    src: local('☺'), 
-         url('../fonts/webkit/rotunda-bolditalic-webfont.woff2') format('woff2'), 
-  }
-  @font-face {
-    font-family: 'Rotunda_Bold_Italic';
-    src: url('../fonts/webkit/rotunda-bolditalic-webfont.woff');
-    src: local('☺'), 
-         url('../fonts/webkit/rotunda-bolditalic-webfont.woff2') format('woff2'), 
-  }
-  @font-face {
-    font-family: 'Rotunda_Light';
-    src: url('../fonts/webkit/rotunda-light-webfont.woff');
-    src: local('☺'), 
-         url('../fonts/webkit/rotunda-light-webfont.woff2') format('woff2'), 
-  }
-  @font-face {
-    font-family: 'Rotunda_Light_Italic';
-    src: url('../fonts/webkit/rotunda-lightitalic-webfont.woff');
-    src: local('☺'), 
-         url('../fonts/webkit/rotunda-lightitalic-webfont.woff2') format('woff2'), 
-  }
-  
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  font-family: "Rotunda_Bold";
+  src: url("../fonts/webkit/rotunda-bold-webfont.woff");
+  src: local("☺"),
+    url("../fonts/webkit/rotunda-bold-webfont.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Rotunda_Bold_Italic";
+  src: url("../fonts/webkit/rotunda-bolditalic-webfont.woff");
+  src: local("☺"),
+    url("../fonts/webkit/rotunda-bolditalic-webfont.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Rotunda_Bold_Italic";
+  src: url("../fonts/webkit/rotunda-bolditalic-webfont.woff");
+  src: local("☺"),
+    url("../fonts/webkit/rotunda-bolditalic-webfont.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Rotunda_Light";
+  src: url("../fonts/webkit/rotunda-light-webfont.woff");
+  src: local("☺"),
+    url("../fonts/webkit/rotunda-light-webfont.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Rotunda_Light_Italic";
+  src: url("../fonts/webkit/rotunda-lightitalic-webfont.woff");
+  src: local("☺"),
+    url("../fonts/webkit/rotunda-lightitalic-webfont.woff2") format("woff2");
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
 
 *,
 *::after,
@@ -87,4 +87,9 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba($color-primary-dark, 1);
   opacity: 1;
+}
+.small-divider {
+  height: 15px;
+  border: 1px solid transparent;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' height='100%' width='100%'><defs><pattern id='small' width='4' height='15' patternTransform='rotate(0 0 0)' patternUnits='userSpaceOnUse'> <circle cx='0.5' cy='1.5' r='0.5' fill='%23F05346'/> <circle cx='0.5' cy='4.5' r='0.5' fill='%23F05346'/> <circle cx='0.5' cy='7.5' r='0.5' fill='%23F05346'/> <circle cx='2.5' cy='2.5' r='0.5' fill='%23F05346'/> <circle cx='2.5' cy='5.5' r='0.5' fill='%23F05346'/> <circle cx='2.5' cy='8.5' r='0.5' fill='%23F05346'/> </pattern></defs><rect width='100%' height='100%' fill='url(%23small)'/></svg>");
 }

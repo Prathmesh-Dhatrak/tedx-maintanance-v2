@@ -1,18 +1,45 @@
 import React, { useState } from "react";
 import "./SpeakersSection.scss";
 import Slider from "react-slick";
-import astronaut from "../../../images/Home/main-1.png";
-import celebrating from "../../../images/Home/main-2.png";
-import education from "../../../images/Home/main-3.png";
-import taken from "../../../images/Home/main-2.png";
-import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
-const images = [astronaut, celebrating, education, taken];
+import { Speaker1, Speaker2, Speaker3 } from "../../../images/Home";
+import {
+  FaArrowRight,
+  FaArrowLeft,
+  FaAngleLeft,
+  FaCaretRight,
+} from "react-icons/fa";
+const speakersData = [
+  {
+    img: Speaker1,
+    title: "Jishnu Chatterjee",
+    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisiornare enim cursus magna diam sollicitudin. Elit egestas nuncplacerat accumsan porttitor. Viverra lorem tristique nec ipsumsit.",
+    link: "",
+  },
+  {
+    img: Speaker2,
+    title: "Chatterjee Jishnu",
+    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisiornare enim cursus magna diam sollicitudin. Elit egestas nuncplacerat accumsan porttitor. Viverra lorem tristique nec ipsumsit.",
+    link: "",
+  },
+  {
+    img: Speaker3,
+    title: "Lorem ipsum ",
+    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisiornare enim cursus magna diam sollicitudin. Elit egestas nuncplacerat accumsan porttitor. Viverra lorem tristique nec ipsumsit.",
+    link: "",
+  },
+  {
+    img: Speaker2,
+    title: "Consectetur Adipiscing",
+    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisiornare enim cursus magna diam sollicitudin. Elit egestas nuncplacerat accumsan porttitor. Viverra lorem tristique nec ipsumsit.",
+    link: "",
+  },
+];
 
 const SpeakersSection = () => {
   const NextArrow = ({ onClick }) => {
     return (
       <div className="arrow next" onClick={onClick}>
-        <FaArrowRight />
+        <FaArrowRight size={20} />
       </div>
     );
   };
@@ -20,14 +47,19 @@ const SpeakersSection = () => {
   const PrevArrow = ({ onClick }) => {
     return (
       <div className="arrow prev" onClick={onClick}>
-        <FaArrowLeft />
+        <FaArrowLeft size={20} />
       </div>
     );
   };
 
   const [imageIndex, setImageIndex] = useState(0);
   const [singleContainer, setSingleContainer] = useState(false);
-  const [singleImage, setsingleImage] = useState(images[1]);
+  const [singleImage, setsingleImage] = useState({
+    img: Speaker2,
+    title: "Jishnu Chatterjee",
+    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisiornare enim cursus magna diam sollicitudin. Elit egestas nuncplacerat accumsan porttitor. Viverra lorem tristique nec ipsumsit.",
+    link: "",
+  });
 
   const settings = {
     infinite: true,
@@ -70,53 +102,66 @@ const SpeakersSection = () => {
       },
     ],
   };
-  const singleSpeakers = (img) => {
-    setsingleImage(img);
+  const singleSpeakers = (idx) => {
+    speakersData.map((speaker, ix) => {
+      if (ix === idx) {
+        setsingleImage({
+          img: speaker.img,
+          title: speaker.title,
+          para: speaker.para,
+          link: speaker.link,
+        });
+      }
+      return singleImage;
+    });
+
     setSingleContainer(!singleContainer);
   };
 
   return (
     <div className="speakers-container">
       <h2>Our Previous Speakers</h2>
-      <Slider
-        {...settings}
+      <div
+        className="speakers-wrapper  sm-padding"
         style={{ display: !singleContainer ? "block" : "none" }}
       >
-        {images.map((img, idx) => (
-          <div
-            key={idx}
-            className={idx === imageIndex ? "slide activeSlide" : "slide"}
-          >
-            <img className="slide-img" src={img} alt={img} />
-            <div className="view-btn" onClick={() => singleSpeakers(img)}>
-              View Details
+        <Slider {...settings}>
+          {speakersData.map(({ img }, idx) => (
+            <div
+              key={idx}
+              className={idx === imageIndex ? "slide activeSlide" : "slide"}
+            >
+              <img className="slide-img" src={img} alt={img} />
+              <div className="view-btn" onClick={() => singleSpeakers(idx)}>
+                View Details
+              </div>
             </div>
-          </div>
-        ))}
-      </Slider>
+          ))}
+        </Slider>
+      </div>
       <div
-        className="single-speakers"
-        style={{ display: singleContainer ? "block" : "none" }}
+        className={`single-speakers`}
+        style={{ display: singleContainer ? "inline-block" : "none" }}
       >
-        <FaArrowLeft
+        <FaAngleLeft
           onClick={() => setSingleContainer(!singleContainer)}
           className="back-arrow"
+          size={30}
         />
         <div className={"slide-single"}>
-          <img
-            className="single-slide-img"
-            src={singleImage}
-            alt={singleImage}
-          />
+          <div className="single-slide-container-img">
+            <img
+              className="single-slide-img"
+              src={singleImage.img}
+              alt={singleImage}
+            />
+          </div>
           <div className="slide-info-container">
-            <h1>Jishnu Chatterjee</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi,
-              ornare enim cursus magna diam sollicitudin. Elit egestas nunc
-              placerat accumsan porttitor. Viverra lorem tristique nec ipsum
-              sit.
-            </p>
-            <button>Watch Talk</button>
+            <h1>{singleImage.title}</h1>
+            <p>{singleImage.para}</p>
+            <a href={singleImage.link}>
+              Watch Talk <FaCaretRight size={30}></FaCaretRight>
+            </a>
           </div>
         </div>
       </div>

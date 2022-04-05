@@ -13,7 +13,7 @@ const Home = ({ dimensions }) => {
       <PandemoniumSection />
       {/* <hr></hr> */}
       <SpeakersSection />
-      <hr></hr>
+      {/* <hr></hr> */}
       <TimelineSection />
       <AboutSection />
     </>

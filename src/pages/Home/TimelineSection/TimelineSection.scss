@@ -1,32 +1,60 @@
 .time-container {
-    margin: auto auto;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    text-align: center;
-    background-color: rgba(17, 17, 17, 0.88);
+  margin: auto auto;
+  padding: 6rem 3rem;
+  text-align: left;
+  background-color: rgba(17, 17, 17, 0.88);
+  & h2 {
+    font-family: "Aileron";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 41px;
+    font-size: 24px;
+    color: #ffffff;
+  }
+  & .time-inner-container {
     & .events-text-center {
       padding-top: 5rem;
-      margin: auto 10rem;
+      margin: auto 20rem;
       text-align: left;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
       & img {
-        width: 119.09px;
-        height: 146.81px;
+        width: 120px;
+        height: 147px;
       }
       & .time-text-info {
         padding-left: 2rem;
+        & h2 {
+          font-family: "Candara";
+          font-style: normal;
+          font-weight: 700;
+          line-height: 70px;
+          font-size: 30px;
+          width: 100%;
+        }
+        & p {
+          font-family: "Candara";
+          font-style: normal;
+          font-weight: 300;
+          font-size: 15px;
+          line-height: 159.5%;
+          padding: 2rem 0px;
+          letter-spacing: 0.1em;
+          color: #ffffff;
+        }
       }
     }
   }
-  @media only screen and (max-width: 1000px) {
-    .time-container {
-      & .timeline-inner {
-        width: 100% !important;
-      }
-  
-      padding-top: 1rem;
+}
+@media only screen and (max-width: 1000px) {
+  .time-container {
+    padding-top: 2rem;
+    padding: 2.5rem 1.5rem;
+    & .timeline-inner {
+      width: 100% !important;
+    }
+    & .time-inner-container {
       .events-text-center {
         flex-direction: column !important;
         text-align: left;
@@ -34,10 +62,14 @@
         justify-content: center !important;
         align-items: center !important;
         & .time-text-info {
-          padding-left: 10px;
-          padding-right: 10px;
+          h1 {
+            font-size: 3.5rem;
+          }
+          p {
+            font-size: 1.5rem;
+          }
         }
       }
     }
   }
-  
+}

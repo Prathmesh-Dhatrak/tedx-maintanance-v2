@@ -21,8 +21,6 @@ const images = [
   Event18,
 ];
 
-// const VALUES = ["2018-03-22", "2018-03-23"];
-
 const EXAMPLE = [
   {
     data: "2015",
@@ -99,40 +97,43 @@ export default class TimelineSection extends React.Component {
     const paragraph = EXAMPLE[curIdx].statusE;
     return (
       <div className="time-container">
+        {" "}
         <h2>Our Previous Events</h2>
-        {/* Bounding box for the Timeline */}
-        <div
-          className="timeline-inner"
-          style={{
-            width: "90%",
-            height: "100px",
-            margin: "auto auto",
-            marginTop: "5rem",
-            fontSize: "15px",
-          }}
-        >
-          <HorizontalTimeline
-            styles={{
-              background: "#f8f8f8",
-              foreground: "#E62B1E",
-              outline: "#dfdfdf",
+        <div className="time-inner-container">
+          {/* Bounding box for the Timeline */}
+          <div
+            className="timeline-inner"
+            style={{
+              width: "90%",
+              height: "100px",
+              margin: "auto auto",
+              marginTop: "5rem",
+              fontSize: "15px",
             }}
-            labelWidth={100}
-            linePadding={120}
-            index={this.state.curIdx}
-            indexClick={(index) => {
-              const curIdx = this.state.curIdx;
-              this.setState({ curIdx: index, prevIdx: curIdx });
-            }}
-            values={EXAMPLE.map((x) => x.data)}
-          />
-        </div>
-        <div className="events-text-center">
-          {/* any arbitrary component can go here */}
-          <img src={images[curIdx]} alt={images[curIdx]}></img>
-          <div className="time-text-info">
-            <h2>{titleLable}</h2>
-            <p>{paragraph}</p>
+          >
+            <HorizontalTimeline
+              styles={{
+                background: "#f8f8f8",
+                foreground: "#E62B1E",
+                outline: "#dfdfdf",
+              }}
+              labelWidth={100}
+              linePadding={120}
+              index={this.state.curIdx}
+              indexClick={(index) => {
+                const curIdx = this.state.curIdx;
+                this.setState({ curIdx: index, prevIdx: curIdx });
+              }}
+              values={EXAMPLE.map((x) => x.data)}
+            />
+          </div>
+          <div className="events-text-center">
+            {/* any arbitrary component can go here */}
+            <img src={images[curIdx]} alt={images[curIdx]}></img>
+            <div className="time-text-info">
+              <h2>{titleLable}</h2>
+              <p>{paragraph}</p>
+            </div>
           </div>
         </div>
       </div>

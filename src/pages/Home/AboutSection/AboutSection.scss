@@ -1,155 +1,88 @@
-.main {
-    height: 100%;
-    margin: 35px 0;
-    .first-para {
-      p {
-        font-weight: 300;
-        //font-size: 15px;
-        font-size: 14px;
-        letter-spacing: 1px;
-        line-height: 30px;
-        //padding-left: 32px;
-        padding-left: 15px;
+@import "../../../styles/_variables";
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 6rem 3rem;
+  & h2 {
+    font-family: "Aileron";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 41px;
+    font-size: 24px;
+    color: #ffffff;
+  }
+  & .about-inner-container {
+    font-family: "Candara";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 159.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0rem 8rem;
+    padding-top: 3rem;
+    /* or 37px */
+
+    letter-spacing: 0.1em;
+
+    color: #ffffff;
+    & .about-section2 {
+      display: flex;
+      flex-direction: row;
+      padding: 4rem 3rem;
+      & .about-tedSection,
+      .about-tedxSection {
+        padding: 0rem 2rem;
+        & h4 {
+          font-family: "Aileron";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 159.5%;
+          /* or 32px */
+
+          letter-spacing: 0.1em;
+        }
       }
     }
-    .second-div {
+    & .about-section3 {
       display: flex;
-      //flex-direction: row;
-      margin-top: 15px;
-      .para-wrapper {
-        //margin-left: 10px;
-        margin-left: -1px;
-        letter-spacing: 1px;
-        line-height: 30px;
-        padding: 18px;
-        //flex-wrap: wrap;
-      }
-    }
-  
-    .tagLine {
-      margin: 30px;
-      display: flex;
-      align-items: center;
       justify-content: center;
-      text-decoration: underline;
       a {
-        color: white;
-      }
-    }
-  }
-  @media (max-width: 1118px) {
-    
-    #heading-h2{
-        margin: 10px;
-        text-align: center;
-    }
-    
-  
-    .first-para {
-      p {
+        color: $color-primary-light;
+        font-family: "Candara";
+        font-style: normal;
         font-weight: 300;
-        font-size: 13px;
-        letter-spacing: 1px;
-        line-height: 30px;
-        padding-left: 12px;
-      }
-    }
-  
-    .second-div {
-      //flex-direction: column;
-      margin-top: 10px;
-      .para-wrapper {
-        //margin-left:10px ;
-        letter-spacing: 1px;
-        line-height: 30px;
-        padding: 5.5px;
-        flex-wrap: wrap;
-        font-size: 12px;
-      }
-    }
-  
-    .tagLine {
-      margin: 12px;
-      text-decoration: underline;
-      a {
-        color: white;
       }
     }
   }
-  
-  @media (max-width: 880px) {
-  
-      #heading-h2{ 
-        margin: 5px;
-      }
-    
-    .first-para {
-      p {
-        font-weight: 300;
-        font-size: 13px;
-        letter-spacing: 1px;
-        line-height: 30px;
-        padding-left: 12px;
-      }
+}
+@media screen and (max-width: $medium) {
+  .about-container {
+    justify-content: left;
+    align-items: flex-start;
+    padding: 3.5rem 1.5rem;
+    & h2 {
+      padding-bottom: 1rem;
     }
-  
-    .second-div {
-      flex-direction: column;
-      margin-top: 10px;
-      .para-wrapper {
-        //margin-left:10px ;
-        letter-spacing: 1px;
-        line-height: 30px;
-        padding: 5.5px;
-        flex-wrap: wrap;
-        font-size: 12px;
-      }
-    }
-  
-    .tagLine {
-      margin-top: 6px;
-      text-decoration: underline;
-      a {
-        color: white;
+    & .about-inner-container {
+      margin: 1rem 0rem;
+      padding-top: 1rem;
+      font-size: 15px;
+      & .about-section2 {
+        padding: 1rem 0rem;
+        flex-direction: column;
+        & .about-tedSection,
+        .about-tedxSection {
+          padding: 1rem 0rem;
+          & h4 {
+            font-size: 15px;
+          }
+        }
       }
     }
   }
-  
-  @media (max-width: 320px) {
-    #heading-h2{
-      font-size: 35px;
-      margin: 5px;
-    }
-    .first-para {
-      p {
-        font-weight: 300;
-        font-size: 14px;
-        letter-spacing: 1px;
-        line-height: 30px;
-        padding-left: 15px;
-      }
-    }
-    .second-div {
-      flex-direction: column;
-      margin-top: 10px;
-      .para-wrapper {
-        //margin-left:10px ;
-        letter-spacing: 1px;
-        line-height: 30px;
-        padding: 5.5px;
-        flex-wrap: wrap;
-        font-size: 12px;
-      }
-    }
-    
-    .tagLine {
-      margin-top: 6px;
-      text-decoration: underline;
-      a {
-        color: white;
-      }
-    }
-    
-  }
-  
-  
+}

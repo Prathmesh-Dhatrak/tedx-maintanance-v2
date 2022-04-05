@@ -15,7 +15,7 @@
     line-height: 40px;
     letter-spacing: 0.02em;
 
-    color: #ffffff;
+    color: $color-primary-light;
     & .footer-logo {
       width: 180px;
       & img {
@@ -25,7 +25,6 @@
     }
     & .footer-newsletterBTN {
       padding: 2rem 0rem;
-      padding-bottom: 5rem;
       & button {
         border: 1px solid $color-primary-light;
         box-sizing: border-box;
@@ -43,7 +42,7 @@
         letter-spacing: 0.02em;
       }
       & p {
-        padding-top: 2rem;
+        padding: 3.8rem 0rem;
       }
     }
   }
@@ -68,7 +67,7 @@
         padding: 2rem 0rem;
         letter-spacing: 0.02em;
 
-        color: #ffffff;
+        color: $color-primary-light;
       }
       & ul,
       p {
@@ -78,8 +77,21 @@
         font-size: 15px;
         line-height: 40px;
         letter-spacing: 0.02em;
+        padding-left: 0.25rem;
 
-        color: #ffffff;
+        color: $color-primary-light;
+      }
+      & .footer-privacyLine {
+        & p {
+          padding-top: 6rem;
+        }
+      }
+    }
+    & .footer-contactSection {
+      & .footer-tedLine {
+        & p {
+          padding-top: 18rem;
+        }
       }
     }
   }
@@ -90,7 +102,51 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5.5rem 1.5rem;
+    padding: 1rem 1.5rem;
+    & .footer-logoSection {
+      width: 100%;
+      & .footer-newsletterBTN {
+        padding: 0rem 0rem;
+        & button {
+          padding: 1rem 1.5rem;
+        }
+        & p {
+          padding: 0rem 0rem;
+        }
+      }
+      & .footer-aboutLine{
+        padding: 1rem 0rem;
+      }
+    }
+    & .footer-section2 {
+      
+      width: 100%;
+      flex-direction: column;
+      align-items: flex-start;
+      & .footer-exploreSection,
+      .footer-contactSection {
+        padding: 2rem 0rem;
+        & h2 {
+          padding: 0rem 0rem;
+        }
+        & ul,
+        p {
+          padding-left: 0rem;
+        }
+        & .footer-privacyLine {
+          & p {
+            padding-top: 0rem;
+          }
+        }
+      }
+      & .footer-contactSection {
+        & .footer-tedLine {
+          & p {
+            padding-top: 0rem;
+          }
+        }
+      }
+    }
   }
 }
 

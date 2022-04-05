@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./SpeakersSection.scss";
 import Slider from "react-slick";
 import { Speaker1, Speaker2, Speaker3 } from "../../../images/Home";
@@ -117,6 +117,9 @@ const SpeakersSection = () => {
 
     setSingleContainer(!singleContainer);
   };
+  useEffect(() => {
+    console.log(Speaker3);
+  }, []);
 
   return (
     <div className="speakers-container">

@@ -158,6 +158,9 @@ const Header = ({ dark }) => {
                         onClick={toggleClass}
                         activeClassName="is-active"
                         to={`/Privacy`}
+                        style={{
+                          color: dark ? "#fff" : "#000",
+                        }}
                       >
                         Privacy
                       </NavLink>
@@ -167,6 +170,9 @@ const Header = ({ dark }) => {
                         onClick={toggleClass}
                         activeClassName="is-active"
                         to={`/Faqs`}
+                        style={{
+                          color: dark ? "#fff" : "#000",
+                        }}
                       >
                         Faqs
                       </NavLink>

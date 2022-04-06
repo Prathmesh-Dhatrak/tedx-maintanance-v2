@@ -112,7 +112,7 @@ const SpeakersSection = () => {
           link: speaker.link,
         });
       }
-      // return singleImage;
+      return singleImage;
     });
 
     setSingleContainer(!singleContainer);

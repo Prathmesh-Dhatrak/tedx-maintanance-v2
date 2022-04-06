@@ -159,7 +159,7 @@ const Header = ({ dark }) => {
                         activeClassName="is-active"
                         to={`/Privacy`}
                         style={{
-                          color: dark ? "#fff" : "#000",
+                          color: "#000",
                         }}
                       >
                         Privacy
@@ -171,7 +171,7 @@ const Header = ({ dark }) => {
                         activeClassName="is-active"
                         to={`/Faqs`}
                         style={{
-                          color: dark ? "#fff" : "#000",
+                          color: "#000",
                         }}
                       >
                         Faqs

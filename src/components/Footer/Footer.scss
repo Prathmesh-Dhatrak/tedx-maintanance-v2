@@ -25,7 +25,7 @@
     }
     & .footer-newsletterBTN {
       padding: 2rem 0rem;
-      & button {
+      & a {
         border: 1px solid $color-primary-light;
         box-sizing: border-box;
         border-radius: 10px;
@@ -107,7 +107,7 @@
       width: 100%;
       & .footer-newsletterBTN {
         padding: 0rem 0rem;
-        & button {
+        & a {
           padding: 1rem 1.5rem;
         }
         & p {

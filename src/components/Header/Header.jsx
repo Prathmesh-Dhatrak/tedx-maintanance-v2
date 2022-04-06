@@ -97,6 +97,9 @@ const Header = ({ dark }) => {
                     activeClassName="is-active"
                     onClick={toggleClass}
                     to={`/`}
+                    style={{
+                      color: dark ? "#fff" : "#000",
+                    }}
                   >
                     Home
                   </NavLink>
@@ -106,6 +109,9 @@ const Header = ({ dark }) => {
                     onClick={toggleClass}
                     activeClassName="is-active"
                     to={`/About`}
+                    style={{
+                      color: dark ? "#fff" : "#000",
+                    }}
                   >
                     About
                   </NavLink>
@@ -115,6 +121,9 @@ const Header = ({ dark }) => {
                     onClick={toggleClass}
                     activeClassName="is-active"
                     to={`/Partners`}
+                    style={{
+                      color: dark ? "#fff" : "#000",
+                    }}
                   >
                     Partners
                   </NavLink>
@@ -124,6 +133,9 @@ const Header = ({ dark }) => {
                     onClick={toggleClass}
                     activeClassName="is-active"
                     to={`/Contact`}
+                    style={{
+                      color: dark ? "#fff" : "#000",
+                    }}
                   >
                     Contact
                   </NavLink>
@@ -132,7 +144,12 @@ const Header = ({ dark }) => {
                   onClick={toggleSubmenu}
                   className="menu-item sub__menus__arrows"
                 >
-                  <Link to="#">
+                  <Link
+                    to="#"
+                    style={{
+                      color: dark ? "#fff" : "#000",
+                    }}
+                  >
                     More <FiChevronDown />
                   </Link>
                   <ul className={boxClassSubMenu.join(" ")}>

@@ -21,6 +21,7 @@ const Contact = () => {
               Would you like to know more about our projects? Here’s how you can
               reach out to us.
             </p>
+            
           </div>
           <div className={styles.touch_right}>
             <img src={Touch} alt="touch" />

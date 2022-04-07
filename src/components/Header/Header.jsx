@@ -1,135 +1,207 @@
-import React, { useEffect, useState } from "react";
-
-import { BiMenuAltRight } from "react-icons/bi";
-import { AiOutlineClose } from "react-icons/ai";
+import React, { useState } from "react";
+import { NavLink, Link } from "react-router-dom";
+import { FiAlignRight, FiXCircle, FiChevronDown } from "react-icons/fi";
 import { LogoDark, LogoLight } from "../../images/Header";
-import classes from "./Header.module.scss";
-import { Link, useHistory } from "react-router-dom";
+import "./Header.scss";
+
 const Header = ({ dark }) => {
-  const history = useHistory();
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [size, setSize] = useState({
-    width: undefined,
-    height: undefined,
-  });
-
-  useEffect(() => {
-    const handleResize = () => {
-      setSize({
-        width: window.innerWidth,
-        height: window.innerHeight,
-      });
-    };
-    window.addEventListener("resize", handleResize);
-
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  useEffect(() => {
-    if (size.width > 768 && menuOpen) {
-      setMenuOpen(false);
-    }
-  }, [size.width, menuOpen]);
-
-  const menuToggleHandler = () => {
-    setMenuOpen((p) => !p);
+  const [isMenu, setisMenu] = useState(false);
+  const [isResponsiveclose, setResponsiveclose] = useState(false);
+  const toggleClass = () => {
+    setisMenu(isMenu === false ? true : false);
+    setResponsiveclose(isResponsiveclose === false ? true : false);
   };
 
-  const ctaClickHandler = () => {
-    menuToggleHandler();
-    history.push("/");
+  let boxClass = ["main-menu menu-right menuq1"];
+  if (isMenu) {
+    boxClass.push("menuq2");
+  } else {
+    boxClass.push("");
+  }
+
+  const [isMenuSubMenu, setMenuSubMenu] = useState(false);
+
+  const toggleSubmenu = () => {
+    setMenuSubMenu(isMenuSubMenu === false ? true : false);
   };
 
-  const options = [
-    { label: "More", value: "", hide: true },
-    { label: "Privacy", value: "privacy", hide: false },
-    { label: "Faqs", value: "faqs", hide: false },
-  ];
+  let boxClassSubMenu = ["sub__menus"];
+  if (isMenuSubMenu) {
+    boxClassSubMenu.push("sub__menus__Active");
+  } else {
+    boxClassSubMenu.push("");
+  }
+
   return (
-    <header
-      className={classes.header}
-      style={{
-        backgroundColor: dark ? "#111111" : "#fff",
-        color: dark ? "#fff" : "#000",
-      }}
-    >
-      <div className={classes.header__content}>
-        <Link to="/" className={classes.header__content__logo}>
-          <img src={dark ? LogoLight : LogoDark} alt={"TEDx Logo"}></img>
-        </Link>
-        <nav
-          className={`${classes.header__content__nav} ${
-            menuOpen && size.width < 768 ? classes.isMenu : ""
-          }`}
-        >
-          <ul>
-            <li>
-              <Link id="link" to="/" onClick={menuToggleHandler}>
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link id="link" to="/about" onClick={menuToggleHandler}>
-                About
-              </Link>
-            </li>
-            <li>
-              <Link id="link" to="/partners" onClick={menuToggleHandler}>
-                Partners
-              </Link>
-            </li>
-            <li>
-              <Link id="link" to="/contact" onClick={menuToggleHandler}>
-                Contact
-              </Link>
-            </li>
-            <li>
-              <Dropdown
-                options={options}
-                dark={dark}
-                // onChange={handleChange}
-              />
-            </li>
-          </ul>
-          <button
-            style={{
-              backgroundColor: dark ? "#fff" : "#E62B1E",
-              color: dark ? "#E62B1E" : "#fff",
-            }}
-            onClick={ctaClickHandler}
-          >
-            Register
-          </button>
-        </nav>
-        <div className={classes.header__content__toggle}>
-          {!menuOpen ? (
-            <BiMenuAltRight onClick={menuToggleHandler} />
-          ) : (
-            <AiOutlineClose onClick={menuToggleHandler} />
-          )}
-        </div>
-      </div>
-    </header>
-  );
-};
-const Dropdown = ({ label, options, dark }) => {
-  return (
-    <label>
-      <select
-        // onChange={onChange}
-        className={classes.dropdown}
+    <header className="header__middle">
+      <div
+        className="container"
         style={{
           backgroundColor: dark ? "#111111" : "#fff",
           color: dark ? "#fff" : "#000",
         }}
       >
-        {options.map((option) => (
-          <option key={option.value} hidden={option.hide} value={option.value}>
-            {option.label}
-          </option>
-        ))}
-      </select>
-    </label>
+        <div
+          className="row"
+          style={{
+            backgroundColor: dark ? "#111111" : "#fff",
+            color: dark ? "#fff" : "#000",
+          }}
+        >
+          <div className="header__middle__logo">
+            <NavLink exact activeClassName="is-active" to="/">
+              <img src={dark ? LogoLight : LogoDark} alt={"TEDx Logo"}></img>
+            </NavLink>
+          </div>
+
+          <div className="header__middle__menus">
+            <nav
+              className="main-nav "
+              style={{
+                backgroundColor: dark ? "#111111" : "#fff",
+                color: dark ? "#fff" : "#000",
+              }}
+            >
+              {isResponsiveclose === true ? (
+                <>
+                  <span
+                    className="menubar__button"
+                    style={{ display: "none" }}
+                    onClick={toggleClass}
+                  >
+                    <FiXCircle />
+                  </span>
+                </>
+              ) : (
+                <>
+                  <span
+                    className="menubar__button"
+                    style={{ display: "none" }}
+                    onClick={toggleClass}
+                  >
+                    <FiAlignRight />
+                  </span>
+                </>
+              )}
+
+              <ul
+                className={boxClass.join(" ")}
+                style={{
+                  backgroundColor: dark ? "#111111" : "#fff",
+                  color: dark ? "#fff" : "#000",
+                }}
+              >
+                <li className="menu-item">
+                  <NavLink
+                    exact
+                    activeClassName="is-active"
+                    onClick={toggleClass}
+                    to={`/`}
+                    style={{
+                      color: dark ? "#fff" : "#000",
+                    }}
+                  >
+                    Home
+                  </NavLink>
+                </li>
+                <li className="menu-item ">
+                  <NavLink
+                    onClick={toggleClass}
+                    activeClassName="is-active"
+                    to={`/About`}
+                    style={{
+                      color: dark ? "#fff" : "#000",
+                    }}
+                  >
+                    About
+                  </NavLink>
+                </li>
+                <li className="menu-item ">
+                  <NavLink
+                    onClick={toggleClass}
+                    activeClassName="is-active"
+                    to={`/Partners`}
+                    style={{
+                      color: dark ? "#fff" : "#000",
+                    }}
+                  >
+                    Partners
+                  </NavLink>
+                </li>
+                <li className="menu-item ">
+                  <NavLink
+                    onClick={toggleClass}
+                    activeClassName="is-active"
+                    to={`/Contact`}
+                    style={{
+                      color: dark ? "#fff" : "#000",
+                    }}
+                  >
+                    Contact
+                  </NavLink>
+                </li>
+                <li
+                  onClick={toggleSubmenu}
+                  className="menu-item sub__menus__arrows"
+                >
+                  <Link
+                    to="#"
+                    style={{
+                      color: dark ? "#fff" : "#000",
+                    }}
+                  >
+                    More <FiChevronDown />
+                  </Link>
+                  <ul className={boxClassSubMenu.join(" ")}>
+                    <li>
+                      <NavLink
+                        onClick={toggleClass}
+                        activeClassName="is-active"
+                        to={`/Privacy`}
+                        style={{
+                          color: "#000",
+                        }}
+                      >
+                        Privacy
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        onClick={toggleClass}
+                        activeClassName="is-active"
+                        to={`/Faqs`}
+                        style={{
+                          color: "#000",
+                        }}
+                      >
+                        Faqs
+                      </NavLink>
+                    </li>
+                  </ul>
+                </li>
+                <li className="menu-item ">
+                  <NavLink
+                    onClick={toggleClass}
+                    activeClassName="is-active"
+                    to={`/`}
+                    className="button"
+                  >
+                    <button
+                      style={{
+                        backgroundColor: dark ? "#fff" : "#E62B1E",
+                        color: dark ? "#E62B1E" : "#fff",
+                      }}
+                    >
+                      Register
+                    </button>
+                  </NavLink>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
   );
 };
 

@@ -1,7 +1,7 @@
 @import '../../styles/variables';
 .faqs {
     text-align: center;
-    padding-top: 5%;
+    padding-top: 140px;
     padding-bottom: 5%;
     font-family: "Aileron";
     font-size: 60px;
@@ -74,7 +74,7 @@
 @media (max-width:586px){
     .faqs {
         text-align: center;
-        padding-top: 5%;
+        //padding-top: 5%;
         padding-bottom: 5%;
         font-size: 48px;
         line-height: 70px;
@@ -135,7 +135,7 @@
 @media (max-width:482px){
     .faqs {
         text-align: center;
-        padding-top: 5%;
+        //padding-top: 5%;
         padding-bottom: 5%;
         font-size: 38px;
         line-height: 55px;

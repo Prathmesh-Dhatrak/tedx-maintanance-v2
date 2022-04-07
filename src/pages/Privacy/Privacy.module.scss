@@ -53,5 +53,20 @@
       font-size: 44px;
       padding-left: 29px;
       text-align: left;
+      padding-top: 140px;
+    }
+  }
+  @media screen and (max-width: 962px) {
+    .privacy_policy p {
+      width: 100%;
+      padding: 30px;
+      padding-top: 0;
+      margin-right: 0;
+    }
+    .privacy_policy h1 {
+      font-size: 44px;
+      padding-left: 29px;
+      text-align: left;
+      padding-top: 140px;
     }
   }

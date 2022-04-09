@@ -97,7 +97,7 @@
   }
 }
 
-@media screen and (max-width: $medium) {
+@media (max-width: 900px) {
   .footer-container {
     flex-direction: column;
     justify-content: center;
@@ -105,26 +105,34 @@
     padding: 1rem 1.5rem;
     & .footer-logoSection {
       width: 100%;
+      text-align: center;
+      & .footer-logo {
+        margin: 0 auto;
+        margin-bottom: 37px;
+      }
       & .footer-newsletterBTN {
         padding: 0rem 0rem;
         & a {
           padding: 1rem 1.5rem;
         }
         & p {
+          line-height: 31px;
+          margin-top: 18px;
           padding: 0rem 0rem;
         }
       }
-      & .footer-aboutLine{
+      & .footer-aboutLine {
         padding: 1rem 0rem;
       }
     }
     & .footer-section2 {
-      
       width: 100%;
       flex-direction: column;
       align-items: flex-start;
       & .footer-exploreSection,
       .footer-contactSection {
+        text-align: center;
+        width: 100%;
         padding: 2rem 0rem;
         & h2 {
           padding: 0rem 0rem;

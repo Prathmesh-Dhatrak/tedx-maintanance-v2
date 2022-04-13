@@ -14,8 +14,7 @@
             font-weight: 700px;
             font-family: "Aileron";
         }
-        img{
-
+        img {
         }
         p {
             font-family: "Candara";
@@ -70,10 +69,9 @@
             }
 
             //height: 85%;
-            img{
+            img {
                 width: 45%;
             }
-            
 
             p {
                 margin-top: 2.5%;
@@ -140,8 +138,7 @@
             font-weight: 700px;
             font-family: "Aileron";
         }
-        img{
-
+        img {
         }
         p {
             margin-top: 5%;
@@ -157,7 +154,7 @@
     }
 }
 
-@media (max-width:638px){
+@media (max-width: 638px) {
     .new_about_tedx {
         display: flex;
         min-height: 90vh;
@@ -207,7 +204,6 @@
     }
 }
 
-
 .new_tedxVitpune {
     min-height: 90vh;
     width: 100%;
@@ -225,8 +221,7 @@
                 font-weight: 700px;
                 font-family: "Aileron";
             }
-            img{
-
+            img {
             }
         }
         .new_tedxVitpune_flex_right {
@@ -253,29 +248,26 @@
     }
 }
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
     .new_tedxVitpune {
         min-height: 90vh;
         width: 100%;
         padding-bottom: 50px;
         .new_tedxVitpune_flex {
-            
             flex-direction: column;
             .new_tedxVitpune_flex_left {
-                
                 width: 100%;
-                
+
                 h1 {
                     font-size: 55px;
-                    
                 }
-                img{
+                img {
                     width: 85%;
                 }
             }
             .new_tedxVitpune_flex_right {
                 width: 100%;
-    
+
                 img {
                     display: none;
                 }
@@ -297,34 +289,28 @@
     }
 }
 
-
-
 .new_aboutus_section {
     min-height: 100vh;
-    padding: 0 5%;
-    
-    margin-bottom: 10em;
+    padding: 100px 0;
 
     .image_about {
-        img {
-            border-radius: 20px;
-            //border:2px solid #333333;
-            height: 100%;
-            width: 100%;
-        }
+        //Content
+        //margin: 0 auto;
+        background-image: url(../../images/Aboutpages/stage.svg);
+        height: 90vh;
+        width: 100%;
+        border-radius: 30px;
+
         .about_1_wrapper {
             position: absolute;
             bottom: 0%;
-            padding: 0 4%;
+            left: 5%;
             h1 {
                 font-size: 60px;
                 font-weight: 700px;
                 font-family: "Aileron";
-                color: white;
-                padding: 0 5%;
             }
             p {
-                color: white;
                 font-family: "Candara";
                 font-size: 20px;
                 font-style: normal;
@@ -332,93 +318,48 @@
                 line-height: 30px;
                 letter-spacing: 0em;
                 text-align: left;
-                margin-bottom: 2.5%;
-                //margin-top: 2.5%;
-                padding: 0 5%;
             }
+        }
+
+        //border-radius: 20px;
+    }
+}
+
+@media (max-width:812px){
+    .new_aboutus_section {
+        min-height: 100vh;
+        padding: 100px 0;
+    
+        .image_about {
+            //Content
+            //margin: 0 auto;
+            background-image: url(../../images/Aboutpages/stage.svg);
+            height: 90vh;
+            width: 100%;
+            border-radius: 30px;
+    
+            .about_1_wrapper {
+                position: absolute;
+                bottom: -4%;
+                left: 5%;
+                h1 {
+                    font-size: 55px;
+                    font-family: "Aileron";
+                }
+                p {
+                    font-family: "Candara";
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: bold;
+                    line-height: 30px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
+            }
+    
+            //border-radius: 20px;
         }
     }
 }
 
-@media (max-width:1014px){
-    .new_aboutus_section {
-        min-height: 100vh;
-        padding: 0 5%;
-        
-        margin-bottom: 10em;
-    
-        .image_about {
-            img {
-                
-            }
-            .about_1_wrapper {
-                position: absolute;
-                bottom: 0%;
-                padding: 0 4%;
-                h1 {
-                    font-size: 55px;
-                    font-weight: 700px;
-                    font-family: "Aileron";
-                    color: white;
-                    padding: 0 5%;
-                }
-                p {
-                    color: white;
-                    font-family: "Candara";
-                    font-size: 20px;
-                    font-style: normal;
-                    font-weight: bold;
-                    line-height: 30px;
-                    letter-spacing: 0em;
-                    text-align: left;
-                    margin-bottom: 2.5%;
-                    //margin-top: 2.5%;
-                    padding: 0 5%;
-                }
-            }
-        }
-    } 
-}
-@media(max-width:1000px){
-    .new_aboutus_section {
-        min-height: 100vh;
-        padding: 0 5%;
-        
-        margin-bottom: 2em;
-    
-        .image_about {
-            height: 100vh;
-            img {
-                width: 100%;
-                //width:500px;
-                height: 100%;
-            }
-            .about_1_wrapper {
-                position: absolute;
-                bottom: 0%;
-                padding: 0 4%;
-                h1 {
-                    font-size: 55px;
-                    font-weight: 700px;
-                    font-family: "Aileron";
-                    color: white;
-                    padding: 0 5%;
-                }
-                p {
-                    color: white;
-                    font-family: "Candara";
-                    font-size: 20px;
-                    font-style: normal;
-                    font-weight: bold;
-                    line-height: 30px;
-                    letter-spacing: 0em;
-                    text-align: left;
-                    margin-bottom: 2.5%;
-                    //margin-top: 2.5%;
-                    padding: 0 5%;
-                }
-            }
-        }
-    } 
-}
 /*New design */

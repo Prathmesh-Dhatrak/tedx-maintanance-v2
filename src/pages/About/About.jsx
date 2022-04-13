@@ -21,9 +21,10 @@ const About = () => {
         {/*<!-- About Us Section -->*/}
 
         <div className={styles.new_aboutus_section}>
+
+
           <div className={styles.image_about}>
-            <img src={stage} alt="stage" />
-            <div className={styles.about_1_wrapper}>
+          <div className={styles.about_1_wrapper}>
               <h1>About Us</h1>
               <p>
                 In the spirit of Ideas Worth Spreading, we, at TEDxVITPune,
@@ -33,15 +34,21 @@ const About = () => {
                 confabulate ideas in whole different dimensions
               </p>
             </div>
+            
           </div>
-  </div>
+
+          
+        </div>
+
+
+
 
         <div className={styles.new_about_ted}>
           <div className={styles.new_about_ted_left}>
             <h1>What is</h1>
-            
+
             <img src={ted} alt="ted" />
-            
+
             <p>
               TED is a non-profit organisation devoted to Ideas Worth Spreading.
               It started as a four-day conference in California 30 years ago,
@@ -91,9 +98,9 @@ const About = () => {
 
           <div className={styles.new_about_tedx_right}>
             <h1>What is</h1>
-            
-              <img src={tedx} alt="tedx" />
-            
+
+            <img src={tedx} alt="tedx" />
+
             <p>
               TEDx events aim to integrate ideas from every nook and corner of
               the world, thus, extending the boundaries of views and ideas.
@@ -111,9 +118,8 @@ const About = () => {
           <div className={styles.new_tedxVitpune_flex}>
             <div className={styles.new_tedxVitpune_flex_left}>
               <h1>What is</h1>
-              
-                <img src={tedxVit} alt="ted" />
-              
+
+              <img src={tedxVit} alt="ted" />
             </div>
 
             <div className={styles.new_tedxVitpune_flex_right}>

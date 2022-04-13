@@ -6,3 +6,6 @@ export { default as Home } from "./Home";
 export { default as Newsletter } from "./Newsletter";
 export { default as Partners } from "./Partners";
 export { default as Privacy } from "./Privacy";
+export { default as Gallery } from "./Gallery";
+export { default as Endeavour } from "./Endeavour";
+export { default as Creatives } from "./Creatives";

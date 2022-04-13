@@ -5,7 +5,7 @@ import Touch from "../../images/Contactpages/touch.jpg";
 const Contact = () => {
   const pageStyle = {
     backgroundColor: "white",
-    margin:0,
+    margin: 0,
   };
   return (
     <>
@@ -13,15 +13,12 @@ const Contact = () => {
         {/*<!-- Contact Us Section -->*/}
         <div className={styles.touch}>
           <div className={styles.touch_left}>
-            <h1>
-              Get In Touch <br />
-              With Us
-            </h1>
+            <h1>For event-specific queries reach out to:</h1>
             <p>
-              Would you like to know more about our projects? Here’s how you can
-              reach out to us.
+              Harshada Belgi: +91 (916) 84 04840
+              <br />
+              Tanya Agarwal: +91 (777) 40 06263
             </p>
-            
           </div>
           <div className={styles.touch_right}>
             <img src={Touch} alt="touch" />
@@ -36,8 +33,14 @@ const Contact = () => {
               <span id="hight">with us?</span>
             </h3>
             <p>
-              Partner with us and be a part of a community brimming with
-              innovation and ideas.
+              Work with us to build long-term collaborations and coherent bonds
+              for years to come.
+              <br />
+              Contact :
+              <br />
+              Harshada Belgi: +91 (916) 84 04840
+              <br />
+              Atharva Kulkarni: +91 (973) 02 78541
             </p>
             <h4>
               Reach out to us:
@@ -52,8 +55,13 @@ const Contact = () => {
               <span id="hight">at our event?</span>
             </h3>
             <p>
-              A good idea becomes a great idea when you let it out. Come and
-              present your idea at our event.
+            TEDx is your chance to motivate thinkers, dreamers, and visionaries by presenting your idea at our event. 
+            <br />
+            Contact :
+            <br />
+            Harshada Belgi: +91 (916) 84 04840
+            <br />
+            Mugdha Pendse: +91 (776) 88 97971
             </p>
             <h4>
               Reach out to us:
@@ -62,7 +70,6 @@ const Contact = () => {
               </a>
             </h4>
           </div>
-
         </div>
 
         <div className={styles.line}>
@@ -96,7 +103,6 @@ const Contact = () => {
               more questions.
             </p>
           </div>
-
         </div>
       </div>
     </>

@@ -59,7 +59,7 @@ const Header = ({ dark }) => {
           }}
         >
           <div className="header__middle__logo">
-            <NavLink exact activeClassName="is-active" to="/">
+            <NavLink exact activeClassName="is-active" to={`/`}>
               <img src={dark ? LogoLight : LogoDark} alt={"TEDx Logo"}></img>
             </NavLink>
           </div>
@@ -101,9 +101,9 @@ const Header = ({ dark }) => {
                   color: dark ? "#fff" : "#000",
                 }}
               >
-                {navData.map((navitem) => {
+                {navData.map((navitem, index) => {
                   return (
-                    <li className="menu-item">
+                    <li className="menu-item" key={index}>
                       <NavLink
                         exact
                         activeClassName="is-active"
@@ -123,10 +123,10 @@ const Header = ({ dark }) => {
                   className="menu-item sub__menus__arrows"
                 >
                   <Link
-                    to="#"
                     style={{
                       color: dark ? "#fff" : "#000",
                     }}
+
                   >
                     More <FiChevronDown />
                   </Link>

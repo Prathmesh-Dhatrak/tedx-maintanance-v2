@@ -1,31 +1,23 @@
 @import "../../styles/variables";
 
-.aboutUs_wrapper {
+.new_about_ted {
     display: flex;
     min-height: 100vh;
-    //flex-direction: column;
-    align-items: center;
     width: 100%;
-    padding-top: 80px;
-    .aboutUs_wrapper_left {
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        img {
-            height: 90%;
-        }
-    }
-    .aboutUs_wrapper_right {
-        width: 50%;
-        color: rgba(51, 51, 51, 1);
+
+    .new_about_ted_left {
+        width: 45%;
+        color: #333333;
+        padding-left: 5%;
         h1 {
             font-size: 60px;
             font-weight: 700px;
-            padding: 50px 0;
             font-family: "Aileron";
         }
+        img{
+
+        }
         p {
-            width: 59%;
             font-family: "Candara";
             font-size: 20px;
             font-style: normal;
@@ -35,345 +27,15 @@
             text-align: left;
             margin-bottom: 5%;
         }
-        line {
-            margin-bottom: 9%;
-        }
     }
-}
-
-@media (max-width: 1025px) {
-    .aboutUs_wrapper {
-        display: flex;
-        min-height: 100vh;
-        //flex-direction: column;
-        align-items: center;
-        width: 100%;
-        padding-top: 80px;
-        .aboutUs_wrapper_left {
-            width: 50%;
-            display: flex;
-            justify-content: center;
-            img {
-                height: 90%;
-            }
+    .new_about_ted_right {
+        width: 55%;
+        color: #333333;
+        .redLine_img {
         }
-        .aboutUs_wrapper_right {
-            width: 50%;
-            color: rgba(51, 51, 51, 1);
-            h1 {
-                font-size: 60px;
-                font-weight: 700px;
-                padding: 50px 0;
-            }
-            p {
-                width: 73%;
-
-                font-size: 20px;
-                font-style: normal;
-                font-weight: bold;
-                line-height: 30px;
-                letter-spacing: 0em;
-                text-align: left;
-                margin-bottom: 5%;
-            }
-        }
-    }
-}
-
-@media (max-width: 1000px) {
-    .aboutUs_wrapper {
-        display: flex;
-        min-height: 100vh;
-        //flex-direction: column;
-        align-items: center;
-        width: 100%;
-        padding-top: 80px;
-        .aboutUs_wrapper_left {
-            //width: 50%;
-            display: none;
-        }
-        .aboutUs_wrapper_right {
-            width: 100%;
-            margin: 0 10em;
-            color: rgba(51, 51, 51, 1);
-            h1 {
-                font-size: 60px;
-                font-weight: 700px;
-                padding: 50px 0;
-            }
-            p {
-                width: 100%;
-                font-size: 20px;
-                font-style: normal;
-                font-weight: bold;
-                line-height: 30px;
-                letter-spacing: 0em;
-                text-align: left;
-                margin-bottom: 5%;
-            }
-        }
-    }
-}
-
-@media (max-width: 518px) {
-    .aboutUs_wrapper {
-        display: flex;
-        min-height: 100vh;
-        //flex-direction: column;
-        align-items: center;
-        width: 100%;
-        padding-top: 80px;
-        .aboutUs_wrapper_left {
-            //width: 50%;
-            display: none;
-        }
-        .aboutUs_wrapper_right {
-            width: 100%;
-            margin: 0 6em;
-            color: rgba(51, 51, 51, 1);
-            h1 {
-                font-size: 60px;
-                font-weight: 700px;
-                padding: 50px 0;
-            }
-            p {
-                width: 100%;
-                font-size: 20px;
-                font-style: normal;
-                font-weight: bold;
-                line-height: 30px;
-                letter-spacing: 0em;
-                text-align: left;
-                margin-bottom: 5%;
-            }
-        }
-    }
-}
-
-@media (max-width: 360px) {
-    .aboutUs_wrapper {
-        display: flex;
-        min-height: 100vh;
-        //flex-direction: column;
-        align-items: center;
-        width: 100%;
-        padding-top: 80px;
-        .aboutUs_wrapper_left {
-            //width: 50%;
-            display: none;
-        }
-        .aboutUs_wrapper_right {
-            width: 100%;
-            margin: 0 2em;
-            color: rgba(51, 51, 51, 1);
-            h1 {
-                font-size: 60px;
-                font-weight: 700px;
-                padding: 50px 0;
-            }
-            p {
-                width: 100%;
-                font-size: 20px;
-                font-style: normal;
-                font-weight: bold;
-                line-height: 30px;
-                letter-spacing: 0em;
-                text-align: left;
-                margin-bottom: 5%;
-            }
-            line {
-                margin: 15% 0;
-            }
-        }
-    }
-}
-
-
-.ted_wrapper {
-    background-color: #e62b1e;
-    color: #fff;
-    h1 {
-        font-family: "Aileron";
-        font-weight: 600;
-        margin-left: 9%;
-        padding-top: 10vh;
-        padding-bottom: 10vh;
-        font-size: 36px;
-    }
-    .ted_line {
-        position: relative;
-        margin-left: 9%;
-        margin-bottom: 60px;
-    }
-    .ted_para {
-        width: 100%;
-        position: relative;
-        //margin-left: 9%;
-        display: flex;
-        .ted_para_left {
-            margin-left: 10%;
-            width: 50%;
-            text-align: left;
+        p {
+            padding-right: 2%;
             padding-right: 5%;
-            p {
-                font-family: "Candara";
-                font-size: 20px;
-                font-style: normal;
-                font-weight: normal;
-                line-height: 30px;
-                letter-spacing: 0em;
-                text-align: left;
-                margin-bottom: 5%;
-            }
-        }
-        .ted_para_right {
-            width: 50%;
-            padding-right: 10%;
-            p {
-                font-family: "Candara";
-                font-size: 20px;
-                font-style: normal;
-                font-weight: normal;
-                line-height: 30px;
-                letter-spacing: 0em;
-                text-align: left;
-                margin-bottom: 5%;
-            }
-        }
-    }
-    .btn_1 {
-        display: inline-block;
-        background: none;
-        border: none;
-        color: #fff;
-        font-size: 18px;
-        cursor: pointer;
-        margin-left: 9%;
-        margin-top: 60px;
-        margin-bottom: 100px;
-
-        a {
-            color: #fff;
-            text-decoration: none;
-            span {
-                font-family: "Rotunda_Bold_Italic";
-                font-size: 22px;
-                font-weight: 600;
-                line-height: 30px;
-                letter-spacing: 0em;
-                text-align: left;
-            }
-        }
-    }
-}
-
-@media (max-width: 658px) {
-    .ted_wrapper {
-        background-color: #e62b1e;
-        color: #fff;
-        h1 {
-            font-weight: 600;
-            margin-left: 9%;
-            padding-top: 10vh;
-            padding-bottom: 10vh;
-            font-size: 36px;
-        }
-        .ted_line {
-            position: relative;
-            margin-left: 9%;
-            margin-bottom: 60px;
-        }
-        .ted_para {
-            //width: 100%;
-            position: relative;
-
-            display: flex;
-            flex-direction: column;
-            .ted_para_left {
-                margin: 0 10%;
-                width: 85%;
-                text-align: left;
-                p {
-                    font-size: 20px;
-                    font-style: normal;
-                    font-weight: normal;
-                    line-height: 30px;
-                    letter-spacing: 0em;
-                    text-align: left;
-                    margin-bottom: 5%;
-                }
-            }
-            .ted_para_right {
-                margin: 0 10%;
-                width: 85%;
-                text-align: left;
-                p {
-                    font-size: 20px;
-                    font-style: normal;
-                    font-weight: normal;
-                    line-height: 30px;
-                    letter-spacing: 0em;
-                    text-align: left;
-                    margin-bottom: 5%;
-                }
-            }
-        }
-        .btn_1 {
-            display: inline-block;
-            background: none;
-            border: none;
-            color: #fff;
-            font-size: 18px;
-            cursor: pointer;
-            margin-left: 9%;
-            margin-top: 60px;
-            margin-bottom: 100px;
-
-            a {
-                color: #fff;
-                text-decoration: none;
-                span {
-                    font-family: "Rotunda_Bold_Italic";
-                    font-size: 22px;
-                    font-weight: 600;
-                    line-height: 30px;
-                    letter-spacing: 0em;
-                    text-align: left;
-                }
-            }
-        }
-    }
-}
-
-.about_tedx_news {
-    width: 100%;
-
-    color: #333333;
-    display: flex;
-    min-height: 120vh;
-    .about_tedx_left {
-        width: 43%;
-        img {
-            height: 100%;
-            width: 100%;
-        }
-    }
-    .about_tedx_right {
-        width: 53%;
-        padding: 0 10%;
-        h2 {
-            font-family: "Aileron";
-            font-style: normal;
-            font-weight: 500;
-            line-height: 73px;
-            font-size: 40px;
-            padding-top: 10vh;
-            padding-bottom: 10vh;
-        }
-        .aboutus_line {
-            margin-bottom: 60px;
-        }
-        p {
             font-family: "Candara";
             font-size: 20px;
             font-style: normal;
@@ -381,253 +43,84 @@
             line-height: 30px;
             letter-spacing: 0em;
             text-align: left;
-            margin-bottom: 5%;
+            margin-bottom: 2.5%;
+            margin-top: 5%;
         }
     }
 }
 
-@media (max-width: 1038px) {
-    .about_tedx_news {
-        width: 100%;
-        color: #333333;
+@media (max-width: 1168px) {
+    .new_about_ted {
+        padding-bottom: 50px;
         display: flex;
-        flex-direction: column;
-        min-height: 120vh;
-        .about_tedx_left {
-            width: 100%;
-            img {
-                height: 100%;
-                width: 100%;
-            }
-        }
-        .about_tedx_right {
-            width: 100%;
-            padding: 0 10%;
-            h2 {
-                font-style: normal;
-                font-weight: 500;
-                line-height: 73px;
-                font-size: 40px;
-                padding-top: 10vh;
-                padding-bottom: 10vh;
-            }
-            .aboutus_line {
-                margin-bottom: 60px;
-            }
-            p {
-                font-size: 20px;
-                font-style: normal;
-                font-weight: bold;
-                line-height: 30px;
-                letter-spacing: 0em;
-                text-align: left;
-                margin-bottom: 5%;
-            }
-        }
-    }
-}
-
-.about_tedx_section_wrapper {
-    min-height: 100vh;
-    position: relative;
-    width: 100%;
-    display: flex;
-
-    .about_section_wrapper_left {
-        width: 50%;
-        text-align: left;
-        color: #333333;
-        padding: 0 10%;
-        h2 {
-            font-family: "Aileron";
-            font-style: normal;
-            font-weight: 500;
-            line-height: 73px;
-            font-size: 40px;
-            padding-top: 10vh;
-            padding-bottom: 10vh;
-        }
-        .about_section_wrapper_line {
-            margin-bottom: 60px;
-        }
-        p {
-            font-family: "Candara";
-            font-size: 20px;
-            font-style: normal;
-            font-weight: bold;
-            line-height: 30px;
-            letter-spacing: 0em;
-            text-align: left;
-            margin-bottom: 5%;
-        }
-    }
-    .about_section_wrapper_right {
-        width: 50%;
-        .tedxImage {
-            height: 56%;
-            width: 100%;
-
-            border-radius: 0px;
-            img {
-                height: 100%;
-                width: 100%;
-            }
-        }
-        p {
-            color: #333333;
-            margin-top: 10%;
-            font-family: "Candara";
-            font-size: 20px;
-            font-style: normal;
-            font-weight: bold;
-            line-height: 30px;
-            letter-spacing: 0em;
-            text-align: left;
-        }
-    }
-}
-
-@media (max-width: 1074px) {
-    .about_tedx_section_wrapper {
         min-height: 100vh;
-        position: relative;
         width: 100%;
-        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
-        .about_section_wrapper_left {
+        .new_about_ted_left {
             width: 100%;
-            text-align: left;
-            color: #333333;
-            padding: 0 10%;
-            h2 {
-                font-style: normal;
-                font-weight: 500;
-                line-height: 73px;
-                font-size: 40px;
-                padding-top: 10vh;
-                padding-bottom: 10vh;
+
+            padding-left: 5%;
+            h1 {
+                font-size: 55px;
+                font-weight: 700px;
+                font-family: "Aileron";
             }
-            .about_section_wrapper_line {
-                margin-bottom: 60px;
+
+            //height: 85%;
+            img{
+                width: 45%;
             }
+            
+
             p {
+                margin-top: 2.5%;
+                font-family: "Candara";
                 font-size: 20px;
                 font-style: normal;
                 font-weight: bold;
                 line-height: 30px;
                 letter-spacing: 0em;
                 text-align: left;
-                margin-bottom: 5%;
+                margin-bottom: 0%;
             }
         }
-        .about_section_wrapper_right {
+        .new_about_ted_right {
             width: 100%;
-            .tedxImage {
-                height: 56%;
-                width: 100%;
+            padding-left: 5%;
 
-                border-radius: 0px;
-                img {
-                    height: 100%;
-                    width: 100%;
-                }
+            .redLine_img {
+                display: none;
             }
             p {
-                padding: 0 10%;
-                color: #333333;
-                margin-top: 10%;
-
+                padding-right: 5%;
+                font-family: "Candara";
                 font-size: 20px;
                 font-style: normal;
                 font-weight: bold;
                 line-height: 30px;
                 letter-spacing: 0em;
                 text-align: left;
+                margin-bottom: 2.5%;
             }
         }
     }
 }
 
-.three_pillars_trio {
-    color: white;
-    font-size: 60px;
-    font-weight: 700px;
-    padding: 50px 0;
-    font-family: "Aileron";
-    text-align: center;
-    padding-bottom: 10px;
-    background-color: #e62b1e;
-}
-
-.three_pillars {
-    color: #333333;
-    font-size: 60px;
-    font-weight: 700px;
-    padding: 50px 0;
-    font-family: "Aileron";
-    text-align: center;
-    padding-bottom: 10px;
-}
-@media(max-width:602px){
-    .three_pillars {
-        color: #333333;
-        font-size: 55px;
-        font-weight: 700px;
-        padding: 50px 10%;
-        font-family: "Aileron";
-        text-align: left;
-        padding-bottom: 10px;
-    }
-    .three_pillars_trio {
-        color: white;
-        font-size: 55px;
-        font-weight: 700px;
-        padding: 50px 10%;
-        font-family: "Aileron";
-        text-align: left;
-        padding-bottom: 10px;
-        background-color: #e62b1e;
-    }
-}
-
-@media(max-width:448px){
-    .three_pillars {
-        color: #333333;
-        font-size: 42px;
-        
-    }
-    .three_pillars_trio {
-        color: white;
-        font-size: 42px;
-        
-    }
-}
-
-
-.about_tedx_community {
-    width: 100%;
-    position: relative;
-    color: #333333;
+.new_about_tedx {
     display: flex;
-    min-height: 80vh;
-    padding-top: 70px;
-    .comm_left {
-        width: 50%;
-        padding: 0 10%;
-        h2 {
-            font-family: "Aileron";
-            font-style: normal;
-            font-weight: 500;
-            line-height: 73px;
-            font-size: 40px;
-            padding-top: 10vh;
-            padding-bottom: 10vh;
-        }
-        .community_line {
-            margin-bottom: 60px;
+    min-height: 90vh;
+    width: 100%;
+    .new_about_tedx_left {
+        width: 55%;
+        color: #333333;
+        .tedx_redLine_img {
+            margin-bottom: 15%;
         }
         p {
+            padding-left: 5%;
             font-family: "Candara";
             font-size: 20px;
             font-style: normal;
@@ -638,37 +131,47 @@
             margin-bottom: 5%;
         }
     }
-    .comm_right {
-        width: 50%;
-        img {
-            height: 100%;
-            width: 100%;
+    .new_about_tedx_right {
+        width: 45%;
+        color: #333333;
+        padding: 0 5%;
+        h1 {
+            font-size: 60px;
+            font-weight: 700px;
+            font-family: "Aileron";
+        }
+        img{
+
+        }
+        p {
+            margin-top: 5%;
+            font-family: "Candara";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin-bottom: 2.5%;
         }
     }
 }
-@media (max-width: 1048px) {
-    .about_tedx_community {
-        width: 100%;
-        color: #333333;
+
+@media (max-width:638px){
+    .new_about_tedx {
         display: flex;
-        min-height: 80vh;
-        padding-top: 70px;
-        flex-direction: column;
-        .comm_left {
+        min-height: 90vh;
+        width: 100%;
+        padding-bottom: 50px;
+        flex-direction: column-reverse;
+        .new_about_tedx_left {
             width: 100%;
-            padding: 0 10%;
-            h2 {
-                font-style: normal;
-                font-weight: 500;
-                line-height: 73px;
-                font-size: 40px;
-                padding-top: 10vh;
-                padding-bottom: 10vh;
-            }
-            .community_line {
-                margin-bottom: 60px;
+            .tedx_redLine_img {
+                display: none;
             }
             p {
+                padding-left: 5%;
+                font-family: "Candara";
                 font-size: 20px;
                 font-style: normal;
                 font-weight: bold;
@@ -678,41 +181,108 @@
                 margin-bottom: 5%;
             }
         }
-        .comm_right {
+        .new_about_tedx_right {
             width: 100%;
+            padding: 0 5%;
+            h1 {
+                font-size: 55px;
+                font-weight: 700px;
+                font-family: "Aileron";
+            }
+            img {
+                width: 45%;
+            }
+            p {
+                margin-top: 5%;
+                font-family: "Candara";
+                font-size: 20px;
+                font-style: normal;
+                font-weight: bold;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+                margin-bottom: 2.5%;
+            }
+        }
+    }
+}
+
+
+.new_tedxVitpune {
+    min-height: 90vh;
+    width: 100%;
+    .new_tedxVitpune_flex {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        .new_tedxVitpune_flex_left {
+            padding-left: 5%;
+            color: #333333;
+            width: 65%;
+            padding-right: 2.5%;
+            h1 {
+                font-size: 60px;
+                font-weight: 700px;
+                font-family: "Aileron";
+            }
+            img{
+
+            }
+        }
+        .new_tedxVitpune_flex_right {
+            width: 35%;
+
             img {
                 height: 100%;
                 width: 100%;
             }
         }
     }
+    p {
+        color: #333333;
+        font-family: "Candara";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 2.5%;
+        margin-top: 2.5%;
+        padding: 0 5%;
+    }
 }
 
-
-.about_tedx_community_experience{
-    width: 100%;
-    position: relative;
-    color: #333333;
-    display: flex;
-    min-height: 80vh;
-    padding-top: 10px;
-
-    .comm_left_experience,.comm_right_experience{
-        width: 50%;
-        padding: 0 10%;
-        h2{
-            font-family: "Aileron";
-            font-style: normal;
-            font-weight: 500;
-            line-height: 73px;
-            font-size: 40px;
-            padding-top: 10vh;
-            padding-bottom: 10vh;
+@media (max-width: 800px){
+    .new_tedxVitpune {
+        min-height: 90vh;
+        width: 100%;
+        padding-bottom: 50px;
+        .new_tedxVitpune_flex {
+            
+            flex-direction: column;
+            .new_tedxVitpune_flex_left {
+                
+                width: 100%;
+                
+                h1 {
+                    font-size: 55px;
+                    
+                }
+                img{
+                    width: 85%;
+                }
+            }
+            .new_tedxVitpune_flex_right {
+                width: 100%;
+    
+                img {
+                    display: none;
+                }
+            }
         }
-        .community_line {
-            margin-bottom: 60px;
-        }
-        p{
+        p {
+            color: #333333;
             font-family: "Candara";
             font-size: 20px;
             font-style: normal;
@@ -720,48 +290,135 @@
             line-height: 30px;
             letter-spacing: 0em;
             text-align: left;
-            margin-bottom: 5%;
+            margin-bottom: 2.5%;
+            margin-top: 2.5%;
+            padding: 0 5%;
         }
-
     }
-    
 }
 
-@media (max-width: 1048px) {
-    .about_tedx_community_experience{
-        width: 100%;
-        position: relative;
-        color: #333333;
-        display: flex;
-        min-height: 80vh;
-        padding-top: 10px;
-        flex-direction: column;
+
+
+.new_aboutus_section {
+    min-height: 100vh;
+    padding: 0 5%;
     
-        .comm_left_experience,.comm_right_experience{
+    margin-bottom: 10em;
+
+    .image_about {
+        img {
+            border-radius: 20px;
+            //border:2px solid #333333;
+            height: 100%;
             width: 100%;
-            padding: 0 10%;
-            h2 {
-                font-style: normal;
-                font-weight: 500;
-                line-height: 73px;
-                font-size: 40px;
-                padding-top: 10vh;
-                padding-bottom: 10vh;
-            }
-            .community_line {
-                margin-bottom: 60px;
+        }
+        .about_1_wrapper {
+            position: absolute;
+            bottom: 0%;
+            padding: 0 4%;
+            h1 {
+                font-size: 60px;
+                font-weight: 700px;
+                font-family: "Aileron";
+                color: white;
+                padding: 0 5%;
             }
             p {
+                color: white;
+                font-family: "Candara";
                 font-size: 20px;
                 font-style: normal;
                 font-weight: bold;
                 line-height: 30px;
                 letter-spacing: 0em;
                 text-align: left;
-                margin-bottom: 5%;
+                margin-bottom: 2.5%;
+                //margin-top: 2.5%;
+                padding: 0 5%;
             }
-    
         }
-        
     }
 }
+
+@media (max-width:1014px){
+    .new_aboutus_section {
+        min-height: 100vh;
+        padding: 0 5%;
+        
+        margin-bottom: 10em;
+    
+        .image_about {
+            img {
+                
+            }
+            .about_1_wrapper {
+                position: absolute;
+                bottom: 0%;
+                padding: 0 4%;
+                h1 {
+                    font-size: 55px;
+                    font-weight: 700px;
+                    font-family: "Aileron";
+                    color: white;
+                    padding: 0 5%;
+                }
+                p {
+                    color: white;
+                    font-family: "Candara";
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: bold;
+                    line-height: 30px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    margin-bottom: 2.5%;
+                    //margin-top: 2.5%;
+                    padding: 0 5%;
+                }
+            }
+        }
+    } 
+}
+@media(max-width:1000px){
+    .new_aboutus_section {
+        min-height: 100vh;
+        padding: 0 5%;
+        
+        margin-bottom: 2em;
+    
+        .image_about {
+            height: 100vh;
+            img {
+                width: 100%;
+                //width:500px;
+                height: 100%;
+            }
+            .about_1_wrapper {
+                position: absolute;
+                bottom: 0%;
+                padding: 0 4%;
+                h1 {
+                    font-size: 55px;
+                    font-weight: 700px;
+                    font-family: "Aileron";
+                    color: white;
+                    padding: 0 5%;
+                }
+                p {
+                    color: white;
+                    font-family: "Candara";
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: bold;
+                    line-height: 30px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    margin-bottom: 2.5%;
+                    //margin-top: 2.5%;
+                    padding: 0 5%;
+                }
+            }
+        }
+    } 
+}
+/*New design */

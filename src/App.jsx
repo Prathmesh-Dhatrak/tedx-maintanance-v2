@@ -12,6 +12,9 @@ import {
   Newsletter,
   Contact,
   Privacy,
+  Gallery,
+  Creatives,
+  Endeavour,
 } from "./pages";
 
 const routes = [
@@ -33,6 +36,19 @@ const routes = [
   { path: "/about", darkHader: false, name: "about", Component: About },
   { path: "/contact", darkHader: false, name: "Contact", Component: Contact },
   { path: "/privacy", darkHader: false, name: "Privacy", Component: Privacy },
+  { path: "/gallery", darkHader: true, name: "Gallery", Component: Gallery },
+  {
+    path: "/Creatives",
+    darkHader: false,
+    name: "Creatives",
+    Component: Creatives,
+  },
+  {
+    path: "/Endeavour",
+    darkHader: false,
+    name: "Endeavour",
+    Component: Endeavour,
+  },
 ];
 
 function App() {

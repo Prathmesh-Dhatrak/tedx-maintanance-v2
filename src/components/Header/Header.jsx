@@ -4,6 +4,16 @@ import { FiAlignRight, FiXCircle, FiChevronDown } from "react-icons/fi";
 import { LogoDark, LogoLight } from "../../images/Header";
 import "./Header.scss";
 
+const navData = [
+  "Home",
+  "About",
+  "Gallery",
+  "Endeavour",
+  "Creatives",
+  "Partners",
+  "Contact",
+];
+
 const Header = ({ dark }) => {
   const [isMenu, setisMenu] = useState(false);
   const [isResponsiveclose, setResponsiveclose] = useState(false);
@@ -91,55 +101,23 @@ const Header = ({ dark }) => {
                   color: dark ? "#fff" : "#000",
                 }}
               >
-                <li className="menu-item">
-                  <NavLink
-                    exact
-                    activeClassName="is-active"
-                    onClick={toggleClass}
-                    to={`/`}
-                    style={{
-                      color: dark ? "#fff" : "#000",
-                    }}
-                  >
-                    Home
-                  </NavLink>
-                </li>
-                <li className="menu-item ">
-                  <NavLink
-                    onClick={toggleClass}
-                    activeClassName="is-active"
-                    to={`/About`}
-                    style={{
-                      color: dark ? "#fff" : "#000",
-                    }}
-                  >
-                    About
-                  </NavLink>
-                </li>
-                <li className="menu-item ">
-                  <NavLink
-                    onClick={toggleClass}
-                    activeClassName="is-active"
-                    to={`/Partners`}
-                    style={{
-                      color: dark ? "#fff" : "#000",
-                    }}
-                  >
-                    Partners
-                  </NavLink>
-                </li>
-                <li className="menu-item ">
-                  <NavLink
-                    onClick={toggleClass}
-                    activeClassName="is-active"
-                    to={`/Contact`}
-                    style={{
-                      color: dark ? "#fff" : "#000",
-                    }}
-                  >
-                    Contact
-                  </NavLink>
-                </li>
+                {navData.map((navitem) => {
+                  return (
+                    <li className="menu-item">
+                      <NavLink
+                        exact
+                        activeClassName="is-active"
+                        onClick={toggleClass}
+                        to={navitem === "Home" ? `/` : `/` + navitem}
+                        style={{
+                          color: dark ? "#fff" : "#000",
+                        }}
+                      >
+                        {navitem}
+                      </NavLink>
+                    </li>
+                  );
+                })}
                 <li
                   onClick={toggleSubmenu}
                   className="menu-item sub__menus__arrows"

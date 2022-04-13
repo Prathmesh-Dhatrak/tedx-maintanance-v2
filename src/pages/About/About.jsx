@@ -1,14 +1,9 @@
 import React from "react";
 import styles from "./About.module.scss";
-import LineSVG from "../../images/Aboutpages/line.svg";
-import LineMobile from "../../images/Aboutpages/line-mobile.svg";
-import About2 from "../../images/Aboutpages/about2.jpg";
-import About3 from "../../images/Aboutpages/about3.png";
-import About4 from "../../images/Aboutpages/about4.png";
 import ted from "../../images/Aboutpages/ted.svg";
 import tedx from "../../images/Aboutpages/tedx.svg";
 import tedxVit from "../../images/Aboutpages/tedxVit.svg";
-import stage from "../../images/Aboutpages/stage.svg";
+
 import redLine from "../../images/Aboutpages/redLine.svg";
 
 const About = () => {

@@ -38,7 +38,18 @@ const Faqs = ({ dark }) => {
           answer="
       You can find talks from our previous speakers on the TEDx YouTube Channel.
       <br/>
-      <a style=`text-decoration:none;color:red;font-weight: 600;` href=`${https://youtube.com/playlist?list=PL0687I2dEWcksr9RextzeIRFms8yjaKQi}`>2015, </a>
+      <a style=`text-decoration:none;color:red;font-weight: 600;` href=https://youtube.com/playlist?list=PL0687I2dEWcksr9RextzeIRFms8yjaKQi>2015, </a>
+      <a style=`text-decoration:none;color:red;font-weight: 600;` href=https://www.youtube.com/playlist?list=PL0687I2dEWclNQ5LLwulDH20FUvGDsSlG>2016, </a>
+      <a style=`text-decoration:none;color:red;font-weight: 600;` href=https://www.youtube.com/playlist?list=PL0687I2dEWcm2PSEaGCYzm_mok3pfVVkT>2017, </a>
+      <a style=`text-decoration:none;color:red;font-weight: 600;` href=https://www.youtube.com/playlist?list=PLsRNoUx8w3rNNKU261Gx7oEemGRuY_kFB>2018, </a>
+      <a style=`text-decoration:none;color:red;font-weight: 600;` href=https://www.youtube.com/playlist?list=PLsRNoUx8w3rPXX5LlzJQQNYrvIvz5nhOz>2019, </a>
+      <a style=`text-decoration:none;color:red;font-weight: 600;` href=https://www.youtube.com/playlist?list=PL0687I2dEWckuZn6AEuZF8FOnr7T1QcVV>2021, </a>
+
+
+
+
+
+
       "
         />
 
@@ -50,7 +61,7 @@ const Faqs = ({ dark }) => {
         <Accordian
           question="How do I suggest a Speaker for TEDxVITPune?"
           answer="
-      If you’d like to nominate someone to be a speaker at TEDxVITPune, you can fill out our <a href=`{https://tedxvitpune.in/speaker-nomination}`><b>Speaker Nomination Form</b></a>  with a few details about the speaker and their ideas.
+      If you’d like to nominate someone to be a speaker at TEDxVITPune, you can fill out our <a href=http://tedxvitpune.in/speaker-nomination><b>Speaker Nomination Form</b></a>  with a few details about the speaker and their ideas.
       "
         />
 
@@ -94,6 +105,8 @@ const Faqs = ({ dark }) => {
           question="How do I buy a ticket from Townscript?"
           answer="Upon the selection of your attendee application, you can purchase your ticket to the event via Townscript after filling in all the necessary details.
       Apply as an attendee here!
+      <a href=http://tedxvitpune.in/speaker-nomination><b>Dummy Register link</b></a>
+
       "
         />
 

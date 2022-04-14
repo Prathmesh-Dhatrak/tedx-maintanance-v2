@@ -12,7 +12,7 @@ import {
   Newsletter,
   Contact,
   Privacy,
-  Gallery,
+  Lookbook,
   Creatives,
   Endeavour,
 } from "./pages";
@@ -36,7 +36,7 @@ const routes = [
   { path: "/about", darkHader: false, name: "about", Component: About },
   { path: "/contact", darkHader: false, name: "Contact", Component: Contact },
   { path: "/privacy", darkHader: false, name: "Privacy", Component: Privacy },
-  { path: "/lookbook", darkHader: true, name: "Gallery", Component: Gallery },
+  { path: "/lookbook", darkHader: true, name: "lookbook", Component: Lookbook },
   {
     path: "/Creatives",
     darkHader: false,

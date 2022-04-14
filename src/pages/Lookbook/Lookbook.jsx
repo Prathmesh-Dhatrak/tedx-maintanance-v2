@@ -1,8 +1,8 @@
 import React from "react";
-import "./Gallery.scss";
-import { ImgBig, ImgSmall } from "../../images/Gallery";
-import grid from "../../images/Grid.svg"
-const Gallery = ({ dark }) => {
+import "./Lookbook.scss";
+import { ImgBig, ImgSmall } from "../../images/Lookbook";
+import grid from "../../images/Grid.svg";
+const Lookbook = ({ dark }) => {
   const pageStyle = {
     backgroundColor: dark ? "black" : "white",
     backgroundImage: 'url("' + grid + '")',
@@ -41,4 +41,4 @@ const Gallery = ({ dark }) => {
   );
 };
 
-export default Gallery;
+export default Lookbook;

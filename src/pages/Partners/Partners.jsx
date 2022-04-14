@@ -7,8 +7,13 @@ import alt2 from "../../images/PartnerPages/at2.jpg";
 import alt3 from "../../images/PartnerPages/at3.jpg";
 import collab from "../../images/PartnerPages/collaba.jpg";
 import VACPL from "../../images/PartnerPages/VACPL.png";
-import rohit from "../../images/PartnerPages/rohit.png";
-import spons2 from "../../images/PartnerPages/spons2.png";
+import airtel from "../../images/PartnerPages/airtel.png";
+import chopras from "../../images/PartnerPages/chopras.png";
+import cogni from "../../images/PartnerPages/cogni.png";
+import finiq from "../../images/PartnerPages/finiq.png";
+import nestle from "../../images/PartnerPages/nestle.png";
+import pepsico from "../../images/PartnerPages/pepsico.png";
+import swiggy from "../../images/PartnerPages/swiggy.png";
 
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
@@ -31,17 +36,35 @@ const Partners = ({ dark }) => {
         </h1>
 
         <div className={styles.cs_wrapper}>
-          <div className={styles.cs_left}>
-            <h3>Title Sponsor</h3>
-            <img src={VACPL} alt="VACPL" />
+          <div className={styles.cs_wrapper_up}>
+            <div className={styles.cs_image}>
+              <img src={VACPL} alt="VACPL" />
+            </div>
+            <div className={styles.cs_image}>
+              <img src={airtel} alt="VACPL" />
+            </div>
+            <div className={styles.cs_image}>
+              <img src={cogni} alt="VACPL" />
+            </div>
+            <div className={styles.cs_image}>
+              <img src={chopras} alt="VACPL" />
+            </div>
+            
           </div>
-          <div className={styles.cs_middle}>
-            <h3>Powered By</h3>
-            <img src={rohit} alt="Rohit Krishi" />
-          </div>
-          <div className={styles.cs_right}>
-            <h3>Associate Sponsor</h3>
-            <img src={spons2} alt="CEO capital traders" />
+
+          <div className={styles.cs_wrapper_down}>
+            <div className={styles.cs_image}>
+              <img src={finiq} alt="VACPL" />
+            </div>
+            <div className={styles.cs_image}>
+              <img src={nestle} alt="VACPL" />
+            </div>
+            <div className={styles.cs_image}>
+              <img src={pepsico} alt="VACPL" />
+            </div>
+            <div className={styles.cs_image} style={{width:"156px"}}>
+              <img src={swiggy} alt="VACPL" />
+            </div>
           </div>
         </div>
       </div>
@@ -58,12 +81,11 @@ const Partners = ({ dark }) => {
             </span>
           </h1>
           <p>
-            TEDxVITPune’s audience comprises of educated, affluent and curious
-            individuals who wish to discover the methods of meaningful change.
-            Our Audience includes students from various disciplines and
-            universities across the country and people from all walks of life
-            such as corporate employees, entrepreneurs, teachers and public
-            officials to name a few.
+            We at TEDxVITPune believe in forging strong and ever-lasting
+            partnerships with speakers, sponsors, and attendees to uphold and
+            elevate the TEDxVITPune brand identity. The team provides nothing
+            but the best experiences to anyone and everyone, be it our orators
+            or one of the many people from our well-knit community.
           </p>
         </div>
       </div>
@@ -71,17 +93,18 @@ const Partners = ({ dark }) => {
       <div className={styles.at_tedx_1}>
         <div className={styles.at_left_1}>
           <p>
-            Through our event we intend to showcase strong ideas pertinent to
-            the issues of our local community, that are relevant on a global
-            scale.
+            Community calls bring people together from all over the world and
+            serve as a social and cultural touchstone. We swear by associating
+            and exploring minds- full of ideas. Hence we are growing, reaching
+            out to more people, furthering our community, and calling speakers
+            from multidisciplinary fields.
           </p>
           <br />
           <p>
-            We also take pride in providing a memorable event experience,
-            curated specifically for our audience, speakers and sponsors,
-            through food, venue setup, merchandise and engagement. We also
-            capture our talks in spectacular quality to facilitate sharing of
-            our endeavor with 13 million TED enthusiasts around the world.
+            TEDxVITPune includes and indulges performers, sponsors, and
+            attendees in networking sessions, exciting workshops, specially
+            curated memoranda, delish food, and of course the aura which we
+            carry in our brand name.
           </p>
         </div>
         <div className={styles.at_right_1}>
@@ -95,17 +118,10 @@ const Partners = ({ dark }) => {
         </div>
         <div className={styles.at_right_2}>
           <p>
-            We believe in forging strong and long-lasting partnerships with
-            speakers, sponsors and attendees to uphold and elevate the
-            TEDxVITPune brand identity.
-          </p>
-          <br />
-          <p>
-            Over the years, TEDxVITPune has tried to tackle the toughest
-            questions of the local community, trying to answer them with
-            innovation, enterprise and enduring optimism. All of this has been
-            possible because of partners that have been committed to our common
-            goal of Ideas Worth Spreading.
+            All of this has only been possible because of our partners, whose
+            commitment and constancy have immensely contributed to making
+            TEDxVITPune one of the finest and most premier events in the
+            country.
           </p>
         </div>
       </div>
@@ -118,8 +134,8 @@ const Partners = ({ dark }) => {
                 <div className={styles.partners_line}>
                   <div className={styles.numbers}>
                     <div className={styles.partners_line}>
-                      <p className={styles.num} data-target="7">
-                        {isVisible ? <CountUp duration={2} end={7} /> : 0} +
+                      <p className={styles.num} data-target="8">
+                        {isVisible ? <CountUp duration={2} end={8} /> : 0} +
                       </p>
                     </div>
                     <p className={styles.para}>Events</p>
@@ -127,8 +143,8 @@ const Partners = ({ dark }) => {
 
                   <div className={styles.numbers}>
                     <div className={styles.partners_line}>
-                      <p className={styles.num} data-target="50">
-                        {isVisible ? <CountUp duration={2} end={50} /> : 0} +
+                      <p className={styles.num} data-target="60">
+                        {isVisible ? <CountUp duration={2} end={60} /> : 0} +
                       </p>
                       {/* <p className="plus">+</p> */}
                     </div>
@@ -137,8 +153,8 @@ const Partners = ({ dark }) => {
 
                   <div className={styles.numbers}>
                     <div className={styles.partners_line}>
-                      <p className={styles.num} data-target="700">
-                        {isVisible ? <CountUp duration={2} end={700} /> : 0} +
+                      <p className={styles.num} data-target="800">
+                        {isVisible ? <CountUp duration={2} end={800} /> : 0} +
                       </p>
                       {/* <p className="plus">+</p> */}
                     </div>
@@ -160,8 +176,8 @@ const Partners = ({ dark }) => {
                 <div className={`${styles.partners_line} ${styles.second}`}>
                   <div className={styles.numbers2}>
                     <div className={styles.partners_line}>
-                      <p className={styles.num} data-target="10000">
-                        {isVisible ? <CountUp duration={2} end={10000} /> : 0} +
+                      <p className={styles.num} data-target="12000">
+                        {isVisible ? <CountUp duration={2} end={12000} /> : 0} +
                       </p>
                       {/* <p className="plus">+</p> */}
                     </div>
@@ -179,8 +195,8 @@ const Partners = ({ dark }) => {
                   </div>
                   <div className={styles.numbers2}>
                     <div className={styles.partners_line}>
-                      <p className={styles.num} data-target="50">
-                        {isVisible ? <CountUp duration={2} end={50} /> : 0} +
+                      <p className={styles.num} data-target="60">
+                        {isVisible ? <CountUp duration={2} end={60} /> : 0} +
                       </p>
                       {/* <p className="plus">+</p> */}
                     </div>
@@ -206,7 +222,10 @@ const Partners = ({ dark }) => {
           </p>
           <h4>
             Reach out to us:
-            <a href="mailto:tedxvitpune@gmail.com">tedxvitpune@gmail.com</a>
+            <br />
+            Atharva Kulkarni: +91 (973) 02 78541
+            <br />
+            Kewal Barhate: +91 (772) 20 91910
           </h4>
         </div>
 

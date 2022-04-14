@@ -1,17 +1,11 @@
 import React from "react";
 import styles from "./About.module.scss";
 import grid from "../../images/WhiteGrid.svg";
-
 import ted from "../../images/Aboutpages/ted.svg";
 import tedx from "../../images/Aboutpages/tedx.svg";
 import tedxVit from "../../images/Aboutpages/tedxVit.svg";
 import redLine from "../../images/Aboutpages/redLine.svg";
-// import ABout1 from "../../images/Aboutpages/about1.png";
-// import LineSVG from "../../images/Aboutpages/line.svg";
-// import LineMobile from "../../images/Aboutpages/line-mobile.svg";
-// import About2 from "../../images/Aboutpages/about2.jpg";
-// import About3 from "../../images/Aboutpages/about3.png";
-// import About4 from "../../images/Aboutpages/about4.png";
+
 
 const About = ({ dark }) => {
   const pageStyle = {

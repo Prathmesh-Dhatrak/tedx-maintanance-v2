@@ -1,21 +1,14 @@
 import React from "react";
 import "./PandemoniumSection.scss";
-import video from "../../../images/Home/pandemoniumVIdeo.mp4";
-import gif from "../../../images/Home/pandemoniumGIF.gif";
+import gif from "../../../images/Home/pandemonium.gif";
 const PandemoniumSection = () => {
   return (
     <div className="pandemonium-container">
       <div className="pandemonium-section1 sm-padding">
         <span className="pandemonium-spanText">Edition 7</span>
-        {/* <h1 className="pandemonium-embr-title">Embracing the Pandemonium</h1> */}
-        <img className="gifimg" src={gif} alt="" srcset="" />
-        {/* <video loop autoPlay>
-          <source src={video} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video> */}
+        <img className="gifimg" src={gif} alt="" />
       </div>
       <div className="pandemonium-section2">
-        <span className="pandemonium-spanText">Lorem ipsum dolor sit</span>
         <p className="pandemonium-embr-para">
           All the strum and drag in our heads draws down to introspecting-
           engulfed by turmoil. From raging uproars to cheerful celebrations,

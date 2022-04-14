@@ -43,10 +43,7 @@ const Header = ({ dark }) => {
 
   return (
     <header className="header__middle">
-      <div
-        className="container"
-
-      >
+      <div className="container">
         <div
           className="row"
           // style={{
@@ -66,15 +63,12 @@ const Header = ({ dark }) => {
           </div>
 
           <div className="header__middle__menus">
-            <nav
-              className="main-nav "
-
-            >
+            <nav className="main-nav ">
               {isResponsiveclose === true ? (
                 <>
                   <span
                     className="menubar__button"
-                    style={{ display: "none" }}
+                    style={{ display: "none", color: dark && !isResponsiveclose ? "white" : "black" }}
                     onClick={toggleClass}
                   >
                     <FiXCircle />
@@ -84,7 +78,7 @@ const Header = ({ dark }) => {
                 <>
                   <span
                     className="menubar__button"
-                    style={{ display: "none" }}
+                    style={{ display: "none", color: dark && !isResponsiveclose ? "white" : "black" }}
                     onClick={toggleClass}
                   >
                     <FiAlignRight />
@@ -92,10 +86,7 @@ const Header = ({ dark }) => {
                 </>
               )}
 
-              <ul
-                className={boxClass.join(" ")}
-
-              >
+              <ul className={boxClass.join(" ")}>
                 {navData.map((navitem, index) => {
                   return (
                     <li className="menu-item" key={index}>
@@ -120,7 +111,8 @@ const Header = ({ dark }) => {
                   onClick={toggleSubmenu}
                   className="menu-item sub__menus__arrows"
                 >
-                  <Link to={'/Contact'}
+                  <Link
+                    to={"/Contact"}
                     style={{
                       color: dark ? "#aaaaaa" : "#474747",
                       fontStyle: "normal",

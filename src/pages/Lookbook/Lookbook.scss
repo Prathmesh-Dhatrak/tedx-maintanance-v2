@@ -64,7 +64,7 @@
 
 @media screen and (max-width: $medium) {
   .lookbook-conatiner {
-    padding: 1rem 1.5rem;
+    padding: 1rem 0rem;
     & .container {
       & h1 {
         font-size: 25px;
@@ -73,7 +73,7 @@
         -webkit-text-stroke: 0.5px rgb(255, 255, 255);
       }
       label {
-        font-size: 85px;
+        font-size: 75px;
       }
       & .year2019-container,
       .year2018-container {

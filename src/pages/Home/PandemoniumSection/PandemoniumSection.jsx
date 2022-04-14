@@ -5,9 +5,7 @@ const PandemoniumSection = () => {
   return (
     <div className="pandemonium-container">
       <div className="pandemonium-section1 sm-padding">
-        <span className="pandemonium-spanText">
-          TedxVITPune Edition VII Theme
-        </span>
+        <span className="pandemonium-spanText">Edition 7</span>
         {/* <h1 className="pandemonium-embr-title">Embracing the Pandemonium</h1> */}
         {/* <img src={gif} alt="" srcset="" /> */}
         <video loop autoPlay>

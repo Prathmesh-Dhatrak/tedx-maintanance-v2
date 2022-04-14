@@ -295,11 +295,12 @@
 
     .image_about {
         //Content
-        //margin: 0 auto;
+        margin: 0 auto;
         background-image: url(../../images/Aboutpages/stage.svg);
         height: 90vh;
-        width: 100%;
+        width: 90%;
         border-radius: 30px;
+
 
         .about_1_wrapper {
             position: absolute;
@@ -333,10 +334,7 @@
         .image_about {
             //Content
             //margin: 0 auto;
-            background-image: url(../../images/Aboutpages/stage.svg);
-            height: 90vh;
-            width: 100%;
-            border-radius: 30px;
+            
     
             .about_1_wrapper {
                 position: absolute;

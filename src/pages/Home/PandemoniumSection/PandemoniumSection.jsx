@@ -1,17 +1,18 @@
 import React from "react";
 import "./PandemoniumSection.scss";
 import video from "../../../images/Home/pandemoniumVIdeo.mp4";
+import gif from "../../../images/Home/pandemoniumGIF.gif";
 const PandemoniumSection = () => {
   return (
     <div className="pandemonium-container">
       <div className="pandemonium-section1 sm-padding">
         <span className="pandemonium-spanText">Edition 7</span>
         {/* <h1 className="pandemonium-embr-title">Embracing the Pandemonium</h1> */}
-        {/* <img src={gif} alt="" srcset="" /> */}
-        <video loop autoPlay>
+        <img className="gifimg" src={gif} alt="" srcset="" />
+        {/* <video loop autoPlay>
           <source src={video} type="video/mp4" />
           Your browser does not support the video tag.
-        </video>
+        </video> */}
       </div>
       <div className="pandemonium-section2">
         <span className="pandemonium-spanText">Lorem ipsum dolor sit</span>

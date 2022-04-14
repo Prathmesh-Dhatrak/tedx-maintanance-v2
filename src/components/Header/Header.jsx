@@ -120,7 +120,7 @@ const Header = ({ dark }) => {
                   onClick={toggleSubmenu}
                   className="menu-item sub__menus__arrows"
                 >
-                  <Link
+                  <Link to={'/Contact'}
                     style={{
                       color: dark ? "#aaaaaa" : "#474747",
                       fontStyle: "normal",

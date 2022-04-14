@@ -1,57 +1,98 @@
-.gallery-conatiner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 6rem 3rem;
-  label {
-    font-family: "Candara";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 135px;
-    line-height: 165px;
-    color: #ffffff;
-    position: absolute;
-  }
+@import "../../styles/_variables";
+.lookbook-conatiner {
+  // display: flex;
 
-  & .year2019-container,
-  .year2018-container {
-    position: relative;
-    width: 100%;
+  padding: 6rem 6rem;
+  & .container {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    & .gallery-3img-column,
-    .gallery-4img-column {
+    justify-content: center;
+    align-items: center;
+    & h1 {
+      font-family: $font-default;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 65px;
+      line-height: 59px;
+      -webkit-text-stroke: 1px rgb(255, 255, 255);
+      -webkit-text-fill-color: rgb(0, 0, 0);
+      padding-bottom: 4rem;
+      // border: 1px solid #ffffff;
+    }
+    label {
+      font-family: $font-default;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 135px;
+      line-height: 165px;
+      color: #ffffff;
+      position: absolute;
+    }
+
+    & .year2019-container,
+    .year2018-container {
+      position: relative;
       width: 100%;
       display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      justify-content: center;
-      align-items: center;
-      img {
-        padding: 5px;
-        // width: 412px;
-        height: auto;
+      flex-direction: column;
+      // flex-wrap: nowrap;
+      & .gallery-3img-column,
+      .gallery-4img-column {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        img {
+          padding: 5px;
+          // width: 412px;
+          height: auto;
+        }
+      }
+      & .label-2019 {
+        top: 18rem;
+        left: 22rem;
+      }
+      & .label-2018 {
+        top: 18rem;
+        right: 25rem;
       }
     }
-    // & .gallery-3img-column {
-    //   img {
-    //     // max-width: 412px;
-    //   }
-    // }
-    // & .gallery-4img-column {
-    //   img {
-    //     // max-width: 303.76px;
-    //   }
-    // }
-    & .label-2019 {
-      top: 18rem;
-      left: 22rem;
-    }
-    & .label-2018 {
-      top: 18rem;
-      right: 25rem;
+  }
+}
+
+@media screen and (max-width: $medium) {
+  .lookbook-conatiner {
+    padding: 1rem 1.5rem;
+    & .container {
+      & h1 {
+        font-size: 25px;
+        padding: 2rem 0rem;
+        text-align: center;
+        -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+      }
+      label {
+        font-size: 85px;
+      }
+      & .year2019-container,
+      .year2018-container {
+        & .gallery-3img-column,
+        .gallery-4img-column {
+          flex-wrap: wrap;
+        }
+        & .gallery-4img-column{
+          width: 100%;
+        }
+        & .label-2019 {
+          top: 18rem;
+          left: 0rem;
+        }
+        & .label-2018 {
+          top: 18rem;
+          right: 0rem;
+        }
+      }
     }
   }
 }

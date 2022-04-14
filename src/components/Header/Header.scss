@@ -2,34 +2,26 @@
 .container {
   width: 100%;
   padding: 0rem 3rem;
-  font-family: "Aileron";
+  font-family: $font-default;
   font-style: normal;
+  font-weight: 300;
 }
 img {
   max-width: 100%;
   height: auto;
 }
 
-.sec__one {
-  position: relative;
-  width: 100%;
-  display: flex;
-  padding: 60px 0;
-}
-.sec__one h1 {
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-  color: $color-primary-main;
-  font-family: "Aileron";
-  font-style: normal;
-}
 .navBar .logo img {
   float: left;
   width: 18rem;
 }
-.is-active {
-  color: $color-primary-main !important;
+.is-active-white {
+  color: $color-white !important;
+  font-weight: bold !important;
+}
+.is-active-black {
+  color: $color-black !important;
+  font-weight: bold !important;
 }
 
 .navBar .col-md-3 {
@@ -56,8 +48,9 @@ ul.main-menu > li.menu-item:first-child {
     & button {
       cursor: pointer;
       outline: none;
-      font-family: "Aileron";
-      font-style: normal;
+      font-family: $font-default;
+
+      font-weight: bold;
       padding: 0.55rem 2rem;
       border-radius: 10px;
       font-size: 1.5rem;
@@ -73,7 +66,7 @@ li {
 }
 .menu-item a {
   font-size: 1.8rem;
-  font-weight: 600;
+  font-weight: 300;
   line-height: 40px;
   position: relative;
   display: block;
@@ -120,12 +113,6 @@ li {
   // border-bottom: 1px dashed rgb(255, 51, 0);
   position: relative;
 }
-.header__middle__logo > a > h1 {
-  color: $color-primary-main;
-  text-transform: uppercase;
-  text-decoration: none;
-  margin-top: 33px;
-}
 
 .header__middle__menus span.text {
   position: absolute;
@@ -154,31 +141,12 @@ li {
   z-index: 1000;
   box-shadow: 0 10px 12px rgb(22 33 39 / 25%);
 }
-
-@media (max-width: 767px) {
-  .header__middle .active {
-    color: $color-primary-main !important;
-  }
-}
-
-@media (min-width: 992px) {
-  .sub__menus__arrows:hover .sub__menus {
-    display: block;
-  }
-  .sub__menus__arrows__full:hover .sub__menus {
-    display: block;
-    z-index: 1000000;
-  }
-}
 .menu-item .sub__menus a {
   padding: 7px 0 0px 0;
   margin: 7px 27px;
 }
-// .menu-item:hover > a {
-//   color: #07a8ff !important;
-// }
+
 .menu-item .sub__menus li:hover a {
-  // color: #07a8ff !important;
   &:after {
     display: block;
     content: "";
@@ -196,6 +164,22 @@ li {
   margin: 17px 0 0 0;
 }
 
+@media (max-width: 767px) {
+  .header__middle .active {
+    color: $color-primary-main !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .sub__menus__arrows:hover .sub__menus {
+    display: block;
+  }
+  .sub__menus__arrows__full:hover .sub__menus {
+    display: block;
+    z-index: 1000000;
+  }
+}
+
 @media (max-width: 991px) {
   .header__middle__logo {
     width: 77%;
@@ -210,13 +194,10 @@ li {
   .main-nav .menubar__button:hover {
     background-color: #f44336;
   }
-  .main-nav .menu-item:hover > a {
-    color: #07a8ff !important;
-  }
   .main-nav .menubar__button {
     display: block !important;
     float: right;
-    background-color: #080808;
+    // background-color: #080808;
     color: #fff;
     padding: 6px 7px;
     border-radius: 5px;

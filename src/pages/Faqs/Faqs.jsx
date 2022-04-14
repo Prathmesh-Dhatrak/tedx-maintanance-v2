@@ -1,14 +1,15 @@
 import React from "react";
 import Accordian from "./Accordian";
 import styles from "./Faqs.module.scss";
-
-const Faqs = () => {
-  const faqStyle = {
-    backgroundColor: "white",
+import grid from "../../images/WhiteGrid.svg"
+const Faqs = ({ dark }) => {
+  const pageStyle = {
+    backgroundColor: dark ? "black" : "white",
+    backgroundImage: 'url("' + grid + '")',
   };
   return (
     <>
-      <div className="page" style={faqStyle}>
+      <div className="page" style={pageStyle}>
         <h2 className={styles.faqs}>Frequently Asked Questions</h2>
 
         <h2 className={styles.category}>About TEDxVITPune</h2>

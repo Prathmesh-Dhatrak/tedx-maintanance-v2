@@ -1,10 +1,11 @@
 import React from "react";
 import styles from "./Contact.module.scss";
 import Touch from "../../images/Contactpages/touch.jpg";
-
-const Contact = () => {
+import grid from "../../images/WhiteGrid.svg";
+const Contact = ({ dark }) => {
   const pageStyle = {
-    backgroundColor: "white",
+    backgroundColor: dark ? "black" : "white",
+    backgroundImage: 'url("' + grid + '")',
     margin: 0,
   };
   return (

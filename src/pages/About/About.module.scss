@@ -14,8 +14,7 @@
             font-weight: 700px;
             font-family: "Aileron";
         }
-        img {
-        }
+        
         p {
             font-family: "Candara";
             font-size: 20px;
@@ -30,8 +29,6 @@
     .new_about_ted_right {
         width: 55%;
         color: #333333;
-        .redLine_img {
-        }
         p {
             padding-right: 2%;
             padding-right: 5%;
@@ -138,8 +135,6 @@
             font-weight: 700px;
             font-family: "Aileron";
         }
-        img {
-        }
         p {
             margin-top: 5%;
             font-family: "Candara";
@@ -221,8 +216,7 @@
                 font-weight: 700px;
                 font-family: "Aileron";
             }
-            img {
-            }
+            
         }
         .new_tedxVitpune_flex_right {
             width: 35%;
@@ -295,11 +289,12 @@
 
     .image_about {
         //Content
-        //margin: 0 auto;
+        margin: 0 auto;
         background-image: url(../../images/Aboutpages/stage.svg);
         height: 90vh;
-        width: 100%;
+        width: 90%;
         border-radius: 30px;
+
 
         .about_1_wrapper {
             position: absolute;
@@ -333,10 +328,7 @@
         .image_about {
             //Content
             //margin: 0 auto;
-            background-image: url(../../images/Aboutpages/stage.svg);
-            height: 90vh;
-            width: 100%;
-            border-radius: 30px;
+            
     
             .about_1_wrapper {
                 position: absolute;
@@ -362,4 +354,3 @@
     }
 }
 
-/*New design */

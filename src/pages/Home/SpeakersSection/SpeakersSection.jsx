@@ -2,6 +2,15 @@ import React, { useState, useEffect } from "react";
 import "./SpeakersSection.scss";
 import Slider from "react-slick";
 import { Speaker1, Speaker2, Speaker3, Speaker4 } from "../../../images/Home";
+import rohit_1 from "../../../images/Home/rohit_1.svg";
+import avinash from "../../../images/Home/avinash.svg";
+import anusree from "../../../images/Home/anusree.svg";
+import niranjan from "../../../images/Home/niranjan.svg";
+import nuphur from "../../../images/Home/nuphur.svg";
+import anryan from "../../../images/Home/anryan.svg";
+
+
+
 import {
   FaArrowRight,
   FaArrowLeft,
@@ -16,7 +25,7 @@ const speakersData = [
     link: "https://www.youtube.com/watch?v=RNnSrv3PqMI&t=188s",
   },
   {
-    img: Speaker2,
+    img: Speaker4,
     title: "Amira Gill",
     para: "Amira, emboldened by the hall of famous singers, is a vocalist-songwriter and a certified neurological music therapist, who has worked with top minds of the industry like Shreya Ghoshal and Shankar Mahadevan. We present to you an autobiographical talk of her journey to the musical stage.",
     link: "https://www.youtube.com/watch?v=WRmHNTV-uwo&t=20s",
@@ -28,11 +37,61 @@ const speakersData = [
     link: "https://www.youtube.com/watch?v=5ZGg5BrbZQU",
   },
   {
-    img: Speaker4,
+    img: Speaker2,
     title: "Mahesh Kale",
     para: "An alumnus of Vishwakarma Institute of Technology, Mahesh Kale is a world-renowned vocalist who has firmly established himself as the face of Indian classical music for the new generation. Here’s a talk by maestro singer Mahesh Kale who shattered all the common myths about Carnatic music and brought out the diamonds it holds inside.",
     link: "https://www.youtube.com/watch?v=A_0ZqqlpByc",
   },
+  {
+    img: rohit_1,
+    title: "Rohit Pandharkar",
+    para: "Rohit Pandharkar is the head of data science and artificial intelligence at the group strategy office of the $20BN Mahindra Group which spans across several industries and has a presence in more than 100 countries. We present to you a strategic expert in the field of artificial intelligence who teleports us to the future of AI and the impossible heights it could scale.",
+    link: "https://www.youtube.com/watch?v=jFyc-Fwwbyo",
+  },
+  {
+    img: avinash,
+    title: "Avinash Dharmadhikari",
+    para: "Shri. Avinash Dharmadhikari is a former IAS officer. Before joining the IAS, he was a full-time social activist and a freelance journalist for ten years. An expert talk from the ex-IAS, neatly lays down those points that would lead to more transparent governance and empowerment of people.",
+    link: "https://www.youtube.com/watch?v=sgL0E23O17I",
+  },
+  {
+    img: niranjan,
+    title: "Niranjan Pedanekar",
+    para: "Niranjan Pedanekar, an AI scientist is revolutionising theatre. Niranjan has a day job as a scientist and is also a playwright, who has written, directed, translated, and acted in numerous plays.Hear the talk of an AI playwright scientist, who shares a unique idea which we never thought of!",
+    link: "https://www.youtube.com/watch?v=oKb131uCNxU&t=13s",
+  },
+  {
+    img: anusree,
+    title: "Anusree Raha",
+    para: "An economist by education and a bureaucrat by profession, Anusree Raha is an Indian Economic Service Officer, currently working in the capacity of Deputy Director to the Government of India. Hear the top bureaucrat speak of the great combination that technology makes with government schemes and great opportunities that lie in it.",
+    link: "https://www.youtube.com/watch?v=hCg_mSySd7Q",
+  },
+  {
+    img: nuphur,
+    title: "Nupur Dhakephalkar",
+    para: "Nupur Dhakephalkar is a clinical psychologist trained at the National Institute of Mental Health and Neuro Sciences, NIMHANS. Watch her as she ponders upon and shares her ideologies and experiences in the field of psychology through an acronym.",
+    link: "https://www.youtube.com/watch?v=bNfT-3jGRCg",
+  },
+  {
+    img: anryan,
+    title:"Adithya Narayanan",
+    para: "The manager of social innovation and advocacy at Teach for India (TFI), Adithya Narayanan is working on solutions to some of the most cardinal education-related issues prevalent in the country and has played varied roles in the development sector of India. Hear from this Education Activist, as he traverses us across his journey and his devoted life towards solving India's education challenges.",
+    link: "https://www.youtube.com/watch?v=FUMsMLlPGvk",
+  },
+  {
+    img: Speaker4,
+    title:"Ulka Kelkar",
+    para: "Ulka Kelkar is director, Climate Program, World Resources Institute, India. She leads WRI India’s work on climate policy which aims to support India’s pathway to a climate-resilient low-carbon economy through judicious national policies, carbon market mechanisms, and effective implementation in states and cities.",
+    link: "",
+  },
+  {
+    img: Speaker4,
+    title:"Daniel Waples & Flavio Lopez",
+    para: "Daniel Waples is one of the world’s best-known handpan (hang drum) players having played in over 50 countries and amassing over 40 million views on YouTube. Having played the violin since he was just 9, Flavio feels comfortable within many different genres & musical ideas, adding a truly eclectic vibe to his sound, be it classical music or electronica.",
+    link: "",
+  },
+
+
 ];
 
 const SpeakersSection = () => {

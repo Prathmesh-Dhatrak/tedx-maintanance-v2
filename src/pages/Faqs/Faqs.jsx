@@ -15,8 +15,9 @@ const Faqs = ({ dark }) => {
         <h2 className={styles.category}>About TEDxVITPune</h2>
 
         <Accordian
-          question="What is TEDx?"
-          answer="TEDxVITPune is an event where live talks with unique ideas and performances are shared with the community to educate and engage them."
+          question="What is TEDxVITPune?"
+          answer="TEDxVITPune is an event where live talks with unique ideas and performances are shared with the community to educate and engage them.
+      "
         />
         {/*<Accordian question="How can I reach out to the organising team of TEDxVITPune?" 
       answer="
@@ -25,7 +26,10 @@ const Faqs = ({ dark }) => {
         <Accordian
           question="How can I reach out to the organising team of TEDxVITPune?"
           answer="
-      <p>You can reach out to us through our Social Media handles</p>"
+      <p>You can reach out to us through our Social Media handles</p>
+      Check out our Contact page to know more about our endeavours and reach out to the organising team.
+      
+      "
         />
 
         <Accordian
@@ -40,8 +44,9 @@ const Faqs = ({ dark }) => {
 
         <Accordian
           question=" Is TEDxVITPune a part of TED?"
-          answer="No, it is an independently organized TEDx event licensed by TED. "
+          answer="No, it is an independently organised TEDx event licensed by TED. "
         />
+
         <Accordian
           question="How do I suggest a Speaker for TEDxVITPune?"
           answer="
@@ -53,17 +58,25 @@ const Faqs = ({ dark }) => {
 
         <Accordian
           question="What is the nature of the event?"
-          answer="Due to current covid restrictions, TEDxVITPune 2021 will be held in online mode on 29th May, 2021. The platform details will be shared with the attendees a week prior to the event."
+          answer="TEDxVITPune 2022 will be held in an offline mode. Other event-specific details will be shared with the attendees a week before the event.
+      "
         />
 
         <Accordian
           question="Is there a limit to the number of attendees?"
-          answer="Yes, according to the guidelines set by TED, TEDxVITPune has a limit of 100 attendees."
+          answer="Yes, according to the guidelines set by TED, TEDxVITPune has a limit of 100 attendees.
+      "
+        />
+
+        <Accordian
+          question="Is TEDxVITPune a paid event? "
+          answer="Yes. We, here at TEDx, believe in a holistic experience that lasts a lifetime. From workshops to event merchandise, we promise to put forth an invaluable experience for all the attendees.
+      "
         />
 
         <Accordian
           question="What all is included in the ticket for TEDxVITPune?"
-          answer="The event ticket includes access to all speaker talks and performances, networking activities, workshops, speaker interaction and specially curated merchandise delievered to your doorstep."
+          answer="The event ticket includes access to all speaker talks and performances, networking activities, workshops, speaker interaction, and specially curated merchandise for all the attendees."
         />
 
         <Accordian
@@ -72,19 +85,32 @@ const Faqs = ({ dark }) => {
         />
 
         <Accordian
-          question="Is the ticket refundable or transferable?"
+          question="Is the ticket refundable or transferable?
+      "
           answer="The ticket to TEDxVITPune is non-transferable and non-refundable."
         />
 
         <Accordian
           question="How do I buy a ticket from Townscript?"
-          answer="You can purchase a ticket to the event via Townscript after filling all the necessary details.
-      Buy ticket"
+          answer="Upon the selection of your attendee application, you can purchase your ticket to the event via Townscript after filling in all the necessary details.
+      Apply as an attendee here!
+      "
         />
 
         <Accordian
           question="What is the duration of the event?"
           answer="TEDxVITPune is a one-day event. The timings and itinerary will be notified to the selected attendees prior to the event."
+        />
+
+        <Accordian
+          question="Who can attend the offline event?"
+          answer="Anyone interested can register by filling out an Attendee Application Form. However, only top 100 forms will be selected for further attending the event."
+        />
+
+        <Accordian
+          question="Are there any experience activities included along with the talks?"
+          answer="Yes! We have a host of experience activities planned for our attendees.
+      "
         />
 
         <Accordian

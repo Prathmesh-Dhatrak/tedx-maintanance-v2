@@ -23,6 +23,11 @@
       font-size: 80px;
     }
   }
+  & .pandemonium-section1 {
+    & .gifimg {
+      mix-blend-mode:screen;
+    }
+  }
   & .pandemonium-section2 {
     text-align: justify;
     display: flex;
@@ -57,6 +62,7 @@
         font-size: 50px;
       }
     }
+
     & .pandemonium-section2 {
       align-items: center;
       width: 100%;

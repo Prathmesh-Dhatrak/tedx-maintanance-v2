@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Partners.module.scss";
 
+import grid from "../../images/WhiteGrid.svg";
 import alt1 from "../../images/PartnerPages/at1.jpg";
 import alt2 from "../../images/PartnerPages/at2.jpg";
 import alt3 from "../../images/PartnerPages/at3.jpg";
@@ -12,9 +13,10 @@ import spons2 from "../../images/PartnerPages/spons2.png";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 
-const Partners = () => {
+const Partners = ({ dark }) => {
   const partnerStyle = {
-    backgroundColor: "white",
+    backgroundColor: dark ? "black" : "white",
+    backgroundImage: 'url("' + grid + '")',
   };
   return (
     <div className={styles.page} style={partnerStyle}>

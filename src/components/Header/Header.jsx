@@ -7,11 +7,10 @@ import "./Header.scss";
 const navData = [
   "Home",
   "About",
-  "Gallery",
   "Endeavour",
-  "Creatives",
+  "Lookbook",
   "Partners",
-  "Contact",
+  "Creatives",
 ];
 
 const Header = ({ dark }) => {
@@ -46,20 +45,22 @@ const Header = ({ dark }) => {
     <header className="header__middle">
       <div
         className="container"
-        style={{
-          backgroundColor: dark ? "#111111" : "#fff",
-          color: dark ? "#fff" : "#000",
-        }}
+
       >
         <div
           className="row"
-          style={{
-            backgroundColor: dark ? "#111111" : "#fff",
-            color: dark ? "#fff" : "#000",
-          }}
+          // style={{
+          //   backgroundColor: dark ? "#111111" : "#fff",
+          //   color: dark ? "#aaaaaa" : "#474747",
+          //   fontStyle: "normal",
+          // }}
         >
           <div className="header__middle__logo">
-            <NavLink exact activeClassName="is-active" to={`/`}>
+            <NavLink
+              exact
+              activeClassName={dark ? "is-active-white" : "is-active-black"}
+              to={`/`}
+            >
               <img src={dark ? LogoLight : LogoDark} alt={"TEDx Logo"}></img>
             </NavLink>
           </div>
@@ -67,10 +68,7 @@ const Header = ({ dark }) => {
           <div className="header__middle__menus">
             <nav
               className="main-nav "
-              style={{
-                backgroundColor: dark ? "#111111" : "#fff",
-                color: dark ? "#fff" : "#000",
-              }}
+
             >
               {isResponsiveclose === true ? (
                 <>
@@ -96,21 +94,21 @@ const Header = ({ dark }) => {
 
               <ul
                 className={boxClass.join(" ")}
-                style={{
-                  backgroundColor: dark ? "#111111" : "#fff",
-                  color: dark ? "#fff" : "#000",
-                }}
+
               >
                 {navData.map((navitem, index) => {
                   return (
                     <li className="menu-item" key={index}>
                       <NavLink
                         exact
-                        activeClassName="is-active"
+                        activeClassName={
+                          dark ? "is-active-white" : "is-active-black"
+                        }
                         onClick={toggleClass}
                         to={navitem === "Home" ? `/` : `/` + navitem}
                         style={{
-                          color: dark ? "#fff" : "#000",
+                          color: dark ? "#aaaaaa" : "#474747",
+                          fontStyle: "normal",
                         }}
                       >
                         {navitem}
@@ -122,11 +120,11 @@ const Header = ({ dark }) => {
                   onClick={toggleSubmenu}
                   className="menu-item sub__menus__arrows"
                 >
-                  <Link
+                  <Link to={'/Contact'}
                     style={{
-                      color: dark ? "#fff" : "#000",
+                      color: dark ? "#aaaaaa" : "#474747",
+                      fontStyle: "normal",
                     }}
-
                   >
                     More <FiChevronDown />
                   </Link>
@@ -134,7 +132,23 @@ const Header = ({ dark }) => {
                     <li>
                       <NavLink
                         onClick={toggleClass}
-                        activeClassName="is-active"
+                        activeClassName={
+                          dark ? "is-active-white" : "is-active-black"
+                        }
+                        to={`/Contact`}
+                        style={{
+                          color: "#000",
+                        }}
+                      >
+                        Contact
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        onClick={toggleClass}
+                        activeClassName={
+                          dark ? "is-active-white" : "is-active-black"
+                        }
                         to={`/Privacy`}
                         style={{
                           color: "#000",
@@ -146,13 +160,15 @@ const Header = ({ dark }) => {
                     <li>
                       <NavLink
                         onClick={toggleClass}
-                        activeClassName="is-active"
+                        activeClassName={
+                          dark ? "is-active-white" : "is-active-black"
+                        }
                         to={`/Faqs`}
                         style={{
                           color: "#000",
                         }}
                       >
-                        Faqs
+                        FAQs
                       </NavLink>
                     </li>
                   </ul>
@@ -160,7 +176,9 @@ const Header = ({ dark }) => {
                 <li className="menu-item ">
                   <NavLink
                     onClick={toggleClass}
-                    activeClassName="is-active"
+                    activeClassName={
+                      dark ? "is-active-white" : "is-active-black"
+                    }
                     to={`/`}
                     className="button"
                   >

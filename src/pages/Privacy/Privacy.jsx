@@ -1,10 +1,11 @@
 import React from "react";
-import styles from './Privacy.module.scss';
-
-const Privacy = () => {
+import styles from "./Privacy.module.scss";
+import grid from "../../images/WhiteGrid.svg";
+const Privacy = ({ dark }) => {
   const privacyStyle = {
-    backgroundColor: "white",
-  }
+    backgroundColor: dark ? "black" : "white",
+    backgroundImage: 'url("' + grid + '")',
+  };
   return (
     <>
     <div classNameName="page" style={privacyStyle}>
@@ -262,9 +263,7 @@ const Privacy = () => {
     </div>
   </div>
     </>
-    
   );
 };
 
 export default Privacy;
-

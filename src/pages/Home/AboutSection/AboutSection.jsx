@@ -41,7 +41,7 @@ const AboutSection = () => {
         </div>
         <div className="about-section3">
           {" "}
-          <Link href="">learn more at ted.com</Link>
+          <Link to={"/"}>learn more at ted.com</Link>
         </div>
       </div>
     </div>

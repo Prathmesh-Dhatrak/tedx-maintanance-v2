@@ -1,16 +1,12 @@
 import React from "react";
+import grid from "../../images/WhiteGrid.svg";
 
-const Newsletter = () => {
-  return (
-    <>Newsletter</>
-    // <div className="page" style={{ color: "#000" }}>
-    //   <div className="container">
-    //     <div className="row">
-    //       <h3>This is the Newsletter page</h3>
-    //     </div>
-    //   </div>
-    // </div>
-  );
+const Newsletter = ({ dark }) => {
+  const pageStyle = {
+    backgroundColor: dark ? "black" : "white",
+    backgroundImage: 'url("' + grid + '")',
+  };
+  return <div style={pageStyle}>Newsletter</div>;
 };
 
 export default Newsletter;

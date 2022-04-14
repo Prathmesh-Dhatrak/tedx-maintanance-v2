@@ -1,9 +1,14 @@
 import React from "react";
 import "./Gallery.scss";
 import { ImgBig, ImgSmall } from "../../images/Gallery";
-const Gallery = () => {
+import grid from "../../images/Grid.svg"
+const Gallery = ({ dark }) => {
+  const pageStyle = {
+    backgroundColor: dark ? "black" : "white",
+    backgroundImage: 'url("' + grid + '")',
+  };
   return (
-    <div className="gallery-conatiner">
+    <div className="gallery-conatiner" style={pageStyle}>
       <div className="year2019-container">
         <div className="gallery-3img-column">
           <img src={ImgBig} alt="" />

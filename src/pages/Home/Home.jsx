@@ -5,10 +5,15 @@ import PandemoniumSection from "./PandemoniumSection";
 import SpeakersSection from "./SpeakersSection";
 import TimelineSection from "./TimelineSection";
 import AboutSection from "./AboutSection";
+import grid from "../../images/Grid.svg"
 
-const Home = ({ dimensions }) => {
+const Home = ({ dark }) => {
+  const pageStyle = {
+    backgroundColor: dark ? "black" : "white",
+    backgroundImage: 'url("' + grid + '")',
+  };
   return (
-    <>
+    <div style={pageStyle}>
       <BannerSection />
       <PandemoniumSection />
       {/* <hr></hr> */}
@@ -16,7 +21,7 @@ const Home = ({ dimensions }) => {
       {/* <hr></hr> */}
       <TimelineSection />
       <AboutSection />
-    </>
+    </div>
   );
 };
 

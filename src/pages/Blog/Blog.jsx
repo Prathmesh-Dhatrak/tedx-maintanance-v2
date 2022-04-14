@@ -1,16 +1,12 @@
 import React from "react";
-
-const Blog = () => {
-  return (
-    <>Blogs</>
-    // <div className='page' style={{ color: "#000" }}>
-    //   <div className='container'>
-    //     <div className='row'>
-    //       <h3>This is the Blog page</h3>
-    //     </div>
-    //   </div>
-    // </div>
-  );
+import grid from "../../images/WhiteGrid.svg";
+const Blog = ({ dark }) => {
+  const pageStyle = {
+    backgroundColor: dark ? "black" : "white",
+    backgroundImage: 'url("' + grid + '")',
+  };
+  return <div  style={pageStyle}>Blogs</div>;
 };
 
 export default Blog;
+

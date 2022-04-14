@@ -141,15 +141,8 @@ const SpeakersSection = () => {
               key={idx}
               className={idx === imageIndex ? "slide activeSlide" : "slide"}
             >
-              <img
-                className="slide-img"
-                src={img}
-                alt={img}
-              />
-              <div
-                className="view-btn"
-                onClick={() => singleSpeakers(idx)}
-              >
+              <img className="slide-img" src={img} alt={img} />
+              <div className="view-btn" onClick={() => singleSpeakers(idx)}>
                 View Details
               </div>
             </div>
@@ -158,12 +151,12 @@ const SpeakersSection = () => {
       </div>
       {singleContainer ? (
         <div className={`single-speakers`}>
-          <FaAngleLeft
-            onClick={() => setSingleContainer(!singleContainer)}
-            className="back-arrow"
-            size={30}
-          />
           <div className={"slide-single"}>
+            <FaAngleLeft
+              onClick={() => setSingleContainer(!singleContainer)}
+              className="back-arrow"
+              size={30}
+            />
             <div className="single-slide-container-img">
               <img
                 className="single-slide-img"

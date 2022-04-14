@@ -6,10 +6,11 @@ import LineMobile from "../../images/Aboutpages/line-mobile.svg";
 import About2 from "../../images/Aboutpages/about2.jpg";
 import About3 from "../../images/Aboutpages/about3.png";
 import About4 from "../../images/Aboutpages/about4.png";
-
-const About = () => {
+import grid from "../../images/WhiteGrid.svg";
+const About = ({ dark }) => {
   const pageStyle = {
-    backgroundColor: "white",
+    backgroundColor: dark ? "black" : "white",
+    backgroundImage: 'url("' + grid + '")',
   };
   return (
     <>
@@ -106,42 +107,44 @@ const About = () => {
           </div>
         </div>
 
-
-
-
         {/*<!-- TedxVITPune Section -->*/}
         <div className={styles.about_tedx_section_wrapper}>
-
           <div className={styles.about_section_wrapper_left}>
+            <h2>TEDxVITPune</h2>
 
-          <h2>TEDxVITPune</h2>
+            <div className={styles.about_section_wrapper_line}>
+              <img src={LineSVG} alt="Line" />
+            </div>
 
-          <div className={styles.about_section_wrapper_line}>
-            <img src={LineSVG} alt="Line" />
+            <p>
+              TEDxVITPune is an independent TED event organized in Vishwakarma
+              Institute of Technology, an autonomous institute affiliated to
+              Savitribai Phule University. Started in 2015, TEDxVITPune was
+              among the first TEDx events in Pune and has grown to be a premier
+              platform for furthering TED’s mission of ‘Ideas Worth Spreading’,
+              within its local community. Over the past five events, TEDxVITPune
+              has brought together visionaries, thinkers and doers of different
+              disciplines from around the country to create a one-day event
+              filled with ideas and discussions that contribute to meaningful
+              change.
+            </p>
           </div>
-
-          <p>
-            TEDxVITPune is an independent TED event organized in Vishwakarma Institute of Technology, an autonomous institute affiliated to Savitribai Phule University. Started in 2015, TEDxVITPune was among the first TEDx events in Pune and has grown to be a premier platform for furthering TED’s mission of ‘Ideas Worth Spreading’, within its local community. Over the past five events, TEDxVITPune has brought together visionaries, thinkers and doers of different disciplines from around the country to create a one-day event filled with ideas and discussions that contribute to meaningful change. 
-          </p>
-          </div>
-
-
 
           <div className={styles.about_section_wrapper_right}>
+            <div className={styles.tedxImage}>
+              <img src={About3} alt="About3" />
+            </div>
 
-              <div className={styles.tedxImage}>
-                <img src={About3} alt="About3" />
-              </div>
-              
-              <p>
-              The event has hosted the likes of Stefano Pelle, Mahesh Kale, Rohit Pandharkar, Avinash Dharmadhikari, Niranjan Pedanekar, Anusree Raha, Nupur Dhakephalkar and Adithya Narayanan. Cumulatively, the event has garnered an extensive following around the country and has been recognized as an exemplary TEDx event in India.
-              </p>
+            <p>
+              The event has hosted the likes of Stefano Pelle, Mahesh Kale,
+              Rohit Pandharkar, Avinash Dharmadhikari, Niranjan Pedanekar,
+              Anusree Raha, Nupur Dhakephalkar and Adithya Narayanan.
+              Cumulatively, the event has garnered an extensive following around
+              the country and has been recognized as an exemplary TEDx event in
+              India.
+            </p>
           </div>
-
         </div>
-
-
-
 
         <div className={styles.about_tedx_community}>
           <div className={styles.comm_left}>

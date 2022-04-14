@@ -2,7 +2,6 @@
 @import "../fonts/Candara/Candara"; // paragraph text fonts
 @import "./_variables.scss";
 
-
 @font-face {
   font-family: "Rotunda_Bold";
   src: url("../fonts/webkit/rotunda-bold-webfont.woff");
@@ -61,7 +60,8 @@ html {
 body {
   box-sizing: border-box;
   overflow-x: hidden;
-  background-color: $color-primary-dark;
+  background-color: $color-black;
+  
   color: $color-primary-light;
 }
 

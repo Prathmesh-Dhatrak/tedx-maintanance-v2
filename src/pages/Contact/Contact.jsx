@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "./Contact.module.scss";
 import Touch from "../../images/Contactpages/touch.jpg";
-
-const Contact = () => {
+import grid from "../../images/WhiteGrid.svg";
+const Contact = ({ dark }) => {
   const pageStyle = {
-    backgroundColor: "white",
-    margin:0,
+    backgroundColor: dark ? "black" : "white",
+    backgroundImage: 'url("' + grid + '")',
+    margin: 0,
   };
   return (
     <>
@@ -21,7 +22,6 @@ const Contact = () => {
               Would you like to know more about our projects? Here’s how you can
               reach out to us.
             </p>
-            
           </div>
           <div className={styles.touch_right}>
             <img src={Touch} alt="touch" />
@@ -62,7 +62,6 @@ const Contact = () => {
               </a>
             </h4>
           </div>
-
         </div>
 
         <div className={styles.line}>
@@ -96,7 +95,6 @@ const Contact = () => {
               more questions.
             </p>
           </div>
-
         </div>
       </div>
     </>

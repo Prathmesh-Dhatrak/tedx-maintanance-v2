@@ -198,7 +198,7 @@ li {
     display: block !important;
     float: right;
     // background-color: #080808;
-    color: #fff;
+    // color: rgb(0, 0, 0) !important;
     padding: 6px 7px;
     border-radius: 5px;
     margin: 27px auto 0;
@@ -214,7 +214,7 @@ li {
     position: absolute;
     left: 0;
     z-index: 10007;
-    background-color: #d8f1ff;
+    background-color: #ffffff;
     border-bottom: 3px solid #ff3d00;
     right: 0;
     padding-bottom: 17px;
@@ -223,7 +223,7 @@ li {
   .main-nav .menu-item a {
     margin: 10px 17px;
     text-align: center;
-    color: #000000;
+    color: #000000 !important;
   }
   .main-nav ul.main-menu {
     display: none;

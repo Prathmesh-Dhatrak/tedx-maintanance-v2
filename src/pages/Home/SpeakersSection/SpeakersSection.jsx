@@ -12,26 +12,26 @@ const speakersData = [
   {
     img: Speaker1,
     title: "Jishnu Chatterjee",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisiornare enim cursus magna diam sollicitudin. Elit egestas nuncplacerat accumsan porttitor. Viverra lorem tristique nec ipsumsit.",
-    link: "",
+    para: "Jishnu is a 25-year-old Motion Designer based in Mumbai, who uses his innate sense of aesthetics to create Motion Graphics and visuals-packed narratives for films and web series. His most recent valuable piece, 'Scam 1992: The Harshad Mehta Story' received a nomination for the 'Excellence in Title Design' category at the prestigious SXSW Film. Here's a talk by a title sequence whizz who creates strong chronicle graphics, gives deep insights into his ability and how to get started!",
+    link: "https://www.youtube.com/watch?v=RNnSrv3PqMI&t=188s",
   },
   {
     img: Speaker2,
-    title: "Chatterjee Jishnu",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisiornare enim cursus magna diam sollicitudin. Elit egestas nuncplacerat accumsan porttitor. Viverra lorem tristique nec ipsumsit.",
-    link: "",
+    title: "Amira Gill",
+    para: "Amira, emboldened by the hall of famous singers, is a vocalist-songwriter and a certified neurological music therapist, who has worked with top minds of the industry like Shreya Ghoshal and Shankar Mahadevan. We present to you an autobiographical talk of her journey to the musical stage.",
+    link: "https://www.youtube.com/watch?v=WRmHNTV-uwo&t=20s",
   },
   {
     img: Speaker3,
-    title: "Lorem ipsum ",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisiornare enim cursus magna diam sollicitudin. Elit egestas nuncplacerat accumsan porttitor. Viverra lorem tristique nec ipsumsit.",
-    link: "",
+    title: "Stefano Pelle",
+    para: "Currently the founder and director of SP Associates Management Consultants, lecturer, and writer by hobby and achiever by passion. Here's a talk from the knight commander who shares his experience of the market and leadership expertise gained all over the years.",
+    link: "https://www.youtube.com/watch?v=5ZGg5BrbZQU",
   },
   {
     img: Speaker4,
-    title: "Consectetur Adipiscing",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisiornare enim cursus magna diam sollicitudin. Elit egestas nuncplacerat accumsan porttitor. Viverra lorem tristique nec ipsumsit.",
-    link: "",
+    title: "Mahesh Kale",
+    para: "An alumnus of Vishwakarma Institute of Technology, Mahesh Kale is a world-renowned vocalist who has firmly established himself as the face of Indian classical music for the new generation. Here’s a talk by maestro singer Mahesh Kale who shattered all the common myths about Carnatic music and brought out the diamonds it holds inside.",
+    link: "https://www.youtube.com/watch?v=A_0ZqqlpByc",
   },
 ];
 

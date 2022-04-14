@@ -23,65 +23,84 @@
     }
     .cs_wrapper {
         width: 100%;
-        display: flex;
-        justify-content: space-evenly;
         padding-top: 50px;
-        flex-wrap: wrap;
-        /* align-items: center; */
-    }
-}
-
-.cs_left h3,
-.cs_right h3,
-.cs_middle h3 {
-    font-family: "Aileron";
-    font-size: 24px;
-    color: #888888;
-    text-align: center;
-    padding-bottom: 50px;
-}
-
-.cs_left {
-    text-align: center;
-}
-.cs_left,
-.cs_right,
-.cs_middle {
-    width: 33%;
-    text-align: center;
-}
-.cs_left img,
-.cs_right img,
-.cs_middle img {
-    width: 200px;
-}
-.cs_left h3 {
-    padding-bottom: 100px;
-}
-.cs_right img {
-    width: 150px;
-}
-@media (max-width: 790px) {
-    .cs_wrapper {
+        display: flex;
         flex-direction: column;
-        .cs_left,
-        .cs_middle,
-        .cs_right {
-            width: 100%;
-            text-align: center;
-            margin-top: 10%;
-            h3 {
-                padding-bottom: 10%;
+        justify-content: center;
+        .cs_wrapper_up{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            .cs_image{
+                width: 18%;
+                height: 45%;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
             }
+
+        }
+        .cs_wrapper_down{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            .cs_image{
+                width: 18%;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+
         }
     }
 }
-@media (max-width: 332px) {
-    .h_1 {
-        font-size: 58px;
+
+
+@media (max-width: 650px) {
+    .countdown_spons{
+        h1{
+
+        }
+        .cs_wrapper {
+            
+            .cs_wrapper_up{
+                flex-direction: column;
+                .cs_image{
+                    width: 50%;
+                    margin: 35px 0px;
+                    img{
+                        width: 100%;
+                        height: auto;
+
+                    }
+                }
+            }
+            .cs_wrapper_down{
+                flex-direction: column;
+                .cs_image{
+                    width: 50%;
+                    margin: 35px 0px;
+                    img{
+                        width: 100%;
+                        height: auto;
+
+                    }
+                }
+            }
+            
+        }
     }
-    .countdown_spons {
-        h1 {
+
+    
+}
+@media (max-width: 322px){
+    .countdown_spons{
+        h1{
             font-size: 32px;
         }
     }

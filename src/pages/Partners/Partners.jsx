@@ -7,8 +7,13 @@ import alt2 from "../../images/PartnerPages/at2.jpg";
 import alt3 from "../../images/PartnerPages/at3.jpg";
 import collab from "../../images/PartnerPages/collaba.jpg";
 import VACPL from "../../images/PartnerPages/VACPL.png";
-import rohit from "../../images/PartnerPages/rohit.png";
-import spons2 from "../../images/PartnerPages/spons2.png";
+import airtel from "../../images/PartnerPages/airtel.png";
+import chopras from "../../images/PartnerPages/chopras.png";
+import cogni from "../../images/PartnerPages/cogni.png";
+import finiq from "../../images/PartnerPages/finiq.png";
+import nestle from "../../images/PartnerPages/nestle.png";
+import pepsico from "../../images/PartnerPages/pepsico.png";
+import swiggy from "../../images/PartnerPages/swiggy.png";
 
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
@@ -31,17 +36,35 @@ const Partners = ({ dark }) => {
         </h1>
 
         <div className={styles.cs_wrapper}>
-          <div className={styles.cs_left}>
-            <h3>Title Sponsor</h3>
-            <img src={VACPL} alt="VACPL" />
+          <div className={styles.cs_wrapper_up}>
+            <div className={styles.cs_image}>
+              <img src={VACPL} alt="VACPL" />
+            </div>
+            <div className={styles.cs_image}>
+              <img src={airtel} alt="VACPL" />
+            </div>
+            <div className={styles.cs_image}>
+              <img src={cogni} alt="VACPL" />
+            </div>
+            <div className={styles.cs_image}>
+              <img src={chopras} alt="VACPL" />
+            </div>
+            
           </div>
-          <div className={styles.cs_middle}>
-            <h3>Powered By</h3>
-            <img src={rohit} alt="Rohit Krishi" />
-          </div>
-          <div className={styles.cs_right}>
-            <h3>Associate Sponsor</h3>
-            <img src={spons2} alt="CEO capital traders" />
+
+          <div className={styles.cs_wrapper_down}>
+            <div className={styles.cs_image}>
+              <img src={finiq} alt="VACPL" />
+            </div>
+            <div className={styles.cs_image}>
+              <img src={nestle} alt="VACPL" />
+            </div>
+            <div className={styles.cs_image}>
+              <img src={pepsico} alt="VACPL" />
+            </div>
+            <div className={styles.cs_image} style={{width:"156px"}}>
+              <img src={swiggy} alt="VACPL" />
+            </div>
           </div>
         </div>
       </div>
@@ -204,7 +227,6 @@ const Partners = ({ dark }) => {
             <br />
             Kewal Barhate: +91 (772) 20 91910
           </h4>
-          
         </div>
 
         <div className={styles.partners_speakers_right}>

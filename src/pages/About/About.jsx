@@ -20,7 +20,7 @@ const About = ({ dark }) => {
             style={{ backgroundImage: `url(${stage})` }}
           >
             <div className={styles.content}>
-              <h2>About Us</h2>
+              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650045146/Website%20Content/Partner/About_Us_py4wte.svg" alt="About"/>
               <p>
                 In the spirit of Ideas Worth Spreading, we, at TEDxVITPune,
                 solely believe in the power of ideas to change attitudes, lives,
@@ -34,7 +34,11 @@ const About = ({ dark }) => {
 
         <div className={styles.new_about_ted}>
           <div className={styles.new_about_ted_left}>
-            <h1>What is</h1>
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650037738/Website%20Content/About/What_is_TED__dqrtxo.svg"
+              alt="title"
+              style={{ marginBottom: "12px" }}
+            />
 
             <img
               src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021526/Website%20Content/About/ted_ybzcpj.svg"
@@ -95,7 +99,11 @@ const About = ({ dark }) => {
           </div>
 
           <div className={styles.new_about_tedx_right}>
-            <h1>What is</h1>
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650037738/Website%20Content/About/What_is_TED__dqrtxo.svg"
+              alt="title"
+              style={{ marginBottom: "12px" }}
+            />
 
             <img
               src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021526/Website%20Content/About/tedx_llui22.svg"
@@ -118,7 +126,11 @@ const About = ({ dark }) => {
         <div className={styles.new_tedxVitpune}>
           <div className={styles.new_tedxVitpune_flex}>
             <div className={styles.new_tedxVitpune_flex_left}>
-              <h1>What is</h1>
+              <img
+                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650037738/Website%20Content/About/What_is_TED__dqrtxo.svg"
+                alt="title"
+                style={{ marginBottom: "12px" }}
+              />
 
               <img
                 src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021528/Website%20Content/About/tedxVit_oogfsc.svg"
@@ -172,7 +184,7 @@ const About = ({ dark }) => {
             encourage, inspire and hold the power to bring individuals together
             and bridge the gaps between communities.
           </p>
-          
+
           <p>
             The preeminent purpose of all our events, social media campaigns,
             and community newsletters is to put together, exchange and

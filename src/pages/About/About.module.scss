@@ -9,10 +9,8 @@
         width: 45%;
         color: #333333;
         padding-left: 5%;
-        h1 {
-            font-size: 60px;
-            font-weight: 700px;
-            font-family: "Aileron";
+        img{
+            width: 280px;
         }
         
         p {
@@ -43,51 +41,36 @@
     }
 }
 
-@media (max-width: 1168px) {
+@media(max-width:1016px){
     .new_about_ted {
-        padding-bottom: 50px;
         display: flex;
         min-height: 100vh;
         width: 100%;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
+    
         .new_about_ted_left {
             width: 100%;
-
+            color: #333333;
             padding-left: 5%;
-            h1 {
-                font-size: 55px;
-                font-weight: 700px;
-                font-family: "Aileron";
+            img{
+                width: 280px;
             }
-
-            //height: 85%;
-            img {
-                width: 45%;
+            p{
+                margin-bottom: 0;
             }
-
-            p {
-                margin-top: 2.5%;
-                font-family: "Candara";
-                font-size: 20px;
-                font-style: normal;
-                line-height: 30px;
-                letter-spacing: 0em;
-                text-align: left;
-                margin-bottom: 0%;
-            }
+            
+            
         }
         .new_about_ted_right {
             width: 100%;
-            padding-left: 5%;
-
-            .redLine_img {
+            color: #333333;
+            margin-bottom: 50px;
+            .redLine_img{
                 display: none;
             }
             p {
-                padding-right: 5%;
+                padding-right: 2%;
+                padding-left: 5%;
                 font-family: "Candara";
                 font-size: 20px;
                 font-style: normal;
@@ -95,11 +78,11 @@
                 letter-spacing: 0em;
                 text-align: left;
                 margin-bottom: 2.5%;
+                margin-top: 5%;
             }
         }
     }
 }
-
 .new_about_tedx {
     display: flex;
     min-height: 90vh;
@@ -125,11 +108,10 @@
         width: 45%;
         color: #333333;
         padding: 0 5%;
-        h1 {
-            font-size: 60px;
-            font-weight: 700px;
-            font-family: "Aileron";
+        img{
+            width: 320px;
         }
+        
         p {
             margin-top: 5%;
             font-family: "Candara";
@@ -143,15 +125,16 @@
     }
 }
 
-@media (max-width: 638px) {
+@media (max-width:950px){
     .new_about_tedx {
         display: flex;
         min-height: 90vh;
         width: 100%;
-        padding-bottom: 50px;
         flex-direction: column-reverse;
         .new_about_tedx_left {
             width: 100%;
+            padding-bottom: 50px;
+            
             .tedx_redLine_img {
                 display: none;
             }
@@ -168,15 +151,12 @@
         }
         .new_about_tedx_right {
             width: 100%;
+            
             padding: 0 5%;
-            h1 {
-                font-size: 55px;
-                font-weight: 700px;
-                font-family: "Aileron";
+            img{
+                width: 320px;
             }
-            img {
-                width: 45%;
-            }
+            
             p {
                 margin-top: 5%;
                 font-family: "Candara";
@@ -203,11 +183,13 @@
             color: #333333;
             width: 65%;
             padding-right: 2.5%;
-            h1 {
-                font-size: 60px;
-                font-weight: 700px;
-                font-family: "Aileron";
+            img{
+                width: 320px;
+                &:last-child{
+                    width: 100%;
+                }
             }
+            
             
         }
         .new_tedxVitpune_flex_right {
@@ -233,29 +215,33 @@
     }
 }
 
-@media (max-width: 800px) {
+@media(max-width:912px){
     .new_tedxVitpune {
         min-height: 90vh;
         width: 100%;
-        padding-bottom: 50px;
         .new_tedxVitpune_flex {
+            display: flex;
+            width: 100%;
+            align-items: center;
             flex-direction: column;
             .new_tedxVitpune_flex_left {
+                padding-left: 5%;
+                color: #333333;
                 width: 100%;
-
-                h1 {
-                    font-size: 55px;
+                padding-right: 2.5%;
+                img{
+                    width: 300px;
+                    &:last-child{
+                        width: 520px;
+                    }
                 }
-                img {
-                    width: 85%;
-                }
+                
+                
             }
             .new_tedxVitpune_flex_right {
-                width: 100%;
-
-                img {
-                    display: none;
-                }
+                display: none;
+    
+                
             }
         }
         p {
@@ -292,10 +278,7 @@
             padding-left: 5%;
             top: 54%;
             position: relative;
-            h2{
-                font-size: 60px;
-                font-family: "Aileron";
-            }
+            
             p{
             font-family: "Candara";
             font-size: 20px;
@@ -504,7 +487,7 @@
 
 }
 .about_experience{
-    min-height: 75vh;
+    min-height: 95vh;
     color: #333333;
     img{
         padding-left: 5%;

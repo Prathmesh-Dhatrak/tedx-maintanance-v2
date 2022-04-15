@@ -283,43 +283,156 @@
     }
 }
 
-.new_aboutus_section {
-    min-height: 100vh;
-    padding: 100px 0;
 
-    .image_about {
-        //Content
-        margin: 0 auto;
-        background-image: url(../../images/Aboutpages/stage.svg);
-        height: 90vh;
-        width: 90%;
-        border-radius: 30px;
+.wrapper_section{
+    padding-top: 100px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 50px;
+
+    .new_aboutus_section {
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
         background-size: cover;
-
-
-        .about_1_wrapper {
-            position: absolute;
-            bottom: 0%;
-            left: 7%;
-            h1 {
+        place-items: center;
+        padding-top: 100px ;
+        border-radius: 30px;
+        .content{
+            padding-left: 5%;
+            top: 54%;
+            position: relative;
+            h2{
                 font-size: 60px;
-                font-weight: 700px;
                 font-family: "Aileron";
             }
-            p {
-                padding-right: 50px;
-                font-family: "Candara";
-                font-size: 20px;
-                font-style: normal;
-                font-weight: bold;
-                line-height: 30px;
-                letter-spacing: 0em;
-                text-align: left;
+            p{
+            font-family: "Candara";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+
             }
         }
+    
+        
+    }
+}
+@media(max-width:782px){
+    .wrapper_section{
+        padding-top: 100px;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 50px;
+    
+        .new_aboutus_section {
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            place-items: center;
+            padding-top: 100px ;
+            border-radius: 30px;
+            .content{
+                padding-left: 5%;
+                top: 200px;
+                position: relative;
+                
+            }
+        
+            
+        }
+    }
+}
 
-        //border-radius: 20px;
+@media(max-width:572px){
+    .wrapper_section{
+        padding-top: 100px;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 50px;
+    
+        .new_aboutus_section {
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            place-items: center;
+            padding-top: 100px ;
+            border-radius: 30px;
+            .content{
+                padding-left: 5%;
+                top: 170px;
+                position: relative;
+                
+            }
+        
+            
+        }
     }
 }
 
 
+@media(max-width:486px){
+    .wrapper_section{
+        padding-top: 100px;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 50px;
+    
+        .new_aboutus_section {
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            place-items: center;
+            padding-top: 100px ;
+            border-radius: 30px;
+            .content{
+                padding-left: 5%;
+                top: 115px;
+                position: relative;
+                
+            }
+            h2{
+                font-size: 55px;
+            }
+        
+            
+        }
+    }
+}
+
+
+@media(max-width:372px){
+    .wrapper_section{
+        padding-top: 100px;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 50px;
+    
+        .new_aboutus_section {
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            place-items: center;
+            padding-top: 100px ;
+            border-radius: 30px;
+            .content{
+                padding-left: 5%;
+                top: 70px;
+                position: relative;
+                
+            }
+            h2{
+                font-size: 55px;
+            }
+        
+            
+        }
+    }
+}

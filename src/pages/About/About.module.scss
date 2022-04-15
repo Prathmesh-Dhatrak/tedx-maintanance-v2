@@ -294,18 +294,20 @@
         height: 90vh;
         width: 90%;
         border-radius: 30px;
+        background-size: cover;
 
 
         .about_1_wrapper {
             position: absolute;
             bottom: 0%;
-            left: 5%;
+            left: 7%;
             h1 {
                 font-size: 60px;
                 font-weight: 700px;
                 font-family: "Aileron";
             }
             p {
+                padding-right: 50px;
                 font-family: "Candara";
                 font-size: 20px;
                 font-style: normal;
@@ -320,37 +322,4 @@
     }
 }
 
-@media (max-width:812px){
-    .new_aboutus_section {
-        min-height: 100vh;
-        padding: 100px 0;
-    
-        .image_about {
-            //Content
-            //margin: 0 auto;
-            
-    
-            .about_1_wrapper {
-                position: absolute;
-                bottom: -4%;
-                left: 5%;
-                h1 {
-                    font-size: 55px;
-                    font-family: "Aileron";
-                }
-                p {
-                    font-family: "Candara";
-                    font-size: 20px;
-                    font-style: normal;
-                    font-weight: bold;
-                    line-height: 30px;
-                    letter-spacing: 0em;
-                    text-align: left;
-                }
-            }
-    
-            //border-radius: 20px;
-        }
-    }
-}
 

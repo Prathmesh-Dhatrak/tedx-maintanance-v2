@@ -30,7 +30,6 @@ const Faqs = ({ dark }) => {
 
         <Accordian
           question="Where can I see previous TEDxVITPune talks?"
-          // eslint-disable-next-line no-template-curly-in-string
           answer="
       You can find talks from our previous speakers on the TEDx YouTube Channel.
       <br/>
@@ -40,12 +39,6 @@ const Faqs = ({ dark }) => {
       <a style=`text-decoration:none;color:red;font-weight: 600;` href=https://www.youtube.com/playlist?list=PLsRNoUx8w3rNNKU261Gx7oEemGRuY_kFB>2018, </a>
       <a style=`text-decoration:none;color:red;font-weight: 600;` href=https://www.youtube.com/playlist?list=PLsRNoUx8w3rPXX5LlzJQQNYrvIvz5nhOz>2019, </a>
       <a style=`text-decoration:none;color:red;font-weight: 600;` href=https://www.youtube.com/playlist?list=PL0687I2dEWckuZn6AEuZF8FOnr7T1QcVV>2021, </a>
-
-
-
-
-
-
       "
         />
 

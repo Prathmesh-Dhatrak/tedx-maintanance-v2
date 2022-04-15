@@ -56,13 +56,14 @@ const Contact = ({ dark }) => {
               <span id="hight">at our event?</span>
             </h3>
             <p>
-            TEDx is your chance to motivate thinkers, dreamers, and visionaries by presenting your idea at our event. 
-            <br />
-            Contact :
-            <br />
-            Harshada Belgi: +91 (916) 84 04840
-            <br />
-            Mugdha Pendse: +91 (776) 88 97971
+              TEDx is your chance to motivate thinkers, dreamers, and
+              visionaries by presenting your idea at our event.
+              <br />
+              Contact :
+              <br />
+              Harshada Belgi: +91 (916) 84 04840
+              <br />
+              Mugdha Pendse: +91 (776) 88 97971
             </p>
             <h4>
               Reach out to us:
@@ -85,8 +86,9 @@ const Contact = ({ dark }) => {
           </svg>
         </div>
 
-        <div className={styles.contact_para}>
-          <div className={styles.cp_left}>
+        <div className={styles.contact_form}>
+
+          {/*<div className={styles.cp_left}>
             <h3 id={styles.h_3}>
               Want to know more
               <br />
@@ -103,7 +105,33 @@ const Contact = ({ dark }) => {
               We’d love to hear from you. Please fill the following form for
               more questions.
             </p>
-          </div>
+  </div>*/}
+
+          <h2>Drop a message</h2>
+          <form>
+            <div className={styles.form_input}>
+              <label for="email"></label>
+              <input
+                type="email"
+                placeholder="Your Email"
+                id="email"
+                name="email"
+                required=""
+              />
+
+              <label for="answer"></label>
+              <textarea
+                type="text"
+                placeholder="Enter your message"
+                id="answer"
+                name="answer"
+                required=""
+              ></textarea>
+              <button className={styles.submit_btn} type="submit">
+                Submit
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </>

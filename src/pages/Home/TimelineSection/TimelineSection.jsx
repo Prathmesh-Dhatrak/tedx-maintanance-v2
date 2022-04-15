@@ -25,51 +25,51 @@ const EXAMPLE = [
   {
     data: "2015",
     status: "status",
-    statusB: "Growth 2015",
+    statusB: "TEDxVITPune Growth |The Pilot | 2015",
     statusE:
-      "It all started in 2015, a seed was sown with the intent of spreading wonderful ideas and bringing the brightest minds of college together. With an enormous checklist and a great deal of ambiguity- we embarked on a journey that set a precedent for years of innovation to follow. With a 9 speaker line-up, the pilot event of TEDxVITPune managed to garner attention all across Pune.",
+      "The 'Growth' of TEDxVITPune began in April 2015, as we aspired to put forth the best of all events with a mission to bring together brilliant minds competent in 'Spreading Ideas'. With a 9 speaker line-up, the pilot event garnered attention all across Pune and was set to embark on a journey to seek inspiration from revolutionary ideas. ",
   },
   {
     data: "2016",
     status: "status",
-    statusB: "Growth 2016",
+    statusB: "TEDxVITPune Let’s Crossover | Traversing All Hurdles | 2016",
     statusE:
-      "It all started in 2015, a seed was sown with the intent of spreading wonderful ideas and bringing the brightest minds of college together. With an enormous checklist and a great deal of ambiguity- we embarked on a journey that set a precedent for years of innovation to follow. With a 9 speaker line-up, the pilot event of TEDxVITPune managed to garner attention all across Pune.",
+      "After 'Growth' came the moment to 'Crossover'. The moment to foster the fire within us and fight all barriers for seeking answers to challenging existing norms. With an exceptional lineup of speakers and an elevated event experience, the second edition of TEDxVITPune carried the legacy forward with an intent to put together a marvellous experience.",
   },
   {
     data: "2017",
     status: "status",
-    statusB: "Growth 2017",
+    statusB: "TEDxVITPune Connecting the Dots | Pause & Take a Step Back | 2017",
     statusE:
-      "It all started in 2015, a seed was sown with the intent of spreading wonderful ideas and bringing the brightest minds of college together. With an enormous checklist and a great deal of ambiguity- we embarked on a journey that set a precedent for years of innovation to follow. With a 9 speaker line-up, the pilot event of TEDxVITPune managed to garner attention all across Pune.",
+      "From an award-winning national singer to numerous eminent speakers, the third edition witnessed the unification of ingenious minds, be it innovators, filmmakers, or entertainers. Our alumni graced the event by sharing their motivational life stories and helping us “Connect the Dots” to find the magic in our mundane lives. Speakers like Aniruddha Sen, Sachin Sanghe, Ramesh Botaljee, and several others, enhanced the experience by truly exhibiting the power of ideas.",
   },
   {
     data: "2018",
     status: "status",
-    statusB: "Growth 2018",
+    statusB: "TEDxVITPune Walking the Wire | To Countless Risks And No What-ifs | 2018",
     statusE:
-      "It all started in 2015, a seed was sown with the intent of spreading wonderful ideas and bringing the brightest minds of college together. With an enormous checklist and a great deal of ambiguity- we embarked on a journey that set a precedent for years of innovation to follow. With a 9 speaker line-up, the pilot event of TEDxVITPune managed to garner attention all across Pune.",
+      "'Courage is what drives us and you never know what is awaiting until you complete your journey and reach the destination.'The fourth edition of TEDxVITPune was not simply an event, but an exquisite experience altogether. Powerful speakers, unprecedented ideas, and melodious musicians helped raise the bar to showcase what a TEDx experience truly feels like. The offline event took place in October 2018, with remarkable orators like Girish Narayandass, Sameer Agashe, Anusree Raha, Stefano Pele, and many others.",
   },
   {
     data: "2019",
     status: "status",
-    statusB: "Growth 2019",
+    statusB: "TEDxVITPune Unravelling The Parallax | Looking At The Bigger Picture | 2019",
     statusE:
-      "It all started in 2015, a seed was sown with the intent of spreading wonderful ideas and bringing the brightest minds of college together. With an enormous checklist and a great deal of ambiguity- we embarked on a journey that set a precedent for years of innovation to follow. With a 9 speaker line-up, the pilot event of TEDxVITPune managed to garner attention all across Pune.",
+      "Discovering the endless realm of possibilities, the 5th Edition of TEDxVITPune trod on a path of exciting revelations. From a never-before-seen amalgamation of science and art to understanding the importance of psychological well-being, the event witnessed notable narrations and brainstormed splendid ideas. The attendees spent the evening rejoicing in engrossing activities through coffee brewing and decoupage & miniature art and many other workshops!",
   },
   {
     data: "2020",
     status: "status",
-    statusB: "Growth 2020",
+    statusB: "TEDxVITPune Countdown | Towards Climate Change | 2020",
     statusE:
-      "It all started in 2015, a seed was sown with the intent of spreading wonderful ideas and bringing the brightest minds of college together. With an enormous checklist and a great deal of ambiguity- we embarked on a journey that set a precedent for years of innovation to follow. With a 9 speaker line-up, the pilot event of TEDxVITPune managed to garner attention all across Pune.",
+      "It's now or never. We can change climate change. Keeping these words in mind, TEDxVITPune joined the Countdown with a vision to spread ideas for a change. Guest speakers, Stephan Crawford, Ulka Kelkar, and Shikhar Kamat imparted valuable cognizance, and musicians, Flavio Lopez and Daniel Waples added a spark of musical notes to the Sunday evening. ",
   },
   {
     data: "2021",
     status: "status",
-    statusB: "Growth 2021",
+    statusB: "TEDxVITPune Reemergence | Resurfacing Amidst Chaos| 2021",
     statusE:
-      "It all started in 2015, a seed was sown with the intent of spreading wonderful ideas and bringing the brightest minds of college together. With an enormous checklist and a great deal of ambiguity- we embarked on a journey that set a precedent for years of innovation to follow. With a 9 speaker line-up, the pilot event of TEDxVITPune managed to garner attention all across Pune.th",
+      "Delineating the perseverance to re-emerge stronger despite times of turmoil, the 6th edition of TEDxVITPune aimed at inciting social impact and endowed guidance to help resurface as the finest version of yourself. The online event unravelled as the remarkable lineup of speakers including Amira Gill, Debanshu Roy, Prabhtoj Singh, Mark Hannant, and Avinash Ramanathan, put forth their striking ideas.",
   },
   {
     data: "2022",

@@ -217,7 +217,7 @@
     }
 }
 .contact_form {
-    min-height: 100vh;
+    min-height: 75vh;
     width: 100%;
     background-color: #222222;
     color: #ffffff;
@@ -258,6 +258,7 @@
                 border: 0.1rem solid #d1d1d1;
                 font-size: 1.7rem;
                 margin-bottom: 20px;
+                height: 140px;
             }
             ::placeholder {
                 color: #d1d1d1;

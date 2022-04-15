@@ -1,7 +1,13 @@
 import React from "react";
+import { ExternalLink } from 'react-external-link';
 import "./Footer.scss";
 import logo from "../../images/Header/logo_light.png";
 import { Link } from "react-router-dom";
+import linkedin from "../../images/Footer/LinkedIn.svg";
+import Insta from "../../images/Footer/Insta.svg";
+import Twitter from "../../images/Footer/Twitter.svg";
+import Meta from "../../images/Footer/Meta.svg";
+import Youtube from "../../images/Footer/YouTube.svg";
 
 const Footer = () => {
   return (
@@ -13,10 +19,10 @@ const Footer = () => {
           </Link>
         </div>
         <div className="footer-newsletterBTN">
-          <a href='/'>Join Our Newsletter</a>
+          <a href="/">Join Our Newsletter</a>
           <p>
-            Be the first to hear from us,
-            <br /> you can unsubscribe our update any time you want.
+            Be the first to hear from us,you can unsubscribe our update any time
+            you want.
           </p>
         </div>
         <div className="footer-aboutLine">
@@ -27,21 +33,78 @@ const Footer = () => {
         <div className="footer-exploreSection">
           <h2>Explore</h2>
           <ul>
-            <p>Main Event</p>
-            <p>Countdown</p>
-            <p>Partners</p>
-            <p>Privacy Policy</p>
+            <p>
+              <Link to="/">Main Event 2022</Link>
+            </p>
+            <p>
+              <Link to="/Lookbook">Lookbook</Link>
+            </p>
+            <p>
+              <Link to="/Partners">Partners</Link>
+            </p>
+            <p>
+              <Link to="/Privacy">Privacy Policy</Link>
+            </p>
+            <p>
+              <Link to="/">TEDxVITPune Newsletter</Link>
+            </p>
+            <p>
+              <Link to="/">Community Conversations</Link>
+            </p>
           </ul>
           <div className="footer-privacyLine">
-            <p>About TEDxVITPune</p>
+            <p>
+              <Link to="/About">About TEDxVITPune</Link>
+            </p>
           </div>
         </div>
         <div className="footer-contactSection">
           <h2>Contact</h2>
           <p>tedxvitpune@gmail.com</p>
           <div className="footer-tedLine">
-            <p>TEDxVITPune</p>
+            <p>
+              <Link to="/">TEDxVITPune</Link>
+            </p>
           </div>
+
+          <div className="icons">
+            <ul>
+
+              <li>
+                <ExternalLink href="www.facebook.com/TEDxVITPune" rel="noopener noreferrer">
+                  <img src={Meta} alt="Meta" />
+                </ExternalLink>
+
+              </li>
+
+              <li>
+                <a href="www.instagram.com/tedxvitpune">
+                  <img src={Insta} alt="Insta" />
+                </a>
+              </li>
+
+              <li>
+                <a href="twitter.com/TEDxVITPune">
+                  <img src={Twitter} alt="Twitter" />
+                </a>
+              </li>
+
+              <li>
+                <a href="in.linkedin.com/company/tedxvitpune">
+                  <img src={linkedin} alt="Linkedin" />
+                </a>
+              </li>
+
+              <li>
+              <a href=" www.youtube.com/c/TEDxVITPune">
+                <img src={Youtube} alt="utube" />
+              </a>
+            </li>
+
+            </ul>
+          </div>
+
+
         </div>
       </div>
     </div>

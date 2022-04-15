@@ -9,14 +9,14 @@
         width: 45%;
         color: #333333;
         padding-left: 5%;
-        img{
+        img {
             width: 280px;
         }
-        
+
         p {
             font-family: "Candara";
             font-size: 20px;
-            font-style: normal;   
+            font-style: normal;
             line-height: 30px;
             letter-spacing: 0em;
             text-align: left;
@@ -41,31 +41,29 @@
     }
 }
 
-@media(max-width:1016px){
+@media (max-width: 1016px) {
     .new_about_ted {
         display: flex;
         min-height: 100vh;
         width: 100%;
         flex-direction: column;
-    
+
         .new_about_ted_left {
             width: 100%;
             color: #333333;
             padding-left: 5%;
-            img{
+            img {
                 width: 280px;
             }
-            p{
+            p {
                 margin-bottom: 0;
             }
-            
-            
         }
         .new_about_ted_right {
             width: 100%;
             color: #333333;
             margin-bottom: 50px;
-            .redLine_img{
+            .redLine_img {
                 display: none;
             }
             p {
@@ -108,10 +106,10 @@
         width: 45%;
         color: #333333;
         padding: 0 5%;
-        img{
+        img {
             width: 320px;
         }
-        
+
         p {
             margin-top: 5%;
             font-family: "Candara";
@@ -125,7 +123,7 @@
     }
 }
 
-@media (max-width:950px){
+@media (max-width: 950px) {
     .new_about_tedx {
         display: flex;
         min-height: 90vh;
@@ -134,7 +132,7 @@
         .new_about_tedx_left {
             width: 100%;
             padding-bottom: 50px;
-            
+
             .tedx_redLine_img {
                 display: none;
             }
@@ -151,12 +149,12 @@
         }
         .new_about_tedx_right {
             width: 100%;
-            
+
             padding: 0 5%;
-            img{
+            img {
                 width: 320px;
             }
-            
+
             p {
                 margin-top: 5%;
                 font-family: "Candara";
@@ -183,14 +181,12 @@
             color: #333333;
             width: 65%;
             padding-right: 2.5%;
-            img{
+            img {
                 width: 320px;
-                &:last-child{
+                &:last-child {
                     width: 100%;
                 }
             }
-            
-            
         }
         .new_tedxVitpune_flex_right {
             width: 35%;
@@ -215,7 +211,7 @@
     }
 }
 
-@media(max-width:912px){
+@media (max-width: 912px) {
     .new_tedxVitpune {
         min-height: 90vh;
         width: 100%;
@@ -229,19 +225,15 @@
                 color: #333333;
                 width: 100%;
                 padding-right: 2.5%;
-                img{
+                img {
                     width: 300px;
-                    &:last-child{
+                    &:last-child {
                         width: 520px;
                     }
                 }
-                
-                
             }
             .new_tedxVitpune_flex_right {
                 display: none;
-    
-                
             }
         }
         p {
@@ -259,8 +251,7 @@
     }
 }
 
-
-.wrapper_section{
+.wrapper_section {
     padding-top: 100px;
     padding-left: 3%;
     padding-right: 3%;
@@ -272,160 +263,143 @@
         background-position: center;
         background-size: cover;
         place-items: center;
-        padding-top: 100px ;
+        padding-top: 100px;
         border-radius: 30px;
-        .content{
+        .content {
             padding-left: 5%;
             top: 54%;
             position: relative;
-            
-            p{
-            font-family: "Candara";
-            font-size: 20px;
-            font-style: normal;
-            line-height: 30px;
-            letter-spacing: 0em;
-            text-align: left;
 
+            p {
+                font-family: "Candara";
+                font-size: 20px;
+                font-style: normal;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
             }
         }
-    
-        
     }
 }
-@media(max-width:782px){
-    .wrapper_section{
+@media (max-width: 782px) {
+    .wrapper_section {
         padding-top: 100px;
         padding-left: 3%;
         padding-right: 3%;
         padding-bottom: 50px;
-    
+
         .new_aboutus_section {
             height: 100vh;
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             place-items: center;
-            padding-top: 100px ;
+            padding-top: 100px;
             border-radius: 30px;
-            .content{
+            .content {
                 padding-left: 5%;
                 top: 200px;
                 position: relative;
-                
             }
-        
-            
         }
     }
 }
 
-@media(max-width:572px){
-    .wrapper_section{
+@media (max-width: 572px) {
+    .wrapper_section {
         padding-top: 100px;
         padding-left: 3%;
         padding-right: 3%;
         padding-bottom: 50px;
-    
+
         .new_aboutus_section {
             height: 100vh;
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             place-items: center;
-            padding-top: 100px ;
+            padding-top: 100px;
             border-radius: 30px;
-            .content{
+            .content {
                 padding-left: 5%;
                 top: 170px;
                 position: relative;
-                
             }
-        
-            
         }
     }
 }
 
-
-@media(max-width:486px){
-    .wrapper_section{
+@media (max-width: 486px) {
+    .wrapper_section {
         padding-top: 100px;
         padding-left: 3%;
         padding-right: 3%;
         padding-bottom: 50px;
-    
+
         .new_aboutus_section {
             height: 100vh;
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             place-items: center;
-            padding-top: 100px ;
+            padding-top: 100px;
             border-radius: 30px;
-            .content{
+            .content {
                 padding-left: 5%;
                 top: 115px;
                 position: relative;
-                
             }
-            h2{
+            h2 {
                 font-size: 55px;
             }
-        
-            
         }
     }
 }
 
-
-@media(max-width:372px){
-    .wrapper_section{
+@media (max-width: 372px) {
+    .wrapper_section {
         padding-top: 100px;
         padding-left: 3%;
         padding-right: 3%;
         padding-bottom: 50px;
-    
+
         .new_aboutus_section {
             height: 100vh;
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             place-items: center;
-            padding-top: 100px ;
+            padding-top: 100px;
             border-radius: 30px;
-            .content{
+            .content {
                 padding-left: 5%;
                 top: 70px;
                 position: relative;
-                
             }
-            h2{
+            h2 {
                 font-size: 55px;
             }
-        
-            
         }
     }
 }
 
-.about_pillars_title{
+.about_pillars_title {
     font-weight: bold;
     font-size: 40px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     color: black;
     padding-left: 5%;
     margin-top: 50px;
 }
 
-.about_ideas{
+.about_ideas {
     min-height: 75vh;
     color: #333333;
-    img{
+    img {
         padding-left: 5%;
     }
-    div{
-        padding:0 5%;
+    div {
+        padding: 0 5%;
         color: #333333;
         font-family: "Candara";
         font-size: 20px;
@@ -434,10 +408,8 @@
         letter-spacing: 0em;
         text-align: left;
         margin-bottom: 12px;
-        
     }
-    p{
-        
+    p {
         color: #333333;
         font-family: "Candara";
         font-size: 20px;
@@ -447,20 +419,17 @@
         text-align: left;
         margin-bottom: 12px;
         padding: 0 5%;
-        
-        
     }
-
 }
 
-.about_community{
+.about_community {
     min-height: 75vh;
     color: #333333;
-    img{
+    img {
         padding-left: 5%;
     }
-    div{
-        padding:0 5%;
+    div {
+        padding: 0 5%;
         color: #333333;
         font-family: "Candara";
         font-size: 20px;
@@ -470,8 +439,7 @@
         text-align: left;
         margin-bottom: 12px;
     }
-    p{
-        
+    p {
         color: #333333;
         font-family: "Candara";
         font-size: 20px;
@@ -481,19 +449,16 @@
         text-align: left;
         margin-bottom: 1.5%;
         padding: 0 5%;
-        
-        
     }
-
 }
-.about_experience{
+.about_experience {
     min-height: 95vh;
     color: #333333;
-    img{
+    img {
         padding-left: 5%;
     }
-    div{
-        padding:0 5%;
+    div {
+        padding: 0 5%;
         color: #333333;
         font-family: "Candara";
         font-size: 20px;
@@ -502,10 +467,8 @@
         letter-spacing: 0em;
         text-align: left;
         margin-bottom: 12px;
-        
     }
-    p{
-        
+    p {
         color: #333333;
         font-family: "Candara";
         font-size: 20px;
@@ -515,22 +478,18 @@
         text-align: left;
         margin-bottom: 1.5%;
         padding: 0 5%;
-        
-        
     }
-
 }
 
-
-@media(max-width:686px){
-    .about_ideas,.about_community,.about_experience{
-
-        
-        img{
+@media (max-width: 686px) {
+    .about_ideas,
+    .about_community,
+    .about_experience {
+        img {
             padding-left: 5%;
         }
-        div{
-            padding:0 5%;
+        div {
+            padding: 0 5%;
             color: #333333;
             font-family: "Candara";
             font-size: 20px;
@@ -539,10 +498,8 @@
             letter-spacing: 0em;
             text-align: left;
             margin-bottom: 13px;
-            
         }
-        p{
-            
+        p {
             color: #333333;
             font-family: "Candara";
             font-size: 20px;
@@ -552,10 +509,6 @@
             text-align: left;
             margin-bottom: 13px;
             padding: 0 5%;
-            
-            
         }
-    
     }
-
 }

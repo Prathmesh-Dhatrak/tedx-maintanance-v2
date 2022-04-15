@@ -22,7 +22,7 @@ const Contact = ({ dark }) => {
             </p>
           </div>
           <div className={styles.touch_right}>
-            <img src={Touch} alt="touch" />
+            <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021499/Website%20Content/Contact/touch_aw2tup.jpg" alt="touch" />
           </div>
         </div>
 

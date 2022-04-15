@@ -18,8 +18,7 @@
         p {
             font-family: "Candara";
             font-size: 20px;
-            font-style: normal;
-            font-weight: bold;
+            font-style: normal;   
             line-height: 30px;
             letter-spacing: 0em;
             text-align: left;
@@ -35,7 +34,6 @@
             font-family: "Candara";
             font-size: 20px;
             font-style: normal;
-            font-weight: bold;
             line-height: 30px;
             letter-spacing: 0em;
             text-align: left;
@@ -75,7 +73,6 @@
                 font-family: "Candara";
                 font-size: 20px;
                 font-style: normal;
-                font-weight: bold;
                 line-height: 30px;
                 letter-spacing: 0em;
                 text-align: left;
@@ -94,7 +91,6 @@
                 font-family: "Candara";
                 font-size: 20px;
                 font-style: normal;
-                font-weight: bold;
                 line-height: 30px;
                 letter-spacing: 0em;
                 text-align: left;
@@ -119,7 +115,6 @@
             font-family: "Candara";
             font-size: 20px;
             font-style: normal;
-            font-weight: bold;
             line-height: 30px;
             letter-spacing: 0em;
             text-align: left;
@@ -140,7 +135,6 @@
             font-family: "Candara";
             font-size: 20px;
             font-style: normal;
-            font-weight: bold;
             line-height: 30px;
             letter-spacing: 0em;
             text-align: left;
@@ -166,7 +160,6 @@
                 font-family: "Candara";
                 font-size: 20px;
                 font-style: normal;
-                font-weight: bold;
                 line-height: 30px;
                 letter-spacing: 0em;
                 text-align: left;
@@ -189,7 +182,6 @@
                 font-family: "Candara";
                 font-size: 20px;
                 font-style: normal;
-                font-weight: bold;
                 line-height: 30px;
                 letter-spacing: 0em;
                 text-align: left;
@@ -232,7 +224,6 @@
         font-family: "Candara";
         font-size: 20px;
         font-style: normal;
-        font-weight: bold;
         line-height: 30px;
         letter-spacing: 0em;
         text-align: left;
@@ -272,7 +263,6 @@
             font-family: "Candara";
             font-size: 20px;
             font-style: normal;
-            font-weight: bold;
             line-height: 30px;
             letter-spacing: 0em;
             text-align: left;
@@ -310,7 +300,6 @@
             font-family: "Candara";
             font-size: 20px;
             font-style: normal;
-            font-weight: bold;
             line-height: 30px;
             letter-spacing: 0em;
             text-align: left;
@@ -435,4 +424,155 @@
             
         }
     }
+}
+
+.about_pillars_title{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    padding-left: 5%;
+    margin-top: 50px;
+}
+
+.about_ideas{
+    min-height: 75vh;
+    color: #333333;
+    img{
+        padding-left: 5%;
+    }
+    div{
+        padding:0 5%;
+        color: #333333;
+        font-family: "Candara";
+        font-size: 20px;
+        font-style: normal;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 12px;
+        
+    }
+    p{
+        
+        color: #333333;
+        font-family: "Candara";
+        font-size: 20px;
+        font-style: normal;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 12px;
+        padding: 0 5%;
+        
+        
+    }
+
+}
+
+.about_community{
+    min-height: 75vh;
+    color: #333333;
+    img{
+        padding-left: 5%;
+    }
+    div{
+        padding:0 5%;
+        color: #333333;
+        font-family: "Candara";
+        font-size: 20px;
+        font-style: normal;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 12px;
+    }
+    p{
+        
+        color: #333333;
+        font-family: "Candara";
+        font-size: 20px;
+        font-style: normal;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 1.5%;
+        padding: 0 5%;
+        
+        
+    }
+
+}
+.about_experience{
+    min-height: 75vh;
+    color: #333333;
+    img{
+        padding-left: 5%;
+    }
+    div{
+        padding:0 5%;
+        color: #333333;
+        font-family: "Candara";
+        font-size: 20px;
+        font-style: normal;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 12px;
+        
+    }
+    p{
+        
+        color: #333333;
+        font-family: "Candara";
+        font-size: 20px;
+        font-style: normal;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 1.5%;
+        padding: 0 5%;
+        
+        
+    }
+
+}
+
+
+@media(max-width:686px){
+    .about_ideas,.about_community,.about_experience{
+
+        
+        img{
+            padding-left: 5%;
+        }
+        div{
+            padding:0 5%;
+            color: #333333;
+            font-family: "Candara";
+            font-size: 20px;
+            font-style: normal;
+            line-height: 31px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin-bottom: 13px;
+            
+        }
+        p{
+            
+            color: #333333;
+            font-family: "Candara";
+            font-size: 20px;
+            font-style: normal;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin-bottom: 13px;
+            padding: 0 5%;
+            
+            
+        }
+    
+    }
+
 }

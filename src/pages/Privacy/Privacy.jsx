@@ -257,8 +257,7 @@ const Privacy = ({ dark }) => {
         immediately upon posting of the amended Privacy Policy on the
         TEDxVITPune website.
         <br />
-        <br />
-        Dated: 13 August 2020
+        
       </p>
     </div>
   </div>

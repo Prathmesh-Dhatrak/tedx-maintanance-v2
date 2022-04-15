@@ -5,7 +5,7 @@ import ted from "../../images/Aboutpages/ted.svg";
 import tedx from "../../images/Aboutpages/tedx.svg";
 import tedxVit from "../../images/Aboutpages/tedxVit.svg";
 import redLine from "../../images/Aboutpages/redLine.svg";
-
+import stage from "../../images/Aboutpages/stage.svg";
 
 const About = ({ dark }) => {
   const pageStyle = {
@@ -17,20 +17,27 @@ const About = ({ dark }) => {
       <div className="AboutPage" style={pageStyle}>
         {/*<!-- About Us Section -->*/}
 
-        <div className={styles.new_aboutus_section}>
-          <div className={styles.image_about}>
-            <div className={styles.about_1_wrapper}>
-              <h1>About Us</h1>
+        <div className={styles.wrapper_section}>
+          <div
+            className={styles.new_aboutus_section}
+            style={{ backgroundImage: `url(${stage})` }}
+          >
+          <div className={styles.content}>
+              <h2>About Us</h2>
               <p>
-                In the spirit of Ideas Worth Spreading, we, at TEDxVITPune,
-                solely believe in the power of ideas to change attitudes, lives,
-                and ultimately, the world at large. We're bringing together
-                people from all different walks of life to come, confer and
-                confabulate ideas in whole different dimensions
+              In the spirit of Ideas Worth Spreading, we, at TEDxVITPune, solely believe in the power of ideas to change attitudes, lives, and ultimately, the world at large. 
+              We're bringing together people from all different walks of life to come, confer and confabulate ideas in whole different dimensions.
+              
               </p>
-            </div>
+          </div>
+            
           </div>
         </div>
+
+
+
+
+
 
         <div className={styles.new_about_ted}>
           <div className={styles.new_about_ted_left}>

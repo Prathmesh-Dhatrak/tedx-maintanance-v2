@@ -1,6 +1,6 @@
 @import "../../styles/variables";
 .touch {
-    background-color: #fcfcfc;
+    background-color: transparent;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -162,8 +162,6 @@
         .cp_left {
             width: 95%;
             padding: 5%;
-
-            //margin-left: 7.5%;
 
             #h_3 {
                 font-size: 36px;

@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Contact.module.scss";
-import Touch from "../../images/Contactpages/touch.jpg";
 import grid from "../../images/WhiteGrid.svg";
 const Contact = ({ dark }) => {
   const pageStyle = {

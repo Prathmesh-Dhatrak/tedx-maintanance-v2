@@ -1,12 +1,17 @@
 import React from "react";
 import "./PandemoniumSection.scss";
-import gif from "../../../images/Home/pandemonium.gif";
 const PandemoniumSection = () => {
   return (
     <div className="pandemonium-container">
       <div className="pandemonium-section1 sm-padding">
         <span className="pandemonium-spanText">Edition 7</span>
-        <img className="gifimg" src={gif} alt="" />
+        <img
+          className="gifimg"
+          src={
+            "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021316/Website%20Content/Home/pandemonium_cmx1fo.gif"
+          }
+          alt=""
+        />
       </div>
       <div className="pandemonium-section2">
         <p className="pandemonium-embr-para">

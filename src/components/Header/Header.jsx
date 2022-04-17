@@ -44,14 +44,7 @@ const Header = ({ dark }) => {
   return (
     <header className="header__middle">
       <div className="container">
-        <div
-          className="row"
-          // style={{
-          //   backgroundColor: dark ? "#111111" : "#fff",
-          //   color: dark ? "#aaaaaa" : "#474747",
-          //   fontStyle: "normal",
-          // }}
-        >
+        <div className="row">
           <div className="header__middle__logo">
             <NavLink
               exact
@@ -68,7 +61,10 @@ const Header = ({ dark }) => {
                 <>
                   <span
                     className="menubar__button"
-                    style={{ display: "none", color: dark && !isResponsiveclose ? "white" : "black" }}
+                    style={{
+                      display: "none",
+                      color: dark && !isResponsiveclose ? "white" : "black",
+                    }}
                     onClick={toggleClass}
                   >
                     <FiXCircle />
@@ -78,7 +74,10 @@ const Header = ({ dark }) => {
                 <>
                   <span
                     className="menubar__button"
-                    style={{ display: "none", color: dark && !isResponsiveclose ? "white" : "black" }}
+                    style={{
+                      display: "none",
+                      color: dark && !isResponsiveclose ? "white" : "black",
+                    }}
                     onClick={toggleClass}
                   >
                     <FiAlignRight />

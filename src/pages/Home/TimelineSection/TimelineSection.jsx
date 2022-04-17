@@ -1,82 +1,61 @@
 import React from "react";
 import HorizontalTimeline from "react-horizontal-timeline";
 import "./TimelineSection.scss";
-import {
-  Event15,
-  Event16,
-  Event17,
-  Event18,
-  Event19,
-  Event21,
-  Event22,
-} from "../../../images/Home/eventSVG";
-const images = [
-  Event15,
-  Event16,
-  Event17,
-  Event18,
-  Event19,
-  Event21,
-  Event22,
-  Event18,
-];
 
 const EXAMPLE = [
   {
     data: "2015",
-    status: "status",
-    statusB: "TEDxVITPune Growth |The Pilot | 2015",
-    statusE:
-      "The 'Growth' of TEDxVITPune began in April 2015, as we aspired to put forth the best of all events with a mission to bring together brilliant minds competent in 'Spreading Ideas'. With a 9 speaker line-up, the pilot event garnered attention all across Pune and was set to embark on a journey to seek inspiration from revolutionary ideas. ",
+    title: "TEDxVITPune Growth |The Pilot | 2015",
+    paragraph: `The "Growth" of TEDxVITPune began in April 2015, as we aspired to put forth the best of all events with a mission to bring together brilliant minds competent in "Spreading Ideas". With a 9 speaker line-up, the pilot event garnered attention all across Pune and was set to embark on a journey to seek inspiration from revolutionary ideas. `,
+    imgURL: `https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/15_fqiof1.svg`,
+    videoLink: `https://www.youtube.com/playlist?list=PL0687I2dEWcksr9RextzeIRFms8yjaKQi`,
   },
   {
     data: "2016",
-    status: "status",
-    statusB: "TEDxVITPune Let’s Crossover | Traversing All Hurdles | 2016",
-    statusE:
-      "After 'Growth' came the moment to 'Crossover'. The moment to foster the fire within us and fight all barriers for seeking answers to challenging existing norms. With an exceptional lineup of speakers and an elevated event experience, the second edition of TEDxVITPune carried the legacy forward with an intent to put together a marvellous experience.",
+    title: "TEDxVITPune Let’s Crossover | Traversing All Hurdles | 2016",
+    paragraph: `After "Growth" came the moment to "Crossover". The moment to foster the fire within us and fight all barriers for seeking answers to challenging existing norms. With an exceptional lineup of speakers and an elevated event experience, the second edition of TEDxVITPune carried the legacy forward with an intent to put together a marvellous experience.`,
+    imgURL: `https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/16_l6ewrv.svg`,
+    videoLink: `https://www.youtube.com/playlist?list=PL0687I2dEWclNQ5LLwulDH20FUvGDsSlG`,
   },
   {
     data: "2017",
-    status: "status",
-    statusB: "TEDxVITPune Connecting the Dots | Pause & Take a Step Back | 2017",
-    statusE:
+    title: "TEDxVITPune Connecting the Dots | Pause & Take a Step Back | 2017",
+    paragraph:
       "From an award-winning national singer to numerous eminent speakers, the third edition witnessed the unification of ingenious minds, be it innovators, filmmakers, or entertainers. Our alumni graced the event by sharing their motivational life stories and helping us “Connect the Dots” to find the magic in our mundane lives. Speakers like Aniruddha Sen, Sachin Sanghe, Ramesh Botaljee, and several others, enhanced the experience by truly exhibiting the power of ideas.",
+    imgURL: `https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/17_vas4kn.svg`,
+    videoLink: `https://www.youtube.com/playlist?list=PL0687I2dEWcm2PSEaGCYzm_mok3pfVVkT`,
   },
   {
     data: "2018",
-    status: "status",
-    statusB: "TEDxVITPune Walking the Wire | To Countless Risks And No What-ifs | 2018",
-    statusE:
+    title:
+      "TEDxVITPune Walking the Wire | To Countless Risks And No What-ifs | 2018",
+    paragraph:
       "'Courage is what drives us and you never know what is awaiting until you complete your journey and reach the destination.'The fourth edition of TEDxVITPune was not simply an event, but an exquisite experience altogether. Powerful speakers, unprecedented ideas, and melodious musicians helped raise the bar to showcase what a TEDx experience truly feels like. The offline event took place in October 2018, with remarkable orators like Girish Narayandass, Sameer Agashe, Anusree Raha, Stefano Pele, and many others.",
+    imgURL: `https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/18_gjf3ro.svg`,
+    videoLink: `https://www.youtube.com/playlist?list=PLsRNoUx8w3rNNKU261Gx7oEemGRuY_kFB`,
   },
   {
     data: "2019",
-    status: "status",
-    statusB: "TEDxVITPune Unravelling The Parallax | Looking At The Bigger Picture | 2019",
-    statusE:
+    title:
+      "TEDxVITPune Unravelling The Parallax | Looking At The Bigger Picture | 2019",
+    paragraph:
       "Discovering the endless realm of possibilities, the 5th Edition of TEDxVITPune trod on a path of exciting revelations. From a never-before-seen amalgamation of science and art to understanding the importance of psychological well-being, the event witnessed notable narrations and brainstormed splendid ideas. The attendees spent the evening rejoicing in engrossing activities through coffee brewing and decoupage & miniature art and many other workshops!",
+    imgURL: `https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/19_zfvvop.svg`,
+    videoLink: `https://www.youtube.com/playlist?list=PLsRNoUx8w3rPXX5LlzJQQNYrvIvz5nhOz`,
   },
   {
     data: "2020",
-    status: "status",
-    statusB: "TEDxVITPune Countdown | Towards Climate Change | 2020",
-    statusE:
-      "It's now or never. We can change climate change. Keeping these words in mind, TEDxVITPune joined the Countdown with a vision to spread ideas for a change. Guest speakers, Stephan Crawford, Ulka Kelkar, and Shikhar Kamat imparted valuable cognizance, and musicians, Flavio Lopez and Daniel Waples added a spark of musical notes to the Sunday evening. ",
+    title: "TEDxVITPune Countdown | Towards Climate Change | 2020",
+    paragraph:
+      "It's now or never. We can change climate change. Keeping these words in mind, TEDxVITPune joined the Countdown with a vision to spread ideas for a change. Guest speakers, Stephan Crawford, Ulka Kelkar, and Shikhar Kamat imparted valuable cognizance, and musicians, Flavio Lopez and Daniel Waples added a spark of musical notes to the Sunday evening.",
+    imgURL: `https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/21_wpmxtr.svg`,
   },
   {
     data: "2021",
-    status: "status",
-    statusB: "TEDxVITPune Reemergence | Resurfacing Amidst Chaos| 2021",
-    statusE:
+    title: "TEDxVITPune Reemergence | Resurfacing Amidst Chaos| 2021",
+    paragraph:
       "Delineating the perseverance to re-emerge stronger despite times of turmoil, the 6th edition of TEDxVITPune aimed at inciting social impact and endowed guidance to help resurface as the finest version of yourself. The online event unravelled as the remarkable lineup of speakers including Amira Gill, Debanshu Roy, Prabhtoj Singh, Mark Hannant, and Avinash Ramanathan, put forth their striking ideas.",
-  },
-  {
-    data: "2022",
-    status: "status",
-    statusB: "Growth 2022",
-    statusE:
-      "It all started in 2015, a seed was sown with the intent of spreading wonderful ideas and bringing the brightest minds of college together. With an enormous checklist and a great deal of ambiguity- we embarked on a journey that set a precedent for years of innovation to follow. With a 9 speaker line-up, the pilot event of TEDxVITPune managed to garner attention all across Pune.th",
+    videoLink: `https://www.youtube.com/playlist?list=PL0687I2dEWckuZn6AEuZF8FOnr7T1QcVV`,
   },
 ];
 
@@ -89,18 +68,17 @@ export default class TimelineSection extends React.Component {
     };
   }
 
-  //state = { value: 0, previous: 0 };
-
   render() {
     const { curIdx } = this.state;
-    const titleLable = EXAMPLE[curIdx].statusB;
-    const paragraph = EXAMPLE[curIdx].statusE;
+    const title = EXAMPLE[curIdx].title;
+    const paragraph = EXAMPLE[curIdx].paragraph;
+    const imgURL = EXAMPLE[curIdx].imgURL;
+    const videoLink = EXAMPLE[curIdx].videoLink;
+
     return (
       <div className="time-container">
-        {" "}
         <h2>Our Previous Events</h2>
         <div className="time-inner-container">
-          {/* Bounding box for the Timeline */}
           <div
             className="timeline-inner"
             style={{
@@ -128,11 +106,15 @@ export default class TimelineSection extends React.Component {
             />
           </div>
           <div className="events-text-center">
-            {/* any arbitrary component can go here */}
-            <img src={images[curIdx]} alt={images[curIdx]}></img>
+            {imgURL && <img src={imgURL} alt={imgURL}></img>}
             <div className="time-text-info">
-              <h2>{titleLable}</h2>
+              <h2>{title}</h2>
               <p>{paragraph}</p>
+              {videoLink && (
+                <a href={videoLink} alt={videoLink}>
+                  Watch Our Talks Here
+                </a>
+              )}
             </div>
           </div>
         </div>

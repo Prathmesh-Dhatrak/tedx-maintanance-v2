@@ -6,10 +6,6 @@
   font-style: normal;
   font-weight: 300;
 }
-img {
-  max-width: 100%;
-  height: auto;
-}
 
 .navBar .logo img {
   float: left;
@@ -171,7 +167,6 @@ li {
 }
 
 @media (min-width: 992px) {
-
   .sub__menus__arrows:hover .sub__menus {
     display: block;
   }

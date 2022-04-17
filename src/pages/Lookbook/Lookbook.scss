@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     & h1 {
+      padding-top: 50px;
       font-family: $font-default;
       font-style: normal;
       font-weight: 700;
@@ -71,6 +72,7 @@
         padding: 2rem 0rem;
         text-align: center;
         -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+        padding-top: 50px;
       }
       label {
         font-size: 75px;

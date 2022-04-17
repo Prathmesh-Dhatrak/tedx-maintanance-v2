@@ -51,6 +51,7 @@
     & .about-section3 {
       display: flex;
       justify-content: center;
+      text-align: center;
       a {
         color: $color-primary-light;
         font-family: "Candara";
@@ -82,6 +83,9 @@
             font-size: 15px;
           }
         }
+      }
+      &.about-section3 {
+        text-align: center;
       }
     }
   }

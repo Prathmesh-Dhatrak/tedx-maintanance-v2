@@ -97,7 +97,7 @@
     & .slide-single {
       display: flex;
       flex-direction: row;
-      align-items: center;
+      align-items: flex-end;
       justify-content: center;
       width: 100%;
       margin: 2rem 20rem;
@@ -160,7 +160,7 @@
         & a {
           padding: 1rem;
           background: #e62b1e;
-          outline: none;
+          text-decoration: none;
           width: 150px;
           height: 50px;
           border: 1px solid transparent;
@@ -214,16 +214,17 @@
           justify-content: left !important;
           align-items: left !important;
 
-          h1 {
+          & single-slide-container-imgh1 {
             font-size: 3.5rem;
           }
-          p {
+          & p {
             font-size: 1.5rem;
           }
-          a {
+          & a {
             width: 120px;
             height: 30px;
             font-size: 10px;
+            text-decoration: none;
           }
         }
       }

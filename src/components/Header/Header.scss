@@ -171,6 +171,7 @@ li {
 }
 
 @media (min-width: 992px) {
+
   .sub__menus__arrows:hover .sub__menus {
     display: block;
   }
@@ -181,6 +182,9 @@ li {
 }
 
 @media (max-width: 991px) {
+  .container {
+    padding: 0rem 1.5rem;
+  }
   .header__middle__logo {
     width: 77%;
   }

@@ -3,8 +3,9 @@
 .banner-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 6rem 3rem;
+  justify-content: center;
+  
+  padding: 3rem 3rem;
   & .banner-section1,
   .banner-section2 {
     display: flex;
@@ -36,6 +37,10 @@
       object-fit: contain;
       border-radius: 3rem;
     }
+  }
+  & .banner-section2 {
+    width: 70%;
+    height: 60rem;
   }
 }
 

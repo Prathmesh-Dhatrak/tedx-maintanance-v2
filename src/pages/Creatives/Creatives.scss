@@ -1,0 +1,100 @@
+@import "../../styles/_variables.scss";
+
+.creatives-container {
+  font-family: $font-default;
+
+  & .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & .communityNewsletter-section {
+      color: #000;
+      padding: 0rem 6rem 6rem 6rem;
+      & h1 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 50px;
+        color: #000000;
+      }
+      & .communityNewsletterImg-class img {
+        height: fit-content;
+      }
+      & p {
+        font-family: "Candara";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 169%;
+        color: #3a3a3a;
+      }
+    }
+    & .moodMonth-section {
+      color: #ffffff;
+      padding: 6rem 6rem;
+      background-color: #292929;
+      & h1 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 43px;
+        line-height: 85px;
+      }
+      & h4 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 43px;
+        padding: 0rem 0rem 0.5rem 0rem;
+      }
+      & h6 {
+        font-family: "Candara";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 169%;
+        padding: 2rem 0rem;
+      }
+      & .subscribe-class {
+        text-align: center;
+        h4 {
+          padding: 6rem 0rem;
+        }
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        & a {
+          padding: 1rem;
+          background: #e62b1e;
+          text-decoration: none;
+          width: 150px;
+          height: 50px;
+          border: 1px solid transparent;
+          border-radius: 15px;
+          font-family: "Aileron";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 159.5%;
+          letter-spacing: 0.02em;
+          color: #ffffff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $medium) {
+  .lookbook-conatiner {
+    padding: 1rem 0rem;
+    // & .container {
+    // }
+  }
+}

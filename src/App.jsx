@@ -3,6 +3,7 @@ import { Route } from "react-router-dom";
 import { Header, Footer } from "./components";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 import {
   Partners,
   Faqs,
@@ -52,8 +53,9 @@ const routes = [
 ];
 
 function App() {
+  
   return (
-    <div className="App" >
+    <div className="App">
       {routes.map(({ darkHader, path, Component }) => (
         <Route key={path} exact path={path}>
           {darkHader ? <Header dark={true} /> : <Header dark={false} />}

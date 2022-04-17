@@ -1,17 +1,14 @@
 import React from "react";
 import styles from "./About.module.scss";
 import grid from "../../images/WhiteGrid.svg";
-import ted from "../../images/Aboutpages/ted.svg";
-import tedx from "../../images/Aboutpages/tedx.svg";
-import tedxVit from "../../images/Aboutpages/tedxVit.svg";
-import redLine from "../../images/Aboutpages/redLine.svg";
-import stage from "../../images/Aboutpages/stage.svg";
 
 const About = ({ dark }) => {
   const pageStyle = {
     backgroundColor: dark ? "black" : "white",
     backgroundImage: 'url("' + grid + '")',
   };
+  const stage =
+    "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021526/Website%20Content/About/stage_amrokf.svg";
   return (
     <>
       <div className="AboutPage" style={pageStyle}>
@@ -22,28 +19,31 @@ const About = ({ dark }) => {
             className={styles.new_aboutus_section}
             style={{ backgroundImage: `url(${stage})` }}
           >
-          <div className={styles.content}>
-              <h2>About Us</h2>
+            <div className={styles.content}>
+              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650045146/Website%20Content/Partner/About_Us_py4wte.svg" alt="About"/>
               <p>
-              In the spirit of Ideas Worth Spreading, we, at TEDxVITPune, solely believe in the power of ideas to change attitudes, lives, and ultimately, the world at large. 
-              We're bringing together people from all different walks of life to come, confer and confabulate ideas in whole different dimensions.
-              
+                In the spirit of Ideas Worth Spreading, we, at TEDxVITPune,
+                solely believe in the power of ideas to change attitudes, lives,
+                and ultimately, the world at large. We're bringing together
+                people from all different walks of life to come, confer and
+                confabulate ideas in whole different dimensions.
               </p>
-          </div>
-            
+            </div>
           </div>
         </div>
 
-
-
-
-
-
         <div className={styles.new_about_ted}>
           <div className={styles.new_about_ted_left}>
-            <h1>What is</h1>
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650037738/Website%20Content/About/What_is_TED__dqrtxo.svg"
+              alt="title"
+              style={{ marginBottom: "12px" }}
+            />
 
-            <img src={ted} alt="ted" />
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021526/Website%20Content/About/ted_ybzcpj.svg"
+              alt="ted"
+            />
 
             <p>
               TED is a non-profit organisation devoted to Ideas Worth Spreading.
@@ -56,7 +56,10 @@ const About = ({ dark }) => {
 
           <div className={styles.new_about_ted_right}>
             <div className={styles.redLine_img}>
-              <img src={redLine} alt="redLine" />
+              <img
+                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021526/Website%20Content/About/redLine_rf1w16.svg"
+                alt="redLine"
+              />
             </div>
             <p>
               Today, the two annual TED Conferences invite the world's leading
@@ -79,7 +82,10 @@ const About = ({ dark }) => {
         <div className={styles.new_about_tedx}>
           <div className={styles.new_about_tedx_left}>
             <div className={styles.tedx_redLine_img}>
-              <img src={redLine} alt="redLine" />
+              <img
+                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021526/Website%20Content/About/redLine_rf1w16.svg"
+                alt="redLine"
+              />
             </div>
             <p>
               In the spirit of ideas worth spreading, TEDx is a TED-created
@@ -93,9 +99,16 @@ const About = ({ dark }) => {
           </div>
 
           <div className={styles.new_about_tedx_right}>
-            <h1>What is</h1>
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650037738/Website%20Content/About/What_is_TED__dqrtxo.svg"
+              alt="title"
+              style={{ marginBottom: "12px" }}
+            />
 
-            <img src={tedx} alt="tedx" />
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021526/Website%20Content/About/tedx_llui22.svg"
+              alt="tedx"
+            />
 
             <p>
               TEDx events aim to integrate ideas from every nook and corner of
@@ -113,13 +126,23 @@ const About = ({ dark }) => {
         <div className={styles.new_tedxVitpune}>
           <div className={styles.new_tedxVitpune_flex}>
             <div className={styles.new_tedxVitpune_flex_left}>
-              <h1>What is</h1>
+              <img
+                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650037738/Website%20Content/About/What_is_TED__dqrtxo.svg"
+                alt="title"
+                style={{ marginBottom: "12px" }}
+              />
 
-              <img src={tedxVit} alt="ted" />
+              <img
+                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021528/Website%20Content/About/tedxVit_oogfsc.svg"
+                alt="ted"
+              />
             </div>
 
             <div className={styles.new_tedxVitpune_flex_right}>
-              <img src={redLine} alt="redLine" />
+              <img
+                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021526/Website%20Content/About/redLine_rf1w16.svg"
+                alt="redLine"
+              />
             </div>
           </div>
 
@@ -139,6 +162,87 @@ const About = ({ dark }) => {
             Avinash Dharmadhikari, Niranjan Pedanekar. Cumulatively, the event
             has garnered an extensive following around the country and has been
             recognized as an exemplary TEDx event in India.
+          </p>
+        </div>
+
+        <div className={styles.about_pillars_title}>
+          The Three Pillars of TEDxVITPune
+        </div>
+
+        <div className={styles.about_ideas}>
+          <img
+            src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650032044/Website%20Content/About/ideas_c3weus.svg"
+            alt="ideas"
+          />
+          <br />
+          <div>
+            <i>"Everything begins with an idea"</i>- Earl Nightingale
+          </div>
+          <p>
+            We, here at TEDxVITPune, believe that the simplest of ideas uphold
+            the ability to change the world entirely. Such captivating ideas
+            encourage, inspire and hold the power to bring individuals together
+            and bridge the gaps between communities.
+          </p>
+
+          <p>
+            The preeminent purpose of all our events, social media campaigns,
+            and community newsletters is to put together, exchange and
+            brainstorm ground-breaking ideas. Ideas that originate from
+            different minds, different ideologies, and paramountly, different
+            beings.
+          </p>
+        </div>
+
+        <div className={styles.about_community}>
+          <img
+            src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650032115/Website%20Content/About/community_c9cqi9.svg"
+            alt="community"
+          />
+          <br />
+          <div>
+            <i>
+              "Many ideas grow better when transplanted into another mind than
+              the one where they sprang up."
+            </i>{" "}
+            - Oliver Wendell Holmes
+          </div>
+          <p>
+            Our community forms the heart and soul of TEDx. Be it the power
+            echoed by the unification of different minds, or the warmth
+            experienced owing to a feeling of togetherness. With constant
+            engagement all throughout the year, our local community partakes in
+            novel initiatives, taken to share striking ideas.
+          </p>
+          <p>
+            Over a span of 6 editions, TEDxVITPune has truly evolved and works
+            religiously towards putting forth a holistic experience, one in
+            which people from all disciplines of life and culture connect and
+            interact.
+          </p>
+        </div>
+
+        <div className={styles.about_experience}>
+          <img
+            src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650032185/Website%20Content/About/experience_urjjtt.svg"
+            alt="xper"
+          />
+          <br />
+          <div>
+            <i>"We don’t remember days. We remember moments."</i> - Cesare
+            Pavese.
+          </div>
+          <p>
+            Forming one of the three crucial pillars of TEDxVITPune is the
+            enthralling experience that we hope to put out for all the
+            attendees.
+          </p>
+          <p>
+            We believe in putting forth a panoramic experience for all and
+            sundry. From live talks to workshops and connections that last a
+            lifetime, TEDx aims at providing an escapade for you, and your mind.
+            As a souvenir and a token of gratitude, we also curate personalised
+            merchandise for all our attendees.
           </p>
         </div>
       </div>

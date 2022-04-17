@@ -2,18 +2,10 @@ import React from "react";
 import styles from "./Partners.module.scss";
 
 import grid from "../../images/WhiteGrid.svg";
-import alt1 from "../../images/PartnerPages/at1.jpg";
-import alt2 from "../../images/PartnerPages/at2.jpg";
-import alt3 from "../../images/PartnerPages/at3.jpg";
 import collab from "../../images/PartnerPages/collaba.jpg";
-import VACPL from "../../images/PartnerPages/VACPL.png";
 import airtel from "../../images/PartnerPages/airtel.png";
-import chopras from "../../images/PartnerPages/chopras.png";
-import cogni from "../../images/PartnerPages/cogni.png";
 import finiq from "../../images/PartnerPages/finiq.png";
-import nestle from "../../images/PartnerPages/nestle.png";
-import pepsico from "../../images/PartnerPages/pepsico.png";
-import swiggy from "../../images/PartnerPages/swiggy.png";
+
 
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
@@ -38,16 +30,16 @@ const Partners = ({ dark }) => {
         <div className={styles.cs_wrapper}>
           <div className={styles.cs_wrapper_up}>
             <div className={styles.cs_image}>
-              <img src={VACPL} alt="VACPL" />
+              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021223/Website%20Content/Partner/VACPL_o7wzia.png" alt="VACPL" />
             </div>
             <div className={styles.cs_image}>
               <img src={airtel} alt="VACPL" />
             </div>
             <div className={styles.cs_image}>
-              <img src={cogni} alt="VACPL" />
+              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021221/Website%20Content/Partner/cogni_aph7zj.png" alt="VACPL" />
             </div>
             <div className={styles.cs_image}>
-              <img src={chopras} alt="VACPL" />
+              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021221/Website%20Content/Partner/chopras_dazjn9.png" alt="VACPL" />
             </div>
             
           </div>
@@ -57,13 +49,13 @@ const Partners = ({ dark }) => {
               <img src={finiq} alt="VACPL" />
             </div>
             <div className={styles.cs_image}>
-              <img src={nestle} alt="VACPL" />
+              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021222/Website%20Content/Partner/nestle_nxybdz.png" alt="VACPL" />
             </div>
             <div className={styles.cs_image}>
-              <img src={pepsico} alt="VACPL" />
+              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021222/Website%20Content/Partner/pepsico_tdyt8x.png" alt="VACPL" />
             </div>
             <div className={styles.cs_image} style={{width:"156px"}}>
-              <img src={swiggy} alt="VACPL" />
+              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650042694/Website%20Content/Partner/swiggy_af5bol.png" alt="VACPL" />
             </div>
           </div>
         </div>
@@ -71,7 +63,7 @@ const Partners = ({ dark }) => {
 
       <div className={styles.at_tedx}>
         <div className={styles.at_left}>
-          <img alt="Alt1" src={alt1} />
+          <img alt="Alt1" src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021220/Website%20Content/Partner/at1_nlvjv3.jpg" />
         </div>
         <div className={styles.at_right}>
           <h1>
@@ -108,13 +100,13 @@ const Partners = ({ dark }) => {
           </p>
         </div>
         <div className={styles.at_right_1}>
-          <img alt="Alt1" src={alt2} />
+          <img alt="Alt1" src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021221/Website%20Content/Partner/at2_w2bgrx.jpg" />
         </div>
       </div>
 
       <div className={styles.at_tedx_2}>
         <div className={styles.at_left_2}>
-          <img alt="Alt3" src={alt3} />
+          <img alt="Alt3" src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021221/Website%20Content/Partner/at3_xb75u1.jpg" />
         </div>
         <div className={styles.at_right_2}>
           <p>

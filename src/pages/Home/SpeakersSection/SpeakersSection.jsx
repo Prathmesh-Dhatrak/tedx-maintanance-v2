@@ -21,13 +21,13 @@ const speakersData = [
     link: "https://www.youtube.com/watch?v=WRmHNTV-uwo&t=20s",
   },
   {
-    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650171301/Website%20Content/Home/speaker5_utvfgt.png",
+    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650302456/Website%20Content/Home/speaker5_utvfgt_vdjdgg.png",
     title: "Stefano Pelle",
     para: "Currently the founder and director of SP Associates Management Consultants, lecturer, and writer by hobby and achiever by passion. Here's a talk from the knight commander who shares his experience of the market and leadership expertise gained all over the years.",
     link: "https://www.youtube.com/watch?v=5ZGg5BrbZQU",
   },
   {
-    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650171656/Website%20Content/Home/speaker2_fm1gdi.png",
+    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650302456/Website%20Content/Home/speaker2_fm1gdi_byqaat.png",
     title: "Mahesh Kale",
     para: "An alumnus of Vishwakarma Institute of Technology, Mahesh Kale is a world-renowned vocalist who has firmly established himself as the face of Indian classical music for the new generation. Here’s a talk by maestro singer Mahesh Kale who shattered all the common myths about Carnatic music and brought out the diamonds it holds inside.",
     link: "https://www.youtube.com/watch?v=A_0ZqqlpByc",

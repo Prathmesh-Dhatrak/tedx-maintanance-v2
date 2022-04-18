@@ -5,7 +5,7 @@ import image2 from "../../../images/Home/speaker2.webp";
 import image3 from "../../../images/Home/speaker3.webp";
 
 const imageArray = [
-  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021314/Website%20Content/Home/CountdownImg_ieaymp.png",
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650302729/Website%20Content/Home/CountdownImg_ieaymp_1_u2y7qw.png",
   image2,
   image3,
 ];

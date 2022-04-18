@@ -20,7 +20,7 @@ const About = ({ dark }) => {
             style={{ backgroundImage: `url(${stage})` }}
           >
             <div className={styles.content}>
-              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650045146/Website%20Content/Partner/About_Us_py4wte.svg" alt="About" style={{ width:'100%'}}/>
+              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650045146/Website%20Content/Partner/About_Us_py4wte.svg" alt="About" style={{ width:'60%'}}/>
               <p>
                 In the spirit of Ideas Worth Spreading, we, at TEDxVITPune,
                 solely believe in the power of ideas to change attitudes, lives,

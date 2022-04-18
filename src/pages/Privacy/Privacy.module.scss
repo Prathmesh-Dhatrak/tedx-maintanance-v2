@@ -30,11 +30,13 @@
   text-align: left;
   font-family: "Candara";
   color: #000;
-  font-weight: 600;
   font-size: 18px;
   line-height: 36px;
   text-align: justify;
   margin-right: 20%;
+  span{
+    font-weight: 600;
+  }
 }
 .headings_privacy {
   font-size: 22px;

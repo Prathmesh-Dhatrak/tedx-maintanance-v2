@@ -9,7 +9,6 @@ const Creatives = ({ dark }) => {
           <img
             src={`https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650214118/Website%20Content/Creatives/firstSection_sqen7c.svg`}
             alt=""
-            className="communityNewsletterImg-class"
           />
           <p>
             Our community newsletters are a recipe of handpicked words and

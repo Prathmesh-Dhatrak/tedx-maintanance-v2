@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0rem 0rem;
     & .communityNewsletter-section {
       color: #000;
       padding: 0rem 6rem 6rem 6rem;
@@ -19,8 +20,9 @@
         line-height: 50px;
         color: #000000;
       }
-      & .communityNewsletterImg-class img {
-        height: fit-content;
+      & img {
+        width: 100%;
+        height: auto;
       }
       & p {
         font-family: "Candara";
@@ -34,6 +36,7 @@
     & .moodMonth-section {
       color: #ffffff;
       padding: 6rem 6rem;
+      width: 100%;
       background-color: #292929;
       & h1 {
         font-family: "Raleway";
@@ -57,6 +60,10 @@
         font-size: 20px;
         line-height: 169%;
         padding: 2rem 0rem;
+      }
+      img {
+        width: 100%;
+        height: auto;
       }
       & .subscribe-class {
         text-align: center;
@@ -92,9 +99,43 @@
 }
 
 @media screen and (max-width: $medium) {
-  .lookbook-conatiner {
+  .creatives-container {
     padding: 1rem 0rem;
-    // & .container {
-    // }
+    & .container {
+      & .communityNewsletter-section {
+        padding: 0rem 1rem !important;
+        & h1 {
+          font-size: 30px;
+        }
+        & p {
+          font-size: 20px;
+        }
+      }
+      & .moodMonth-section {
+        padding: 1rem 1rem;
+        & h1 {
+          font-size: 38px;
+        }
+        & h4 {
+          font-size: 23px;
+        }
+        & h6 {
+          font-size: 18px;
+        }
+        img {
+        }
+      }
+      & .subscribe-class {
+        h4 {
+          padding: 3rem 0rem;
+        }
+        & a {
+          width: 120px;
+          height: 30px;
+          font-size: 10px;
+          text-decoration: none;
+        }
+      }
+    }
   }
 }

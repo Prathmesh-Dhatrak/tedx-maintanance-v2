@@ -96,7 +96,7 @@ const Footer = () => {
               </li>
 
               <li>
-              <a href=" www.youtube.com/c/TEDxVITPune" rel="noopener noreferrer">
+              <a href="https://www.youtube.com/c/TEDxVITPune" rel="noopener noreferrer">
                 <img src={Youtube} alt="utube" />
               </a>
             </li>

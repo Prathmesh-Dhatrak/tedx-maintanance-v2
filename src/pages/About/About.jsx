@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./About.module.scss";
 import grid from "../../images/WhiteGrid.svg";
+import newRed from '../../images/Aboutpages/new_redline.svg'
 
 const About = ({ dark }) => {
   const pageStyle = {
@@ -57,7 +58,8 @@ const About = ({ dark }) => {
           <div className={styles.new_about_ted_right}>
             <div className={styles.redLine_img}>
               <img
-                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021526/Website%20Content/About/redLine_rf1w16.svg"
+                style={{marginTop:'45px'}}
+                src={newRed}
                 alt="redLine"
               />
             </div>
@@ -83,7 +85,7 @@ const About = ({ dark }) => {
           <div className={styles.new_about_tedx_left}>
             <div className={styles.tedx_redLine_img}>
               <img
-                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021526/Website%20Content/About/redLine_rf1w16.svg"
+                src={newRed}
                 alt="redLine"
               />
             </div>

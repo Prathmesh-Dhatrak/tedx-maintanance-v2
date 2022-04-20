@@ -13,6 +13,45 @@ const Lookbook = ({ dark }) => {
           Want to witness us in our element? Here's a sneak peak into what
           TEDxVITPune actually has to offer.
         </h1>
+
+        <div className="year2018-container">
+          <div className="gallery-3img-column">
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650299990/Website%20Content/Lookbook/2018imgBig-1_kgi3rl_gsqeii.png"
+              alt=""
+            />
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650299991/Website%20Content/Lookbook/2018imgBig-2_bxok8m_ovs45x.png"
+              alt=""
+            />
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650300143/Website%20Content/Lookbook/2018imgBig-3_lnzahc_qrm8xb.png"
+              alt=""
+            />
+          </div>
+          <label className="label-2018">2021</label>
+          <div className="gallery-4img-column">
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650300361/Website%20Content/Lookbook/2018imgsmall-1_v3yjp7_umurdc.png"
+              alt=""
+            />
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650300363/Website%20Content/Lookbook/2018imgsmall-2_sckaqk_qug9zu.png"
+              alt=""
+            />
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650300363/Website%20Content/Lookbook/2018imgsmall-3_snevbl_en8zbq.png"
+              alt=""
+            />
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650300363/Website%20Content/Lookbook/2018imgsmall-4_o6zmqf_goyylx.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+
+
         <div className="year2019-container">
           <div className="gallery-3img-column">
             <img
@@ -120,7 +159,6 @@ const Lookbook = ({ dark }) => {
           </div>
         </div>
 
-
         <div className="year2018-container">
           <div className="gallery-3img-column">
             <img
@@ -157,7 +195,41 @@ const Lookbook = ({ dark }) => {
           </div>
         </div>
 
-
+        <div className="year2019-container">
+          <div className="gallery-3img-column">
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650300657/Website%20Content/Lookbook/2018LiveimgBig-1_gevdsv_qirkeg.png"
+              alt=""
+            />
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650300656/Website%20Content/Lookbook/2018LiveimgBig-2_lfpidb_bjuq5x.png"
+              alt=""
+            />
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650300656/Website%20Content/Lookbook/2018LiveimgBig-3_pyixwg_tmck46.png"
+              alt=""
+            />
+          </div>
+          <label className="label-2019">2016</label>
+          <div className="gallery-4img-column">
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650300865/Website%20Content/Lookbook/2018Liveimgsmall-1_soelbw_c3vmhm.png"
+              alt=""
+            />
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650300865/Website%20Content/Lookbook/2018Liveimgsmall-2_ppmqch_g8igoe.png"
+              alt=""
+            />
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650300865/Website%20Content/Lookbook/2018Liveimgsmall-3_a6jwxa_npzvvg.png"
+              alt=""
+            />
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650300866/Website%20Content/Lookbook/2018Liveimgsmall-4_xjehpv_gohgm7.png"
+              alt=""
+            />
+          </div>
+        </div>
 
       </div>
     </div>

@@ -13,6 +13,7 @@
       color: #000;
       padding: 0rem 6rem 6rem 6rem;
       & h1 {
+        text-align: center;
         font-family: "Raleway";
         font-style: normal;
         font-weight: 800;
@@ -37,6 +38,7 @@
       color: #ffffff;
       padding: 6rem 6rem;
       width: 100%;
+      text-align: center;
       background-color: #292929;
       & h1 {
         font-family: "Raleway";
@@ -46,6 +48,7 @@
         line-height: 85px;
       }
       & h4 {
+        text-align: center;
         font-family: "Raleway";
         font-style: normal;
         font-weight: 800;
@@ -54,6 +57,7 @@
         padding: 0rem 0rem 0.5rem 0rem;
       }
       & h6 {
+        text-align: center;
         font-family: "Candara";
         font-style: normal;
         font-weight: 300;
@@ -62,7 +66,7 @@
         padding: 2rem 0rem;
       }
       img {
-        width: 100%;
+        width: 85%;
         height: auto;
       }
       & .subscribe-class {

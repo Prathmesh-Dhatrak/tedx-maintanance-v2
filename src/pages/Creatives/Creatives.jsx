@@ -24,7 +24,6 @@ const Creatives = ({ dark }) => {
           </p>
         </div>
         <div className="moodMonth-section">
-          <h1>Sections:</h1>
           <h4>Mood of the Month</h4>
           <img
             src={`https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650216151/Website%20Content/Creatives/moodMonthImg_gji3qt.svg`}

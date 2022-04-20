@@ -1,5 +1,138 @@
 @import "../../styles/variables";
 
+
+.wrapper_section {
+    padding-top: 100px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 50px;
+
+    .new_aboutus_section {
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        place-items: center;
+        padding-top: 100px;
+        border-radius: 30px;
+        .content {
+            padding-left: 5%;
+            top: 54%;
+            position: relative;
+
+            p {
+                font-family: "Candara";
+                font-size: 20px;
+                font-style: normal;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+        }
+    }
+}
+@media (max-width: 782px) {
+    .wrapper_section {
+        padding-top: 100px;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 50px;
+
+        .new_aboutus_section {
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            place-items: center;
+            padding-top: 100px;
+            border-radius: 30px;
+            .content {
+                padding-left: 5%;
+                top: 200px;
+                position: relative;
+            }
+        }
+    }
+}
+
+@media (max-width: 572px) {
+    .wrapper_section {
+        padding-top: 100px;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 50px;
+
+        .new_aboutus_section {
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            place-items: center;
+            padding-top: 100px;
+            border-radius: 30px;
+            .content {
+                padding-left: 5%;
+                top: 170px;
+                position: relative;
+            }
+        }
+    }
+}
+
+@media (max-width: 486px) {
+    .wrapper_section {
+        padding-top: 100px;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 50px;
+
+        .new_aboutus_section {
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            place-items: center;
+            padding-top: 100px;
+            border-radius: 30px;
+            .content {
+                padding-left: 5%;
+                top: 115px;
+                position: relative;
+            }
+            h2 {
+                font-size: 55px;
+            }
+        }
+    }
+}
+
+@media (max-width: 372px) {
+    .wrapper_section {
+        padding-top: 100px;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 50px;
+
+        .new_aboutus_section {
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            place-items: center;
+            padding-top: 100px;
+            border-radius: 30px;
+            .content {
+                padding-left: 5%;
+                top: 70px;
+                position: relative;
+            }
+            h2 {
+                font-size: 55px;
+            }
+        }
+    }
+}
+
 .new_about_ted {
     display: flex;
     min-height: 100vh;
@@ -86,10 +219,18 @@
     min-height: 90vh;
     width: 100%;
     .new_about_tedx_left {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
         width: 55%;
         color: #333333;
         .tedx_redLine_img {
-            margin-bottom: 15%;
+            margin-top: 10%;
+            margin-bottom: 10%;
+            width: 100%;
+            img{
+                width: 100%;
+            }
         }
         p {
             padding-left: 5%;
@@ -249,137 +390,7 @@
     }
 }
 
-.wrapper_section {
-    padding-top: 100px;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-bottom: 50px;
 
-    .new_aboutus_section {
-        height: 100vh;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        place-items: center;
-        padding-top: 100px;
-        border-radius: 30px;
-        .content {
-            padding-left: 5%;
-            top: 54%;
-            position: relative;
-
-            p {
-                font-family: "Candara";
-                font-size: 20px;
-                font-style: normal;
-                line-height: 30px;
-                letter-spacing: 0em;
-                text-align: left;
-            }
-        }
-    }
-}
-@media (max-width: 782px) {
-    .wrapper_section {
-        padding-top: 100px;
-        padding-left: 3%;
-        padding-right: 3%;
-        padding-bottom: 50px;
-
-        .new_aboutus_section {
-            height: 100vh;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            place-items: center;
-            padding-top: 100px;
-            border-radius: 30px;
-            .content {
-                padding-left: 5%;
-                top: 200px;
-                position: relative;
-            }
-        }
-    }
-}
-
-@media (max-width: 572px) {
-    .wrapper_section {
-        padding-top: 100px;
-        padding-left: 3%;
-        padding-right: 3%;
-        padding-bottom: 50px;
-
-        .new_aboutus_section {
-            height: 100vh;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            place-items: center;
-            padding-top: 100px;
-            border-radius: 30px;
-            .content {
-                padding-left: 5%;
-                top: 170px;
-                position: relative;
-            }
-        }
-    }
-}
-
-@media (max-width: 486px) {
-    .wrapper_section {
-        padding-top: 100px;
-        padding-left: 3%;
-        padding-right: 3%;
-        padding-bottom: 50px;
-
-        .new_aboutus_section {
-            height: 100vh;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            place-items: center;
-            padding-top: 100px;
-            border-radius: 30px;
-            .content {
-                padding-left: 5%;
-                top: 115px;
-                position: relative;
-            }
-            h2 {
-                font-size: 55px;
-            }
-        }
-    }
-}
-
-@media (max-width: 372px) {
-    .wrapper_section {
-        padding-top: 100px;
-        padding-left: 3%;
-        padding-right: 3%;
-        padding-bottom: 50px;
-
-        .new_aboutus_section {
-            height: 100vh;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            place-items: center;
-            padding-top: 100px;
-            border-radius: 30px;
-            .content {
-                padding-left: 5%;
-                top: 70px;
-                position: relative;
-            }
-            h2 {
-                font-size: 55px;
-            }
-        }
-    }
-}
 
 .about_pillars_title {
     font-weight: bold;

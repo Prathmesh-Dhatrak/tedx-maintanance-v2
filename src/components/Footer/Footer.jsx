@@ -1,5 +1,4 @@
 import React from "react";
-import { ExternalLink } from 'react-external-link';
 import "./Footer.scss";
 import logo from "../../images/Header/logo_light.png";
 import { Link } from "react-router-dom";

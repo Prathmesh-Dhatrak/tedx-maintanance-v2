@@ -94,7 +94,7 @@ const Faqs = ({ dark }) => {
           question="How do I buy a ticket from Townscript?"
           answer="Upon the selection of your attendee application, you can purchase your ticket to the event via Townscript after filling in all the necessary details.
       Apply as an attendee here!
-      <a href=http://tedxvitpune.in/speaker-nomination><b>Dummy Register link</b></a>
+      <a href=http://tedxvitpune.in/speaker-nomination><b>Register link</b></a>
 
       "
         />

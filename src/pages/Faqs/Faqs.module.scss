@@ -54,7 +54,9 @@
         
         background-color: white;
         overflow: hidden;
-        transition: max-height 0.5s ease;
+        transition: max-height 0.5s ease-in-out;
+        
+        -webkit-transition: all .5s ease-in-out;
         p {
             padding: 0% 20% 2% 20%
         }

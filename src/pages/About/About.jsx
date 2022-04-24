@@ -58,7 +58,7 @@ const About = ({ dark }) => {
           <div className={styles.new_about_ted_right}>
             <div className={styles.redLine_img}>
               <img
-                style={{marginTop:'45px'}}
+                style={{marginTop:'45px',width:'100%'}}
                 src={newRed}
                 alt="redLine"
               />

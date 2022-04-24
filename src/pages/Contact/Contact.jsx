@@ -19,9 +19,42 @@ const Contact = ({ dark }) => {
               <br />
               Tanya Agarwal: +91 (777) 40 06263
             </p>
+
+            
+              <form>
+                
+                  <label for="email"></label>
+                  <input
+                    type="email"
+                    placeholder="Your Email"
+                    className="email"
+                    name="email"
+                    required=""
+                  />
+
+                  <label for="answer"></label>
+                  <input
+                    type="text"
+                    placeholder="Enter your message"
+                    className="answer"
+                    name="answer"
+                    required=""
+                  ></input>
+
+                  <button type="submit">
+                    Submit
+                  </button>
+                
+              </form>
+            
+
+
           </div>
           <div className={styles.touch_right}>
-            <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650301560/Website%20Content/Contact/touch_aw2tup_sbc2tv.jpg" alt="touch" />
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650301560/Website%20Content/Contact/touch_aw2tup_sbc2tv.jpg"
+              alt="touch"
+            />
           </div>
         </div>
 
@@ -85,7 +118,7 @@ const Contact = ({ dark }) => {
           </svg>
         </div>
 
-        <div className={styles.contact_form}>
+        {/*<div className={styles.contact_form}>
 
           {/*<div className={styles.cp_left}>
             <h3 id={styles.h_3}>
@@ -104,7 +137,7 @@ const Contact = ({ dark }) => {
               We’d love to hear from you. Please fill the following form for
               more questions.
             </p>
-  </div>*/}
+  </div>*
 
           <h2>Drop a message</h2>
           <form>
@@ -131,7 +164,7 @@ const Contact = ({ dark }) => {
               </button>
             </div>
           </form>
-        </div>
+</div>*/}
       </div>
     </>
   );

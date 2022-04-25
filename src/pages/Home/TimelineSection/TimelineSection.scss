@@ -23,7 +23,7 @@
   }
 
   & h2 {
-    font-family: "Aileron";
+    font-family: $font-text;
     font-style: normal;
     font-weight: 600;
     line-height: 41px;
@@ -39,12 +39,14 @@
       justify-content: center;
       align-items: flex-start;
       & img {
+        padding-right: 20px;
         width: 250px;
         height: 220px;
       }
       & .time-text-info {
         padding-left: 2rem;
         & h2 {
+          padding-bottom:20px ;
           font-family: "Candara";
           font-style: normal;
           font-weight: 700;
@@ -71,7 +73,7 @@
           border-radius: 15px;
           font-family: "Aileron";
           font-style: normal;
-          font-weight: 400;
+          font-weight: 600;
           font-size: 15px;
           line-height: 159.5%;
           letter-spacing: 0.02em;
@@ -80,6 +82,11 @@
           align-items: center;
           justify-content: center;
           margin-top: 2rem;
+          transition: all 0.3s ease-in-out; 
+          &:hover{
+            color: #e62b1e;
+            background: #ffffff;
+          }
         }
       }
     }

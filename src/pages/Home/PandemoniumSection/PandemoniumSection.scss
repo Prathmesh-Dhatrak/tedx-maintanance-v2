@@ -12,12 +12,13 @@
     flex-direction: column;
     width: 50%;
     & .pandemonium-spanText {
-      font-family: "Aileron";
+      font-family: $font-text;
+
       font-style: normal;
       font-weight: 300;
       line-height: 28px;
       color: #d1cfcf;
-      font-size: 15px;
+      font-size: 21px;
     }
     & .pandemonium-embr-title {
       font-size: 80px;

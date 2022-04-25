@@ -1,6 +1,5 @@
 import React from "react";
 import "./AboutSection.scss";
-import { Link } from "react-router-dom";
 
 const AboutSection = () => {
   return (
@@ -41,7 +40,10 @@ const AboutSection = () => {
         </div>
         <div className="about-section3">
           {" "}
-          <Link to={"/"}>learn more at ted.com</Link>
+          <a href="https://www.ted.com/" rel="noopener noreferrer" target="_blank">
+              learn more at ted.com
+          </a>
+          
         </div>
       </div>
     </div>

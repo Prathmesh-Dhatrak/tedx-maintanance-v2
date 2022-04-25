@@ -6,7 +6,7 @@
   justify-content: space-between;
   padding: 6rem 3rem;
   & h2 {
-    font-family: "Aileron";
+    font-family: $font-text;
     font-style: normal;
     font-weight: 600;
     line-height: 41px;
@@ -37,7 +37,7 @@
       .about-tedxSection {
         padding: 0rem 2rem;
         & h4 {
-          font-family: "Aileron";
+          font-family: $font-text;
           font-style: normal;
           font-weight: 700;
           font-size: 15px;

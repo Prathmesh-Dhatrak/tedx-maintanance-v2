@@ -70,32 +70,32 @@ const Footer = () => {
             <ul>
 
               <li>
-                <a href="https://www.facebook.com/TEDxVITPune" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/TEDxVITPune" rel="noopener noreferrer" target="_blank">
                   <img src={Meta} alt="Meta" />
                 </a>
 
               </li>
 
               <li>
-                <a href="https://www.instagram.com/tedxvitpune" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/tedxvitpune" rel="noopener noreferrer" target="_blank">
                   <img src={Insta} alt="Insta" />
                 </a>
               </li>
 
               <li>
-                <a href="https://www.twitter.com/TEDxVITPune" rel="noopener noreferrer">
+                <a href="https://www.twitter.com/TEDxVITPune" rel="noopener noreferrer" target="_blank">
                   <img src={Twitter} alt="Twitter" />
                 </a>
               </li>
 
               <li>
-                <a href="https://www.linkedin.com/company/tedxvitpune/" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/company/tedxvitpune/" rel="noopener noreferrer" target="_blank">
                   <img src={linkedin} alt="Linkedin" />
                 </a>
               </li>
 
               <li>
-              <a href="https://www.youtube.com/c/TEDxVITPune" rel="noopener noreferrer">
+              <a href="https://www.youtube.com/c/TEDxVITPune" rel="noopener noreferrer" target="_blank">
                 <img src={Youtube} alt="utube" />
               </a>
             </li>

@@ -4,7 +4,7 @@ import "./AboutSection.scss";
 const AboutSection = () => {
   return (
     <div className="about-container">
-      <h2 className="about-title">{`About TED, TEDx & Us `}</h2>
+      <h2 className="about-title">{`About TED, TEDx and Us `}</h2>
       <div className="about-inner-container">
         <div className="about-section1">
           <p>

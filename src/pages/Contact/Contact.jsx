@@ -17,7 +17,7 @@ const Contact = ({ dark }) => {
             <p>
               Harshada Belgi: +91 (916) 84 04840
               <br />
-              Tanya Agarwal: +91 (777) 40 06263
+              Atharva Kulkarni: +91 (973) 02 78541
             </p>
 
             

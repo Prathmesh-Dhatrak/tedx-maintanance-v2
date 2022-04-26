@@ -20,8 +20,8 @@ const Footer = () => {
         <div className="footer-newsletterBTN">
           <a href="/">Join Our Newsletter</a>
           <p>
-            Be the first to hear from us,you can unsubscribe our update any time
-            you want.
+          Be the first one to hear from us! You can unsubscribe our update any time you want.
+
           </p>
         </div>
         <div className="footer-aboutLine">

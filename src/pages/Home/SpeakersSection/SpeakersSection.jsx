@@ -23,7 +23,7 @@ const speakersData = [
   {
     img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650302456/Website%20Content/Home/speaker5_utvfgt_vdjdgg.png",
     title: "Stefano Pelle",
-    para: "Currently the founder and director of SP Associates Management Consultants, lecturer, and writer by hobby and achiever by passion. Here's a talk from the knight commander who shares his experience of the market and leadership expertise gained all over the years.",
+    para: "The current founder and director of SP Associates Management Consultants, Stephano is a lecturer, a writer by hobby, and an achiever by passion. Here's a talk from the knight commander who shares his experience of the market and leadership expertise gained all over the years.",
     link: "https://www.youtube.com/watch?v=5ZGg5BrbZQU",
   },
   {
@@ -47,7 +47,7 @@ const speakersData = [
   {
     img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650895347/Website%20Content/Home/niranjan_yhcprn_rtiwqs.png",
     title: "Niranjan Pedanekar",
-    para: "Niranjan Pedanekar, an AI scientist is revolutionising theatre. Niranjan has a day job as a scientist and is also a playwright, who has written, directed, translated, and acted in numerous plays.Hear the talk of an AI playwright scientist, who shares a unique idea which we never thought of!",
+    para: "Niranjan Pedanekar, an AI scientist is revolutionising theatre. Niranjan has a day job as a scientist and is also a playwright, who has written, directed, translated, and acted in numerous plays. Hear the talk of an AI playwright scientist, who shares a unique idea which we never thought of!",
     link: "https://www.youtube.com/watch?v=oKb131uCNxU&t=13s",
   },
   {
@@ -71,12 +71,12 @@ const speakersData = [
   {
     img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650172466/Website%20Content/Home/image_12_piavv3.png",
     title: "Ulka Kelkar",
-    para: "Ulka Kelkar is director, Climate Program, World Resources Institute, India. She leads WRI India’s work on climate policy which aims to support India’s pathway to a climate-resilient low-carbon economy through judicious national policies, carbon market mechanisms, and effective implementation in states and cities.",
+    para: "Ulka Kelkar is Director, Climate Program, World Resources Institute, India. She leads WRI India’s work on climate policy which aims to support India’s pathway to a climate-resilient low-carbon economy through judicious national policies, carbon market mechanisms, and effective implementation in states and cities.",
     link: "",
   },
   {
     img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650172273/Website%20Content/Home/_MG_8318_1_rjydz8.png",
-    title: "Daniel Waples & Flavio Lopez",
+    title: "Daniel Waples and Flavio Lopez",
     para: "Daniel Waples is one of the world’s best-known handpan (hang drum) players having played in over 50 countries and amassing over 40 million views on YouTube. Having played the violin since he was just 9, Flavio feels comfortable within many different genres & musical ideas, adding a truly eclectic vibe to his sound, be it classical music or electronica.",
     link: "",
   },

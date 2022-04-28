@@ -30,10 +30,7 @@ const CountdownSection = () => {
           Days to go, for the most <br /> awaited event of the year!{" "}
         </p>
       </div>
-      <div className="subCountainerRg">
-        <h3>Embrace the Pandemonium on 21st May, 2022. </h3>
-        <button>Register</button>
-      </div>
+     
     </div>
   );
 };

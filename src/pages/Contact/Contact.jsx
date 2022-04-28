@@ -20,35 +20,27 @@ const Contact = ({ dark }) => {
               Atharva Kulkarni: +91 (973) 02 78541
             </p>
 
-            
-              <form>
-                
-                  <label for="email"></label>
-                  <input
-                    type="email"
-                    placeholder="Your Email"
-                    className="email"
-                    name="email"
-                    required=""
-                  />
+            <form>
+              <label></label>
+              <input
+                type="email"
+                placeholder="Your Email"
+                className="email"
+                name="email"
+                required=""
+              />
 
-                  <label for="answer"></label>
-                  <input
-                    type="text"
-                    placeholder="Enter your message"
-                    className="answer"
-                    name="answer"
-                    required=""
-                  ></input>
+              <label></label>
+              <input
+                type="text"
+                placeholder="Enter your message"
+                className="answer"
+                name="answer"
+                required=""
+              ></input>
 
-                  <button type="submit">
-                    Submit
-                  </button>
-                
-              </form>
-            
-
-
+              <button type="submit">Submit</button>
+            </form>
           </div>
           <div className={styles.touch_right}>
             <img

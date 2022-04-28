@@ -77,7 +77,7 @@ export default class TimelineSection extends React.Component {
 
     return (
       <div className="time-container">
-        <h2>Our Previous Events</h2>
+        <h2>Past Editions: Our Journey </h2>
         <div className="time-inner-container">
           <div
             className="timeline-inner"

@@ -4,7 +4,7 @@ const PandemoniumSection = () => {
   return (
     <div className="pandemonium-container">
       <div className="pandemonium-section1 sm-padding">
-        <span className="pandemonium-spanText">Edition 7</span>
+        <h1 className="pandemonium-spanText">Edition 7</h1>
         <img
           className="gifimg"
           src={

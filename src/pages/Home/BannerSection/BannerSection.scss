@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-
+  width: 100%;
   padding: 1.5rem 3rem;
   & .banner-section1,
   .banner-section2 {
@@ -12,7 +12,7 @@
     flex-direction: column;
     width: 50%;
     & .subCountainerRg {
-      // width: 50%;
+      width: 100%;
       & h3 {
         font-family: $font-text;
         font-style: normal;
@@ -55,11 +55,18 @@
     justify-content: center;
     align-items: center;
     padding: 5.5rem 1.5rem;
+
     & .banner-section1,
     .banner-section2 {
       width: 100%;
       & .subCountainerRg {
         padding-top: 1rem;
+        & h3 {
+          font-weight: 600;
+          font-size: 47px;
+          line-height: 100.5%;
+          margin: 2rem 0rem;
+        }
       }
     }
     & .sm-padding {

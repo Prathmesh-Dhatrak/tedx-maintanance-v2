@@ -22,7 +22,7 @@ const Partners = ({ dark }) => {
       <div className={styles.countdown_spons}>
         <h1>
           <span style={{ fontFamily: "Rotunda_Bold", fontWeight: "900" }}>
-            TEDxVITPune
+            TEDxVITPune{` `}
           </span>
           2021 Sponsors
         </h1>
@@ -67,7 +67,7 @@ const Partners = ({ dark }) => {
         </div>
         <div className={styles.at_right}>
           <h1>
-            Partnering with
+            Partnering with{` `}
             <span style={{ fontFamily: "Rotunda_Bold", fontWeight: "900" }}>
               TEDxVITPune
             </span>

@@ -25,8 +25,8 @@ const speakersData = [
   },
   {
     img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650302456/Website%20Content/Home/speaker5_utvfgt_vdjdgg.png",
-    title: "Stefano Pelle",
-    para: "The current founder and director of SP Associates Management Consultants, Stephano is a lecturer, a writer by hobby, and an achiever by passion. Here's a talk from the knight commander who shares his experience of the market and leadership expertise gained all over the years.",
+    title: "Stephano Pelle",
+    para: "The current founder and Director of SP Associates Management Consultants, Stephano is a lecturer, a writer by hobby, and an achiever by passion. Here's a talk from the knight commander who shares his experience of the market and leadership expertise gained all over the years.",
     link: "https://www.youtube.com/watch?v=5ZGg5BrbZQU",
     year: 2020,
   },
@@ -61,7 +61,7 @@ const speakersData = [
   {
     img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650895449/Website%20Content/Home/anusree_ztacbo_hy7cnr.png",
     title: "Anusree Raha",
-    para: "An economist by education and a bureaucrat by profession, Anusree Raha is an Indian Economic Service Officer, currently working in the capacity of Deputy Director to the Government of India. Hear the top bureaucrat speak of the great combination that technology makes with government schemes and great opportunities that lie in it.",
+    para: "An economist by education and a bureaucrat by profession, Anusree Raha is an Indian Economic Service Officer, currently working in the capacity of Deputy Director to the Government of India. Hear the top bureaucrat speak of the great combination that technology makes with government schemes and the great opportunities.",
     link: "https://www.youtube.com/watch?v=hCg_mSySd7Q",
     year: 2020,
   },
@@ -89,7 +89,7 @@ const speakersData = [
   {
     img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650172273/Website%20Content/Home/_MG_8318_1_rjydz8.png",
     title: "Daniel Waples and Flavio Lopez",
-    para: "Daniel Waples is one of the world’s best-known handpan (hang drum) players having played in over 50 countries and amassing over 40 million views on YouTube. Having played the violin since he was just 9, Flavio feels comfortable within many different genres & musical ideas, adding a truly eclectic vibe to his sound, be it classical music or electronica.",
+    para: "Daniel Waples is one of the world’s best-known handpan (hang drum) players having played in over 50 countries and amassing over 40 million views on YouTube. Having played the violin since he was just 9, Flavio feels comfortable within many different genres and musical ideas, adding a truly eclectic vibe to his sound, be it classical music or electronica.",
     link: "",
     year: 2020,
   },

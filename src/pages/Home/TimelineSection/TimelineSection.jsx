@@ -5,15 +5,15 @@ import "./TimelineSection.scss";
 const EXAMPLE = [
   {
     date: "2015",
-    title: "TEDxVITPune Growth |The Pilot | 2015",
-    paragraph: `The "Growth" of TEDxVITPune began in April 2015, as we aspired to put forth the best of all events with a mission to bring together brilliant minds competent in "Spreading Ideas". With a 9 speaker line-up, the pilot event garnered attention all across Pune and was set to embark on a journey to seek inspiration from revolutionary ideas. `,
+    title: "TEDxVITPune Growth | The Pilot | 2015",
+    paragraph: ` The "Growth" of TEDxVITPune began in April 2015, as we aspired to put forth the best of all events with a mission to bring together brilliant minds competent in "Spreading Ideas". With a 9 speaker line-up, the pilot event garnered attention all across Pune and was set to embark on a journey to seek inspiration from revolutionary ideas.`,
     imgURL: `https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/15_fqiof1.svg`,
     videoLink: `https://www.youtube.com/playlist?list=PL0687I2dEWcksr9RextzeIRFms8yjaKQi`,
   },
   {
     date: "2016-04-09",
     title: "TEDxVITPune Let’s Crossover | Traversing All Hurdles | 2016",
-    paragraph: `After "Growth" came the moment to "Crossover". The moment to foster the fire within us and fight all barriers for seeking answers to challenging existing norms. With an exceptional lineup of speakers and an elevated event experience, the second edition of TEDxVITPune carried the legacy forward with an intent to put together a marvellous experience.`,
+    paragraph: ` After "Growth" came the moment to "Crossover". The moment to foster the fire within us and fight all barriers for seeking answers to challenging existing norms. With an exceptional lineup of speakers and an elevated event experience, the second edition of TEDxVITPune carried the legacy forward with an intent to put together a marvellous experience.`,
     imgURL: `https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/16_l6ewrv.svg`,
     videoLink: `https://www.youtube.com/playlist?list=PL0687I2dEWclNQ5LLwulDH20FUvGDsSlG`,
   },
@@ -30,7 +30,7 @@ const EXAMPLE = [
     title:
       "TEDxVITPune Walking the Wire | To Countless Risks And No What-ifs | 2018",
     paragraph:
-      "Courage is what drives us and you never know what is waiting until you complete your journey and reach the destination. The fourth edition of TEDxVITPune was not simply an event, but an exquisite experience altogether. Powerful speakers, unprecedented ideas, and melodious musicians helped raise the bar to showcase what a TEDx experience truly feels like. The offline event took place in October 2018, with remarkable orators like Girish Narayandass, Sameer Agashe, Anusree Raha, Stefano Pele, and many others.",
+      `"Courage is what drives us, and you never know what is waiting until you complete your journey and reach the destination."  The fourth edition of TEDxVITPune was not simply an event, but an exquisite experience altogether. Powerful speakers, unprecedented ideas, and melodious musicians helped raise the bar to showcase what a TEDx experience truly feels like. The offline event took place in October 2018, with remarkable orators like Girish Narayandass, Sameer Agashe, Anusree Raha, Stefano Pele, and many others.`,
     imgURL: `https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/18_gjf3ro.svg`,
     videoLink: `https://www.youtube.com/playlist?list=PLsRNoUx8w3rNNKU261Gx7oEemGRuY_kFB`,
   },
@@ -52,7 +52,7 @@ const EXAMPLE = [
   },
   {
     date: "2021-05-19",
-    title: "TEDxVITPune Reemergence | Resurfacing Amidst Turmoil| 2021",
+    title: "TEDxVITPune Reemergence | Resurfacing Amidst Turmoil | 2021",
     paragraph:
       "Delineating the perseverance to re-emerge stronger despite times of turmoil, the 6th edition of TEDxVITPune aimed at inciting social impact and endowed guidance to help resurface as the finest version of yourself. The online event unravelled as the remarkable lineup of speakers including Amira Gill, Debanshu Roy, Jishnu Chatterjee,Mark Hannant, and Avinash Ramanathan, put forth their striking ideas.",
     videoLink: `https://www.youtube.com/playlist?list=PL0687I2dEWckuZn6AEuZF8FOnr7T1QcVV`,

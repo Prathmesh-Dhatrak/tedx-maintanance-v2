@@ -3,7 +3,7 @@
     text-align: center;
     padding-top: 140px;
     padding-bottom: 5%;
-    font-family: "Aileron";
+    font-family: $font-text;
     font-size: 60px;
     line-height: 70px;
     color: #333333;
@@ -11,7 +11,7 @@
 .category {
     padding: 2%;
     text-align: center;
-    font-family: "Aileron";
+    font-family: $font-text;
     font-size: 40px;
     line-height: 50px;
     color: #333333;
@@ -45,7 +45,7 @@
 
         justify-content: center;
         text-align: left;
-        font-family: "Rotunda_Light", sans-serif;
+        font-family: "Candara";
         font-weight: 400;
         color: #333333;
         font-size: 20px;
@@ -54,7 +54,9 @@
         
         background-color: white;
         overflow: hidden;
-        transition: max-height 0.5s ease;
+        transition: max-height 0.5s ease-in-out;
+        
+        -webkit-transition: all .5s ease-in-out;
         p {
             padding: 0% 20% 2% 20%
         }

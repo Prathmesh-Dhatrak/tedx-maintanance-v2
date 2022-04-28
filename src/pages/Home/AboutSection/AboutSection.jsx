@@ -1,11 +1,10 @@
 import React from "react";
 import "./AboutSection.scss";
-import { Link } from "react-router-dom";
 
 const AboutSection = () => {
   return (
     <div className="about-container">
-      <h2 className="about-title">{`About TED, TEDx & Us `}</h2>
+      <h2 className="about-title">{`About TED, TEDx and Us `}</h2>
       <div className="about-inner-container">
         <div className="about-section1">
           <p>
@@ -41,7 +40,10 @@ const AboutSection = () => {
         </div>
         <div className="about-section3">
           {" "}
-          <Link to={"/"}>learn more at ted.com</Link>
+          <a href="https://www.ted.com/" rel="noopener noreferrer" target="_blank">
+              learn more at ted.com
+          </a>
+          
         </div>
       </div>
     </div>

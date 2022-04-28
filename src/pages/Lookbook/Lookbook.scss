@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0;
     & h1 {
       padding-top: 50px;
       font-family: $font-default;
@@ -15,8 +16,8 @@
       font-weight: 700;
       font-size: 65px;
       line-height: 59px;
-      -webkit-text-stroke: 1px rgb(255, 255, 255);
-      -webkit-text-fill-color: rgb(0, 0, 0);
+      //-webkit-text-stroke: 1px rgb(255, 255, 255);
+      //-webkit-text-fill-color: rgb(0, 0, 0);
       padding-bottom: 4rem;
       // border: 1px solid #ffffff;
     }
@@ -82,6 +83,44 @@
         & .gallery-3img-column,
         .gallery-4img-column {
           flex-wrap: wrap;
+        }
+        & .gallery-4img-column{
+          width: 100%;
+        }
+        & .label-2019 {
+          top: 18rem;
+          left: 0rem;
+        }
+        & .label-2018 {
+          top: 18rem;
+          right: 0rem;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 412px) {
+  .lookbook-conatiner {
+    padding: 1rem 0rem;
+    & .container {
+      & h1 {
+        font-size: 25px;
+        padding: 2rem 0rem;
+        text-align: center;
+        -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+        padding-top: 50px;
+      }
+      label {
+        font-size: 75px;
+      }
+      & .year2019-container,
+      .year2018-container {
+        & .gallery-3img-column,
+        .gallery-4img-column {
+          flex-wrap: wrap;
+          img{
+            width: 100%;
+          }
         }
         & .gallery-4img-column{
           width: 100%;

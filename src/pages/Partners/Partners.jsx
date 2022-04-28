@@ -63,7 +63,7 @@ const Partners = ({ dark }) => {
 
       <div className={styles.at_tedx}>
         <div className={styles.at_left}>
-          <img alt="Alt1" src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021220/Website%20Content/Partner/at1_nlvjv3.jpg" />
+          <img alt="Alt1" src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650301977/Website%20Content/Partner/at1_nlvjv3_r0hymy.jpg" />
         </div>
         <div className={styles.at_right}>
           <h1>
@@ -100,13 +100,13 @@ const Partners = ({ dark }) => {
           </p>
         </div>
         <div className={styles.at_right_1}>
-          <img alt="Alt1" src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021221/Website%20Content/Partner/at2_w2bgrx.jpg" />
+          <img alt="Alt1" src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650301978/Website%20Content/Partner/at2_w2bgrx_nxmjxf.jpg" />
         </div>
       </div>
 
       <div className={styles.at_tedx_2}>
         <div className={styles.at_left_2}>
-          <img alt="Alt3" src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021221/Website%20Content/Partner/at3_xb75u1.jpg" />
+          <img alt="Alt3" src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650301978/Website%20Content/Partner/at3_xb75u1_hivcbo.jpg" />
         </div>
         <div className={styles.at_right_2}>
           <p>

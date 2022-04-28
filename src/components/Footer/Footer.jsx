@@ -1,5 +1,4 @@
 import React from "react";
-import { ExternalLink } from 'react-external-link';
 import "./Footer.scss";
 import logo from "../../images/Header/logo_light.png";
 import { Link } from "react-router-dom";
@@ -21,8 +20,8 @@ const Footer = () => {
         <div className="footer-newsletterBTN">
           <a href="/">Join Our Newsletter</a>
           <p>
-            Be the first to hear from us,you can unsubscribe our update any time
-            you want.
+          Be the first one to hear from us! You can unsubscribe our update any time you want.
+
           </p>
         </div>
         <div className="footer-aboutLine">
@@ -71,32 +70,32 @@ const Footer = () => {
             <ul>
 
               <li>
-                <ExternalLink href="www.facebook.com/TEDxVITPune" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/TEDxVITPune" rel="noopener noreferrer" target="_blank">
                   <img src={Meta} alt="Meta" />
-                </ExternalLink>
+                </a>
 
               </li>
 
               <li>
-                <a href="www.instagram.com/tedxvitpune">
+                <a href="https://www.instagram.com/tedxvitpune" rel="noopener noreferrer" target="_blank">
                   <img src={Insta} alt="Insta" />
                 </a>
               </li>
 
               <li>
-                <a href="twitter.com/TEDxVITPune">
+                <a href="https://www.twitter.com/TEDxVITPune" rel="noopener noreferrer" target="_blank">
                   <img src={Twitter} alt="Twitter" />
                 </a>
               </li>
 
               <li>
-                <a href="in.linkedin.com/company/tedxvitpune">
+                <a href="https://www.linkedin.com/company/tedxvitpune/" rel="noopener noreferrer" target="_blank">
                   <img src={linkedin} alt="Linkedin" />
                 </a>
               </li>
 
               <li>
-              <a href=" www.youtube.com/c/TEDxVITPune">
+              <a href="https://www.youtube.com/c/TEDxVITPune" rel="noopener noreferrer" target="_blank">
                 <img src={Youtube} alt="utube" />
               </a>
             </li>

@@ -1,255 +1,5 @@
 @import "../../styles/variables";
 
-.new_about_ted {
-    display: flex;
-    min-height: 100vh;
-    width: 100%;
-
-    .new_about_ted_left {
-        width: 45%;
-        color: #333333;
-        padding-left: 5%;
-        img {
-            width: 280px;
-        }
-
-        p {
-            font-family: "Candara";
-            font-size: 20px;
-            font-style: normal;
-            line-height: 30px;
-            letter-spacing: 0em;
-            text-align: left;
-            margin-bottom: 5%;
-        }
-    }
-    .new_about_ted_right {
-        width: 55%;
-        color: #333333;
-        p {
-            padding-right: 2%;
-            padding-right: 5%;
-            font-family: "Candara";
-            font-size: 20px;
-            font-style: normal;
-            line-height: 30px;
-            letter-spacing: 0em;
-            text-align: left;
-            margin-bottom: 2.5%;
-            margin-top: 5%;
-        }
-    }
-}
-
-@media (max-width: 1016px) {
-    .new_about_ted {
-        display: flex;
-        min-height: 100vh;
-        width: 100%;
-        flex-direction: column;
-
-        .new_about_ted_left {
-            width: 100%;
-            color: #333333;
-            padding-left: 5%;
-            img {
-                width: 280px;
-            }
-            p {
-                margin-bottom: 0;
-            }
-        }
-        .new_about_ted_right {
-            width: 100%;
-            color: #333333;
-            margin-bottom: 50px;
-            .redLine_img {
-                display: none;
-            }
-            p {
-                padding-right: 2%;
-                padding-left: 5%;
-                font-family: "Candara";
-                font-size: 20px;
-                font-style: normal;
-                line-height: 30px;
-                letter-spacing: 0em;
-                text-align: left;
-                margin-bottom: 2.5%;
-                margin-top: 5%;
-            }
-        }
-    }
-}
-.new_about_tedx {
-    display: flex;
-    min-height: 90vh;
-    width: 100%;
-    .new_about_tedx_left {
-        width: 55%;
-        color: #333333;
-        .tedx_redLine_img {
-            margin-bottom: 15%;
-        }
-        p {
-            padding-left: 5%;
-            font-family: "Candara";
-            font-size: 20px;
-            font-style: normal;
-            line-height: 30px;
-            letter-spacing: 0em;
-            text-align: left;
-            margin-bottom: 5%;
-        }
-    }
-    .new_about_tedx_right {
-        width: 45%;
-        color: #333333;
-        padding: 0 5%;
-        img {
-            width: 320px;
-        }
-
-        p {
-            margin-top: 5%;
-            font-family: "Candara";
-            font-size: 20px;
-            font-style: normal;
-            line-height: 30px;
-            letter-spacing: 0em;
-            text-align: left;
-            margin-bottom: 2.5%;
-        }
-    }
-}
-
-@media (max-width: 950px) {
-    .new_about_tedx {
-        display: flex;
-        min-height: 90vh;
-        width: 100%;
-        flex-direction: column-reverse;
-        .new_about_tedx_left {
-            width: 100%;
-            padding-bottom: 50px;
-
-            .tedx_redLine_img {
-                display: none;
-            }
-            p {
-                padding-left: 5%;
-                font-family: "Candara";
-                font-size: 20px;
-                font-style: normal;
-                line-height: 30px;
-                letter-spacing: 0em;
-                text-align: left;
-                margin-bottom: 5%;
-            }
-        }
-        .new_about_tedx_right {
-            width: 100%;
-
-            padding: 0 5%;
-            img {
-                width: 320px;
-            }
-
-            p {
-                margin-top: 5%;
-                font-family: "Candara";
-                font-size: 20px;
-                font-style: normal;
-                line-height: 30px;
-                letter-spacing: 0em;
-                text-align: left;
-                margin-bottom: 2.5%;
-            }
-        }
-    }
-}
-
-.new_tedxVitpune {
-    min-height: 90vh;
-    width: 100%;
-    .new_tedxVitpune_flex {
-        display: flex;
-        width: 100%;
-        align-items: center;
-        .new_tedxVitpune_flex_left {
-            padding-left: 5%;
-            color: #333333;
-            width: 65%;
-            padding-right: 2.5%;
-            img {
-                width: 320px;
-                &:last-child {
-                    width: 100%;
-                }
-            }
-        }
-        .new_tedxVitpune_flex_right {
-            width: 35%;
-
-            img {
-                height: 100%;
-                width: 100%;
-            }
-        }
-    }
-    p {
-        color: #333333;
-        font-family: "Candara";
-        font-size: 20px;
-        font-style: normal;
-        line-height: 30px;
-        letter-spacing: 0em;
-        text-align: left;
-        margin-bottom: 2.5%;
-        margin-top: 2.5%;
-        padding: 0 5%;
-    }
-}
-
-@media (max-width: 912px) {
-    .new_tedxVitpune {
-        min-height: 90vh;
-        width: 100%;
-        .new_tedxVitpune_flex {
-            display: flex;
-            width: 100%;
-            align-items: center;
-            flex-direction: column;
-            .new_tedxVitpune_flex_left {
-                padding-left: 5%;
-                color: #333333;
-                width: 100%;
-                padding-right: 2.5%;
-                img {
-                    width: 300px;
-                    &:last-child {
-                        width: 520px;
-                    }
-                }
-            }
-            .new_tedxVitpune_flex_right {
-                display: none;
-            }
-        }
-        p {
-            color: #333333;
-            font-family: "Candara";
-            font-size: 20px;
-            font-style: normal;
-            line-height: 30px;
-            letter-spacing: 0em;
-            text-align: left;
-            margin-bottom: 2.5%;
-            margin-top: 2.5%;
-            padding: 0 5%;
-        }
-    }
-}
 
 .wrapper_section {
     padding-top: 100px;
@@ -383,6 +133,266 @@
     }
 }
 
+.new_about_ted {
+    display: flex;
+    margin-bottom: 6rem;
+    width: 100%;
+
+    .new_about_ted_left {
+        width: 45%;
+        color: #333333;
+        padding-right: 3%;
+        padding-left: 5%;
+        img {
+            width: 280px;
+        }
+
+        p {
+            font-family: "Candara";
+            font-size: 20px;
+            font-style: normal;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin-bottom: 5%;
+        }
+    }
+    .new_about_ted_right {
+        width: 55%;
+        color: #333333;
+        p {
+            padding-right: 2%;
+            padding-right: 5%;
+            font-family: "Candara";
+            font-size: 20px;
+            font-style: normal;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin-bottom: 2.5%;
+            margin-top: 5%;
+        }
+    }
+}
+
+@media (max-width: 1016px) {
+    .new_about_ted {
+        display: flex;
+        margin-bottom: 3rem;
+        width: 100%;
+        flex-direction: column;
+
+        .new_about_ted_left {
+            width: 100%;
+            color: #333333;
+            padding-left: 5%;
+            img {
+                width: 280px;
+            }
+            p {
+                margin-bottom: 0;
+            }
+        }
+        .new_about_ted_right {
+            width: 100%;
+            color: #333333;
+            //margin-bottom: 50px;
+            .redLine_img {
+                display: none;
+            }
+            p {
+                padding-right: 2%;
+                padding-left: 5%;   
+                font-family: "Candara";
+                font-size: 20px;
+                font-style: normal;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+                margin-bottom: 1.5%;
+                margin-top: 2.5%;
+            }
+        }
+    }
+}
+.new_about_tedx {
+    display: flex;
+    margin-bottom:6rem ;
+    width: 100%;
+    .new_about_tedx_left {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 55%;
+        color: #333333;
+        .tedx_redLine_img {
+            margin-top: 10%;
+            margin-bottom: 10%;
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+        p {
+            padding-left: 8%;
+            font-family: "Candara";
+            font-size: 20px;
+            font-style: normal;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin-bottom: 5%;
+        }
+    }
+    .new_about_tedx_right {
+        width: 45%;
+        color: #333333;
+        padding: 0 3%;
+        img {
+            width: 320px;
+        }
+
+        p {
+            margin-top: 5%;
+            font-family: "Candara";
+            font-size: 20px;
+            font-style: normal;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin-bottom: 2.5%;
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    .new_about_tedx {
+        display: flex;
+        margin-bottom: 3rem;
+        width: 100%;
+        flex-direction: column-reverse;
+        .new_about_tedx_left {
+            width: 100%;
+            //padding-bottom: 50px;
+
+            .tedx_redLine_img {
+                display: none;
+            }
+            p {
+                padding-left: 5%;
+                font-family: "Candara";
+                font-size: 20px;
+                font-style: normal;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+                //margin-bottom: 5%;
+            }
+        }
+        .new_about_tedx_right {
+            width: 100%;
+
+            padding: 0 5%;
+            img {
+                width: 320px;
+            }
+
+            p {
+                margin-top: 5%;
+                font-family: "Candara";
+                font-size: 20px;
+                font-style: normal;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+                margin-bottom: 2.5%;
+            }
+        }
+    }
+}
+
+.new_tedxVitpune {
+    margin-bottom: 6rem;
+    width: 100%;
+    .new_tedxVitpune_flex {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        .new_tedxVitpune_flex_left {
+            padding-left: 5%;
+            color: #333333;
+            width: 65%;
+            padding-right: 2.5%;
+            img {
+                width: 320px;
+                &:last-child {
+                    width: 100%;
+                }
+            }
+        }
+        .new_tedxVitpune_flex_right {
+            width: 35%;
+
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+    p {
+        color: #333333;
+        font-family: "Candara";
+        font-size: 20px;
+        font-style: normal;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 2.5%;
+        margin-top: 2.5%;
+        padding: 0 5%;
+    }
+}
+
+@media (max-width: 912px) {
+    .new_tedxVitpune {
+        margin-bottom: 3rem;
+        width: 100%;
+        .new_tedxVitpune_flex {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            flex-direction: column;
+            .new_tedxVitpune_flex_left {
+                padding-left: 5%;
+                color: #333333;
+                width: 100%;
+                padding-right: 2.5%;
+                img {
+                    width: 300px;
+                    
+                }
+            }
+            .new_tedxVitpune_flex_right {
+                display: none;
+            }
+        }
+        p {
+            color: #333333;
+            font-family: "Candara";
+            font-size: 20px;
+            font-style: normal;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin-bottom: 2.5%;
+            margin-top: 2.5%;
+            padding: 0 5%;
+        }
+    }
+}
+
+
+
 .about_pillars_title {
     font-weight: bold;
     font-size: 40px;
@@ -393,12 +403,18 @@
 }
 
 .about_ideas {
-    min-height: 75vh;
+    //min-height: 75vh;
     color: #333333;
-    img {
-        padding-left: 5%;
-        //width: 890px;
+    .about_images_div{
+        width: 793px;
+        img {
+            width: 100%;
+            height: auto;
+            
+        }
+
     }
+    
     div {
         padding: 0 5%;
         color: #333333;
@@ -424,12 +440,16 @@
 }
 
 .about_community {
-    min-height: 75vh;
+    //min-height: 75vh;
     color: #333333;
-    img {
-        padding-left: 5%;
-        width: 100%;
+    .about_images_div{
+        width: 1010px;
+        img {
+            height: auto;
+            width: 100%;
+        }
     }
+    
     div {
         padding: 0 5%;
         color: #333333;
@@ -454,12 +474,18 @@
     }
 }
 .about_experience {
-    min-height: 95vh;
+    //min-height: 95vh;
     color: #333333;
-    img {
-        padding-left: 5%;
-        width: 100%;
+    margin-bottom: 5rem;
+    .about_images_div{
+        width: 1010px;
+        img {
+            width: 100%;
+            height: auto;
+        }
+
     }
+    
     div {
         padding: 0 5%;
         color: #333333;
@@ -484,14 +510,39 @@
     }
 }
 
+@media (max-width: 994px) {
+    .about_ideas,
+    .about_community,
+    .about_experience {
+        .about_images_div{
+            width: 800px;
+            img {
+
+                width:100%;
+                height: auto;
+            }
+
+        }
+        
+        
+    }
+}
+
+
 @media (max-width: 686px) {
     .about_ideas,
     .about_community,
     .about_experience {
-        img {
-            padding-left: 5%;
-            width: 90%;
+        .about_images_div{
+            width: 550px;
+            img {
+
+                width:100%;
+                height: auto;
+            }
+
         }
+        
         div {
             padding: 0 5%;
             color: #333333;
@@ -516,3 +567,40 @@
         }
     }
 }
+
+@media (max-width: 540px) {
+    .about_ideas,
+    .about_community,
+    .about_experience {
+        .about_images_div{
+            width: 480px;
+            img {
+
+                width:100%;
+                height: auto;
+            }
+
+        }
+        
+        
+    }
+}
+
+@media (max-width: 460px) {
+    .about_ideas,
+    .about_community,
+    .about_experience {
+        .about_images_div{
+            width: 99%;
+            img {
+
+                width:100%;
+                height: auto;
+            }
+
+        }
+        
+        
+    }
+}
+

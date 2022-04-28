@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./About.module.scss";
 import grid from "../../images/WhiteGrid.svg";
+import newRed from "../../images/Aboutpages/new_redline.svg";
 
 const About = ({ dark }) => {
   const pageStyle = {
@@ -20,7 +21,11 @@ const About = ({ dark }) => {
             style={{ backgroundImage: `url(${stage})` }}
           >
             <div className={styles.content}>
-              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650045146/Website%20Content/Partner/About_Us_py4wte.svg" alt="About" style={{ width:'100%'}}/>
+              <img
+                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650045146/Website%20Content/Partner/About_Us_py4wte.svg"
+                alt="About"
+                style={{ width: "60%" }}
+              />
               <p>
                 In the spirit of Ideas Worth Spreading, we, at TEDxVITPune,
                 solely believe in the power of ideas to change attitudes, lives,
@@ -30,6 +35,12 @@ const About = ({ dark }) => {
               </p>
             </div>
           </div>
+        </div>
+
+        <div className={styles.about_pillars_title} style={{
+          marginBottom: "60px",
+        }}>
+          TED, TEDx, TEDxVITPune- The Trio Pack
         </div>
 
         <div className={styles.new_about_ted}>
@@ -57,7 +68,8 @@ const About = ({ dark }) => {
           <div className={styles.new_about_ted_right}>
             <div className={styles.redLine_img}>
               <img
-                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021526/Website%20Content/About/redLine_rf1w16.svg"
+                style={{ marginTop: "45px", width: "100%" }}
+                src={newRed}
                 alt="redLine"
               />
             </div>
@@ -65,7 +77,7 @@ const About = ({ dark }) => {
               Today, the two annual TED Conferences invite the world's leading
               thinkers and doers to speak for 18 minutes or less and the total
               events conducted till now are more than 6000. Many of these talks
-              are then made available, free, at TED.com in more than a 100
+              are then made available, free, at TED.com in more than 100
               languages.
             </p>
 
@@ -82,10 +94,7 @@ const About = ({ dark }) => {
         <div className={styles.new_about_tedx}>
           <div className={styles.new_about_tedx_left}>
             <div className={styles.tedx_redLine_img}>
-              <img
-                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021526/Website%20Content/About/redLine_rf1w16.svg"
-                alt="redLine"
-              />
+              <img src={newRed} alt="redLine" />
             </div>
             <p>
               In the spirit of ideas worth spreading, TEDx is a TED-created
@@ -139,10 +148,7 @@ const About = ({ dark }) => {
             </div>
 
             <div className={styles.new_tedxVitpune_flex_right}>
-              <img
-                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021526/Website%20Content/About/redLine_rf1w16.svg"
-                alt="redLine"
-              />
+              <img src={newRed} alt="redLine" />
             </div>
           </div>
 
@@ -170,10 +176,13 @@ const About = ({ dark }) => {
         </div>
 
         <div className={styles.about_ideas}>
-          <img
-            src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650032044/Website%20Content/About/ideas_c3weus.svg"
-            alt="ideas"
-          />
+          <div className={styles.about_images_div}>
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650032044/Website%20Content/About/ideas_c3weus.svg"
+              alt="ideas"
+            />
+          </div>
+
           <br />
           <div>
             <i>"Everything begins with an idea"</i>- Earl Nightingale
@@ -195,10 +204,13 @@ const About = ({ dark }) => {
         </div>
 
         <div className={styles.about_community}>
-          <img
-            src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650032115/Website%20Content/About/community_c9cqi9.svg"
-            alt="community"
-          />
+          <div className={styles.about_images_div}>
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650032115/Website%20Content/About/community_c9cqi9.svg"
+              alt="community"
+            />
+          </div>
+
           <br />
           <div>
             <i>
@@ -223,10 +235,13 @@ const About = ({ dark }) => {
         </div>
 
         <div className={styles.about_experience}>
-          <img
-            src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650032185/Website%20Content/About/experience_urjjtt.svg"
-            alt="xper"
-          />
+          <div className={styles.about_images_div}>
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650032185/Website%20Content/About/experience_urjjtt.svg"
+              alt="xper"
+            />
+          </div>
+
           <br />
           <div>
             <i>"We don’t remember days. We remember moments."</i> - Cesare
@@ -240,9 +255,9 @@ const About = ({ dark }) => {
           <p>
             We believe in putting forth a panoramic experience for all and
             sundry. From live talks to workshops and connections that last a
-            lifetime, TEDx aims at providing an escapade for you, and your mind.
-            As a souvenir and a token of gratitude, we also curate personalised
-            merchandise for all our attendees.
+            lifetime, TEDxVITPune aims at providing an escapade for you, and
+            your mind. As a souvenir and a token of gratitude, we also curate
+            personalised merchandise for all our attendees.
           </p>
         </div>
       </div>

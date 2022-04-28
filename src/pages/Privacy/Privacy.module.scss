@@ -5,7 +5,7 @@
 .privacy_policy h1 {
   padding-top: 140px;
   padding-bottom: 30px;
-  font-family: "Aileron";
+  font-family: $font-text;
   font-size: 44px;
   color: #333333;
   text-align: left;
@@ -26,7 +26,7 @@
 }
 .privacy_policy p {
   padding: 70px;
-  padding-top: 40px;
+  padding-top: 10px;
   text-align: left;
   font-family: "Candara";
   color: #000;
@@ -35,12 +35,13 @@
   text-align: justify;
   margin-right: 20%;
   span{
+    font-family: $font-text;
     font-weight: 600;
   }
 }
 .headings_privacy {
   font-size: 22px;
-  font-family: "Aileron";
+  font-family: $font-text;
   margin-bottom: 20px;
   display: inline-block;
 }

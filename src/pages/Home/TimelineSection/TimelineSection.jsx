@@ -4,21 +4,21 @@ import "./TimelineSection.scss";
 
 const EXAMPLE = [
   {
-    data: "2015",
+    date: "2015",
     title: "TEDxVITPune Growth |The Pilot | 2015",
     paragraph: `The "Growth" of TEDxVITPune began in April 2015, as we aspired to put forth the best of all events with a mission to bring together brilliant minds competent in "Spreading Ideas". With a 9 speaker line-up, the pilot event garnered attention all across Pune and was set to embark on a journey to seek inspiration from revolutionary ideas. `,
     imgURL: `https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/15_fqiof1.svg`,
     videoLink: `https://www.youtube.com/playlist?list=PL0687I2dEWcksr9RextzeIRFms8yjaKQi`,
   },
   {
-    data: "2016",
+    date: "2016-04-09",
     title: "TEDxVITPune Let’s Crossover | Traversing All Hurdles | 2016",
     paragraph: `After "Growth" came the moment to "Crossover". The moment to foster the fire within us and fight all barriers for seeking answers to challenging existing norms. With an exceptional lineup of speakers and an elevated event experience, the second edition of TEDxVITPune carried the legacy forward with an intent to put together a marvellous experience.`,
     imgURL: `https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/16_l6ewrv.svg`,
     videoLink: `https://www.youtube.com/playlist?list=PL0687I2dEWclNQ5LLwulDH20FUvGDsSlG`,
   },
   {
-    data: "2017",
+    date: "2017-03-15",
     title: "TEDxVITPune Connecting the Dots | Pause & Take a Step Back | 2017",
     paragraph:
       "From an award-winning national singer to numerous eminent speakers, the third edition witnessed the unification of ingenious minds, be it innovators, filmmakers, or entertainers. Our alumni graced the event by sharing their motivational life stories and helping us “Connect the Dots” to find the magic in our mundane lives. Speakers like Aniruddha Sen, Sachin Sanghe, Ramesh Botaljee, and several others, enhanced the experience by truly exhibiting the power of ideas.",
@@ -26,16 +26,16 @@ const EXAMPLE = [
     videoLink: `https://www.youtube.com/playlist?list=PL0687I2dEWcm2PSEaGCYzm_mok3pfVVkT`,
   },
   {
-    data: "2018",
+    date: "2018-03-22",
     title:
       "TEDxVITPune Walking the Wire | To Countless Risks And No What-ifs | 2018",
     paragraph:
-      " \"Courage is what drives us and you never know what is waiting until you complete your journey and reach the destination\". The fourth edition of TEDxVITPune was not simply an event, but an exquisite experience altogether. Powerful speakers, unprecedented ideas, and melodious musicians helped raise the bar to showcase what a TEDx experience truly feels like. The offline event took place in October 2018, with remarkable orators like Girish Narayandass, Sameer Agashe, Anusree Raha, Stefano Pele, and many others.",
+      "Courage is what drives us and you never know what is waiting until you complete your journey and reach the destination. The fourth edition of TEDxVITPune was not simply an event, but an exquisite experience altogether. Powerful speakers, unprecedented ideas, and melodious musicians helped raise the bar to showcase what a TEDx experience truly feels like. The offline event took place in October 2018, with remarkable orators like Girish Narayandass, Sameer Agashe, Anusree Raha, Stefano Pele, and many others.",
     imgURL: `https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/18_gjf3ro.svg`,
     videoLink: `https://www.youtube.com/playlist?list=PLsRNoUx8w3rNNKU261Gx7oEemGRuY_kFB`,
   },
   {
-    data: "2019",
+    date: "2019-11-16",
     title:
       "TEDxVITPune Unravelling The Parallax | Looking At The Bigger Picture | 2019",
     paragraph:
@@ -44,14 +44,14 @@ const EXAMPLE = [
     videoLink: `https://www.youtube.com/playlist?list=PLsRNoUx8w3rPXX5LlzJQQNYrvIvz5nhOz`,
   },
   {
-    data: "2020",
+    date: "2020",
     title: "TEDxVITPune Countdown | Towards Climate Change | 2020",
     paragraph:
       "It's now or never. We can change climate change. Keeping these words in mind, TEDxVITPune joined the Countdown with a vision to spread ideas for a change. Guest speakers, Stephan Crawford, Ulka Kelkar, and Shikhar Kamat imparted valuable cognizance, and musicians, Flavio Lopez and Daniel Waples added a spark of musical notes to the Sunday evening.",
     imgURL: `https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/21_wpmxtr.svg`,
   },
   {
-    data: "2021",
+    date: "2021-05-19",
     title: "TEDxVITPune Reemergence | Resurfacing Amidst Turmoil| 2021",
     paragraph:
       "Delineating the perseverance to re-emerge stronger despite times of turmoil, the 6th edition of TEDxVITPune aimed at inciting social impact and endowed guidance to help resurface as the finest version of yourself. The online event unravelled as the remarkable lineup of speakers including Amira Gill, Debanshu Roy, Jishnu Chatterjee,Mark Hannant, and Avinash Ramanathan, put forth their striking ideas.",
@@ -95,14 +95,14 @@ export default class TimelineSection extends React.Component {
                 foreground: "#E62B1E",
                 outline: "#dfdfdf",
               }}
-              labelWidth={100}
-              linePadding={120}
+              labelWidth={200}
+              linePadding={100}
               index={this.state.curIdx}
               indexClick={(index) => {
                 const curIdx = this.state.curIdx;
                 this.setState({ curIdx: index, prevIdx: curIdx });
               }}
-              values={EXAMPLE.map((x) => x.data)}
+              values={EXAMPLE.map((x) => x.date)}
             />
           </div>
           <div className="events-text-center">

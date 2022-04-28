@@ -7,7 +7,7 @@ import {
   FaAngleLeft,
   FaCaretRight,
 } from "react-icons/fa";
-import { none } from "@cloudinary/url-gen/qualifiers/progressive";
+
 const speakersData = [
   {
     img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021316/Website%20Content/Home/speaker1_xztgri.webp",
@@ -203,9 +203,7 @@ const SpeakersSection = () => {
                 <div className="slide-tittle-year">
                   <h3>{title}</h3> <h5>{year}</h5>
                 </div>
-              ) : (
-                none
-              )}
+              ) : null}
 
               <div className="view-btn" onClick={() => singleSpeakers(idx)}>
                 View Details

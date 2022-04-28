@@ -17,15 +17,15 @@ const Lookbook = ({ dark }) => {
         <div className="year2018-container">
           <div className="gallery-3img-column">
             <img
-              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650300866/Website%20Content/Lookbook/2018Liveimgsmall-4_xjehpv_gohgm7.png"
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651141509/Website%20Content/Lookbook/2020imgBig-1_nmq9ee.png"
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651055610/Website%20Content/Lookbook/reemergence_ix2osz.png"
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651141525/Website%20Content/Lookbook/2020imgBig-2_aj9c3y.png"
               alt=""
             />
             <img
-              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650300865/Website%20Content/Lookbook/2018Liveimgsmall-3_a6jwxa_npzvvg.png"
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651141526/Website%20Content/Lookbook/2020imgBig-3_gaas3a.png"
               alt=""
             />
           </div>
@@ -49,8 +49,6 @@ const Lookbook = ({ dark }) => {
             />
           </div>
         </div>
-
-
 
         <div className="year2019-container">
           <div className="gallery-3img-column">
@@ -81,7 +79,7 @@ const Lookbook = ({ dark }) => {
               src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650300363/Website%20Content/Lookbook/2018imgsmall-3_snevbl_en8zbq.png"
               alt=""
             />
-            
+
             <img
               src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650296002/Website%20Content/Lookbook/2019imgsmall-4_mfy71g_exzoj5.png"
               alt=""
@@ -91,7 +89,7 @@ const Lookbook = ({ dark }) => {
 
         <div className="year2018-container">
           <div className="gallery-3img-column">
-          <img
+            <img
               src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650299991/Website%20Content/Lookbook/2018imgBig-2_bxok8m_ovs45x.png"
               alt=""
             />
@@ -99,7 +97,7 @@ const Lookbook = ({ dark }) => {
               src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650301155/Website%20Content/Lookbook/2017imgBig-1_as5lmq_pvhfes.png"
               alt=""
             />
-            
+
             <img
               src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651056962/Website%20Content/Lookbook/edxxxxx_ogkunh.png"
               alt=""
@@ -140,7 +138,6 @@ const Lookbook = ({ dark }) => {
               src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651057753/Website%20Content/Lookbook/photo_fdcbjf.png"
               alt=""
             />
-            
           </div>
           <label className="label-2019">2018 Live</label>
           <div className="gallery-4img-column">
@@ -234,7 +231,6 @@ const Lookbook = ({ dark }) => {
             />
           </div>
         </div>
-
       </div>
     </div>
   );

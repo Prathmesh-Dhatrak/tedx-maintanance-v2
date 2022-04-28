@@ -8,7 +8,7 @@ const Privacy = ({ dark }) => {
   };
   return (
     <>
-    <div classNameName="page" style={privacyStyle}>
+    <div className="page" style={privacyStyle}>
     <div className={styles.privacy_policy}>
       <h1>Privacy Policy </h1>
       <p className={styles.para}>Dated- 5th February 2022.</p>

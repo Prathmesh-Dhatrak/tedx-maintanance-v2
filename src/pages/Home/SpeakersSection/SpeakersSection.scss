@@ -6,6 +6,32 @@
   opacity: 0.8;
   outline: none;
   position: relative;
+  & .slide-tittle-year {
+    left: 0;
+    display: flex;
+    bottom: 5rem;
+    position: absolute;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0rem 1rem;
+    h3 {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 3rem;
+      line-height: 33px;
+      width: 80%;
+    }
+    h5 {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 95.9%;
+      padding-bottom: .5rem;
+    }
+  }
   & .slide-img {
     // width: 20rem;
     margin: 0 0;
@@ -46,6 +72,7 @@
 .activeSlide {
   transform: scale(1);
   opacity: 1;
+  transition:  all 0.2s ease-in-out;
 }
 
 .arrow {
@@ -179,11 +206,10 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          transition:all 0.3s  ease-in-out;
-          &:hover{
+          transition: all 0.3s ease-in-out;
+          &:hover {
             background: #ffffff;
             color: #e62b1e;
-
           }
         }
       }
@@ -199,7 +225,7 @@
     }
     & .single-speakers {
       // padding-bottom: 10rem;
-   
+
       & .slide-single {
         flex-direction: column !important;
         text-align: left;

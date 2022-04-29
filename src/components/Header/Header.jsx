@@ -158,7 +158,7 @@ const Header = ({ dark }) => {
                     activeClassName={
                       dark ? "is-active-white" : "is-active-black"
                     }
-                    to={`/community-conversations`}
+                    to={`/Edition6`}
                     style={{
                       color: "#000",
                     }}
@@ -172,7 +172,7 @@ const Header = ({ dark }) => {
                     activeClassName={
                       dark ? "is-active-white" : "is-active-black"
                     }
-                    to={`/community-conversations`}
+                    to={`/Edition5`}
                     style={{
                       color: "#000",
                     }}

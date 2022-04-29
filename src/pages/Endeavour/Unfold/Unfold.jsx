@@ -33,7 +33,7 @@ const Unfold = (dark) => {
               <p>
                 A scientist at work and a protagonist at heart, Dr. Anoop
                 Mahajan leveraged his know-how in Atmospheric Chemistry
-                innovating at the Centre for Climate Change Research, IITM &
+                innovating at the Centre for Climate Change Research, IITM and
                 founded Pune Science on Tap to disseminate science to the
                 masses. Tune in to the video to know how climate change is
                 affecting our lives.

@@ -41,7 +41,7 @@ const CommunityConversations = (dark) => {
 
         <div className="img_section">
           <img
-            src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651224469/Website%20Content/Endevaour/History_tnn5gi.png"
+            src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651226514/Website%20Content/Endevaour/History_e4aoa4.png"
             alt="joker"
           />
         </div>
@@ -101,7 +101,85 @@ const CommunityConversations = (dark) => {
             </div>
           </div>
         </div>
+        <div className="container">
+          <div className="img_section">
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651226276/Website%20Content/Endevaour/BTS_qjbpvn.png"
+              alt="joker"
+            />
+          </div>
 
+          <div className="year2018-container">
+            <div className="gallery-3img-column">
+              <img
+                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651141509/Website%20Content/Lookbook/2020imgBig-1_nmq9ee.png"
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651141525/Website%20Content/Lookbook/2020imgBig-2_aj9c3y.png"
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651141526/Website%20Content/Lookbook/2020imgBig-3_gaas3a.png"
+                alt=""
+              />
+            </div>
+            <div className="gallery-4img-column">
+              <img
+                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650295625/Website%20Content/Lookbook/2019imgsmall-2_xpxe3n_dwaluh.png"
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651055918/Website%20Content/Lookbook/Maskgroup_wtscz3.png"
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651056029/Website%20Content/Lookbook/Mask_group_g0jjug.png"
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650300361/Website%20Content/Lookbook/2018imgsmall-1_v3yjp7_umurdc.png"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div className="year2019-container">
+            <div className="gallery-3img-column">
+              <img
+                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650295152/Website%20Content/Lookbook/2019imgBig-1_ldmjg7_ag9rex.png"
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650295374/Website%20Content/Lookbook/2019imgBig-2_v1ovta_vwk5xg.png"
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650300143/Website%20Content/Lookbook/2018imgBig-3_lnzahc_qrm8xb.png"
+                alt=""
+              />
+            </div>
+            <div className="gallery-4img-column">
+              <img
+                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650300865/Website%20Content/Lookbook/2018Liveimgsmall-1_soelbw_c3vmhm.png"
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650295750/Website%20Content/Lookbook/2019imgsmall-3_kcne8y_tbacta.png"
+                alt=""
+              />
+              <img
+                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650300363/Website%20Content/Lookbook/2018imgsmall-3_snevbl_en8zbq.png"
+                alt=""
+              />
+
+              <img
+                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650296002/Website%20Content/Lookbook/2019imgsmall-4_mfy71g_exzoj5.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

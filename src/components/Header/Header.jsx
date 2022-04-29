@@ -35,6 +35,19 @@ const Header = ({ dark }) => {
     boxClassSubMenu.push("");
   }
 
+  const [isMenuSubMenu2, setMenuSubMenu2] = useState(false);
+
+  const toggleSubmenu2 = () => {
+    setMenuSubMenu2(isMenuSubMenu2 === false ? true : false);
+  };
+
+  let boxClassSubMenu2 = ["sub__menus2"];
+  if (isMenuSubMenu2) {
+    boxClassSubMenu2.push("sub__menus__Active2");
+  } else {
+    boxClassSubMenu2.push("");
+  }
+
   return (
     <header className="container">
       <div className="header__middle__logo">
@@ -76,7 +89,6 @@ const Header = ({ dark }) => {
               </span>
             </>
           )}
-
           <ul className={boxClass.join(" ")}>
             {navData1.map((navitem, index) => {
               return (
@@ -99,11 +111,11 @@ const Header = ({ dark }) => {
               );
             })}
             <li
-              onClick={toggleSubmenu}
+              onClick={toggleSubmenu2}
               className="menu-item sub__menus__arrows"
             >
               <Link
-                to={"/Contact"}
+                to={"/endeavour"}
                 style={{
                   color: dark ? "#aaaaaa" : "#474747",
                   fontStyle: "normal",
@@ -111,19 +123,19 @@ const Header = ({ dark }) => {
               >
                 Endeavour <FiChevronDown />
               </Link>
-              <ul className={boxClassSubMenu.join(" ")}>
+              <ul className={boxClassSubMenu2.join(" ")}>
                 <li>
                   <NavLink
                     onClick={toggleClass}
                     activeClassName={
                       dark ? "is-active-white" : "is-active-black"
                     }
-                    to={`/Contact`}
+                    to={`/community-conversations`}
                     style={{
                       color: "#000",
                     }}
                   >
-                    Contact
+                    Community Conversations
                   </NavLink>
                 </li>
                 <li>
@@ -132,12 +144,12 @@ const Header = ({ dark }) => {
                     activeClassName={
                       dark ? "is-active-white" : "is-active-black"
                     }
-                    to={`/Privacy`}
+                    to={`/unfold`}
                     style={{
                       color: "#000",
                     }}
                   >
-                    Privacy
+                    Unfold
                   </NavLink>
                 </li>
                 <li>
@@ -146,12 +158,82 @@ const Header = ({ dark }) => {
                     activeClassName={
                       dark ? "is-active-white" : "is-active-black"
                     }
-                    to={`/Faqs`}
+                    to={`/edition6`}
                     style={{
                       color: "#000",
                     }}
                   >
-                    FAQs
+                    Edition 6
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    onClick={toggleClass}
+                    activeClassName={
+                      dark ? "is-active-white" : "is-active-black"
+                    }
+                    to={`/edition5`}
+                    style={{
+                      color: "#000",
+                    }}
+                  >
+                    Edition 5
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    onClick={toggleClass}
+                    activeClassName={
+                      dark ? "is-active-white" : "is-active-black"
+                    }
+                    to={`/edition4`}
+                    style={{
+                      color: "#000",
+                    }}
+                  >
+                    Edition 4
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    onClick={toggleClass}
+                    activeClassName={
+                      dark ? "is-active-white" : "is-active-black"
+                    }
+                    to={`/edition3`}
+                    style={{
+                      color: "#000",
+                    }}
+                  >
+                    Edition 3
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    onClick={toggleClass}
+                    activeClassName={
+                      dark ? "is-active-white" : "is-active-black"
+                    }
+                    to={`/edition2`}
+                    style={{
+                      color: "#000",
+                    }}
+                  >
+                    Edition 2
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    onClick={toggleClass}
+                    activeClassName={
+                      dark ? "is-active-white" : "is-active-black"
+                    }
+                    to={`/edition1`}
+                    style={{
+                      color: "#000",
+                    }}
+                  >
+                    Edition 1
                   </NavLink>
                 </li>
               </ul>
@@ -234,7 +316,7 @@ const Header = ({ dark }) => {
                 </li>
               </ul>
             </li>
-            <li className="menu-item ">
+            <li className="menu-item">
               <NavLink
                 onClick={toggleClass}
                 activeClassName={dark ? "is-active-white" : "is-active-black"}

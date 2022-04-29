@@ -1,0 +1,139 @@
+@import "../../../styles/variables";
+.container-5 {
+    padding-top: 70px;
+    color: black;
+    padding-left: 5%;
+    padding-right: 2%;
+    .heading {
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 10px;
+        h2 {
+            font-family: $font-text;
+            margin-bottom: 10px;
+            font-size: 55px;
+            font-weight: bolder;
+        }
+    }
+    p {
+        margin-bottom: 10px;
+        font-family: "Candara";
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .speakers-class {
+        h2 {
+            margin-top: 10px;
+            font-family: $font-text;
+            margin-top: 40px;
+            margin-bottom: 10px;
+            font-size: 50px;
+            font-weight: bolder;
+        }
+
+        .performers {
+            h3 {
+                font-family: "Raleway";
+                font-weight: bolder;
+                color: black;
+                padding-top: 30px;
+                font-size: 40px;
+            }
+            p {
+                font-family: "Candara";
+                font-size: 20px;
+                font-weight: 400;
+                font-style: normal;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+        }
+        .performers-title {
+            h2 {
+                margin-top: 10px;
+                font-family: $font-text;
+                margin-top: 40px;
+                margin-bottom: 10px;
+                font-size: 45px;
+                font-weight: bolder;
+            }
+        }
+
+        .performers-flex {
+            display: flex;
+
+            .performers-flex-left,
+            .performers-flex-right {
+                width: 50%;
+                h3 {
+                    font-family: "Raleway";
+                    font-weight: bolder;
+                    color: black;
+                    padding-top: 20px;
+                    font-size: 40px;
+                }
+                p {
+                    font-family: "Candara";
+                    font-size: 20px;
+                    font-weight: 400;
+                    font-style: normal;
+                    line-height: 30px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
+            }
+        }
+    }
+    .titleee {
+        margin-top: 40px;
+        h2 {
+            font-family: $font-text;
+            margin-bottom: 10px;
+            font-size: 55px;
+            font-weight: bolder;
+        }
+    }
+
+    img {
+        width: 95%;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 718px) {
+    .performers-flex {
+        flex-direction: column;
+
+        .performers-flex-left,
+        .performers-flex-right {
+            width: 100%;
+            h3 {
+                width: 100%;
+                font-family: "Raleway";
+                font-weight: bolder;
+                color: black;
+                padding-top: 20px;
+                font-size: 40px;
+            }
+            p {
+                font-family: "Candara";
+                font-size: 20px;
+                font-weight: 400;
+                font-style: normal;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+        }
+    }
+
+
+
+}

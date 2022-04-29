@@ -41,7 +41,7 @@ const CommunityConversations = (dark) => {
 
         <div className="img_section">
           <img
-            src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651224469/Website%20Content/Endevaour/History_tnn5gi.png"
+            src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651226514/Website%20Content/Endevaour/History_e4aoa4.png"
             alt="joker"
           />
         </div>

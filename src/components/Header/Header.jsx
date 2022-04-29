@@ -158,7 +158,7 @@ const Header = ({ dark }) => {
                     activeClassName={
                       dark ? "is-active-white" : "is-active-black"
                     }
-                    to={`/edition6`}
+                    to={`/`}
                     style={{
                       color: "#000",
                     }}
@@ -172,7 +172,7 @@ const Header = ({ dark }) => {
                     activeClassName={
                       dark ? "is-active-white" : "is-active-black"
                     }
-                    to={`/edition5`}
+                    to={`/`}
                     style={{
                       color: "#000",
                     }}
@@ -186,7 +186,7 @@ const Header = ({ dark }) => {
                     activeClassName={
                       dark ? "is-active-white" : "is-active-black"
                     }
-                    to={`/edition4`}
+                    to={`/`}
                     style={{
                       color: "#000",
                     }}
@@ -200,7 +200,7 @@ const Header = ({ dark }) => {
                     activeClassName={
                       dark ? "is-active-white" : "is-active-black"
                     }
-                    to={`/edition3`}
+                    to={`/`}
                     style={{
                       color: "#000",
                     }}
@@ -214,7 +214,7 @@ const Header = ({ dark }) => {
                     activeClassName={
                       dark ? "is-active-white" : "is-active-black"
                     }
-                    to={`/edition2`}
+                    to={`/`}
                     style={{
                       color: "#000",
                     }}
@@ -228,7 +228,7 @@ const Header = ({ dark }) => {
                     activeClassName={
                       dark ? "is-active-white" : "is-active-black"
                     }
-                    to={`/edition1`}
+                    to={`/`}
                     style={{
                       color: "#000",
                     }}

@@ -158,7 +158,7 @@ const Header = ({ dark }) => {
                     activeClassName={
                       dark ? "is-active-white" : "is-active-black"
                     }
-                    to={`/`}
+                    to={`/community-conversations`}
                     style={{
                       color: "#000",
                     }}
@@ -172,7 +172,7 @@ const Header = ({ dark }) => {
                     activeClassName={
                       dark ? "is-active-white" : "is-active-black"
                     }
-                    to={`/`}
+                    to={`/community-conversations`}
                     style={{
                       color: "#000",
                     }}
@@ -186,7 +186,7 @@ const Header = ({ dark }) => {
                     activeClassName={
                       dark ? "is-active-white" : "is-active-black"
                     }
-                    to={`/`}
+                    to={`/community-conversations`}
                     style={{
                       color: "#000",
                     }}
@@ -200,7 +200,7 @@ const Header = ({ dark }) => {
                     activeClassName={
                       dark ? "is-active-white" : "is-active-black"
                     }
-                    to={`/`}
+                    to={`/community-conversations`}
                     style={{
                       color: "#000",
                     }}
@@ -214,7 +214,7 @@ const Header = ({ dark }) => {
                     activeClassName={
                       dark ? "is-active-white" : "is-active-black"
                     }
-                    to={`/`}
+                    to={`/community-conversations`}
                     style={{
                       color: "#000",
                     }}
@@ -228,7 +228,7 @@ const Header = ({ dark }) => {
                     activeClassName={
                       dark ? "is-active-white" : "is-active-black"
                     }
-                    to={`/`}
+                    to={`/community-conversations`}
                     style={{
                       color: "#000",
                     }}

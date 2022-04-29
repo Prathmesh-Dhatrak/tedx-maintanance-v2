@@ -1,0 +1,365 @@
+@import "../../../styles/variables";
+.communityConversations-container {
+  .endeavour {
+    .cc_banner {
+      background-color: gray;
+      // background-image: url(https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650032185/Website%20Content/About/experience_urjjtt.svg);
+      height: auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 10rem 0px;
+      h2 {
+        color: #fff;
+        font-family: $font-text;
+        font-size: 55px;
+        font-weight: bolder;
+        padding-left: 5%;
+        position: relative;
+        top: 75%;
+      }
+    }
+    .tri_questions {
+      margin: 30px 0;
+      color: black;
+      padding-left: 5%;
+      h2 {
+        font-family: $font-text;
+        margin-bottom: 10px;
+        font-size: 55px;
+        font-weight: bolder;
+      }
+      p {
+        font-family: "Candara";
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    }
+
+    .img_section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 40px 0;
+      img {
+        height: auto;
+      }
+    }
+    .end_chapters {
+      background-color: #c4c4c4;
+      padding-left: 5%;
+      h2 {
+        font-family: $font-text;
+        color: black;
+        padding: 40px 0;
+        font-size: 50px;
+      }
+      .chapters_1 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        .chapters_1_left {
+          width: 50%;
+          color: black;
+          padding-right: 5%;
+          h3 {
+            font-family: $font-text;
+            margin-bottom: 10px;
+            font-size: 40px;
+            font-weight: bolder;
+          }
+          p {
+            font-family: "Candara";
+            font-size: 20px;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+          }
+        }
+        .chapters_1_right {
+          width: 50%;
+          padding-right: 5%;
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+      .chapters_2 {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        color: black;
+        padding-bottom: 40px;
+
+        .chapters_2_left {
+          width: 50%;
+          padding-left: 5%;
+          padding-right: 2%;
+          h3 {
+            font-family: $font-text;
+            margin-bottom: 10px;
+            font-size: 40px;
+            font-weight: bolder;
+          }
+          p {
+            margin-top: 25px;
+            font-family: "Candara";
+            font-size: 20px;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+          }
+        }
+        .chapters_2_right {
+          width: 50%;
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+   
+  }
+  @media (max-width: 892px) {
+    .endeavour {
+      .tri_questions {
+        h2 {
+          font-family: $font-text;
+          margin-bottom: 10px;
+          font-size: 55px;
+          font-weight: bolder;
+        }
+        p {
+          font-family: "Candara";
+          font-size: 20px;
+          font-weight: 400;
+          font-style: normal;
+          line-height: 30px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+      }
+
+      .img_section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0;
+        img {
+          height: auto;
+        }
+      }
+      .end_chapters {
+        background-color: #c4c4c4;
+        padding-left: 5%;
+        h2 {
+          font-family: $font-text;
+          color: black;
+          padding: 40px 0;
+          font-size: 50px;
+        }
+        .chapters_1 {
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          flex-direction: column-reverse;
+          .chapters_1_left {
+            width: 100%;
+            color: black;
+            padding-right: 5%;
+            h3 {
+              font-family: $font-text;
+              margin-bottom: 10px;
+              font-size: 40px;
+              font-weight: bolder;
+            }
+            p {
+              font-family: "Candara";
+              font-size: 20px;
+              font-weight: 400;
+              font-style: normal;
+              line-height: 30px;
+              letter-spacing: 0em;
+              text-align: left;
+            }
+          }
+          .chapters_1_right {
+            width: 100%;
+            padding-right: 5%;
+            img {
+              width: 100%;
+              height: auto;
+            }
+          }
+        }
+        .chapters_2 {
+          flex-direction: column-reverse;
+
+          .chapters_2_left {
+            width: 100%;
+            padding-left: 5%;
+            padding-right: 2%;
+            h3 {
+              font-family: $font-text;
+              margin-bottom: 10px;
+              font-size: 40px;
+              font-weight: bolder;
+            }
+            p {
+              margin-top: 25px;
+              font-family: "Candara";
+              font-size: 20px;
+              font-weight: 400;
+              font-style: normal;
+              line-height: 30px;
+              letter-spacing: 0em;
+              text-align: left;
+            }
+          }
+          .chapters_2_right {
+            width: 100%;
+            padding-right: 5%;
+            img {
+              width: 100%;
+              height: auto;
+            }
+          }
+        }
+      }
+
+    }
+  }
+
+  @media (max-width: 774px) {
+    .endeavour {
+      .cc_banner {
+        height: 180vh;
+        h2 {
+          font-size: 40px;
+        }
+      }
+
+      .tri_questions {
+        h2 {
+          font-family: $font-text;
+          margin-bottom: 10px;
+          font-size: 52px;
+          font-weight: bolder;
+        }
+        p {
+          font-family: "Candara";
+          font-size: 20px;
+          font-weight: 400;
+          font-style: normal;
+          line-height: 30px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+      }
+
+      .img_section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0;
+        padding: 0 5%;
+        width: 100%;
+        img {
+          width: 100%;
+
+          height: auto;
+        }
+      }
+      .end_chapters {
+        background-color: #c4c4c4;
+        padding-left: 5%;
+        h2 {
+          font-family: $font-text;
+          color: black;
+          padding: 40px 0;
+          font-size: 50px;
+        }
+        .chapters_1 {
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          flex-direction: column-reverse;
+          .chapters_1_left {
+            width: 100%;
+            color: black;
+            padding-right: 5%;
+            h3 {
+              font-family: $font-text;
+              margin-bottom: 10px;
+              font-size: 40px;
+              font-weight: bolder;
+            }
+            p {
+              font-family: "Candara";
+              font-size: 20px;
+              font-weight: 400;
+              font-style: normal;
+              line-height: 30px;
+              letter-spacing: 0em;
+              text-align: left;
+            }
+          }
+          .chapters_1_right {
+            width: 100%;
+            padding-right: 5%;
+            img {
+              width: 100%;
+              height: auto;
+            }
+          }
+        }
+        .chapters_2 {
+          flex-direction: column-reverse;
+
+          .chapters_2_left {
+            width: 100%;
+            padding-left: 5%;
+            padding-right: 2%;
+            h3 {
+              font-family: $font-text;
+              margin-bottom: 10px;
+              font-size: 40px;
+              font-weight: bolder;
+            }
+            p {
+              margin-top: 25px;
+              font-family: "Candara";
+              font-size: 20px;
+              font-weight: 400;
+              font-style: normal;
+              line-height: 30px;
+              letter-spacing: 0em;
+              text-align: left;
+            }
+          }
+          .chapters_2_right {
+            width: 100%;
+            img {
+              width: 100%;
+              height: auto;
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
+
+@media (max-width: 606px) {
+}

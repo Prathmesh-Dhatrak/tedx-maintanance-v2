@@ -15,8 +15,19 @@ import {
   Privacy,
   Lookbook,
   Creatives,
-  Endeavour,
 } from "./pages";
+
+import {
+  Endeavour,
+  Edition1,
+  Edition2,
+  Edition3,
+  Edition4,
+  Edition5,
+  Edition6,
+  Unfold,
+  CommunityConversations,
+} from "./pages/Endeavour";
 
 const routes = [
   { path: "/", darkHader: true, name: "Home", Component: Home },
@@ -39,27 +50,74 @@ const routes = [
   { path: "/privacy", darkHader: false, name: "Privacy", Component: Privacy },
   { path: "/lookbook", darkHader: true, name: "lookbook", Component: Lookbook },
   {
-    path: "/Creatives",
+    path: "/creatives",
     darkHader: false,
     name: "Creatives",
     Component: Creatives,
   },
   {
-    path: "/Endeavour",
+    path: "/endeavour",
     darkHader: false,
     name: "Endeavour",
     Component: Endeavour,
   },
+  {
+    path: "/community-conversations",
+    darkHader: false,
+    name: "Community Conversations",
+    Component: CommunityConversations,
+  },
+  {
+    path: "/unfold",
+    darkHader: false,
+    name: "Unfold",
+    Component: Unfold,
+  },
+  {
+    path: "/edition1",
+    darkHader: false,
+    name: "Edition 1",
+    Component: Edition1,
+  },
+  {
+    path: "/edition2",
+    darkHader: false,
+    name: "Edition 2",
+    Component: Edition2,
+  },
+  {
+    path: "/edition3",
+    darkHader: false,
+    name: "Edition 1",
+    Component: Edition3,
+  },
+  {
+    path: "/edition4",
+    darkHader: false,
+    name: "Edition1",
+    Component: Edition4,
+  },
+  {
+    path: "/edition5",
+    darkHader: false,
+    name: "Edition1",
+    Component: Edition5,
+  },
+  {
+    path: "/edition6",
+    darkHader: false,
+    name: "Edition1",
+    Component: Edition6,
+  },
 ];
 
 function App() {
-  
   return (
     <div className="App">
       {routes.map(({ darkHader, path, Component }) => (
         <Route key={path} exact path={path}>
-          {darkHader ? <Header dark={true} /> : <Header dark={false} />}
-          {darkHader ? <Component dark={true} /> : <Component dark={false} />}
+          <Header dark={darkHader} />
+          <Component dark={darkHader} />
         </Route>
       ))}
       <Footer />

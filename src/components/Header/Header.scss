@@ -30,7 +30,6 @@
       cursor: pointer;
       outline: none;
       font-family: $font-default;
-
       font-weight: bold;
       padding: 0.55rem 2rem;
       border-radius: 10px;
@@ -39,6 +38,8 @@
       border: 1px solid transparent;
       transition: 0.3s ease all;
       color: $color-primary-light;
+      letter-spacing: 1px;
+      
     }
   }
 }

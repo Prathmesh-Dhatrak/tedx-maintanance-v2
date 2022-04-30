@@ -8,7 +8,7 @@
 
     font-size: 60px;
     text-align: center;
-    padding: 140px 0  90px 0;
+    padding: 140px 0 90px 0;
     color: #333333;
 }
 .countdown_spons {
@@ -29,77 +29,67 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        .cs_wrapper_up{
+        .cs_wrapper_up {
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: space-around;
-            .cs_image{
+            .cs_image {
                 width: 18%;
                 height: 45%;
-                img{
+                img {
                     width: 100%;
                     height: auto;
                 }
             }
-
         }
-        .cs_wrapper_down{
+        .cs_wrapper_down {
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: space-around;
-            .cs_image{
+            .cs_image {
                 width: 18%;
-                img{
+                img {
                     width: 100%;
                     height: auto;
                 }
             }
-
-
         }
     }
 }
-
 
 @media (max-width: 650px) {
-    .countdown_spons{
+    .countdown_spons {
         .cs_wrapper {
-            
-            .cs_wrapper_up{
+            .cs_wrapper_up {
                 flex-direction: column;
-                .cs_image{
+                .cs_image {
                     width: 50%;
                     margin: 35px 0px;
-                    img{
+                    img {
                         width: 100%;
                         height: auto;
-
                     }
                 }
             }
-            .cs_wrapper_down{
+            .cs_wrapper_down {
                 flex-direction: column;
-                .cs_image{
+                .cs_image {
                     width: 50%;
                     margin: 35px 0px;
-                    img{
+                    img {
                         width: 100%;
                         height: auto;
-
                     }
                 }
             }
-            
         }
     }
-
-    
 }
-@media (max-width: 322px){
-    .countdown_spons{
-        h1{
+@media (max-width: 322px) {
+    .countdown_spons {
+        h1 {
             font-size: 32px;
         }
     }
@@ -117,8 +107,8 @@
         width: 50%;
         padding-left: 5%;
         h1 {
-  font-family: $font-text;
-            
+            font-family: $font-text;
+
             font-size: 36px;
             font-weight: 900;
             color: black;
@@ -154,8 +144,8 @@
             padding-left: 5%;
             h1 {
                 margin-top: 10%;
-  font-family: $font-text;
-                
+                font-family: $font-text;
+
                 font-size: 36px;
                 font-weight: 900;
                 color: black;
@@ -240,8 +230,8 @@
         width: 50%;
         padding-left: 9.5%;
         h3 {
-  font-family: $font-text;
-            
+            font-family: $font-text;
+
             font-size: 36px;
             font-weight: 600;
         }
@@ -254,15 +244,18 @@
             line-height: 36px;
         }
         h4 {
-  font-family: $font-text;
-           
+            font-family: $font-text;
             font-size: 22px;
             padding: 10px 0;
             padding-right: 30px;
             line-height: 36px;
-            a {
-                text-decoration: none;
-                color: white;
+            .contact_para{
+                font-family: "Candara";
+                padding: 0;
+                color: #888888;
+
+                font-size: 20px;
+                line-height: 36px;
             }
         }
     }
@@ -306,10 +299,7 @@
                 padding: 10px 0;
                 padding-right: 30px;
                 line-height: 36px;
-                a {
-                    text-decoration: none;
-                    color: white;
-                }
+                
             }
         }
         .partners_speakers_right {
@@ -336,7 +326,6 @@
 .partners_line {
     justify-content: center;
     display: flex;
-    
 }
 .numbers {
     grid-template-columns: repeat(4, 1fr);
@@ -380,9 +369,7 @@
     margin-top: 5%;
 }
 
-
-
-@media (max-width:1016px){
+@media (max-width: 1016px) {
     .counter {
         padding: 10% 0;
         display: flex;
@@ -398,7 +385,6 @@
         justify-content: center;
         display: flex;
         flex-direction: column;
-        
     }
     .numbers {
         margin-bottom: 4%;
@@ -440,10 +426,9 @@
         //padding-top: 70px;
         margin-top: 0%;
     }
-
 }
 
-@media (max-width:856px){
+@media (max-width: 856px) {
     .counter {
         padding: 10% 0;
         display: flex;
@@ -459,7 +444,6 @@
         justify-content: center;
         display: flex;
         flex-direction: column;
-        
     }
     .numbers {
         margin-bottom: 6%;
@@ -504,10 +488,9 @@
         //padding-top: 70px;
         margin-top: 0%;
     }
-
 }
 
-@media (max-width:552px){
+@media (max-width: 552px) {
     .counter {
         padding: 10% 0;
         display: flex;
@@ -523,7 +506,6 @@
         justify-content: center;
         display: flex;
         flex-direction: column;
-        
     }
     .numbers {
         margin-bottom: 50px;
@@ -568,62 +550,54 @@
         //padding-top: 70px;
         margin-top: 0%;
     }
-
 }
 
-.at_tedx_2{
+.at_tedx_2 {
     width: 100%;
     align-content: center;
     align-items: center;
     display: flex;
-    .at_left_2{
+    .at_left_2 {
         width: 50%;
-        img{
+        img {
             height: 100%;
             width: 100%;
         }
-
     }
-    .at_right_2{
+    .at_right_2 {
         width: 50%;
-        p{
+        p {
             font-family: "Candara";
             font-size: 20px;
             color: #333333;
             line-height: 36px;
             padding: 0 9.5%;
         }
-
-
     }
 }
-@media (max-width:980px){
-    .at_tedx_2{
+@media (max-width: 980px) {
+    .at_tedx_2 {
         width: 100%;
         align-content: center;
         align-items: center;
         display: flex;
         flex-direction: column;
-        .at_left_2{
+        .at_left_2 {
             width: 100%;
-            img{
+            img {
                 height: 100%;
                 width: 100%;
             }
-    
         }
-        .at_right_2{
+        .at_right_2 {
             width: 100%;
-            p{
+            p {
                 font-family: "Rotunda_Light";
                 font-size: 20px;
                 color: #333333;
                 line-height: 36px;
                 padding: 0 9.5%;
             }
-    
-    
         }
     }
 }
-

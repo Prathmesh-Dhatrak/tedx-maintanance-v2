@@ -1,10 +1,22 @@
 import React from "react";
 import "./Edition6.scss";
-const grid = 'https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/WhiteGrid_xcidhq.svg';
+const grid =
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/WhiteGrid_xcidhq.svg";
 
 const Edition6 = () => {
   return (
-    <div className="container-6" style={{backgroundImage: 'url("' + grid + '")'}}>
+    <div
+      className="container-6"
+      style={{ backgroundImage: 'url("' + grid + '")' }}
+    >
+      <div className="img-background">
+        <img
+          className="img-up"
+          src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651322013/Website%20Content/Endevaour/Edition6/Asset_14x-100_p8j65w.jpg"
+          alt="background"
+  />
+      </div>
+
       <div className="heading">
         <h2>Remergence | 2021</h2>
       </div>
@@ -24,9 +36,8 @@ const Edition6 = () => {
         hope gives way to change.
       </p>
 
-      
       <div className="speakers-class">
-      <h2>Speakers and Performers:</h2>
+        <h2>Speakers and Performers:</h2>
         <div className="performers">
           <h3>Jishnu Chatterjee</h3>
           <p>Animator. Motion Designer. Visual Artist.</p>
@@ -64,10 +75,9 @@ const Edition6 = () => {
 
         <div className="performers_title">
           <h2>Team</h2>
-          </div>
+        </div>
 
         <div className="performers-flex">
-          
           <div className="performers-flex-left">
             <h3>Organiser</h3>
             <p>Vikrant Bhalerao</p>
@@ -79,15 +89,14 @@ const Edition6 = () => {
         </div>
       </div>
 
-
-
       <div className="titleee">
         <h2>The stage where it unfolded!</h2>
       </div>
-      
-        <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650216151/Website%20Content/Creatives/moodMonthImg_gji3qt.svg" alt="imgggg" />
-      
 
+      <img
+        src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650216151/Website%20Content/Creatives/moodMonthImg_gji3qt.svg"
+        alt="imgggg"
+      />
     </div>
   );
 };

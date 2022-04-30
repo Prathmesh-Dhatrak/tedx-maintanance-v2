@@ -98,13 +98,13 @@ const Partners = ({ dark }) => {
           </p>
         </div>
         <div className={styles.at_right_1}>
-          <img alt="Alt1" src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650301978/Website%20Content/Partner/at2_w2bgrx_nxmjxf.jpg" />
+          <img alt="Alt1" src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651311981/Website%20Content/Partner/partner_bottle_lqr9uz.png" />
         </div>
       </div>
 
       <div className={styles.at_tedx_2}>
         <div className={styles.at_left_2}>
-          <img alt="Alt3" src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650301978/Website%20Content/Partner/at3_xb75u1_hivcbo.jpg" />
+          <img alt="Alt3" src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651312172/Website%20Content/Partner/partner_3_p69eyf.jpg" />
         </div>
         <div className={styles.at_right_2}>
           <p>
@@ -212,10 +212,9 @@ const Partners = ({ dark }) => {
           </p>
           <h4>
             Reach out to us:
-            <br />
-            Atharva Kulkarni: +91 (973) 02 78541
-            <br />
-            Kewal Barhate: +91 (772) 20 91910
+            
+            <p className={styles.contact_para}>Atharva Kulkarni: +91 (973) 02 78541</p>
+            <p className={styles.contact_para}>Kewal Barhate: +91 (772) 20 91910</p>
           </h4>
         </div>
 

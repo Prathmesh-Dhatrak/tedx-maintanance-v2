@@ -1,6 +1,6 @@
 import React from "react";
 import "./Lookbook.scss";
-import grid from "../../images/Grid.svg";
+const grid ='https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/Grid_fo4iyy.svg';
 const Lookbook = ({ dark }) => {
   const pageStyle = {
     backgroundColor: dark ? "black" : "white",

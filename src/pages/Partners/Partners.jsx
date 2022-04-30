@@ -1,15 +1,13 @@
 import React from "react";
 import styles from "./Partners.module.scss";
 
-import grid from "../../images/WhiteGrid.svg";
-import collab from "../../images/PartnerPages/collaba.jpg";
-import airtel from "../../images/PartnerPages/airtel.png";
-import finiq from "../../images/PartnerPages/finiq.png";
+
 
 
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 
+const grid = 'https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/WhiteGrid_xcidhq.svg';
 const Partners = ({ dark }) => {
   const partnerStyle = {
     backgroundColor: dark ? "black" : "white",
@@ -33,10 +31,10 @@ const Partners = ({ dark }) => {
               <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021223/Website%20Content/Partner/VACPL_o7wzia.png" alt="VACPL" />
             </div>
             <div className={styles.cs_image}>
-              <img src={airtel} alt="VACPL" />
+              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651295762/Website%20Content/Partner/airtel-logo-vector_wihykw.png" alt="VACPL" />
             </div>
             <div className={styles.cs_image}>
-              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021221/Website%20Content/Partner/cogni_aph7zj.png" alt="VACPL" />
+              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651295648/Website%20Content/Partner/COG-Logo-2022_wzbm6w.svg" alt="VACPL" />
             </div>
             <div className={styles.cs_image}>
               <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021221/Website%20Content/Partner/chopras_dazjn9.png" alt="VACPL" />
@@ -46,7 +44,7 @@ const Partners = ({ dark }) => {
 
           <div className={styles.cs_wrapper_down}>
             <div className={styles.cs_image}>
-              <img src={finiq} alt="VACPL" />
+              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651296151/Website%20Content/Partner/finiq_ub5yht.png" alt="VACPL" />
             </div>
             <div className={styles.cs_image}>
               <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021222/Website%20Content/Partner/nestle_nxybdz.png" alt="VACPL" />
@@ -55,7 +53,7 @@ const Partners = ({ dark }) => {
               <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021222/Website%20Content/Partner/pepsico_tdyt8x.png" alt="VACPL" />
             </div>
             <div className={styles.cs_image} style={{width:"156px"}}>
-              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650042694/Website%20Content/Partner/swiggy_af5bol.png" alt="VACPL" />
+              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651295762/Website%20Content/Partner/Swiggy-logo_ifbr4k.png" alt="VACPL" />
             </div>
           </div>
         </div>
@@ -222,7 +220,7 @@ const Partners = ({ dark }) => {
         </div>
 
         <div className={styles.partners_speakers_right}>
-          <img src={collab} alt="altt" />
+          <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651296623/Website%20Content/Partner/collaba_sttyys_pqgqet.png" alt="altt" />
         </div>
       </div>
     </div>

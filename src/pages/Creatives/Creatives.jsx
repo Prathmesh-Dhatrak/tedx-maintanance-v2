@@ -1,13 +1,15 @@
 import React from "react";
 import "./Creatives.scss";
+const grid = 'https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/WhiteGrid_xcidhq.svg';
+
 const Creatives = ({ dark }) => {
   return (
-    <div className="creatives-container">
+    <div className="creatives-container" style={{backgroundImage: 'url("' + grid + '")'}}>
       <div className="container">
         <div className="communityNewsletter-section">
           <h1>Community Newsletter: Syndicate Bimonthly</h1>
           <img
-            src={`https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650301722/Website%20Content/Creatives/firstSection_sqen7c_ygkipc.svg`}
+            src={`https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651294070/Website%20Content/Creatives/firstSection_sqen7c_ygkipc_a1vc58.png`}
             alt=""
           />
           <p>
@@ -26,7 +28,7 @@ const Creatives = ({ dark }) => {
         <div className="moodMonth-section">
           <h4>Mood of the Month</h4>
           <img
-            src={`https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650216151/Website%20Content/Creatives/moodMonthImg_gji3qt.svg`}
+            src={`https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651294070/Website%20Content/Creatives/moodMonthImg_gji3qt_dbj8oh.png`}
             alt=""
           />
           <h6>A mindful quote to get your day off to a great start!</h6>
@@ -37,7 +39,7 @@ const Creatives = ({ dark }) => {
           </h6>
           <h4>Don’t Look Closely</h4>
           <img
-            src={`https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650216477/Website%20Content/Creatives/moodMonthImg2_h2jzhk.svg`}
+            src={`https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651294070/Website%20Content/Creatives/moodMonthImg2_h2jzhk_wj7t3y.png`}
             alt=""
           />
           <h6>
@@ -55,7 +57,7 @@ const Creatives = ({ dark }) => {
           </h6>
           <h4>Our Picks</h4>
           <img
-            src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650216794/Website%20Content/Creatives/picksImg_jzevwz.svg"
+            src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651294070/Website%20Content/Creatives/picksImg_jzevwz_obwkrk.png"
             alt=""
           />
           <h6>

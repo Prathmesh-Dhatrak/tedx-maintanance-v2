@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./About.module.scss";
-import grid from "../../images/WhiteGrid.svg";
 import newRed from "../../images/Aboutpages/new_redline.svg";
+const grid = 'https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/WhiteGrid_xcidhq.svg'
 
 const About = ({ dark }) => {
   const pageStyle = {

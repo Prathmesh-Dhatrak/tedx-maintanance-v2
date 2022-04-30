@@ -1,5 +1,6 @@
 import "./CommunityConversations.scss";
-import grid from "../../../images/WhiteGrid.svg";
+const grid = 'https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/WhiteGrid_xcidhq.svg';
+
 const CommunityConversations = (dark) => {
   const pageStyle = {
     backgroundColor: dark === true ? "black" : "white",

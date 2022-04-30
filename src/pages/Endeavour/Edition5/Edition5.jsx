@@ -1,9 +1,17 @@
 import React from "react";
 import "./Edition5.scss";
+const grid = 'https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/WhiteGrid_xcidhq.svg';
+
 
 const Edition6 = () => {
   return (
-    <div className="container-5">
+    <div className="container-5" style={{backgroundImage: 'url("' + grid + '")'}}>
+    <img
+    src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650216151/Website%20Content/Creatives/moodMonthImg_gji3qt.svg"
+    alt="imgggg"
+  />
+
+
       <div className="heading">
         <h2>Unravelling the Parallax | 2019</h2>
       </div>

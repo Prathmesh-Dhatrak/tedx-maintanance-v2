@@ -87,16 +87,21 @@
           height: 50px;
           border: 1px solid transparent;
           border-radius: 15px;
-          font-family: "Aileron";
+          font-family: "Candara";
           font-style: normal;
           font-weight: 400;
-          font-size: 15px;
+          font-size: 20px;
           line-height: 159.5%;
           letter-spacing: 0.02em;
           color: #ffffff;
           display: flex;
           align-items: center;
           justify-content: center;
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            background: #ffffff;
+            color: #e62b1e;
+          }
         }
       }
     }

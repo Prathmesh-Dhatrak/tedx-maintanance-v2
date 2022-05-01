@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./About.module.scss";
-import newRed from "../../images/Aboutpages/new_redline.svg";
 const grid = 'https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/WhiteGrid_xcidhq.svg'
 
 const About = ({ dark }) => {
@@ -69,7 +68,7 @@ const About = ({ dark }) => {
             <div className={styles.redLine_img}>
               <img
                 style={{ marginTop: "45px", width: "100%" }}
-                src={newRed}
+                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651294989/Website%20Content/About/new_redline_ujdtet.svg"
                 alt="redLine"
               />
             </div>
@@ -94,7 +93,7 @@ const About = ({ dark }) => {
         <div className={styles.new_about_tedx}>
           <div className={styles.new_about_tedx_left}>
             <div className={styles.tedx_redLine_img}>
-              <img src={newRed} alt="redLine" />
+              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651294989/Website%20Content/About/new_redline_ujdtet.svg" alt="redLine" />
             </div>
             <p>
               In the spirit of ideas worth spreading, TEDx is a TED-created
@@ -148,7 +147,7 @@ const About = ({ dark }) => {
             </div>
 
             <div className={styles.new_tedxVitpune_flex_right}>
-              <img src={newRed} alt="redLine" />
+              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651294989/Website%20Content/About/new_redline_ujdtet.svg" alt="redLine" />
             </div>
           </div>
 

@@ -1,6 +1,5 @@
 import React,{useState,useRef} from 'react'
 import styles from "./Faqs.module.scss";
-import lineMobile from "../../images/FaqsPages/lineMobile.svg";
 
 const Accordian = (props) => {
     const [setActive, setActiveState] = useState("");
@@ -30,7 +29,7 @@ const Accordian = (props) => {
             
           </p>
         </div>
-        <img src={lineMobile} alt="" />
+        <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021483/Website%20Content/Faqs/lineMobile_va7sfj.svg" alt="lineSvg" />
       </div>
   )
 }

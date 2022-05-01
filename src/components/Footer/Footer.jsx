@@ -1,12 +1,7 @@
 import React from "react";
 import "./Footer.scss";
-import logo from "../../images/Header/logo_light.png";
 import { Link } from "react-router-dom";
-import linkedin from "../../images/Footer/LinkedIn.svg";
-import Insta from "../../images/Footer/Insta.svg";
-import Twitter from "../../images/Footer/Twitter.svg";
-import Meta from "../../images/Footer/Meta.svg";
-import Youtube from "../../images/Footer/YouTube.svg";
+
 
 const Footer = () => {
   return (
@@ -14,7 +9,7 @@ const Footer = () => {
       <div className="footer-logoSection">
         <div className="footer-logo">
           <Link to="/">
-            <img src={logo} alt={"TEDx Logo"} />
+            <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021429/Website%20Content/Header/logo_light_zsvjxz.png" alt={"TEDx Logo"} />
           </Link>
         </div>
         <div className="footer-newsletterBTN">
@@ -71,32 +66,32 @@ const Footer = () => {
 
               <li>
                 <a href="https://www.facebook.com/TEDxVITPune" rel="noopener noreferrer" target="_blank">
-                  <img src={Meta} alt="Meta" />
+                  <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021457/Website%20Content/Footer/Meta_nfi6jb.svg" alt="Meta" />
                 </a>
 
               </li>
 
               <li>
                 <a href="https://www.instagram.com/tedxvitpune" rel="noopener noreferrer" target="_blank">
-                  <img src={Insta} alt="Insta" />
+                  <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021457/Website%20Content/Footer/Insta_oqrxwy.svg" alt="Insta" />
                 </a>
               </li>
 
               <li>
                 <a href="https://www.twitter.com/TEDxVITPune" rel="noopener noreferrer" target="_blank">
-                  <img src={Twitter} alt="Twitter" />
+                  <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021457/Website%20Content/Footer/Twitter_ml0nwl.svg" alt="Twitter" />
                 </a>
               </li>
 
               <li>
                 <a href="https://www.linkedin.com/company/tedxvitpune/" rel="noopener noreferrer" target="_blank">
-                  <img src={linkedin} alt="Linkedin" />
+                  <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021457/Website%20Content/Footer/LinkedIn_zg35zd.svg" alt="Linkedin" />
                 </a>
               </li>
 
               <li>
               <a href="https://www.youtube.com/c/TEDxVITPune" rel="noopener noreferrer" target="_blank">
-                <img src={Youtube} alt="utube" />
+                <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021457/Website%20Content/Footer/YouTube_ykbsyi.svg" alt="utube" />
               </a>
             </li>
 

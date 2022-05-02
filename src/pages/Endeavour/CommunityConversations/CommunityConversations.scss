@@ -59,11 +59,11 @@
       }
     }
     .end_chapters {
-      background-color: #c4c4c4;
+      background-color: #191919;
       padding-left: 5%;
       h2 {
         font-family: $font-text;
-        color: black;
+        color: rgb(255, 246, 246);
         padding: 40px 0;
         font-size: 50px;
       }
@@ -74,7 +74,7 @@
 
         .chapters_1_left {
           width: 50%;
-          color: black;
+          color: rgb(255, 255, 255);
           padding-right: 5%;
           display: flex;
           flex-direction: column;
@@ -110,7 +110,7 @@
         width: 100%;
         display: flex;
         flex-direction: row-reverse;
-        color: black;
+        color: rgb(255, 255, 255);
         padding-bottom: 40px;
 
         .chapters_2_left {
@@ -235,11 +235,11 @@
         }
       }
       .end_chapters {
-        background-color: #c4c4c4;
+        background-color: #191919;
         padding-left: 5%;
         h2 {
           font-family: $font-text;
-          color: black;
+          color: rgb(255, 255, 255);
           padding: 40px 0;
           font-size: 50px;
         }
@@ -250,7 +250,7 @@
           flex-direction: column-reverse;
           .chapters_1_left {
             width: 100%;
-            color: black;
+            color: rgb(255, 255, 255);
             padding-right: 5%;
             h3 {
               font-family: $font-text;
@@ -384,11 +384,11 @@
         }
       }
       .end_chapters {
-        background-color: #c4c4c4;
+        background-color: #191919;
         padding-left: 5%;
         h2 {
           font-family: $font-text;
-          color: black;
+          color: rgb(255, 255, 255);
           padding: 40px 0;
           font-size: 50px;
         }
@@ -399,7 +399,7 @@
           flex-direction: column-reverse;
           .chapters_1_left {
             width: 100%;
-            color: black;
+            color: rgb(255, 255, 255);
             padding-right: 5%;
             h3 {
               font-family: $font-text;

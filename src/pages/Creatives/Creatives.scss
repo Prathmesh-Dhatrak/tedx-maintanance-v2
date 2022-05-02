@@ -27,6 +27,7 @@
         height: auto;
       }
       & p {
+        padding-top: 2rem;
         font-family: "Candara";
         font-style: normal;
         font-weight: 300;
@@ -119,6 +120,7 @@
         }
         & p {
           font-size: 20px;
+          padding-top: 5px;
         }
       }
       & .moodMonth-section {

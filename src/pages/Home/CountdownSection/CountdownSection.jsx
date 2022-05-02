@@ -1,13 +1,26 @@
 import React from "react";
 import "./CountdownSection.scss";
-// import image1 from "../../../images/Home/CountdownImg.png";
-import image2 from "../../../images/Home/speaker2.webp";
-import image3 from "../../../images/Home/speaker3.webp";
 
 const imageArray = [
-  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650302729/Website%20Content/Home/CountdownImg_ieaymp_1_u2y7qw.png",
-  image2,
-  image3,
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509158/Website%20Content/Home/CountdownIMGS/19_settwi.svg",
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509143/Website%20Content/Home/CountdownIMGS/18_n0qly8.svg",
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509128/Website%20Content/Home/CountdownIMGS/17_u3lfhw.svg",
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509116/Website%20Content/Home/CountdownIMGS/16_llnl6x.svg",
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509103/Website%20Content/Home/CountdownIMGS/15_gpbpku.svg",
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509094/Website%20Content/Home/CountdownIMGS/14_ya6hff.svg",
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509085/Website%20Content/Home/CountdownIMGS/13_ctsfzl.svg",
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509078/Website%20Content/Home/CountdownIMGS/12_h4kekm.svg",
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509075/Website%20Content/Home/CountdownIMGS/11_tvspld.svg",
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509073/Website%20Content/Home/CountdownIMGS/10_fkwuur.svg",
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509455/Website%20Content/Home/CountdownIMGS/9_cwsizw.svg",
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509314/Website%20Content/Home/CountdownIMGS/8_xlmdqh.svg",
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509286/Website%20Content/Home/CountdownIMGS/7_fkrrga.svg",
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509260/Website%20Content/Home/CountdownIMGS/6_tr3a4y.svg",
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509237/Website%20Content/Home/CountdownIMGS/5_b3zdqu.svg",
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509213/Website%20Content/Home/CountdownIMGS/4_hkbkqc.svg",
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509193/Website%20Content/Home/CountdownIMGS/3_gklshb.svg",
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509175/Website%20Content/Home/CountdownIMGS/2_quvdpv.svg",
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509072/Website%20Content/Home/CountdownIMGS/1_v5gqm4.svg",
 ];
 
 const CountdownSection = () => {
@@ -16,7 +29,7 @@ const CountdownSection = () => {
   React.useEffect(() => {
     const timerId = setInterval(() => {
       setCurrent((cur) => (cur < imageArray.length - 1 ? cur + 1 : 0));
-    }, 1000 * 60 * 60 * 24);
+    }, 500);
     return () => {
       clearInterval(timerId);
     };
@@ -32,7 +45,6 @@ const CountdownSection = () => {
           Days to go, for the most <br /> awaited event of the year!{" "}
         </p>
       </div>
-     
     </div>
   );
 };

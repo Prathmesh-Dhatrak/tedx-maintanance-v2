@@ -216,7 +216,10 @@
     .endeavour {
       .cc_banner {
         // height: 180vh;
-        padding: 10rem 0px;
+        padding: 5rem 0px;
+        h2 {
+          bottom: 5px;
+        }
       }
       .tri_questions {
         h2 {

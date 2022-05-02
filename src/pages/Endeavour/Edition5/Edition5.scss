@@ -1,19 +1,18 @@
 @import "../../../styles/variables";
 .container-5 {
     padding-top: 70px;
-    color: white;
-    
+    color: black;
+
     img {
-        width: 95%;
-        height: auto;
+        height: 22px;
     }
     .heading {
         width: 100%;
         display: inline-block;
         margin-bottom: 10px;
         h2 {
-        padding-left: 5%;
-            
+            padding-left: 5%;
+
             font-family: $font-text;
             margin-bottom: 10px;
             font-size: 55px;
@@ -34,21 +33,27 @@
 
     .speakers-class {
         padding-left: 5%;
+        background-image: url("https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651525962/Website%20Content/Endevaour/Edition%205/Unravelling_the_Parallax_wsf4iv.png");
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: contain;
 
         h2 {
             margin-top: 10px;
             font-family: $font-text;
             margin-top: 40px;
-            margin-bottom: 10px;
             font-size: 50px;
             font-weight: bolder;
+        }
+        .speakers-img {
+            height: auto;
         }
 
         .performers {
             h3 {
                 font-family: "Raleway";
                 font-weight: bolder;
-                color: white;
+                color: black;
                 padding-top: 30px;
                 font-size: 40px;
             }
@@ -68,9 +73,11 @@
                 margin-top: 10px;
                 font-family: $font-text;
                 margin-top: 40px;
-                margin-bottom: 10px;
                 font-size: 45px;
                 font-weight: bolder;
+            }
+            img{
+                height: 22px;
             }
         }
 
@@ -83,7 +90,7 @@
                 h3 {
                     font-family: "Raleway";
                     font-weight: bolder;
-                    color: white;
+                    color: black;
                     padding-top: 20px;
                     font-size: 40px;
                 }
@@ -101,8 +108,9 @@
     }
     .titleee {
         margin-top: 40px;
+        text-align: center;
         h2 {
-        padding-left: 5%;
+            padding-left: 5%;
 
             font-family: $font-text;
             margin-bottom: 10px;
@@ -114,12 +122,14 @@
     .edition5-img {
         display: flex;
         justify-content: center;
+        margin: 0 auto;
 
         img {
             margin-bottom: 35px;
-            height: auto;
             border: 1px solid transparent;
             border-radius: 20px;
+            width: 100%;
+            height: auto;
         }
     }
 }
@@ -149,5 +159,8 @@
                 text-align: left;
             }
         }
+    }
+    .speakers-class{
+        background:none;
     }
 }

@@ -24,22 +24,22 @@ const imageArray = [
 ];
 
 const CountdownSection = () => {
-  const [current, setCurrent] = React.useState(0);
+  // const [current, setCurrent] = React.useState(0);
 
-  React.useEffect(() => {
-    const timerId = setInterval(() => {
-      setCurrent((cur) => (cur < imageArray.length - 1 ? cur + 1 : 0));
-    }, 1000 * 60 * 60 * 24);
-    return () => {
-      clearInterval(timerId);
-    };
-  }, []);
+  // React.useEffect(() => {
+  //   const timerId = setInterval(() => {
+  //     setCurrent((cur) => (cur < imageArray.length - 1 ? cur + 1 : 0));
+  //   }, 1000 * 60 * 60 * 24);
+  //   return () => {
+  //     clearInterval(timerId);
+  //   };
+  // }, []);
 
   return (
     <div className="countdown-container">
       <div className="subCountainerLf">
         <div className="img_container">
-          <img src={imageArray[current]} alt="img" />
+          <img src={imageArray[1]} alt="img" />
         </div>
         <p>
           Days to go, for the most <br /> awaited event of the year!{" "}

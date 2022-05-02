@@ -8,7 +8,7 @@ const PandemoniumSection = () => {
         <img
           className="gifimg"
           src={
-            "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021316/Website%20Content/Home/pandemonium_cmx1fo.gif"
+            "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651489948/Website%20Content/Home/pandemonium_cmx1fo_csmlbk.gif"
           }
           alt=""
         />

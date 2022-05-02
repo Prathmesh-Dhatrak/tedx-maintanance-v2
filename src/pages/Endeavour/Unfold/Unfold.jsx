@@ -1,6 +1,7 @@
 import React from "react";
 import "./Unfold.scss";
-const grid = 'https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/WhiteGrid_xcidhq.svg';
+const grid =
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/WhiteGrid_xcidhq.svg";
 
 const Unfold = (dark) => {
   const pageStyle = {
@@ -61,7 +62,7 @@ const Unfold = (dark) => {
             <div className="unfold_flex_left_1">
               <p>
                 A renowned theatre critic, a doctorate holder and a practising
-                dentist. Dr. Ajay Joshi is an accomplished personality in
+                dentist, Dr. Ajay Joshi is an accomplished personality in
                 multi-dimensional fields. He is a highly passionate individual
                 who has been instrumental in carrying forward the legacy of
                 theatre by educating the majority.

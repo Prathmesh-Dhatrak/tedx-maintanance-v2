@@ -2,20 +2,28 @@
 .communityConversations-container {
   .endeavour {
     .cc_banner {
-      background-color: gray;
-      // background-image: url(https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650032185/Website%20Content/About/experience_urjjtt.svg);
+      // background-color: gray;
+      // background-image: url("");
+      display: flex;
+      flex-direction: column;
+      position: relative;
+
+      width: 100%;
       height: auto;
-      background-position: center;
-      background-repeat: no-repeat;
-      padding: 10rem 0px;
+      img {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+      }
       h2 {
+        bottom: 0px;
         color: #fff;
         font-family: $font-text;
         font-size: 55px;
         font-weight: bolder;
+        position: absolute;
         padding-left: 5%;
-        position: relative;
-        top: 75%;
       }
     }
     .tri_questions {
@@ -39,7 +47,7 @@
       }
     }
 
-    .img_section_1{
+    .img_section_1 {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -47,7 +55,6 @@
       img {
         height: auto;
       }
-
     }
     .img_section {
       display: flex;
@@ -207,6 +214,10 @@
   }
   @media (max-width: 892px) {
     .endeavour {
+      .cc_banner {
+        // height: 180vh;
+        padding: 10rem 0px;
+      }
       .tri_questions {
         h2 {
           font-family: $font-text;
@@ -347,7 +358,8 @@
   @media (max-width: 774px) {
     .endeavour {
       .cc_banner {
-        height: 180vh;
+        // height: 180vh;
+        padding: 5rem 0px;
         h2 {
           font-size: 40px;
         }
@@ -375,7 +387,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 40px  auto;
+        margin: 40px auto;
         padding: 0 5%;
         width: 70%;
         img {
@@ -464,7 +476,7 @@
 }
 
 @media screen and (max-width: 412px) {
-   .container {
+  .container {
     & h1 {
       font-size: 25px;
       padding: 2rem 0rem;

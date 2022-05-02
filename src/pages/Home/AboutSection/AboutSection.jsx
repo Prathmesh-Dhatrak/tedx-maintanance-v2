@@ -10,7 +10,7 @@ const AboutSection = () => {
           <p>
             Launched in 2015, TEDxVITPune is a collaboration between Vishwakarma
             Institute of Technology’s students and the large Pune community to
-            bring technology, entertainment, and design from various
+            bring Technology, Entertainment, and Design from various
             visionaries, intellectuals, and doers, right to our doorstep. Our
             events feature interdisciplinary presenters, expressing their
             thoughts, experiences, projects, and visions to promote the ideals
@@ -21,11 +21,11 @@ const AboutSection = () => {
           <div className="about-tedSection">
             <h4>TED</h4>
             <p>
-              TED is a nonprofit devoted to spreading ideas, usually in the form
-              of short, powerful talks (18 minutes or less). TED began in 1984
-              as a conference where Technology, Entertainment and Design
-              converged, and today covers almost all topics — from science to
-              business to global issues — in more than 100 languages.
+              TED is a nonprofit organisation devoted to spreading ideas,
+              usually in the form of short, powerful talks (18 minutes or less).
+              TED began in 1984 as a conference where Technology, Entertainment
+              and Design converged, and today covers almost all topics — from
+              science to business to global issues — in more than 100 languages.
             </p>
           </div>
           <div className="about-tedxSection">
@@ -35,7 +35,7 @@ const AboutSection = () => {
               anywhere and everywhere, with the purpose of celebrating
               locally-driven ideas and elevating them to a global stage. Our
               event is called TEDxVITPune where x= independently organised
-              events.
+              event.
             </p>
           </div>
         </div>

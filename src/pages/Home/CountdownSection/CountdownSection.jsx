@@ -29,7 +29,7 @@ const CountdownSection = () => {
   React.useEffect(() => {
     const timerId = setInterval(() => {
       setCurrent((cur) => (cur < imageArray.length - 1 ? cur + 1 : 0));
-    }, 500);
+    }, 1000 * 60 * 60 * 24);
     return () => {
       clearInterval(timerId);
     };

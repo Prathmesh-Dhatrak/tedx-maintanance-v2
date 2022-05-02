@@ -11,10 +11,7 @@ const CommunityConversations = (dark) => {
     <div style={pageStyle} className={"communityConversations-container"}>
       <div className="endeavour">
         <div className="cc_banner">
-          <img
-            src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651516144/Website%20Content/Endevaour/Community-conservations/DSC_9642_ugmdkn.jpg"
-            alt=""
-          />
+  
           <h2>Community conversations</h2>
         </div>
 

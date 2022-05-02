@@ -11,7 +11,7 @@ const Unfold = (dark) => {
     <div style={pageStyle} className="unfold-container">
       <div className="img_section">
         <img
-          src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651224677/Website%20Content/Endevaour/Unfold_xietdr.png"
+          src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651493974/Website%20Content/Endevaour/Unfold/BlackUnfold_ga7kcj.png"
           alt="unfold"
         />
       </div>

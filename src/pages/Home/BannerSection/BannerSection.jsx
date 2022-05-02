@@ -21,6 +21,15 @@ const BannerSection = () => {
           height="100%"
         ></iframe>
       </div>
+      <div className="banner-section3">
+        <iframe
+          title="spline"
+          src="https://my.spline.design/coloredcompositioncopycopy-beac2125d45c5097e46d4050c702033e/"
+          frameborder="0"
+          width="100%"
+          height="100%"
+        ></iframe>
+      </div>
     </div>
   );
 };

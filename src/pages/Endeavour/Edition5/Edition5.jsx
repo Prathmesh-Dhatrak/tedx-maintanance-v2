@@ -1,16 +1,17 @@
 import React from "react";
 import "./Edition5.scss";
-const grid = 'https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/WhiteGrid_xcidhq.svg';
-
-
-const Edition6 = () => {
+const Edition5 = (dark) => {
+  const pageStyle = {
+    backgroundColor: dark ? "white" : "dark",
+    backgroundImage:
+      'url("https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/WhiteGrid_xcidhq.svg")',
+  };
   return (
-    <div className="container-5" style={{backgroundImage: 'url("' + grid + '")'}}>
-    <img
-    src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651518051/Website%20Content/Endevaour/Edition%205/tedx_jln8po.png"
-    alt="imgggg"
-  />
-
+    <div className="container-5" style={pageStyle}>
+      <img
+        src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650216151/Website%20Content/Creatives/moodMonthImg_gji3qt.svg"
+        alt="imgggg"
+      />
 
       <div className="heading">
         <h2>Unravelling the Parallax | 2019</h2>
@@ -33,7 +34,7 @@ const Edition6 = () => {
       <div className="speakers-class">
         <h2>Speakers and Performers:</h2>
         <div className="performers">
-          <h3>Niranjan Pedanekar          </h3>
+          <h3>Niranjan Pedanekar </h3>
           <p>AI Scientist. Dramatist. Experimentalist.</p>
         </div>
 
@@ -77,7 +78,6 @@ const Edition6 = () => {
           <p>Content Creator. Poet. Writer.</p>
         </div>
 
-
         <div className="performers_title">
           <h2>Team</h2>
         </div>
@@ -85,7 +85,7 @@ const Edition6 = () => {
         <div className="performers-flex">
           <div className="performers-flex-left">
             <h3>Organiser</h3>
-            <p>Sagnik Sen Sarma	</p>
+            <p>Sagnik Sen Sarma </p>
           </div>
           <div className="performers-flex-right">
             <h3>Co-Organiser</h3>
@@ -109,4 +109,4 @@ const Edition6 = () => {
   );
 };
 
-export default Edition6;
+export default Edition5;

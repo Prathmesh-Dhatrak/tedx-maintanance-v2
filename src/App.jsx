@@ -15,10 +15,10 @@ import {
   Privacy,
   Lookbook,
   Creatives,
+  NewsletterSignup,
 } from "./pages";
 
 import {
-  Endeavour,
   // Edition1,
   // Edition2,
   // Edition3,
@@ -54,12 +54,6 @@ const routes = [
     darkHader: false,
     name: "Creatives",
     Component: Creatives,
-  },
-  {
-    path: "/endeavour",
-    darkHader: false,
-    name: "Endeavour",
-    Component: Endeavour,
   },
   {
     path: "/endeavour/community-conversations",
@@ -100,26 +94,29 @@ const routes = [
   {
     path: "/endeavour/edition5",
     darkHader: false,
-    name: "Edition1",
+    name: "Edition5",
     Component: Edition5,
   },
   {
     path: "/endeavour/edition6",
     darkHader: true,
-    name: "Edition1",
+    name: "Edition6",
     Component: Edition6,
   },
 ];
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ background: "black" }}>
       {routes.map(({ darkHader, path, Component }) => (
         <Route key={path} exact path={path}>
           <Header dark={darkHader} />
           <Component dark={darkHader} />
+          <Footer />
         </Route>
       ))}
+
+      <Route path="/newsletter-signup" component={NewsletterSignup} />
       <Route
         path="/attendee-application"
         component={() => {
@@ -166,7 +163,8 @@ function App() {
       <Route
         path="/volunteer"
         component={() => {
-          window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdFhiZ9s1lBLfoZCe7f1olehZgG9nsGfrRMhfYclMmbu8QuOw/viewform";
+          window.location.href =
+            "https://docs.google.com/forms/d/e/1FAIpQLSdFhiZ9s1lBLfoZCe7f1olehZgG9nsGfrRMhfYclMmbu8QuOw/viewform";
           return null;
         }}
       />
@@ -177,7 +175,6 @@ function App() {
           return null;
         }}
       />
-      <Footer />
     </div>
   );
 }

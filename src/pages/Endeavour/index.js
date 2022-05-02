@@ -1,4 +1,3 @@
-export { default as Endeavour } from "./Endeavour";
 export { default as Edition1 } from "./Edition1";
 export { default as Edition2 } from "./Edition2";
 export { default as Edition3 } from "./Edition3";

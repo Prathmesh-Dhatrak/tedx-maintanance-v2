@@ -13,7 +13,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="footer-newsletterBTN">
-          <a href="/">Join Our Newsletter</a>
+          <a href="https://tedxvitpune.in/newsletter-signup">Join Our Newsletter</a>
           <p>
           Be the first one to hear from us! You can unsubscribe our update any time you want.
 
@@ -40,10 +40,10 @@ const Footer = () => {
               <Link to="/Privacy">Privacy Policy</Link>
             </p>
             <p>
-              <Link to="/">TEDxVITPune Newsletter</Link>
+              <Link to="/creatives">TEDxVITPune Newsletter</Link>
             </p>
             <p>
-              <Link to="/">Community Conversations</Link>
+              <Link to="/endeavour/community-conversations">Community Conversations</Link>
             </p>
           </ul>
           <div className="footer-privacyLine">

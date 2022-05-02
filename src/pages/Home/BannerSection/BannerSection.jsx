@@ -11,13 +11,6 @@ const BannerSection = () => {
         </div>
       </div>
       <div className="banner-section2">
-        {/* <iframe
-          src="https://my.spline.design/untitled-0895dc11d4d4f56fc2ff9039ba70f526/"
-          frameborder="0"
-          width="100%"
-          height="100%"
-          title="This is a unique title"
-        /> */}
         <iframe title="spline" src='https://my.spline.design/coloredcompositioncopy-2ac76719b979857b3fbf21368165725b/' frameborder='0' width='100%' height='100%'></iframe>
       </div>
     </div>

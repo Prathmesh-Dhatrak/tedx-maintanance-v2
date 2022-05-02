@@ -54,7 +54,7 @@ const EXAMPLE = [
     date: "2021-05-19",
     title: "TEDxVITPune Reemergence | Resurfacing Amidst Turmoil | 2021",
     paragraph:
-      "Delineating the perseverance to re-emerge stronger despite times of turmoil, the 6th edition of TEDxVITPune aimed at inciting social impact and endowed guidance to help resurface as the finest version of yourself. The online event unravelled as the remarkable lineup of speakers including Amira Gill, Debanshu Roy, Jishnu Chatterjee,Mark Hannant, and Avinash Ramanathan, put forth their striking ideas.",
+      "Delineating the perseverance to re-emerge stronger despite times of turmoil, the 6th edition of TEDxVITPune aimed at inciting social impact and endowed guidance to help resurface as the finest version of yourself. The online event unravelled as the remarkable lineup of speakers including Amira Gill, Debanshu Roy, Jishnu Chatterjee, Mark Hannant, and Avinash Ramanathan, put forth their striking ideas.",
     videoLink: `https://www.youtube.com/playlist?list=PL0687I2dEWckuZn6AEuZF8FOnr7T1QcVV`,
   },
 ];

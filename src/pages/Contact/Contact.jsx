@@ -64,7 +64,7 @@ const Contact = ({ dark }) => {
               <br />
               Contact :
               <br />
-              Harshada Belgi: +91 (916) 84 04840
+              Harshada Belgi:<a href="tel:+919168404840">+91 (916) 84 04840</a> 
               <br />
               Atharva Kulkarni: +91 (973) 02 78541
             </p>

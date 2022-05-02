@@ -180,7 +180,7 @@ const Header = ({ dark }) => {
                     Edition 5
                   </NavLink>
                 </li>
-                <li>
+                {/* <li>
                   <NavLink
                     onClick={toggleClass}
                     activeClassName={
@@ -235,7 +235,7 @@ const Header = ({ dark }) => {
                   >
                     Edition 1
                   </NavLink>
-                </li>
+                </li> */}
               </ul>
             </li>
             {navData2.map((navitem, index) => {

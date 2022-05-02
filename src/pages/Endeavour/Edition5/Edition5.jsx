@@ -2,7 +2,7 @@ import React from "react";
 import "./Edition5.scss";
 const Edition5 = (dark) => {
   const pageStyle = {
-    backgroundColor: dark ? "white" : "dark",
+    backgroundColor: dark ? "black" : "white",
     backgroundImage:
       'url("https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/WhiteGrid_xcidhq.svg")',
   };

@@ -5,7 +5,7 @@
 
   .img-background {
     height: auto;
-    background-image: url('https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651518993/Website%20Content/Endevaour/Edition6/Reemergence_cuqpwz.svg');
+    background-image: url("https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651518993/Website%20Content/Endevaour/Edition6/Reemergence_cuqpwz.svg");
     .img-up {
       width: 100%;
       height: 100%;
@@ -13,7 +13,6 @@
   }
 
   .heading {
-    
     width: 100%;
     display: inline-block;
     margin-bottom: 10px;
@@ -38,8 +37,11 @@
   }
 
   .speakers-class {
-    background-image: url('https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651518993/Website%20Content/Endevaour/Edition6/Reemergence_cuqpwz.svg');
-    
+    background-image: url("https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651521784/Website%20Content/Endevaour/Edition6/Circle_Reemergence_czspe2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
     h2 {
       padding-left: 5%;
       margin-top: 10px;
@@ -48,18 +50,17 @@
       font-size: 50px;
       font-weight: bolder;
     }
-    img{
+    img {
       padding-left: 5%;
     }
 
-    .edition6-wrapper{
+    .edition6-wrapper {
       display: flex;
       flex-direction: row;
       width: 100%;
-      .edition6-wrapper-left{
-        width: 60%;
+      .edition6-wrapper-left {
+        width: 100%;
         .performers {
-        
           h3 {
             padding-left: 5%;
             font-family: "Raleway";
@@ -79,18 +80,9 @@
             text-align: left;
           }
         }
-  
-      }
-      .edition6-wrapper-right{
-
-        width: 40%;
-        background-image: url('https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651518993/Website%20Content/Endevaour/Edition6/Circle_bddwgk.png');
-        background-size: cover;
-        background-position: center;
       }
     }
-    
-    
+
     .performers-title {
       h2 {
         padding-left: 5%;
@@ -140,25 +132,18 @@
       font-weight: bolder;
     }
   }
-  
 
-
-  .edition6-img{
+  .edition6-img {
     display: flex;
     justify-content: center;
 
-    img{
-    margin-bottom: 35px;
+    img {
+      margin-bottom: 35px;
       height: auto;
       border: 1px solid transparent;
-    border-radius: 20px;
-
+      border-radius: 20px;
     }
-    
-    
   }
-
-  
 }
 @media (max-width: 488px) {
   .container-6 {
@@ -166,7 +151,7 @@
       h2 {
         font-family: $font-text;
         margin-bottom: 10px;
-        font-size: 50px;
+        font-size: 44px;
         font-weight: bolder;
       }
     }
@@ -246,9 +231,18 @@
       }
     }
   }
-  .container-6{
-    .edition6-img{
-      img{
+  
+}
+
+
+
+@media(max-width: 938px) {
+  .container-6 {
+    .speakers-class{
+      background-image: url('https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651518993/Website%20Content/Endevaour/Edition6/Reemergence_cuqpwz.svg');
+    }
+    .edition6-img {
+      img {
         width: 100%;
         height: auto;
       }

@@ -77,12 +77,6 @@ const Edition6 = (dark) => {
               <p>Venture Capitalist. Strategist. Associate.</p>
             </div>
           </div>
-          <div className="edition6-wrapper-right">
-       {/*}     <img
-              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651518993/Website%20Content/Endevaour/Edition6/Circle_bddwgk.png"
-              alt="half-globe"
-  />*/}
-          </div>
         </div>
 
         <div className="performers_title">

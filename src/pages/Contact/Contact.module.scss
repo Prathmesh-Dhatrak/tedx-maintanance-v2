@@ -21,6 +21,10 @@
             line-height: 36px;
             font-weight: 800;
             padding: 30px 0;
+            a{
+                text-decoration: none;
+                color: #333333;
+            }
         }
 
         form {
@@ -140,6 +144,10 @@
             padding-right: 17%;
             font-size: 20px;
             line-height: 36px;
+            a{
+                text-decoration: none;
+                color: #888888;
+            }
         }
         h4 {
             font-family: $font-text;
@@ -170,6 +178,10 @@
             padding-right: 17%;
             font-size: 20px;
             line-height: 36px;
+            a{
+                text-decoration: none;
+                color: #888888;
+            }
         }
         h4 {
   font-family: $font-text;

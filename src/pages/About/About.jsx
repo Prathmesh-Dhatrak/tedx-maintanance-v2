@@ -46,7 +46,7 @@ const About = ({ dark }) => {
           <div className={styles.new_about_ted_left}>
             <img
               src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650037738/Website%20Content/About/What_is_TED__dqrtxo.svg"
-              alt="title"
+              alt="what is"
               style={{ marginBottom: "12px" }}
             />
 
@@ -109,7 +109,7 @@ const About = ({ dark }) => {
           <div className={styles.new_about_tedx_right}>
             <img
               src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650037738/Website%20Content/About/What_is_TED__dqrtxo.svg"
-              alt="title"
+              alt="what is"
               style={{ marginBottom: "12px" }}
             />
 
@@ -136,7 +136,7 @@ const About = ({ dark }) => {
             <div className={styles.new_tedxVitpune_flex_left}>
               <img
                 src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650037738/Website%20Content/About/What_is_TED__dqrtxo.svg"
-                alt="title"
+                alt="what is"
                 style={{ marginBottom: "12px" }}
               />
 

@@ -87,7 +87,7 @@ const speakersData = [
     year: 2020,
   },
   {
-    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650172273/Website%20Content/Home/_MG_8318_1_rjydz8.png",
+    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651490017/Website%20Content/Home/_MG_8318_1_rjydz8_canulk.png",
     title: "Daniel Waples and Flavio Lopez",
     para: "Daniel Waples is one of the world’s best-known handpan (hang drum) players having played in over 50 countries and amassing over 40 million views on YouTube. Having played the violin since he was just 9, Flavio feels comfortable within many different genres and musical ideas, adding a truly eclectic vibe to his sound, be it classical music or electronica.",
     link: "",
@@ -103,7 +103,6 @@ const SpeakersSection = () => {
       </div>
     );
   };
-
   const PrevArrow = ({ onClick }) => {
     return (
       <div className="arrow prev" onClick={onClick}>

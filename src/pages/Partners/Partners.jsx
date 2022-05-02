@@ -1,9 +1,5 @@
 import React from "react";
 import styles from "./Partners.module.scss";
-
-
-
-
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 
@@ -31,29 +27,29 @@ const Partners = ({ dark }) => {
               <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021223/Website%20Content/Partner/VACPL_o7wzia.png" alt="VACPL" />
             </div>
             <div className={styles.cs_image}>
-              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651295762/Website%20Content/Partner/airtel-logo-vector_wihykw.png" alt="VACPL" />
+              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651295762/Website%20Content/Partner/airtel-logo-vector_wihykw.png" alt="airtel" />
             </div>
             <div className={styles.cs_image}>
-              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651295648/Website%20Content/Partner/COG-Logo-2022_wzbm6w.svg" alt="VACPL" />
+              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651295648/Website%20Content/Partner/COG-Logo-2022_wzbm6w.svg" alt="cog" />
             </div>
             <div className={styles.cs_image}>
-              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021221/Website%20Content/Partner/chopras_dazjn9.png" alt="VACPL" />
+              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021221/Website%20Content/Partner/chopras_dazjn9.png" alt="chopras" />
             </div>
             
           </div>
 
           <div className={styles.cs_wrapper_down}>
             <div className={styles.cs_image}>
-              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651296151/Website%20Content/Partner/finiq_ub5yht.png" alt="VACPL" />
+              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651296151/Website%20Content/Partner/finiq_ub5yht.png" alt="finiq" />
             </div>
             <div className={styles.cs_image}>
-              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021222/Website%20Content/Partner/nestle_nxybdz.png" alt="VACPL" />
+              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021222/Website%20Content/Partner/nestle_nxybdz.png" alt="nestle" />
             </div>
             <div className={styles.cs_image}>
-              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021222/Website%20Content/Partner/pepsico_tdyt8x.png" alt="VACPL" />
+              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021222/Website%20Content/Partner/pepsico_tdyt8x.png" alt="pepsico" />
             </div>
             <div className={styles.cs_image} style={{width:"156px"}}>
-              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651295762/Website%20Content/Partner/Swiggy-logo_ifbr4k.png" alt="VACPL" />
+              <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651295762/Website%20Content/Partner/Swiggy-logo_ifbr4k.png" alt="swiggy" />
             </div>
           </div>
         </div>
@@ -98,13 +94,13 @@ const Partners = ({ dark }) => {
           </p>
         </div>
         <div className={styles.at_right_1}>
-          <img alt="Alt1" src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651311981/Website%20Content/Partner/partner_bottle_lqr9uz.png" />
+          <img alt="partner_bottle" src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651311981/Website%20Content/Partner/partner_bottle_lqr9uz.png" />
         </div>
       </div>
 
       <div className={styles.at_tedx_2}>
         <div className={styles.at_left_2}>
-          <img alt="Alt3" src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651312172/Website%20Content/Partner/partner_3_p69eyf.jpg" />
+          <img alt="partner3" src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651312172/Website%20Content/Partner/partner_3_p69eyf.jpg" />
         </div>
         <div className={styles.at_right_2}>
           <p>
@@ -136,7 +132,7 @@ const Partners = ({ dark }) => {
                       <p className={styles.num} data-target="60">
                         {isVisible ? <CountUp duration={2} end={60} /> : 0} +
                       </p>
-                      {/* <p className="plus">+</p> */}
+                      
                     </div>
                     <p className={styles.para}>Speakers and Performers</p>
                   </div>
@@ -146,7 +142,7 @@ const Partners = ({ dark }) => {
                       <p className={styles.num} data-target="800">
                         {isVisible ? <CountUp duration={2} end={800} /> : 0} +
                       </p>
-                      {/* <p className="plus">+</p> */}
+                      
                     </div>
                     <p className={styles.para}>Attendees</p>
                   </div>
@@ -157,7 +153,7 @@ const Partners = ({ dark }) => {
                         {isVisible ? <CountUp duration={2} end={600000} /> : 0}{" "}
                         +
                       </p>
-                      {/* <p className="plus">+</p> */}
+                      
                     </div>
                     <p className={styles.para}>Total Video Views</p>
                   </div>
@@ -169,7 +165,7 @@ const Partners = ({ dark }) => {
                       <p className={styles.num} data-target="12000">
                         {isVisible ? <CountUp duration={2} end={12000} /> : 0} +
                       </p>
-                      {/* <p className="plus">+</p> */}
+                      
                     </div>
                     <p className={styles.para}>Online Followers</p>
                   </div>
@@ -179,7 +175,7 @@ const Partners = ({ dark }) => {
                         {isVisible ? <CountUp duration={2} end={100000} /> : 0}{" "}
                         +
                       </p>
-                      {/* <p className="plus">+</p> */}
+                      
                     </div>
                     <p className={styles.para}>Organic Reach</p>
                   </div>
@@ -188,7 +184,7 @@ const Partners = ({ dark }) => {
                       <p className={styles.num} data-target="60">
                         {isVisible ? <CountUp duration={2} end={60} /> : 0} +
                       </p>
-                      {/* <p className="plus">+</p> */}
+                      
                     </div>
                     <p className={styles.para}>Partners and Sponsors</p>
                   </div>

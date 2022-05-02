@@ -43,7 +43,7 @@ const CommunityConversations = (dark) => {
         <div className="img_section">
           <img
             src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651226514/Website%20Content/Endevaour/History_e4aoa4.png"
-            alt="joker"
+            alt="History"
           />
         </div>
 
@@ -64,7 +64,7 @@ const CommunityConversations = (dark) => {
             <div className="chapters_1_right">
               <img
                 src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651486152/Website%20Content/Endevaour/DSC_9390_i3kmtd.jpg"
-                alt="ko"
+                alt="music"
               />
             </div>
           </div>
@@ -97,7 +97,7 @@ const CommunityConversations = (dark) => {
             <div className="chapters_2_right">
               <img
                 src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651487185/Website%20Content/Endevaour/DSC_9658_vhqfk0.jpg"
-                alt="ko"
+                alt="humor"
               />
             </div>
           </div>
@@ -106,7 +106,7 @@ const CommunityConversations = (dark) => {
           <div className="img_section">
             <img
               src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651226276/Website%20Content/Endevaour/BTS_qjbpvn.png"
-              alt="joker"
+              alt="bts"
             />
           </div>
 

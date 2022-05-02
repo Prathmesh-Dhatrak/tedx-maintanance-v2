@@ -10,7 +10,7 @@ const PandemoniumSection = () => {
           src={
             "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651489948/Website%20Content/Home/pandemonium_cmx1fo_csmlbk.gif"
           }
-          alt=""
+          alt="image_gif"
         />
       </div>
       <div className="pandemonium-section2">

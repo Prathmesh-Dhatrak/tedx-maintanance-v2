@@ -12,7 +12,7 @@ const Unfold = (dark) => {
       <div className="img_section">
         <img
           src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651224677/Website%20Content/Endevaour/Unfold_xietdr.png"
-          alt="joker"
+          alt="unfold"
         />
       </div>
 

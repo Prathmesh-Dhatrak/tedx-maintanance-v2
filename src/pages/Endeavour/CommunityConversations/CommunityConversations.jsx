@@ -1,5 +1,6 @@
 import "./CommunityConversations.scss";
-const grid = 'https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/WhiteGrid_xcidhq.svg';
+const grid =
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/WhiteGrid_xcidhq.svg";
 
 const CommunityConversations = (dark) => {
   const pageStyle = {
@@ -10,7 +11,11 @@ const CommunityConversations = (dark) => {
     <div style={pageStyle} className={"communityConversations-container"}>
       <div className="endeavour">
         <div className="cc_banner">
-          <h2>Community Conversation</h2>
+          <img
+            src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651516144/Website%20Content/Endevaour/Community-conservations/DSC_9642_ugmdkn.jpg"
+            alt=""
+          />
+          <h2>Community conversations</h2>
         </div>
 
         <div className="tri_questions">
@@ -161,7 +166,6 @@ const CommunityConversations = (dark) => {
                 alt="img10"
               />
             </div>
-            
           </div>
         </div>
       </div>

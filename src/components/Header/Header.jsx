@@ -132,7 +132,7 @@ const Header = ({ dark }) => {
                     }
                     to={`/community-conversations`}
                     style={{
-                      color: "#000",
+                      color: dark ? "#aaaaaa" : "#474747",
                     }}
                   >
                     Community Conversations
@@ -146,7 +146,7 @@ const Header = ({ dark }) => {
                     }
                     to={`/unfold`}
                     style={{
-                      color: "#000",
+                      color: dark ? "#aaaaaa" : "#474747",
                     }}
                   >
                     Unfold
@@ -156,11 +156,11 @@ const Header = ({ dark }) => {
                   <NavLink
                     onClick={toggleClass}
                     activeClassName={
-                      dark ? "is-active-white" : "is-active-black"
+                      dark ? "is-active-black" : "is-active-white"
                     }
                     to={`/Edition6`}
                     style={{
-                      color: "#000",
+                      color: dark ? "#aaaaaa" : "#474747",
                     }}
                   >
                     Edition 6
@@ -174,7 +174,7 @@ const Header = ({ dark }) => {
                     }
                     to={`/Edition5`}
                     style={{
-                      color: "#000",
+                      color: dark ? "#aaaaaa" : "#474747",
                     }}
                   >
                     Edition 5
@@ -188,7 +188,7 @@ const Header = ({ dark }) => {
                     }
                     to={`/community-conversations`}
                     style={{
-                      color: "#000",
+                      color: dark ? "#aaaaaa" : "#474747",
                     }}
                   >
                     Edition 4
@@ -202,7 +202,7 @@ const Header = ({ dark }) => {
                     }
                     to={`/community-conversations`}
                     style={{
-                      color: "#000",
+                      color: dark ? "#aaaaaa" : "#474747",
                     }}
                   >
                     Edition 3
@@ -216,7 +216,7 @@ const Header = ({ dark }) => {
                     }
                     to={`/community-conversations`}
                     style={{
-                      color: "#000",
+                      color: dark ? "#aaaaaa" : "#474747",
                     }}
                   >
                     Edition 2
@@ -230,7 +230,7 @@ const Header = ({ dark }) => {
                     }
                     to={`/community-conversations`}
                     style={{
-                      color: "#000",
+                      color: dark ? "#aaaaaa" : "#474747",
                     }}
                   >
                     Edition 1
@@ -280,7 +280,7 @@ const Header = ({ dark }) => {
                     }
                     to={`/Contact`}
                     style={{
-                      color: "#000",
+                      color: dark ? "#aaaaaa" : "#474747",
                     }}
                   >
                     Contact
@@ -294,7 +294,7 @@ const Header = ({ dark }) => {
                     }
                     to={`/Privacy`}
                     style={{
-                      color: "#000",
+                      color: dark ? "#aaaaaa" : "#474747",
                     }}
                   >
                     Privacy
@@ -308,7 +308,7 @@ const Header = ({ dark }) => {
                     }
                     to={`/Faqs`}
                     style={{
-                      color: "#000",
+                      color: dark ? "#aaaaaa" : "#474747",
                     }}
                   >
                     FAQs

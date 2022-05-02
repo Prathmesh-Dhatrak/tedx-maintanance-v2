@@ -8,7 +8,8 @@
   width: 100%;
   padding: 1.5rem 3rem;
   & .banner-section1,
-  .banner-section2 {
+  .banner-section2,
+  .banner-section3 {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -16,7 +17,6 @@
     width: 50%;
     padding-left: 6rem;
     & .subCountainerRg {
-      
       width: 100%;
       & h3 {
         font-family: $font-text;
@@ -48,10 +48,15 @@
       }
     }
   }
-  
+
   & .banner-section2 {
     width: 50%;
     height: 50rem;
+  }
+  & .banner-section3 {
+    display: none;
+    height: 40rem;
+    width: 100%;
   }
 }
 
@@ -60,10 +65,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5.5rem 1.5rem;
+    padding: 1.5rem 1.5rem;
     padding-bottom: 3rem;
 
-    & .banner-section1{
+    & .banner-section1 {
       width: 100%;
       & .subCountainerRg {
         padding-top: 1rem;
@@ -73,14 +78,19 @@
           line-height: 100.5%;
           margin: 2rem 0rem;
         }
-        button{
+        button {
           font-size: 22px;
           line-height: 32px;
           padding: 0.5rem 4rem;
         }
       }
     }
-    .banner-section2{
+    & .banner-section3 {
+      display: block;
+      width: 100%;
+      padding-left: 0px;
+    }
+    .banner-section2 {
       display: none;
     }
     & .sm-padding {

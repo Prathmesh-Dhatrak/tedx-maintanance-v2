@@ -4,8 +4,6 @@ import "./Edition6.scss";
 const Edition6 = (dark) => {
   const pageStyle = {
     backgroundColor: dark ? "black" : "white",
-    backgroundImage:
-      'url("https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/Grid_fo4iyy.svg")',
   };
   return (
     <div className="container-6" style={pageStyle}>
@@ -37,43 +35,62 @@ const Edition6 = (dark) => {
 
       <div className="speakers-class">
         <h2>Speakers and Performers:</h2>
-        <div className="performers">
-          <h3>Jishnu Chatterjee</h3>
-          <p>Animator. Motion Designer. Visual Artist.</p>
-        </div>
+        <img
+          src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651520019/Website%20Content/Endevaour/Edition6/underline_jmvs1l.png"
+          alt="underline"
+        />
 
-        <div className="performers">
-          <h3>Vivek Eluri</h3>
-          <p>Healthcare Consultant. Tech Analyst. Leader.</p>
-        </div>
+        <div className="edition6-wrapper">
+          <div className="edition6-wrapper-left">
+            <div className="performers">
+              <h3>Jishnu Chatterjee</h3>
+              <p>Animator. Motion Designer. Visual Artist.</p>
+            </div>
 
-        <div className="performers">
-          <h3>Mark Hannant</h3>
-          <p>Adventurer. Author. Entrepreneur.</p>
-        </div>
+            <div className="performers">
+              <h3>Vivek Eluri</h3>
+              <p>Healthcare Consultant. Tech Analyst. Leader.</p>
+            </div>
 
-        <div className="performers">
-          <h3>Amira Gill</h3>
-          <p>Music Therapist. Songwriter. Vocalist.</p>
-        </div>
+            <div className="performers">
+              <h3>Mark Hannant</h3>
+              <p>Adventurer. Author. Entrepreneur.</p>
+            </div>
 
-        <div className="performers">
-          <h3>Prabhtoj Singh</h3>
-          <p>Music Producer. Singer. Songwriter.</p>
-        </div>
+            <div className="performers">
+              <h3>Amira Gill</h3>
+              <p>Music Therapist. Songwriter. Vocalist.</p>
+            </div>
 
-        <div className="performers">
-          <h3>Debanshu Roy</h3>
-          <p>Health Economist. Health-Tech Consultant. Ideator.</p>
-        </div>
+            <div className="performers">
+              <h3>Prabhtoj Singh</h3>
+              <p>Music Producer. Singer. Songwriter.</p>
+            </div>
 
-        <div className="performers">
-          <h3>Avinash Ramanathan</h3>
-          <p>Venture Capitalist. Strategist. Associate.</p>
+            <div className="performers">
+              <h3>Debanshu Roy</h3>
+              <p>Health Economist. Health-Tech Consultant. Ideator.</p>
+            </div>
+
+            <div className="performers">
+              <h3>Avinash Ramanathan</h3>
+              <p>Venture Capitalist. Strategist. Associate.</p>
+            </div>
+          </div>
+          <div className="edition6-wrapper-right">
+       {/*}     <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651518993/Website%20Content/Endevaour/Edition6/Circle_bddwgk.png"
+              alt="half-globe"
+  />*/}
+          </div>
         </div>
 
         <div className="performers_title">
           <h2>Team</h2>
+          <img
+            src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651520334/Website%20Content/Endevaour/Edition6/small_line_go5d3y.png"
+            alt="underline"
+          />
         </div>
 
         <div className="performers-flex">
@@ -93,13 +110,11 @@ const Edition6 = (dark) => {
       </div>
 
       <div className="edition6-img">
-      <img 
-        src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651516314/Website%20Content/Endevaour/Edition6/51372637914_9b27346304_o_ycwwtr.jpg"
-        alt="imgggg"
-      />
-      
+        <img
+          src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651516314/Website%20Content/Endevaour/Edition6/51372637914_9b27346304_o_ycwwtr.jpg"
+          alt="imgggg"
+        />
       </div>
-      
     </div>
   );
 };

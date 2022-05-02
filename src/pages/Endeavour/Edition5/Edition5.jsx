@@ -7,7 +7,7 @@ const Edition6 = () => {
   return (
     <div className="container-5" style={{backgroundImage: 'url("' + grid + '")'}}>
     <img
-    src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650216151/Website%20Content/Creatives/moodMonthImg_gji3qt.svg"
+    src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651518051/Website%20Content/Endevaour/Edition%205/tedx_jln8po.png"
     alt="imgggg"
   />
 

@@ -16,7 +16,7 @@ const Edition6 = (dark) => {
           alt="background"
         />
         <div className="heading">
-          <h2>Remergence | 2021</h2>
+          <h2>Reemergence | 2021</h2>
         </div>
       </div>
 

@@ -123,7 +123,7 @@ function App() {
       <Route
         path="/attendee-application"
         component={() => {
-          window.location.href = "hhttps://forms.gle/mFp1bRc1r46H1ZBe7";
+          window.location.href = "https://forms.gle/mFp1bRc1r46H1ZBe7";
           return null;
         }}
       />

@@ -289,6 +289,16 @@
       & .view-btn {
         width: 20rem;
       }
+      & .slide-tittle-year {
+        bottom: 5rem;
+        padding: 0rem 0.5rem;
+        h3 {
+          font-size: 2rem;
+        }
+        h5{
+          font-size: 12px;
+        }
+      }
     }
   }
 }

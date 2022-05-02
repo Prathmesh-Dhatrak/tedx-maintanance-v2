@@ -16,9 +16,9 @@ const Contact = ({ dark }) => {
           <div className={styles.touch_left}>
             <h1>For event-specific queries reach out to:</h1>
             <p>
-              Harshada Belgi: +91 (916) 84 04840
+              Harshada Belgi:<a href="tel:+919168404840" target="_blank" rel="noreferrer"> +91 (916) 84 04840</a> 
               <br />
-              Atharva Kulkarni: +91 (973) 02 78541
+              Atharva Kulkarni:<a href="tel:+91973278541" target="_blank" rel="noreferrer"> +91 (973) 02 78541</a> 
             </p>
 
             <form>
@@ -64,13 +64,13 @@ const Contact = ({ dark }) => {
               <br />
               Contact :
               <br />
-              Harshada Belgi:<a href="tel:+919168404840">+91 (916) 84 04840</a> 
+              Harshada Belgi:<a href="tel:+919168404840" target="_blank" rel="noreferrer"> +91 (916) 84 04840</a> 
               <br />
-              Atharva Kulkarni: +91 (973) 02 78541
+              Atharva Kulkarni:<a href="tel:+91973278541" target="_blank" rel="noreferrer"> +91 (973) 02 78541</a> 
             </p>
             <h4>
               Reach out to us:
-              <a href="mailto:tedxvitpune@gmail.com"> tedxvitpune@gmail.com</a>
+              <a href="mailto:tedxvitpune@gmail.com" target="_blank" rel="noreferrer"> tedxvitpune@gmail.com</a>
             </h4>
           </div>
 
@@ -86,9 +86,9 @@ const Contact = ({ dark }) => {
               <br />
               Contact :
               <br />
-              Harshada Belgi: +91 (916) 84 04840
+              Harshada Belgi:<a href="tel:+919168404840" rel="noreferrer" target="_blank"> +91 (916) 84 04840</a> 
               <br />
-              Mugdha Pendse: +91 (776) 88 97971
+              Mugdha Pendse:<a href="tel:+917768897971" rel="noreferrer" target="_blank"> +91 (776) 88 97971</a>
             </p>
             <h4>
               Reach out to us:
@@ -111,53 +111,7 @@ const Contact = ({ dark }) => {
           </svg>
         </div>
 
-        {/*<div className={styles.contact_form}>
-
-          {/*<div className={styles.cp_left}>
-            <h3 id={styles.h_3}>
-              Want to know more
-              <br />
-              <span id="hight">about us?</span>
-            </h3>
-            <p>
-              Want to get more details about the event? <br />
-              Give us a call on any of the contacts below.
-            </p>
-          </div>
-
-          <div className={styles.cp_right}>
-            <p>
-              We’d love to hear from you. Please fill the following form for
-              more questions.
-            </p>
-  </div>*
-
-          <h2>Drop a message</h2>
-          <form>
-            <div className={styles.form_input}>
-              <label for="email"></label>
-              <input
-                type="email"
-                placeholder="Your Email"
-                id="email"
-                name="email"
-                required=""
-              />
-
-              <label for="answer"></label>
-              <textarea
-                type="text"
-                placeholder="Enter your message"
-                id="answer"
-                name="answer"
-                required=""
-              ></textarea>
-              <button className={styles.submit_btn} type="submit">
-                Submit
-              </button>
-            </div>
-          </form>
-</div>*/}
+        
       </div>
     </>
   );

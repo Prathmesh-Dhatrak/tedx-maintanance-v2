@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
         <div className="footer-contactSection">
           <h2>Contact</h2>
-          <p>tedxvitpune@gmail.com</p>
+          <p><a href="mailto:tedxvitpune@gmail.com" target="_blank" rel="noreferrer">tedxvitpune@gmail.com</a></p>
           <div className="footer-tedLine">
             <p>
               <Link to="/">TEDxVITPune</Link>

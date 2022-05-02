@@ -41,8 +41,8 @@ const Unfold = (dark) => {
                 affecting our lives.
               </p>
               <button>
-                <a href="https://www.youtube.com/watch?v=ZZoDpZpeAfo&list=PL0687I2dEWcn5GkhLdrPsje7r8QxE46XX&index=1">
-                  Watch{" "}
+                <a href="https://www.youtube.com/watch?v=ZZoDpZpeAfo&list=PL0687I2dEWcn5GkhLdrPsje7r8QxE46XX&index=1" target="_blank" rel="noreferrer">
+                Watch{" "}
                 </a>
               </button>
             </div>
@@ -68,7 +68,7 @@ const Unfold = (dark) => {
                 theatre by educating the majority.
               </p>
               <button>
-                <a href="https://www.youtube.com/watch?v=p3F8ja16EFU&list=PL0687I2dEWcn5GkhLdrPsje7r8QxE46XX&index=2">
+                <a href="https://www.youtube.com/watch?v=p3F8ja16EFU&list=PL0687I2dEWcn5GkhLdrPsje7r8QxE46XX&index=2" target="_blank" rel="noreferrer">
                   Watch{" "}
                 </a>
               </button>
@@ -95,7 +95,7 @@ const Unfold = (dark) => {
                 toward building, expanding and empowering communities.
               </p>
               <button>
-                <a href="https://www.youtube.com/watch?v=NF_ooJwQKUA&list=PL0687I2dEWcn5GkhLdrPsje7r8QxE46XX&index=3">
+                <a href="https://www.youtube.com/watch?v=NF_ooJwQKUA&list=PL0687I2dEWcn5GkhLdrPsje7r8QxE46XX&index=3" target="_blank" rel="noreferrer">
                   Watch{" "}
                 </a>
               </button>
@@ -121,7 +121,7 @@ const Unfold = (dark) => {
                 achieve success.
               </p>
               <button>
-                <a href="https://www.youtube.com/watch?v=VPixQDKP6IA&list=PL0687I2dEWcn5GkhLdrPsje7r8QxE46XX&index=4">
+                <a href="https://www.youtube.com/watch?v=VPixQDKP6IA&list=PL0687I2dEWcn5GkhLdrPsje7r8QxE46XX&index=4" target="_blank" rel="noreferrer">
                   Watch{" "}
                 </a>
               </button>

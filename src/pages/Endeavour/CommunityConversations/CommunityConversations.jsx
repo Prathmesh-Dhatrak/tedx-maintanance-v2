@@ -63,7 +63,7 @@ const CommunityConversations = (dark) => {
 
             <div className="chapters_1_right">
               <img
-                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021526/Website%20Content/About/about3_y4ec6j.png"
+                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651486152/Website%20Content/Endevaour/DSC_9390_i3kmtd.jpg"
                 alt="ko"
               />
             </div>
@@ -96,7 +96,7 @@ const CommunityConversations = (dark) => {
 
             <div className="chapters_2_right">
               <img
-                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021526/Website%20Content/About/about3_y4ec6j.png"
+                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651487185/Website%20Content/Endevaour/DSC_9658_vhqfk0.jpg"
                 alt="ko"
               />
             </div>
@@ -108,41 +108,6 @@ const CommunityConversations = (dark) => {
               src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651226276/Website%20Content/Endevaour/BTS_qjbpvn.png"
               alt="joker"
             />
-          </div>
-
-          <div className="year2018-container">
-            <div className="gallery-3img-column">
-              <img
-                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651141509/Website%20Content/Lookbook/2020imgBig-1_nmq9ee.png"
-                alt=""
-              />
-              <img
-                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651141525/Website%20Content/Lookbook/2020imgBig-2_aj9c3y.png"
-                alt=""
-              />
-              <img
-                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651141526/Website%20Content/Lookbook/2020imgBig-3_gaas3a.png"
-                alt=""
-              />
-            </div>
-            <div className="gallery-4img-column">
-              <img
-                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650295625/Website%20Content/Lookbook/2019imgsmall-2_xpxe3n_dwaluh.png"
-                alt=""
-              />
-              <img
-                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651055918/Website%20Content/Lookbook/Maskgroup_wtscz3.png"
-                alt=""
-              />
-              <img
-                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651056029/Website%20Content/Lookbook/Mask_group_g0jjug.png"
-                alt=""
-              />
-              <img
-                src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650300361/Website%20Content/Lookbook/2018imgsmall-1_v3yjp7_umurdc.png"
-                alt=""
-              />
-            </div>
           </div>
 
           <div className="year2019-container">

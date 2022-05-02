@@ -39,6 +39,16 @@
       }
     }
 
+    .img_section_1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 40px 0;
+      img {
+        height: auto;
+      }
+
+    }
     .img_section {
       display: flex;
       justify-content: center;

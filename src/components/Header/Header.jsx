@@ -321,14 +321,19 @@ const Header = ({ dark }) => {
                 to={`/`}
                 className="button"
               >
-                <button
-                  style={{
-                    backgroundColor: dark ? "#fff" : "#E62B1E",
-                    color: dark ? "#E62B1E" : "#fff",
-                  }}
+                <a
+                  style={{ padding: "0px", margin: "0px" }}
+                  href="https://tedxvitpune2022.netlify.app/attendee-application"
                 >
-                  Register
-                </button>
+                  <button
+                    style={{
+                      backgroundColor: dark ? "#fff" : "#E62B1E",
+                      color: dark ? "#E62B1E" : "#fff",
+                    }}
+                  >
+                    Register
+                  </button>
+                </a>
               </NavLink>
             </li>
           </ul>

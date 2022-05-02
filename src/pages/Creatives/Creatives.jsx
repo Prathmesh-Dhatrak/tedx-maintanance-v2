@@ -1,10 +1,17 @@
 import React from "react";
 import "./Creatives.scss";
-const grid = 'https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/WhiteGrid_xcidhq.svg';
+const grid =
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/WhiteGrid_xcidhq.svg";
 
 const Creatives = ({ dark }) => {
   return (
-    <div className="creatives-container" style={{backgroundImage: 'url("' + grid + '")'}}>
+    <div
+      className="creatives-container"
+      style={{
+        backgroundImage: 'url("' + grid + '")',
+        backgroundColor: dark ? "dark" : "white",
+      }}
+    >
       <div className="container">
         <div className="communityNewsletter-section">
           <h1>Community Newsletter: Syndicate Bimonthly</h1>
@@ -55,7 +62,7 @@ const Creatives = ({ dark }) => {
             TED talks are curated from a myriad of phenomenal ideas, especially
             for you.
           </h6>
-          
+
           <img
             src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651294070/Website%20Content/Creatives/picksImg_jzevwz_obwkrk.png"
             alt="picks"
@@ -76,7 +83,7 @@ const Creatives = ({ dark }) => {
               Subscribe to the monthly newsletter today!
               <br />
             </h4>
-            <a href="/">Subscribe</a>
+            <a href="https://tedxvitpune.in/newsletter-signup">Subscribe</a>
           </div>
         </div>
       </div>

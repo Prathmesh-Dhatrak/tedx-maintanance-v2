@@ -55,7 +55,7 @@ const Creatives = ({ dark }) => {
             TED talks are curated from a myriad of phenomenal ideas, especially
             for you.
           </h6>
-          <h4>Our Picks</h4>
+          
           <img
             src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651294070/Website%20Content/Creatives/picksImg_jzevwz_obwkrk.png"
             alt="picks"

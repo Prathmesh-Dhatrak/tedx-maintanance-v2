@@ -39,7 +39,7 @@ const Faqs = ({ dark }) => {
       <a style=`text-decoration:none;color:red;font-weight: 600;` href=https://www.youtube.com/playlist?list=PL0687I2dEWcm2PSEaGCYzm_mok3pfVVkT>2017, </a>
       <a style=`text-decoration:none;color:red;font-weight: 600;` href=https://www.youtube.com/playlist?list=PLsRNoUx8w3rNNKU261Gx7oEemGRuY_kFB>2018, </a>
       <a style=`text-decoration:none;color:red;font-weight: 600;` href=https://www.youtube.com/playlist?list=PLsRNoUx8w3rPXX5LlzJQQNYrvIvz5nhOz>2019, </a>
-      <a style=`text-decoration:none;color:red;font-weight: 600;` href=https://www.youtube.com/playlist?list=PL0687I2dEWckuZn6AEuZF8FOnr7T1QcVV>2021, </a>
+      <a style=`text-decoration:none;color:red;font-weight: 600;` href=https://www.youtube.com/playlist?list=PL0687I2dEWckuZn6AEuZF8FOnr7T1QcVV>2021 </a>
       "
         />
 

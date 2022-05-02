@@ -25,7 +25,9 @@ const CountdownSection = () => {
   return (
     <div className="countdown-container">
       <div className="subCountainerLf">
-        <img src={imageArray[current]} alt="img" />
+        <div className="img_container">
+          <img src={imageArray[current]} alt="img" />
+        </div>
         <p>
           Days to go, for the most <br /> awaited event of the year!{" "}
         </p>

@@ -92,10 +92,14 @@ const Edition6 = (dark) => {
         <h2>The stage where it unfolded!</h2>
       </div>
 
-      <img
-        src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650216151/Website%20Content/Creatives/moodMonthImg_gji3qt.svg"
+      <div className="edition6-img">
+      <img 
+        src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651516314/Website%20Content/Endevaour/Edition6/51372637914_9b27346304_o_ycwwtr.jpg"
         alt="imgggg"
       />
+      
+      </div>
+      
     </div>
   );
 };

@@ -107,6 +107,7 @@
   .titleee {
     margin-top: 40px;
     padding-left: 5%;
+    text-align: center;
     h2 {
       font-family: $font-text;
       margin-bottom: 10px;
@@ -114,11 +115,25 @@
       font-weight: bolder;
     }
   }
+  
 
-  img {
-    width: 95%;
-    height: auto;
+
+  .edition6-img{
+    display: flex;
+    justify-content: center;
+
+    img{
+    margin-bottom: 35px;
+      height: auto;
+      border: 1px solid transparent;
+    border-radius: 20px;
+
+    }
+    
+    
   }
+
+  
 }
 @media (max-width: 488px) {
   .container-6 {
@@ -206,4 +221,13 @@
       }
     }
   }
+  .container-6{
+    .edition6-img{
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
 }

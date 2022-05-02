@@ -62,13 +62,13 @@ const routes = [
     Component: Endeavour,
   },
   {
-    path: "/community-conversations",
+    path: "/endeavour/community-conversations",
     darkHader: false,
     name: "Community Conversations",
     Component: CommunityConversations,
   },
   {
-    path: "/unfold",
+    path: "/endeavour/unfold",
     darkHader: false,
     name: "Unfold",
     Component: Unfold,
@@ -98,13 +98,13 @@ const routes = [
   //   Component: Edition4,
   // },
   {
-    path: "/edition5",
+    path: "/endeavour/edition5",
     darkHader: false,
     name: "Edition1",
     Component: Edition5,
   },
   {
-    path: "/edition6",
+    path: "/endeavour/edition6",
     darkHader: true,
     name: "Edition1",
     Component: Edition6,

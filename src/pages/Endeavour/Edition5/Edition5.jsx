@@ -2,7 +2,7 @@ import React from "react";
 import "./Edition5.scss";
 const Edition5 = (dark) => {
   const pageStyle = {
-    backgroundColor: dark ? "white" : "dark",
+    backgroundColor: dark ? "black" : "white",
     backgroundImage:
       'url("https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/WhiteGrid_xcidhq.svg")',
   };
@@ -98,10 +98,13 @@ const Edition5 = (dark) => {
         <h2>The stage where it unfolded!</h2>
       </div>
 
+      <div className="edition5-img">
       <img
-        src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650216151/Website%20Content/Creatives/moodMonthImg_gji3qt.svg"
+        src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651517949/Website%20Content/Endevaour/Edition%205/49920118392_ae77f18b39_o_yhpakq.jpg"
         alt="imgggg"
       />
+      </div>
+      
     </div>
   );
 };

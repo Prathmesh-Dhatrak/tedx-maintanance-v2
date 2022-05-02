@@ -7,11 +7,19 @@ const BannerSection = () => {
       <div className="banner-section1 sm-padding">
         <div className="subCountainerRg">
           <h3>Embrace the Pandemonium on 21st May, 2022. </h3>
-          <button>Apply</button>
+          <a href="https://tedxvitpune2022.netlify.app/attendee-application">
+            <button>Apply</button>
+          </a>
         </div>
       </div>
       <div className="banner-section2">
-        <iframe title="spline" src='https://my.spline.design/coloredcompositioncopy-2ac76719b979857b3fbf21368165725b/' frameborder='0' width='100%' height='100%'></iframe>
+        <iframe
+          title="spline"
+          src="https://my.spline.design/coloredcompositioncopy-2ac76719b979857b3fbf21368165725b/"
+          frameborder="0"
+          width="100%"
+          height="100%"
+        ></iframe>
       </div>
     </div>
   );

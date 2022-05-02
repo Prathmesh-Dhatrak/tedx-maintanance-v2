@@ -209,8 +209,8 @@ const Partners = ({ dark }) => {
           <h4>
             Reach out to us:
             
-            <p className={styles.contact_para}>Atharva Kulkarni: +91 (973) 02 78541</p>
-            <p className={styles.contact_para}>Kewal Barhate: +91 (772) 20 91910</p>
+            <p className={styles.contact_para}>Atharva Kulkarni:<a href="tel:+919730278541" target="_blank" rel="noreferrer"> +91 (973) 02 78541</a></p>
+            <p className={styles.contact_para}>Kewal Barhate:<a href="tel:+917722091910" target="_blank" rel="noreferrer"> +91 (772) 20 91910</a></p>
           </h4>
         </div>
 

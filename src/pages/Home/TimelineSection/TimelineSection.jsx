@@ -111,7 +111,7 @@ export default class TimelineSection extends React.Component {
               <h2>{title}</h2>
               <p>{paragraph}</p>
               {videoLink && (
-                <a href={videoLink} alt={videoLink}>
+                <a href={videoLink} alt={videoLink} target="_blank" rel="noreferrer">
                   Watch Our Talks Here
                 </a>
               )}

@@ -115,7 +115,6 @@ const Header = ({ dark }) => {
               className="menu-item sub__menus__arrows"
             >
               <Link
-                to={"/endeavour"}
                 style={{
                   color: dark ? "#aaaaaa" : "#474747",
                   fontStyle: "normal",
@@ -130,7 +129,7 @@ const Header = ({ dark }) => {
                     activeClassName={
                       dark ? "is-active-white" : "is-active-black"
                     }
-                    to={`/community-conversations`}
+                    to={`/endeavour/community-conversations`}
                     style={{
                       color: dark ? "#aaaaaa" : "#474747",
                     }}
@@ -144,7 +143,7 @@ const Header = ({ dark }) => {
                     activeClassName={
                       dark ? "is-active-white" : "is-active-black"
                     }
-                    to={`/unfold`}
+                    to={`/endeavour/unfold`}
                     style={{
                       color: dark ? "#aaaaaa" : "#474747",
                     }}
@@ -158,7 +157,7 @@ const Header = ({ dark }) => {
                     activeClassName={
                       dark ? "is-active-black" : "is-active-white"
                     }
-                    to={`/Edition6`}
+                    to={`/endeavour/Edition6`}
                     style={{
                       color: dark ? "#aaaaaa" : "#474747",
                     }}
@@ -172,7 +171,7 @@ const Header = ({ dark }) => {
                     activeClassName={
                       dark ? "is-active-white" : "is-active-black"
                     }
-                    to={`/Edition5`}
+                    to={`/endeavour/Edition5`}
                     style={{
                       color: dark ? "#aaaaaa" : "#474747",
                     }}

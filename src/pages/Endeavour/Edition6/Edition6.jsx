@@ -1,24 +1,23 @@
 import React from "react";
 import "./Edition6.scss";
-const grid =
-  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/WhiteGrid_xcidhq.svg";
 
-const Edition6 = () => {
+const Edition6 = (dark) => {
+  const pageStyle = {
+    backgroundColor: dark ? "black" : "white",
+    backgroundImage:
+      'url("https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/Grid_fo4iyy.svg")',
+  };
   return (
-    <div
-      className="container-6"
-      style={{ backgroundImage: 'url("' + grid + '")' }}
-    >
+    <div className="container-6" style={pageStyle}>
       <div className="img-background">
         <img
           className="img-up"
-          src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651322013/Website%20Content/Endevaour/Edition6/Asset_14x-100_p8j65w.jpg"
+          src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651488361/Website%20Content/Endevaour/Edition6/edition_6_c3iltc.png"
           alt="background"
-  />
-      </div>
-
-      <div className="heading">
-        <h2>Remergence | 2021</h2>
+        />
+        <div className="heading">
+          <h2>Remergence | 2021</h2>
+        </div>
       </div>
 
       <p>

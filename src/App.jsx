@@ -19,10 +19,10 @@ import {
 
 import {
   Endeavour,
-  Edition1,
-  Edition2,
-  Edition3,
-  Edition4,
+  // Edition1,
+  // Edition2,
+  // Edition3,
+  // Edition4,
   Edition5,
   Edition6,
   Unfold,
@@ -73,30 +73,30 @@ const routes = [
     name: "Unfold",
     Component: Unfold,
   },
-  {
-    path: "/edition1",
-    darkHader: false,
-    name: "Edition 1",
-    Component: Edition1,
-  },
-  {
-    path: "/edition2",
-    darkHader: false,
-    name: "Edition 2",
-    Component: Edition2,
-  },
-  {
-    path: "/edition3",
-    darkHader: false,
-    name: "Edition 1",
-    Component: Edition3,
-  },
-  {
-    path: "/edition4",
-    darkHader: false,
-    name: "Edition1",
-    Component: Edition4,
-  },
+  // {
+  //   path: "/edition1",
+  //   darkHader: false,
+  //   name: "Edition 1",
+  //   Component: Edition1,
+  // },
+  // {
+  //   path: "/edition2",
+  //   darkHader: false,
+  //   name: "Edition 2",
+  //   Component: Edition2,
+  // },
+  // {
+  //   path: "/edition3",
+  //   darkHader: false,
+  //   name: "Edition 1",
+  //   Component: Edition3,
+  // },
+  // {
+  //   path: "/edition4",
+  //   darkHader: false,
+  //   name: "Edition1",
+  //   Component: Edition4,
+  // },
   {
     path: "/edition5",
     darkHader: false,
@@ -105,7 +105,7 @@ const routes = [
   },
   {
     path: "/edition6",
-    darkHader: false,
+    darkHader: true,
     name: "Edition1",
     Component: Edition6,
   },

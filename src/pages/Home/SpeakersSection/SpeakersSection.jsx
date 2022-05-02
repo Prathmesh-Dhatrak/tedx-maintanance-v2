@@ -103,7 +103,6 @@ const SpeakersSection = () => {
       </div>
     );
   };
-
   const PrevArrow = ({ onClick }) => {
     return (
       <div className="arrow prev" onClick={onClick}>

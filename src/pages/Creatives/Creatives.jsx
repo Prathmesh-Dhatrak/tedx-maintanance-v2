@@ -10,7 +10,7 @@ const Creatives = ({ dark }) => {
           <h1>Community Newsletter: Syndicate Bimonthly</h1>
           <img
             src={`https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651294070/Website%20Content/Creatives/firstSection_sqen7c_ygkipc_a1vc58.png`}
-            alt=""
+            alt="first_section"
           />
           <p>
             Our community newsletters are a recipe of handpicked words and
@@ -29,7 +29,7 @@ const Creatives = ({ dark }) => {
           <h4>Mood of the Month</h4>
           <img
             src={`https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651294070/Website%20Content/Creatives/moodMonthImg_gji3qt_dbj8oh.png`}
-            alt=""
+            alt="mood_month_img_1"
           />
           <h6>A mindful quote to get your day off to a great start!</h6>
           <h4>The Bulletin</h4>
@@ -40,7 +40,7 @@ const Creatives = ({ dark }) => {
           <h4>Don’t Look Closely</h4>
           <img
             src={`https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651294070/Website%20Content/Creatives/moodMonthImg2_h2jzhk_wj7t3y.png`}
-            alt=""
+            alt="mood_month_img2"
           />
           <h6>
             Keen on partaking in a fun quiz? Don’t worry, we’ve got you covered.
@@ -58,7 +58,7 @@ const Creatives = ({ dark }) => {
           <h4>Our Picks</h4>
           <img
             src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651294070/Website%20Content/Creatives/picksImg_jzevwz_obwkrk.png"
-            alt=""
+            alt="picks"
           />
           <h6>
             Take a glance into our vault of close-to-heart recommendations

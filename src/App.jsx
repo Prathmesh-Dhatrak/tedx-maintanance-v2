@@ -120,6 +120,63 @@ function App() {
           <Component dark={darkHader} />
         </Route>
       ))}
+      <Route
+        path="/attendee-application"
+        component={() => {
+          window.location.href = "hhttps://forms.gle/mFp1bRc1r46H1ZBe7";
+          return null;
+        }}
+      />
+      <Route
+        path="/join-us"
+        component={() => {
+          window.location.href = "https://forms.gle/uzy3TYa8hSjJLrwA9";
+          return null;
+        }}
+      />
+      <Route
+        path="/committees"
+        component={() => {
+          window.location.href =
+            "https://drive.google.com/file/d/1qtbo-PLfxc_D0Jm-gKBgC2r8bCiB_9uF/view";
+          return null;
+        }}
+      />
+      <Route
+        path="/newsletter-ideas"
+        component={() => {
+          window.location.href = "https://forms.gle/uapC2PTpcvZ9S3i2A";
+          return null;
+        }}
+      />
+      <Route
+        path="/community-conversations"
+        component={() => {
+          window.location.href = "https://forms.gle/M9gvDkFNY4DzLvWt7";
+          return null;
+        }}
+      />
+      <Route
+        path="/speaker-nomination"
+        component={() => {
+          window.location.href = "https://forms.gle/pZkejYwMKeTBJqcK8";
+          return null;
+        }}
+      />
+      <Route
+        path="/volunteer"
+        component={() => {
+          window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdFhiZ9s1lBLfoZCe7f1olehZgG9nsGfrRMhfYclMmbu8QuOw/viewform";
+          return null;
+        }}
+      />
+      <Route
+        path="/fy-recruitment"
+        component={() => {
+          window.location.href = "https://forms.gle/XqkUaxHw3apudAEZ6";
+          return null;
+        }}
+      />
       <Footer />
     </div>
   );

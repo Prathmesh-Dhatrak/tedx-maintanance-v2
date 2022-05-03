@@ -26,7 +26,7 @@ function useWindowDimensions() {
       window.addEventListener("resize", handleResize);
       return () => window.removeEventListener("resize", handleResize);
     }
-  },);
+  });
 
   return windowDimensions;
 }
@@ -37,7 +37,7 @@ const BannerSection = () => {
       <div className="banner-section1 sm-padding">
         <div className="subCountainerRg">
           <h3>Embrace the Pandemonium on 21st May, 2022. </h3>
-          <a href="https://tedxvitpune2022.netlify.app/attendee-application">
+          <a href="https://tedxvitpune.in/attendee-application">
             <button>Apply</button>
           </a>
         </div>

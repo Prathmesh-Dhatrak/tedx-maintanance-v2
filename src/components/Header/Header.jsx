@@ -323,7 +323,7 @@ const Header = ({ dark }) => {
               >
                 <a
                   style={{ padding: "0px", margin: "0px" }}
-                  href="https://tedxvitpune2022.netlify.app/attendee-application"
+                  href="https://tedxvitpune.in/attendee-application"
                 >
                   <button
                     style={{

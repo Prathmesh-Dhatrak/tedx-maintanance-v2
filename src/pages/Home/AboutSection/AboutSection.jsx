@@ -24,8 +24,8 @@ const AboutSection = () => {
               TED is a nonprofit organisation devoted to spreading ideas,
               usually in the form of short, powerful talks (18 minutes or less).
               TED began in 1984 as a conference where Technology, Entertainment
-              and Design converged, and today covers almost all topics from
-              science to business to global issues in more than 100 languages.
+              and Design converged, and today covers almost all topics, from
+              science to business to global issues, in more than 100 languages.
             </p>
           </div>
           <div className="about-tedxSection">

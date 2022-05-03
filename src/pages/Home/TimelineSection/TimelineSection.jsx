@@ -51,7 +51,7 @@ const EXAMPLE = [
     imgURL: `https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/21_wpmxtr.svg`,
   },
   {
-    date: "2021-05-19",
+    date: "2021-05-29",
     title: "TEDxVITPune Reemergence | Resurfacing Amidst Turmoil | 2021",
     paragraph:
       "Delineating the perseverance to re-emerge stronger despite times of turmoil, the 6th edition of TEDxVITPune aimed at inciting social impact and endowed guidance to help resurface as the finest version of yourself. The online event unravelled as the remarkable lineup of speakers including Amira Gill, Debanshu Roy, Jishnu Chatterjee, Mark Hannant, and Avinash Ramanathan, put forth their striking ideas.",

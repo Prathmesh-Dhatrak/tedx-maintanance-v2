@@ -8,7 +8,7 @@ const About = ({ dark }) => {
     backgroundImage: 'url("' + grid + '")',
   };
   const stage =
-    "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021526/Website%20Content/About/stage_amrokf.svg";
+    "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651527621/Website%20Content/About/About_Us_eufnvp.png";
   return (
     <>
       <div className="AboutPage" style={pageStyle}>

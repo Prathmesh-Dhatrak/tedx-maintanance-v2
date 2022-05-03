@@ -2,19 +2,24 @@ import React from "react";
 import "./Edition5.scss";
 const Edition5 = (dark) => {
   const pageStyle = {
-    backgroundColor: dark ? "black" : "white",
+    backgroundColor: dark ? "white" : "black",
     backgroundImage:
       'url("https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/WhiteGrid_xcidhq.svg")',
   };
   return (
     <div className="container-5" style={pageStyle}>
       <img
-        src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650216151/Website%20Content/Creatives/moodMonthImg_gji3qt.svg"
+        src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651518051/Website%20Content/Endevaour/Edition%205/tedx_jln8po.png"
         alt="imgggg"
+        style={{
+          width: "100%",
+          height: "auto",
+        }}
       />
 
       <div className="heading">
         <h2>Unravelling the Parallax | 2019</h2>
+
       </div>
 
       <p>
@@ -33,6 +38,7 @@ const Edition5 = (dark) => {
 
       <div className="speakers-class">
         <h2>Speakers and Performers:</h2>
+        <img className="speakers-img" src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651524298/Website%20Content/Endevaour/Edition%205/Cyan_Line_awp2kl.svg" alt="cyan-line"/>
         <div className="performers">
           <h3>Niranjan Pedanekar </h3>
           <p>AI Scientist. Dramatist. Experimentalist.</p>
@@ -80,6 +86,7 @@ const Edition5 = (dark) => {
 
         <div className="performers_title">
           <h2>Team</h2>
+          <img className="red_line" src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651524298/Website%20Content/Endevaour/Edition%205/red_line_nkdrdi.svg" alt="red line" />
         </div>
 
         <div className="performers-flex">

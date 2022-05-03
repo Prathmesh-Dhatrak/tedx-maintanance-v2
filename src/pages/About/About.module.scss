@@ -8,7 +8,7 @@
     padding-bottom: 50px;
 
     .new_aboutus_section {
-        height: 100vh;
+        height: 86vh;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -17,10 +17,12 @@
         border-radius: 30px;
         .content {
             padding-left: 5%;
+            
             top: 54%;
             position: relative;
 
             p {
+                padding-right: 10%;
                 font-family: "Candara";
                 font-size: 20px;
                 font-style: normal;
@@ -39,13 +41,13 @@
         padding-bottom: 50px;
 
         .new_aboutus_section {
-            height: 100vh;
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             place-items: center;
             padding-top: 100px;
             border-radius: 30px;
+            height: 60vh;
             .content {
                 padding-left: 5%;
                 top: 200px;
@@ -63,7 +65,7 @@
         padding-bottom: 50px;
 
         .new_aboutus_section {
-            height: 100vh;
+            height: fit-content;
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -87,16 +89,17 @@
         padding-bottom: 50px;
 
         .new_aboutus_section {
-            height: 100vh;
+            height: fit-content;
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             place-items: center;
             padding-top: 100px;
             border-radius: 30px;
+            padding-bottom: 16rem;
             .content {
                 padding-left: 5%;
-                top: 115px;
+                top: 10rem;
                 position: relative;
             }
             h2 {

@@ -63,7 +63,7 @@ const routes = [
   },
   {
     path: "/endeavour/unfold",
-    darkHader: false,
+    darkHader: true,
     name: "Unfold",
     Component: Unfold,
   },

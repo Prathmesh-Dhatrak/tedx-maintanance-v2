@@ -5,7 +5,7 @@ const grid =
 
 const Unfold = (dark) => {
   const pageStyle = {
-    backgroundColor: dark === true ? "black" : "white",
+    backgroundColor: dark ? "black" : "white",
     backgroundImage: 'url("' + grid + '")',
   };
   return (

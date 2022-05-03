@@ -141,7 +141,7 @@ const Header = ({ dark }) => {
                   <NavLink
                     onClick={toggleClass}
                     activeClassName={
-                      dark ? "is-active-white" : "is-active-black"
+                      dark ? "is-active-black" : "is-active-white"
                     }
                     to={`/endeavour/unfold`}
                     style={{

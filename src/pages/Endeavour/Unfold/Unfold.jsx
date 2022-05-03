@@ -120,7 +120,7 @@ const Unfold = (dark) => {
               </p>
               <button>
                 <a href="https://www.youtube.com/watch?v=VPixQDKP6IA&list=PL0687I2dEWcn5GkhLdrPsje7r8QxE46XX&index=4" target="_blank" rel="noreferrer">
-                  Watch{" "}
+                  Watch
                 </a>
               </button>
             </div>

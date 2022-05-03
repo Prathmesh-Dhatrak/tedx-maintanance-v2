@@ -29,8 +29,7 @@ const EXAMPLE = [
     date: "2018-03-22",
     title:
       "TEDxVITPune Walking the Wire | To Countless Risks And No What-ifs | 2018",
-    paragraph:
-      `"Courage is what drives us, and you never know what is waiting until you complete your journey and reach the destination."  The fourth edition of TEDxVITPune was not simply an event, but an exquisite experience altogether. Powerful speakers, unprecedented ideas, and melodious musicians helped raise the bar to showcase what a TEDx experience truly feels like. The offline event took place in October 2018, with remarkable orators like Girish Narayandass, Sameer Agashe, Anusree Raha, Stefano Pele, and many others.`,
+    paragraph: `"Courage is what drives us, and you never know what is waiting until you complete your journey and reach the destination."  The fourth edition of TEDxVITPune was not simply an event, but an exquisite experience altogether. Powerful speakers, unprecedented ideas, and melodious musicians helped raise the bar to showcase what a TEDx experience truly feels like. The offline event took place in October 2018, with remarkable orators like Girish Narayandass, Sameer Agashe, Anusree Raha, Stefano Pele, and many others.`,
     imgURL: `https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/18_gjf3ro.svg`,
     videoLink: `https://www.youtube.com/playlist?list=PLsRNoUx8w3rNNKU261Gx7oEemGRuY_kFB`,
   },
@@ -95,6 +94,8 @@ export default class TimelineSection extends React.Component {
                 foreground: "#E62B1E",
                 outline: "#dfdfdf",
               }}
+              fillingMotion={{ stiffness: 150, damping: 25 }}
+              slidingMotion={{ stiffness: 150, damping: 25 }}
               labelWidth={200}
               linePadding={100}
               index={this.state.curIdx}
@@ -111,7 +112,12 @@ export default class TimelineSection extends React.Component {
               <h2>{title}</h2>
               <p>{paragraph}</p>
               {videoLink && (
-                <a href={videoLink} alt={videoLink} target="_blank" rel="noreferrer">
+                <a
+                  href={videoLink}
+                  alt={videoLink}
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Watch Our Talks Here
                 </a>
               )}

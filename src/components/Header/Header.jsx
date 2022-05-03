@@ -141,7 +141,7 @@ const Header = ({ dark }) => {
                   <NavLink
                     onClick={toggleClass}
                     activeClassName={
-                      dark ? "is-active-white" : "is-active-black"
+                      dark ? "is-active-black" : "is-active-white"
                     }
                     to={`/endeavour/unfold`}
                     style={{
@@ -318,22 +318,17 @@ const Header = ({ dark }) => {
               <NavLink
                 onClick={toggleClass}
                 activeClassName={dark ? "is-active-white" : "is-active-black"}
-                to={`/`}
+                to={`/attendee-application`}
                 className="button"
               >
-                <a
-                  style={{ padding: "0px", margin: "0px" }}
-                  href="https://tedxvitpune.in/attendee-application"
+                <button
+                  style={{
+                    backgroundColor: dark ? "#fff" : "#E62B1E",
+                    color: dark ? "#E62B1E" : "#fff",
+                  }}
                 >
-                  <button
-                    style={{
-                      backgroundColor: dark ? "#fff" : "#E62B1E",
-                      color: dark ? "#E62B1E" : "#fff",
-                    }}
-                  >
-                    Register
-                  </button>
-                </a>
+                  Register
+                </button>
               </NavLink>
             </li>
           </ul>

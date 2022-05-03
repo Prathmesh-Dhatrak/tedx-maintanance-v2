@@ -1,12 +1,10 @@
 import React from "react";
 import "./Unfold.scss";
-const grid =
-  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/WhiteGrid_xcidhq.svg";
 
 const Unfold = (dark) => {
   const pageStyle = {
-    backgroundColor: dark === true ? "black" : "white",
-    backgroundImage: 'url("' + grid + '")',
+    backgroundColor: dark ? "black" : "white",
+    backgroundImage: 'url("https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/Grid_fo4iyy.svg")',
   };
   return (
     <div style={pageStyle} className="unfold-container">

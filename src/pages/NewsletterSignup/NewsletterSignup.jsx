@@ -23,7 +23,7 @@ const NewsletterSignup = () => {
             placeholder="Your Email"
             id="email"
             name="email"
-            required=""
+            required
           />
           <button class="subscribe-btn" type="submit">
             Subscribe

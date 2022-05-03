@@ -2,21 +2,23 @@ import React from "react";
 import "./Footer.scss";
 import { Link } from "react-router-dom";
 
-
 const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer-logoSection">
         <div className="footer-logo">
           <Link to="/">
-            <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021429/Website%20Content/Header/logo_light_zsvjxz.png" alt={"TEDx Logo"} />
+            <img
+              src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021429/Website%20Content/Header/logo_light_zsvjxz.png"
+              alt={"TEDx Logo"}
+            />
           </Link>
         </div>
         <div className="footer-newsletterBTN">
-          <a href="https://tedxvitpune.in/newsletter-signup">Join Our Newsletter</a>
+          <Link to="/newsletter-signup">Join Our Newsletter</Link>
           <p>
-          Be the first one to hear from us! You can unsubscribe our update any time you want.
-
+            Be the first one to hear from us! You can unsubscribe our update any
+            time you want.
           </p>
         </div>
         <div className="footer-aboutLine">
@@ -43,7 +45,9 @@ const Footer = () => {
               <Link to="/creatives">TEDxVITPune Newsletter</Link>
             </p>
             <p>
-              <Link to="/endeavour/community-conversations">Community Conversations</Link>
+              <Link to="/endeavour/community-conversations">
+                Community Conversations
+              </Link>
             </p>
           </ul>
           <div className="footer-privacyLine">
@@ -54,7 +58,15 @@ const Footer = () => {
         </div>
         <div className="footer-contactSection">
           <h2>Contact</h2>
-          <p><a href="mailto:tedxvitpune@gmail.com" target="_blank" rel="noreferrer">tedxvitpune@gmail.com</a></p>
+          <p>
+            <a
+              href="mailto:tedxvitpune@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              tedxvitpune@gmail.com
+            </a>
+          </p>
           <div className="footer-tedLine">
             <p>
               <Link to="/">TEDxVITPune</Link>
@@ -63,42 +75,72 @@ const Footer = () => {
 
           <div className="icons">
             <ul>
-
               <li>
-                <a href="https://www.facebook.com/TEDxVITPune" rel="noopener noreferrer" target="_blank">
-                  <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021457/Website%20Content/Footer/Meta_nfi6jb.svg" alt="Meta" />
-                </a>
-
-              </li>
-
-              <li>
-                <a href="https://www.instagram.com/tedxvitpune" rel="noopener noreferrer" target="_blank">
-                  <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021457/Website%20Content/Footer/Insta_oqrxwy.svg" alt="Insta" />
-                </a>
-              </li>
-
-              <li>
-                <a href="https://www.twitter.com/TEDxVITPune" rel="noopener noreferrer" target="_blank">
-                  <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021457/Website%20Content/Footer/Twitter_ml0nwl.svg" alt="Twitter" />
+                <a
+                  href="https://www.facebook.com/TEDxVITPune"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021457/Website%20Content/Footer/Meta_nfi6jb.svg"
+                    alt="Meta"
+                  />
                 </a>
               </li>
 
               <li>
-                <a href="https://www.linkedin.com/company/tedxvitpune/" rel="noopener noreferrer" target="_blank">
-                  <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021457/Website%20Content/Footer/LinkedIn_zg35zd.svg" alt="Linkedin" />
+                <a
+                  href="https://www.instagram.com/tedxvitpune"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021457/Website%20Content/Footer/Insta_oqrxwy.svg"
+                    alt="Insta"
+                  />
                 </a>
               </li>
 
               <li>
-              <a href="https://www.youtube.com/c/TEDxVITPune" rel="noopener noreferrer" target="_blank">
-                <img src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021457/Website%20Content/Footer/YouTube_ykbsyi.svg" alt="utube" />
-              </a>
-            </li>
+                <a
+                  href="https://www.twitter.com/TEDxVITPune"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021457/Website%20Content/Footer/Twitter_ml0nwl.svg"
+                    alt="Twitter"
+                  />
+                </a>
+              </li>
 
+              <li>
+                <a
+                  href="https://www.linkedin.com/company/tedxvitpune/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021457/Website%20Content/Footer/LinkedIn_zg35zd.svg"
+                    alt="Linkedin"
+                  />
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.youtube.com/c/TEDxVITPune"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021457/Website%20Content/Footer/YouTube_ykbsyi.svg"
+                    alt="utube"
+                  />
+                </a>
+              </li>
             </ul>
           </div>
-
-
         </div>
       </div>
     </div>

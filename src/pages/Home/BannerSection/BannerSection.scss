@@ -16,6 +16,9 @@
     align-items: center;
     width: 50%;
     padding-left: 6rem;
+    
+    
+    
     & .subCountainerRg {
       width: 100%;
       & h3 {
@@ -51,7 +54,7 @@
 
   & .banner-section2 {
     width: 50%;
-    height: 50rem;
+    
   }
   & .banner-section3 {
     display: none;
@@ -91,7 +94,16 @@
       padding-left: 0px;
     }
     .banner-section2 {
-      display: none;
+      padding: 0;
+      width: 100%;
+      //display: none;
+      video{
+        width: 100%;
+        height: auto;
+      }
+      VidepLooper{
+        height: 50vh;
+      }
     }
     & .sm-padding {
       padding-bottom: 1rem;

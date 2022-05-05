@@ -42,13 +42,13 @@ const EXAMPLE = [
     imgURL: `https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/19_zfvvop.svg`,
     videoLink: `https://www.youtube.com/playlist?list=PLsRNoUx8w3rPXX5LlzJQQNYrvIvz5nhOz`,
   },
-  {
+  /*{
     date: "2020",
     title: "TEDxVITPune Countdown | Towards Climate Change | 2020",
     paragraph:
       "It's now or never. We can change climate change. Keeping these words in mind, TEDxVITPune joined the Countdown with a vision to spread ideas for a change. Guest speakers, Stephan Crawford, Ulka Kelkar, and Shikhar Kamat imparted valuable cognizance, and musicians, Flavio Lopez and Daniel Waples added a spark of musical notes to the Sunday evening.",
     imgURL: `https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/21_wpmxtr.svg`,
-  },
+  }*/
   {
     date: "2021-05-29",
     title: "TEDxVITPune Reemergence | Resurfacing Amidst Turmoil | 2021",

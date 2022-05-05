@@ -1,5 +1,10 @@
 import React from "react";
 import "./BannerSection.scss";
+import VideoLooper from 'react-video-looper'
+import video from "../../../images/Comp 1_7_video.mp4";
+
+
+
 
 function useWindowDimensions() {
   const hasWindow = typeof window !== "undefined";
@@ -42,7 +47,7 @@ const BannerSection = () => {
           </a>
         </div>
       </div>
-      {width < 900 ? (
+      {/*{width < 900 ? (
         <div className="banner-section3">
           <iframe
             title="spline"
@@ -62,7 +67,28 @@ const BannerSection = () => {
             height="100%"
           ></iframe>
         </div>
-      )}
+      )}*/}
+      <div className="banner-section2">
+        {/*<img
+          className="gifimg"
+          src={gif}
+          
+          alt="image_gif"
+    />
+
+        /*<video autoPlay loop>
+          <source src={video} type="video/mp4" />
+    </video>*/}
+    <VideoLooper source="https://res.cloudinary.com/dfgz4hsg0/video/upload/v1651748564/Website%20Content/Home/Comp_1_7_video_nfqavr.mp4"
+    start={4.31}
+    end={9.48} 
+    isDebugMode={false}
+    autoPlay={true}
+    height={'40rem'}
+
+    />,
+        
+      </div>
     </div>
   );
 };

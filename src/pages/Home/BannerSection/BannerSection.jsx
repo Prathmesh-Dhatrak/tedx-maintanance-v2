@@ -2,7 +2,7 @@ import React from "react";
 import "./BannerSection.scss";
 import VideoLooper from 'react-video-looper'
 
-
+import video  from "../../../images/Comp 1_7_video.mp4";
 
 
 /*function useWindowDimensions() {
@@ -78,9 +78,9 @@ const BannerSection = () => {
         /*<video autoPlay loop>
           <source src={video} type="video/mp4" />
     </video>*/}
-    <VideoLooper source="https://res.cloudinary.com/dfgz4hsg0/video/upload/v1651748564/Website%20Content/Home/Comp_1_7_video_nfqavr.mp4"
-    start={4.31}
-    end={9.48} 
+    <VideoLooper source={video}
+    start={0}
+    end={14.20} 
     isDebugMode={false}
     autoPlay={true}
     height={'40rem'}

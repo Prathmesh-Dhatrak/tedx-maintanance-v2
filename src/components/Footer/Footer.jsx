@@ -67,10 +67,13 @@ const Footer = () => {
               tedxvitpune@gmail.com
             </a>
           </p>
+          <p>
+              Harshada Belgi:<a href="tel:+919168404840" target="_blank" rel="noreferrer"> +91 (916) 84 04840</a> 
+          </p>
           <div className="footer-tedLine">
             <p>
-              <Link to="/">TEDxVITPune</Link>
-            </p>
+              <Link to="/"></Link>
+  </p>
           </div>
 
           <div className="icons">

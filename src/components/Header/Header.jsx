@@ -120,7 +120,7 @@ const Header = ({ dark }) => {
                   fontStyle: "normal",
                 }}
               >
-                Endeavour <FiChevronDown />
+                Endeavours <FiChevronDown />
               </Link>
               <ul className={boxClassSubMenu2.join(" ")}>
                 <li>

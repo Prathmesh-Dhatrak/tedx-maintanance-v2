@@ -22,7 +22,7 @@ const Edition6 = (dark) => {
         Shift the perspective. Reemerge in a better, stronger, and altogether
         different way, keeping in mind the roots that helped us get to where we
         are today. Reemergence is about celebrating the human spirit that rises
-        through darkness and disseminates hope
+        through darkness and disseminates hope.
       </p>
       <p>
         The celerity with which the modern world is moving and evolving is

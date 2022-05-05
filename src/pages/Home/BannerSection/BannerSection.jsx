@@ -1,12 +1,11 @@
 import React from "react";
 import "./BannerSection.scss";
 import VideoLooper from 'react-video-looper'
-import video from "../../../images/Comp 1_7_video.mp4";
 
 
 
 
-function useWindowDimensions() {
+/*function useWindowDimensions() {
   const hasWindow = typeof window !== "undefined";
 
   function getWindowDimensions() {
@@ -34,9 +33,9 @@ function useWindowDimensions() {
   });
 
   return windowDimensions;
-}
+}*/
 const BannerSection = () => {
-  const { width } = useWindowDimensions();
+  //const { width } = useWindowDimensions();
   return (
     <div className="banner-container">
       <div className="banner-section1 sm-padding">

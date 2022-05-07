@@ -4,7 +4,6 @@ import VideoLooper from 'react-video-looper'
 
 import video  from "../../../images/Comp 1_7_video.mp4";
 
-
 /*function useWindowDimensions() {
   const hasWindow = typeof window !== "undefined";
 
@@ -41,7 +40,7 @@ const BannerSection = () => {
       <div className="banner-section1 sm-padding">
         <div className="subCountainerRg">
           <h3>Embrace the Pandemonium on 21st May, 2022. </h3>
-          <a href="https://tedxvitpune.in/attendee-application">
+          <a href="https://tedxvitpune.in/attendee-application" target="_blank" rel="noreferrer">
             <button>Apply</button>
           </a>
         </div>

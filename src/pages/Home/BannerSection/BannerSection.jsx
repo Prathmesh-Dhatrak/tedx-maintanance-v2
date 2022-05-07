@@ -85,8 +85,7 @@ const BannerSection = () => {
     autoPlay={true}
     height={'40rem'}
 
-    />,
-        
+    />  
       </div>
     </div>
   );

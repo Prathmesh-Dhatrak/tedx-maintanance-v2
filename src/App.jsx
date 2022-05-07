@@ -110,9 +110,11 @@ function App() {
     <div className="App" style={{ background: "black" }}>
       {routes.map(({ darkHader, path, Component }) => (
         <Route key={path} exact path={path}>
+
           <Header dark={darkHader} />
           <Component dark={darkHader} />
           <Footer />
+
         </Route>
       ))}
 

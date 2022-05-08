@@ -110,11 +110,9 @@ function App() {
     <div className="App" style={{ background: "black" }}>
       {routes.map(({ darkHader, path, Component }) => (
         <Route key={path} exact path={path}>
-
           <Header dark={darkHader} />
           <Component dark={darkHader} />
           <Footer />
-
         </Route>
       ))}
 
@@ -177,9 +175,15 @@ function App() {
           return null;
         }}
       />
+      <Route
+        path="/experience-tedxvitpune"
+        component={() => {
+          window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfEE_KmYqFRMvsYSSWYLfr0NDC1YHjlzvDiMKEr-kP6wBJRfg/viewform";
+          return null;
+        }}
+      />
     </div>
   );
 }
 
 export default App;
-

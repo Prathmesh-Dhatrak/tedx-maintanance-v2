@@ -2,7 +2,7 @@ import React from "react";
 import "./CountdownSection.scss";
 
 const imageArray = [
-  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509158/Website%20Content/Home/CountdownIMGS/19_settwi.svg",
+  /*"https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509158/Website%20Content/Home/CountdownIMGS/19_settwi.svg",
   "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509143/Website%20Content/Home/CountdownIMGS/18_n0qly8.svg",
   "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509128/Website%20Content/Home/CountdownIMGS/17_u3lfhw.svg",
   "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509116/Website%20Content/Home/CountdownIMGS/16_llnl6x.svg",
@@ -10,7 +10,7 @@ const imageArray = [
   "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509094/Website%20Content/Home/CountdownIMGS/14_ya6hff.svg",
   "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509085/Website%20Content/Home/CountdownIMGS/13_ctsfzl.svg",
   "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509078/Website%20Content/Home/CountdownIMGS/12_h4kekm.svg",
-  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509075/Website%20Content/Home/CountdownIMGS/11_tvspld.svg",
+  "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509075/Website%20Content/Home/CountdownIMGS/11_tvspld.svg",*/
   "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509073/Website%20Content/Home/CountdownIMGS/10_fkwuur.svg",
   "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509455/Website%20Content/Home/CountdownIMGS/9_cwsizw.svg",
   "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509314/Website%20Content/Home/CountdownIMGS/8_xlmdqh.svg",
@@ -39,7 +39,7 @@ const CountdownSection = () => {
     <div className="countdown-container">
       <div className="subCountainerLf">
         <div className="img_container">
-          <img src={imageArray[5]} alt="img" />
+          <img src={imageArray[0]} alt="img" />
         </div>
         <p>
           Days to go, for the most <br /> awaited event of the year!{" "}

@@ -175,9 +175,15 @@ function App() {
           return null;
         }}
       />
+      <Route
+        path="/experience-tedxvitpune"
+        component={() => {
+          window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfEE_KmYqFRMvsYSSWYLfr0NDC1YHjlzvDiMKEr-kP6wBJRfg/viewform";
+          return null;
+        }}
+      />
     </div>
   );
 }
 
 export default App;
-

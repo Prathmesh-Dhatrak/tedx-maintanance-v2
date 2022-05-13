@@ -91,7 +91,7 @@ const CommunityConversations = (dark) => {
               </p>
               <p>
                 Continue being a part of our coterie and engage in Community
-                Conversations by clicking the link below &nbsp;
+                Conversations by clicking the link &nbsp;
                 <a href="https://forms.gle/GKbVFJ4vdQKstaqS9" target="_blank" rel="noreferrer">Link</a>
               </p>
             </div>

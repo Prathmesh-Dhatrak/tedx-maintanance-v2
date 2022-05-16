@@ -1,8 +1,8 @@
 import React from "react";
 import "./BannerSection.scss";
-import VideoLooper from 'react-video-looper'
+import VideoLooper from "react-video-looper";
 
-import video  from "../../../images/Comp 1_7_video.mp4";
+import video from "../../../images/Comp.mp4";
 
 /*function useWindowDimensions() {
   const hasWindow = typeof window !== "undefined";
@@ -40,7 +40,11 @@ const BannerSection = () => {
       <div className="banner-section1 sm-padding">
         <div className="subCountainerRg">
           <h3>Embrace the Pandemonium on 21st May, 2022. </h3>
-          <a href="https://tedxvitpune.in/attendee-application" target="_blank" rel="noreferrer">
+          <a
+            href="https://tedxvitpune.in/attendee-application"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button>Apply</button>
           </a>
         </div>
@@ -77,14 +81,14 @@ const BannerSection = () => {
         /*<video autoPlay loop>
           <source src={video} type="video/mp4" />
     </video>*/}
-    <VideoLooper source={video}
-    start={0}
-    end={14.20} 
-    isDebugMode={false}
-    autoPlay={true}
-    height={'40rem'}
-
-    />  
+        <VideoLooper
+          source={video}
+          start={0}
+          end={14.2}
+          isDebugMode={false}
+          autoPlay={true}
+          height={"40rem"}
+        />
       </div>
     </div>
   );

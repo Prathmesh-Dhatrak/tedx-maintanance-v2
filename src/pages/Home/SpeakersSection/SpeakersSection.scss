@@ -204,6 +204,7 @@
           align-items: center;
           justify-content: center;
           transition: all 0.3s ease-in-out;
+          display: none;
           &:hover {
             background: #ffffff;
             color: #e62b1e;

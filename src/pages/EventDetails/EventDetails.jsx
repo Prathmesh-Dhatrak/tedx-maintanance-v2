@@ -12,7 +12,13 @@ const Map = ({ dark }) => {
         backgroundColor: dark ? "dark" : "white",
       }}
     >
-      <div className="container"> Map</div>
+      <div className="container">
+
+        <img
+          src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1652772322/Website%20Content/EventDetails/ComingSoon_mbp7w5.jpg"
+          alt=""
+        />
+      </div>
     </div>
   );
 };

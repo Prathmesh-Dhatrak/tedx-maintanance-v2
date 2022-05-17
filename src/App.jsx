@@ -16,6 +16,7 @@ import {
   Lookbook,
   Creatives,
   NewsletterSignup,
+  EventDetails,
 } from "./pages";
 
 import {
@@ -103,6 +104,12 @@ const routes = [
     name: "Edition6",
     Component: Edition6,
   },
+  {
+    path: "/event-details",
+    darkHader: true,
+    name: "EventDetails",
+    Component: EventDetails,
+  },
 ];
 
 function App() {
@@ -178,7 +185,8 @@ function App() {
       <Route
         path="/experience-tedxvitpune"
         component={() => {
-          window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfEE_KmYqFRMvsYSSWYLfr0NDC1YHjlzvDiMKEr-kP6wBJRfg/viewform";
+          window.location.href =
+            "https://docs.google.com/forms/d/e/1FAIpQLSfEE_KmYqFRMvsYSSWYLfr0NDC1YHjlzvDiMKEr-kP6wBJRfg/viewform";
           return null;
         }}
       />

@@ -42,7 +42,7 @@ const CountdownSection = () => {
           <img src={imageArray[day-1]} alt="img" />
         </div>
         <p>
-          Days to go, for the most <br /> awaited event of the year!
+          Day to go, for the most <br /> awaited event of the year!
         </p>
       </div>
     </div>

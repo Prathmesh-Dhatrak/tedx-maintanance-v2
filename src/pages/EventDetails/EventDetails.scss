@@ -10,7 +10,7 @@
     align-items: center;
     padding: 0rem 0rem;
     @import url("https://fonts.googleapis.com/css?family=Lato");
-     color: #000;
+    color: #000;
 
     /* Global */
     :root {
@@ -19,6 +19,8 @@
 
     * {
       box-sizing: border-box;
+      //Changes
+      display: flow-root;
     }
 
     body {
@@ -83,17 +85,19 @@
     }
 
     .timeline-item-content {
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 0 5px rgb(0 0 0 / 30%);
       border-radius: 5px;
       background-color: #fff;
       display: flex;
       flex-direction: column;
-      align-items: flex-end;
+      /* align-items: flex-end; */
       padding: 15px;
       position: relative;
       width: 400px;
       max-width: 100%;
-      text-align: right;
+      /* text-align: right; */
+      align-items: center;
+      justify-content: center;
     }
 
     .timeline-item-content::after {
@@ -109,8 +113,10 @@
     }
 
     .timeline-item:nth-child(odd) .timeline-item-content {
-      text-align: left;
-      align-items: flex-start;
+      display: flex;
+      justify-content: center;
+      /* align-items: flex-start; */
+      align-items: center;
     }
 
     .timeline-item:nth-child(odd) .timeline-item-content::after {
@@ -120,6 +126,7 @@
     }
 
     .timeline-item-content .tag {
+      display: none;
       color: #fff;
       font-size: 12px;
       font-weight: bold;
@@ -134,19 +141,27 @@
     .timeline-item:nth-child(odd) .timeline-item-content .tag {
       left: auto;
       right: 5px;
+      display: none;
     }
 
     .timeline-item-content time {
       color: #777;
-      font-size: 12px;
       font-weight: bold;
+
+      padding: 2%;
+      text-align: center;
+      font-family: "Raleway";
+      font-size: 20px;
+      line-height: 50px;
+      color: #333333;
     }
 
     .timeline-item-content p {
-      font-size: 1rem;
       line-height: 1.6;
-      margin: 0.95em 0;
       max-width: 250px;
+      font-size: 13px;
+      font-weight: 400;
+
     }
 
     .timeline-item-content a {

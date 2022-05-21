@@ -1,69 +1,121 @@
 import React from "react";
 import "./EventDetails.scss";
+import Accordian from "../Faqs/Accordian";
+
 
 const grid =
   "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/WhiteGrid_xcidhq.svg";
 const timelineData = [
   {
-    text: "Started working on the app-ideas repository",
-    date: "February 25 2019",
+    text: "Come To VIT",
+    date: "11:15",
     category: {
       tag: "app-ideas",
       color: "#FFDB14",
     },
     link: {
-      url: "#!",
-      text: "Check it out on GitHub",
+      question: "View more",
+      answer: "Reporting",
     },
   },
   {
-    text: "Started the Weekly Coding Challenge program",
-    date: "March 04 2019",
+    text: "Registration and Lunch",
+    date: "11:15 to 12:30",
     category: {
       tag: "blog",
       color: "#e17b77",
     },
     link: {
-      url: "#!",
-      text: "Check it out here",
+      question: "View more",
+      answer: " <li>Registration</li> <li>Lunch<li>",
     },
   },
   {
-    text: "Got 1.000 followers on Twitter",
-    date: "March 07 2019",
+    text: "Session 1",
+    date: "12:30 to 15:00",
     category: {
       tag: "twitter",
       color: "#1DA1F2",
     },
     link: {
-      url: "#!",
-      text: "See profile",
+      question: "View more",
+      answer: " <li>Boomwhackers</li> <li>Speaker 1:Sandeep Godbole<li> <li>Small Activity</li> <li>Speaker 2:Deepak Krishnan</li> <li>Small Activity</li> <li>Speaker 3:Sonal Barmecha</li> <li>Small Activity</li> ",
     },
   },
   {
-    text: "I published my first article in the FreeCodeCamp Medium Publication",
-    date: "March 18 2019",
+    text: "Workshops",
+    date: "15:00 to 16:00",
     category: {
       tag: "medium",
       color: "#018f69",
     },
     link: {
-      url: "#!",
-      text: "Check it out here",
+      question: "View more",
+      answer: " <li>Break</li> <li>Workshops<li> <li>Yarn Activity</li><li> Photobooth</li>",
     },
   },
   {
-    text: "Over 12.000 views in a single day on my Medium posts",
-    date: "April 05 2019",
+    text: "Session 2",
+    date: "16:20 to 17:20",
     category: {
       tag: "medium",
       color: "#018f69",
     },
     link: {
-      url: "#!",
-      text: "See profile",
+      question: "View more",
+      answer: " <li>Settling in Audi</li> <li>Speaker 4:Karan Arjun Singh<li> <li>Speaker 5:Abhinav Kafare</li> <li>Break for refreshments</li>",
     },
   },
+  {
+    text: "Refreshments",
+    date: "17:20 to 18:00",
+    category: {
+      tag: "medium",
+      color: "#018f69",
+    },
+    link: {
+      question: "View more",
+      answer: " <li>Refreshments Break</li>",
+    },
+  },
+  {
+    text: "Session 3",
+    date: "18:00 to 20:45",
+    category: {
+      tag: "medium",
+      color: "#018f69",
+    },
+    link: {
+      question: "View more",
+      answer: " <li>Band</li> <li>Speaker 6:Samar Nakhate<li> <li>Break</li> <li>Speaker 7:Suchita Champak<li> <li>Break</li> <li>Speaker 8:Swanadi Tikekar<li> <li>Break</li> ",
+    },
+  },
+  {
+    text: "Networking Activity",
+    date: "20:45 to 21:00",
+    category: {
+      tag: "medium",
+      color: "#018f69",
+    },
+    link: {
+      question: "View more",
+      answer: " <li>Dinner Activity</li>",
+    },
+  },
+  {
+    text: "Dinner",
+    date: "21:00 onwards",
+    category: {
+      tag: "medium",
+      color: "#018f69",
+    },
+    link: {
+      question: "View more",
+      answer: " <li>Dinner</li>",
+    },
+  },
+
+
 ];
 
 const TimelineItem = ({ data }) => (
@@ -75,10 +127,16 @@ const TimelineItem = ({ data }) => (
       <time>{data.date}</time>
       <p>{data.text}</p>
       {data.link && (
-        <a href={data.link.url} target="_blank" rel="noopener noreferrer">
-          {data.link.text}
-        </a>
+        
+      <Accordian
+      question={data.link.question}
+      answer={data.link.answer}
+    />
+
+
+
       )}
+
       <span className="circle" />
     </div>
   </div>

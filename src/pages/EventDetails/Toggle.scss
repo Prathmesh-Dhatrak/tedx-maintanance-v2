@@ -1,5 +1,4 @@
-@import '../../styles/variables';
-.faqs {
+/*.faqs {
     text-align: center;
     padding-top: 140px;
     padding-bottom: 5%;
@@ -15,14 +14,14 @@
     font-size: 40px;
     line-height: 50px;
     color: #333333;
-}
+}*/
 .questions_sections {
     display: block;
     margin: 1% 10% 1% 10%;
     border-bottom: 1px solid rgb(201, 201, 201);
     position: relative;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     font-family: "Candara";
     font-weight: 600;
     color: #333333;
@@ -37,7 +36,7 @@
         p {
             padding: 2% 20% 2% 20%;
             display: block;
-            //text-align: left;
+            text-align: center;
             
         }
     }
@@ -58,10 +57,7 @@
         
         -webkit-transition: all .5s ease-in-out;
         p {
-            //padding: 0% 10% 2% 10%
-            //text-align: left;
-            padding: 0;
-
+            padding: 0% 20% 2% 20%
         }
     }
 }

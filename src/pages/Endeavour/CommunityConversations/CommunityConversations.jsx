@@ -84,15 +84,16 @@ const CommunityConversations = (dark) => {
               <p>
                 Free up your weekends! Join Community Conversations- where we
                 meet, share ideas, let the dialogue flow and build memorable
-                experiences forevermore. To register: &nbsp;
+                experiences forevermore. 
+                {/*To register: &nbsp;
                 <a href="https://tedxvitpune.in/community-conversations" target="_blank" rel="noreferrer">
                   Register
-                </a>
+  </a>*/}
               </p>
               <p>
                 Continue being a part of our coterie and engage in Community
-                Conversations by clicking the link &nbsp;
-                <a href="https://forms.gle/GKbVFJ4vdQKstaqS9" target="_blank" rel="noreferrer">Link</a>
+                {/*Conversations by clicking the link &nbsp;
+<a href="https://forms.gle/GKbVFJ4vdQKstaqS9" target="_blank" rel="noreferrer">Link</a>*/}
               </p>
             </div>
 

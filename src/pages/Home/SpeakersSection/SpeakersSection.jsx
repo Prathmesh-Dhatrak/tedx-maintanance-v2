@@ -179,7 +179,7 @@ const SpeakersSection = () => {
   };
 
   return (
-    <div className="speakers-container">
+    <div className="speakers-container" data-scroll-section>
       <h2>Stellar Lineup</h2>
       <div
         className="speakers-wrapper  sm-padding"

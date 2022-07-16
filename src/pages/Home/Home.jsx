@@ -11,18 +11,33 @@ const Home = ({ dark }) => {
     backgroundColor: dark ? "black" : "white",
     backgroundImage: 'url("https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/Grid_fo4iyy.svg")',
   };
-  return (
-    <div style={pageStyle}>
-      <BannerSection />
-  {/*<CountdownSection/>*/}
-      <PandemoniumSection />
-      {/* <hr></hr> */}
-      <SpeakersSection />
-      {/* <hr></hr> */}
-      <TimelineSection />
-      <AboutSection />
-    </div>
-  );
+
+
+
+return (
+  <>
+  <div style={pageStyle}
+    data-scroll-container
+  >
+  <BannerSection />
+{/*<CountdownSection/>*/}
+  <PandemoniumSection />
+{/* <hr></hr> */}
+  <SpeakersSection />
+{/* <hr></hr> */}
+  <TimelineSection />
+  <AboutSection />
+</div>
+  
+  
+  
+  
+  </>
+)
+
+    
+    
+  
 };
 
 export default Home;

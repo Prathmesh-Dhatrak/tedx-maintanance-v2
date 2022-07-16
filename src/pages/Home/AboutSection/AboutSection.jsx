@@ -3,7 +3,7 @@ import "./AboutSection.scss";
 
 const AboutSection = () => {
   return (
-    <div className="about-container">
+    <div className="about-container" data-scroll-section>
       <h2 className="about-title">{`About TED, TEDx and Us `}</h2>
       <div className="about-inner-container">
         <div className="about-section1">

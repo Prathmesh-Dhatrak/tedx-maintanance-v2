@@ -1,8 +1,14 @@
 import React from "react";
 import "./PandemoniumSection.scss";
+
+
+
+
 const PandemoniumSection = () => {
+  
+  
   return (
-    <div className="pandemonium-container">
+    <div className="pandemonium-container" data-scroll-section>
       <div className="pandemonium-section1 sm-padding">
         <h1 className="pandemonium-spanText">Edition 7</h1>
         <img
@@ -14,7 +20,7 @@ const PandemoniumSection = () => {
         />
       </div>
       <div className="pandemonium-section2">
-        <p className="pandemonium-embr-para">
+        <p className="pandemonium-embr-para"Y>
           All the strum and drag in our heads draws down to introspecting-
           engulfed by turmoil. From raging uproars to cheerful celebrations,
           spiralling times to exciting unknowns, we've been thriving amidst the

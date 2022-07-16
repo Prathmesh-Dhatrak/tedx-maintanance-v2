@@ -76,7 +76,7 @@ export default class TimelineSection extends React.Component {
     const videoLink = EXAMPLE[curIdx].videoLink;
 
     return (
-      <div className="time-container">
+      <div className="time-container" data-scroll-section>
         <h2>Past Editions: Our Journey </h2>
         <div className="time-inner-container">
           <div

@@ -45,7 +45,7 @@ const BannerSection = () => {
   //const { width } = useWindowDimensions();
   return (
     <>
-    <div className="banner-container">
+    <div className="banner-container" data-scroll-section>
       <div className="banner-section1 sm-padding">
         <div className="subCountainerRg">
           <h3>Embrace the Pandemonium on 21st May, 2022. </h3>
@@ -79,7 +79,7 @@ const BannerSection = () => {
           ></iframe>
         </div>
       )}*/}
-      <div className="banner-section2">
+      {/*<div className="banner-section2">
         {/*<img
           className="gifimg"
           src={gif}
@@ -89,7 +89,7 @@ const BannerSection = () => {
 
         /*<video autoPlay loop>
           <source src={video} type="video/mp4" />
-    </video>*/}
+    </video>
         <VideoLooper
           source={video}
           start={0}
@@ -98,7 +98,7 @@ const BannerSection = () => {
           autoPlay={true}
           height={"40rem"}
         />
-      </div>
+    </div>*/}
     </div>
 
     {/*<Carousel slides={slides} autoplay={true} interval={2000}/>*/}

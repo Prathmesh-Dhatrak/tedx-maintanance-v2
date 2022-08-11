@@ -6,7 +6,7 @@ import { BarWave } from "react-cssfx-loading";
 const PandemoniumSection = () => {
   const vidRef = useRef();
   useEffect(() => {
-    vidRef.current.play();
+    vidRef.current.load();
   }, []);
 
   return (

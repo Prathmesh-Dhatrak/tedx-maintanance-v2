@@ -128,7 +128,7 @@ export default function NewBanner() {
     return () => {
       clearTimeout(timer);
     };
-  }, [state]);
+  },);
 
   // console.log(state);
 

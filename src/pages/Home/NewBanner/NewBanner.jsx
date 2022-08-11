@@ -15,36 +15,36 @@ export default function NewBanner() {
 
   const gallery = [
     {
-      title: "Speaker one",
-      cover: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1659604606/Website%20Content/title1_s5tkp1webp_b9tsgw.webp"
+      title: "Samar Nakhate",
+      cover: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1659621781/Website%20Content/speaker1_f2xrxi.webp"
     },
     {
-      title: "Speaker two",
+      title: "Suchita Champak",
+      cover:"https://res.cloudinary.com/dfgz4hsg0/image/upload/v1659604606/Website%20Content/title3_cnn8k2webp_t8mend.webp"
+    },
+    {
+      title: "Abhinav Kafare",
+      cover:"https://res.cloudinary.com/dfgz4hsg0/image/upload/v1659621782/Website%20Content/speaker3_npstei.webp"
+    },
+    {
+      title: "Deepak Krishnan",
+      cover:"https://res.cloudinary.com/dfgz4hsg0/image/upload/v1659621783/Website%20Content/speaker4_yebvy9.webp"
+    },
+    {
+      title: "Karan Arjun Singh",
+      cover:"https://res.cloudinary.com/dfgz4hsg0/image/upload/v1659621782/Website%20Content/speaker5_xyjj6v.webp"
+    },
+    {
+      title: "Sonal Barmecha",
       cover:"https://res.cloudinary.com/dfgz4hsg0/image/upload/v1659604606/Website%20Content/title2_uuijhywebp_tiwht6.webp"
     },
     {
-      title: "Speaker three",
-      cover:"https://res.cloudinary.com/dfgz4hsg0/image/upload/v1659604606/Website%20Content/title3_cnn8k2webp_t8mend.webp"
+      title: "Sandeep Godbole",
+      cover:"https://res.cloudinary.com/dfgz4hsg0/image/upload/v1659604606/Website%20Content/title1_s5tkp1webp_b9tsgw.webp"
     },
     {
-      title: "Speaker four",
-      cover:"https://res.cloudinary.com/dfgz4hsg0/image/upload/v1659604606/Website%20Content/title3_cnn8k2webp_t8mend.webp"
-    },
-    {
-      title: "Speaker 5",
-      cover:"https://res.cloudinary.com/dfgz4hsg0/image/upload/v1659604606/Website%20Content/title3_cnn8k2webp_t8mend.webp"
-    },
-    {
-      title: "Speaker 6",
-      cover:"https://res.cloudinary.com/dfgz4hsg0/image/upload/v1659604606/Website%20Content/title3_cnn8k2webp_t8mend.webp"
-    },
-    {
-      title: "Speaker 7",
-      cover:"https://res.cloudinary.com/dfgz4hsg0/image/upload/v1659604606/Website%20Content/title3_cnn8k2webp_t8mend.webp"
-    },
-    {
-      title: "Speaker 8",
-      cover:"https://res.cloudinary.com/dfgz4hsg0/image/upload/v1659604606/Website%20Content/title3_cnn8k2webp_t8mend.webp"
+      title: "Swanandi Tikekar",
+      cover:"https://res.cloudinary.com/dfgz4hsg0/image/upload/v1659621782/Website%20Content/speajker8_bm3tty.webp"
     }
   ];
 
@@ -142,6 +142,8 @@ export default function NewBanner() {
             ref={(elem) => (elems.current[0] = elem)}
             src={gallery[state.current].cover}
             alt="imagecover"
+            /*width="626px"
+            height="303px"*/
           />
           <p>{gallery[state.current].title}</p>
         </div>
@@ -151,6 +153,8 @@ export default function NewBanner() {
             ref={(elem) => (elems.current[1] = elem)}
             src={gallery[state.next].cover}
             alt="imageCover"
+            /*width="626px"
+            height="303px"*/
           />
           <p>{gallery[state.next].title}</p>
         </div>

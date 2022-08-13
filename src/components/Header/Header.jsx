@@ -119,6 +119,7 @@ const Header = ({ dark }) => {
                   color: dark ? "#aaaaaa" : "#474747",
                   fontStyle: "normal",
                 }}
+                to="/#"
               >
                 Endeavours <FiChevronDown />
               </Link>
@@ -266,6 +267,7 @@ const Header = ({ dark }) => {
                   color: dark ? "#aaaaaa" : "#474747",
                   fontStyle: "normal",
                 }}
+                to='/#'
               >
                 More <FiChevronDown />
               </Link>

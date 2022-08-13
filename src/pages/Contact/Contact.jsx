@@ -22,7 +22,7 @@ const Contact = ({ dark }) => {
             </p>
 
             <form action="https://submit-form.com/KPISJyf7">
-              <label for="email"></label>
+              <label htmlFor="email"></label>
               <input
                 type="email"
                 placeholder="Your Email"
@@ -32,7 +32,7 @@ const Contact = ({ dark }) => {
                 id="email"
               />
 
-              <label for="answer"></label>
+              <label htmlFor="answer"></label>
               <input
                 type="text"
                 placeholder="Enter your message"

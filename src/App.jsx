@@ -1,8 +1,9 @@
-import React from "react";
+import React,{ useState, useEffect } from "react";
 import { Route } from "react-router-dom";
 import { Header, Footer } from "./components";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { BarWave } from "react-cssfx-loading";
 
 import {
   Partners,
@@ -113,15 +114,40 @@ const routes = [
 ];
 
 function App() {
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
+
+
   return (
     <div className="App" style={{ background: "black" }}>
-      {routes.map(({ darkHader, path, Component }) => (
-        <Route key={path} exact path={path}>
-          <Header dark={darkHader} />
-          <Component dark={darkHader} />
-          <Footer />
-        </Route>
-      ))}
+      {loading ? (
+        <div style={{height:'100vh',display:"flex",alignItems:'center',justifyContent:'center'}}>
+          <BarWave height="50px" color="#FF0000" width="100px" />
+        </div>
+      ):(
+      
+            <>
+            {routes.map(({ darkHader, path, Component }) => (
+              <Route key={path} exact path={path}>
+                <Header dark={darkHader} />
+                <Component dark={darkHader} />
+                <Footer />
+              </Route>
+            ))}
+            
+            </>
+
+
+      )
+    }
+
+      
 
       <Route path="/newsletter-signup" component={NewsletterSignup} />
       <Route
@@ -190,6 +216,8 @@ function App() {
           return null;
         }}
       />
+
+
     </div>
   );
 }

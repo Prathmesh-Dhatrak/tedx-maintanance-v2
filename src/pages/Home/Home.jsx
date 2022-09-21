@@ -1,6 +1,4 @@
 import React from "react";
-//import BannerSection from "./BannerSection";
-//import CountdownSection from "./CountdownSection";
 import PandemoniumSection from "./PandemoniumSection";
 import SpeakersSection from "./SpeakersSection";
 import TimelineSection from "./TimelineSection";

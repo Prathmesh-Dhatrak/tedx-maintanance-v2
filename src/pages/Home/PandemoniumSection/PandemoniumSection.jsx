@@ -1,7 +1,6 @@
-import React, { Suspense, useRef, useEffect } from "react";
+import React, { useRef, useEffect } from "react";
 import "./PandemoniumSection.scss";
 import video from "../../../images/pande.webm";
-import { BarWave } from "react-cssfx-loading";
 
 const PandemoniumSection = () => {
   const vidRef = useRef();
@@ -10,20 +9,7 @@ const PandemoniumSection = () => {
   }, []);
 
   return (
-    <Suspense
-      fallback={
-        <div
-          style={{
-            height: "100vh",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <BarWave height="50px" color="#FF0000" width="100px" />
-        </div>
-      }
-    >
+ 
       <div className="pandemonium-container" data-scroll-section>
         <div className="pandemonium-section1 sm-padding">
           <h1 className="pandemonium-spanText">Edition 7</h1>
@@ -49,7 +35,7 @@ const PandemoniumSection = () => {
           </p>
         </div>
       </div>
-    </Suspense>
+   
   );
 };
 

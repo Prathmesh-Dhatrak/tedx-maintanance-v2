@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React from "react";
 //import BannerSection from "./BannerSection";
 //import NewBanner from "./NewBanner";
 import PandemoniumSection from "./PandemoniumSection";
@@ -6,8 +6,7 @@ import PandemoniumSection from "./PandemoniumSection";
 import SpeakersSection from "./SpeakersSection";
 import TimelineSection from "./TimelineSection";
 import AboutSection from "./AboutSection";
-import { BarWave } from "react-cssfx-loading";
-const NewBanner = React.lazy(() => import("./NewBanner"));
+import NewBanner from './NewBanner'
 
 const Home = ({ dark }) => {
   const pageStyle = {
@@ -19,40 +18,14 @@ const Home = ({ dark }) => {
   return (
     <>
       <div style={pageStyle} data-scroll-container>
-        <Suspense
-          fallback={
-            <div
-              style={{
-                height: "100vh",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              <BarWave height="50px" color="#FF0000" width="100px" />
-            </div>
-          }
-        >
-          <NewBanner />
-        </Suspense>
+        
+        <NewBanner />
         {/*<BannerSection />*/}
         {/*<CountdownSection/>*/}
         <PandemoniumSection />
         {/* <hr></hr> */}
-        <Suspense fallback={
-          <div
-            style={{
-              height: "100vh",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <BarWave height="50px" color="#FF0000" width="100px" />
-          </div>
-        }>
-          <SpeakersSection />
-        </Suspense>
+ 
+        <SpeakersSection />
         {/* <hr></hr> */}
         <TimelineSection />
         <AboutSection />

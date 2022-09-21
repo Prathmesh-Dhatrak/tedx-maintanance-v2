@@ -1,6 +1,5 @@
-import React,{Suspense} from "react";
+import React from "react";
 import "./Lookbook.scss";
-import { BarWave } from "react-cssfx-loading";
 
 const grid ='https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/Grid_fo4iyy.svg';
 
@@ -11,20 +10,7 @@ const Lookbook = ({ dark }) => {
   };
   return (
 
-    <Suspense  
-    fallback={
-      <div
-        style={{
-          height: "100vh",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <BarWave height="50px" color="#FF0000" width="100px" />
-      </div>
-    }
-    >
+   
     <div className="lookbook-conatiner" style={pageStyle}>
     <div className="container">
       <h1>
@@ -250,8 +236,8 @@ const Lookbook = ({ dark }) => {
         </div>
       </div>
     </div>
-  </div>
-    </Suspense>
+    </div>
+    
 
     
 

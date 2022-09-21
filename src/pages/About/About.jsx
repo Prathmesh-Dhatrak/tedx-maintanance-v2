@@ -1,6 +1,6 @@
-import React,{ Suspense } from "react";
+import React from "react";
 import styles from "./About.module.scss";
-import { BarWave } from "react-cssfx-loading";
+
 
 const grid = 'https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021025/Website%20Content/WhiteGrid_xcidhq.svg'
 
@@ -13,20 +13,7 @@ const About = ({ dark }) => {
     "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651527621/Website%20Content/About/About_Us_eufnvp.png";
   return (
     <>
-    <Suspense  
-    fallback={
-      <div
-        style={{
-          height: "100vh",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <BarWave height="50px" color="#FF0000" width="100px" />
-      </div>
-    }
-    >
+    
     <div className="AboutPage" style={pageStyle}>
     {/*<!-- About Us Section -->*/}
 
@@ -275,9 +262,9 @@ const About = ({ dark }) => {
         personalised merchandise for all our attendees.
       </p>
     </div>
-  </div>
+    </div>
     
-    </Suspense>
+    
       
     </>
   );

@@ -65,35 +65,6 @@ const speakersData = [
     link: "https://www.youtube.com/watch?v=hCg_mSySd7Q",
     year: 2022,
   },
-  /*{
-    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650895585/Website%20Content/Home/nuphur_aipegj_plobhn.png",
-    title: "Nupur Dhakephalkar",
-    para: "Nupur Dhakephalkar is a clinical psychologist trained at the National Institute of Mental Health and Neuro Sciences, NIMHANS. Watch her as she ponders upon and shares her ideologies and experiences in the field of psychology through an acronym.",
-    link: "https://www.youtube.com/watch?v=bNfT-3jGRCg",
-    year: 2019,
-  },
-
-  {
-    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650895657/Website%20Content/Home/anryan_ky5a2c_f3aoqo.png",
-    title: "Adithya Narayanan",
-    para: "The manager of social innovation and advocacy at Teach for India (TFI), Adithya Narayanan is working on solutions to some of the most cardinal education-related issues prevalent in the country and has played varied roles in the development sector of India. Hear from this Education Activist, as he traverses us across his journey and his devoted life towards solving India's education challenges.",
-    link: "https://www.youtube.com/watch?v=FUMsMLlPGvk",
-    year: 2016,
-  },
-  {
-    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650172466/Website%20Content/Home/image_12_piavv3.png",
-    title: "Ulka Kelkar",
-    para: "Ulka Kelkar is Director, Climate Program, World Resources Institute, India. She leads WRI India’s work on climate policy which aims to support India’s pathway to a climate-resilient low-carbon economy through judicious national policies, carbon market mechanisms, and effective implementation in states and cities.",
-    link: "",
-    year: 2020,
-  },
-  {
-    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651490017/Website%20Content/Home/_MG_8318_1_rjydz8_canulk.png",
-    title: "Daniel Waples and Flavio Lopez",
-    para: "Daniel Waples is one of the world’s best-known handpan (hang drum) players having played in over 50 countries and amassing over 40 million views on YouTube. Having played the violin since he was just 9, Flavio feels comfortable within many different genres and musical ideas, adding a truly eclectic vibe to his sound, be it classical music or electronica.",
-    link: "",
-    year: 2020,
-  },*/
 ];
 
 const SpeakersSection = () => {

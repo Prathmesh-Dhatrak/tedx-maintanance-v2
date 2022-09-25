@@ -11,15 +11,13 @@
     padding: 0;
     & h1 {
       padding-top: 50px;
-      font-family: $font-default;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 65px;
-      line-height: 59px;
-      //-webkit-text-stroke: 1px rgb(255, 255, 255);
-      //-webkit-text-fill-color: rgb(0, 0, 0);
-      padding-bottom: 4rem;
-      // border: 1px solid #ffffff;
+    font-family: "Candara", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 65px;
+    text-align: center;
+    padding-bottom: 4rem;
     }
     label {
       font-family: $font-default;

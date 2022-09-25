@@ -5,6 +5,7 @@
 
     img {
         height: 22px;
+        //width: 50rem;
     }
     .heading {
         width: 100%;
@@ -45,9 +46,7 @@
             font-size: 50px;
             font-weight: bolder;
         }
-        .speakers-img {
-            height: auto;
-        }
+        
 
         .performers {
             h3 {
@@ -110,7 +109,6 @@
         margin-top: 40px;
         text-align: center;
         h2 {
-            padding-left: 5%;
 
             font-family: $font-text;
             margin-bottom: 10px;
@@ -135,32 +133,39 @@
 }
 
 @media (max-width: 718px) {
-    .performers-flex {
-        flex-direction: column;
-
-        .performers-flex-left,
-        .performers-flex-right {
-            width: 100%;
-            h3 {
+    .container-5 {
+        img{
+            height: auto;
+            width: 90%;
+        }
+        .performers-flex {
+            flex-direction: column;
+    
+            .performers-flex-left,
+            .performers-flex-right {
                 width: 100%;
-                font-family: "Raleway";
-                font-weight: bolder;
-                color: black;
-                padding-top: 20px;
-                font-size: 40px;
-            }
-            p {
-                font-family: "Candara";
-                font-size: 20px;
-                font-weight: 400;
-                font-style: normal;
-                line-height: 30px;
-                letter-spacing: 0em;
-                text-align: left;
+                h3 {
+                    width: 100%;
+                    font-family: "Raleway";
+                    font-weight: bolder;
+                    color: black;
+                    padding-top: 20px;
+                    font-size: 40px;
+                }
+                p {
+                    font-family: "Candara";
+                    font-size: 20px;
+                    font-weight: 400;
+                    font-style: normal;
+                    line-height: 30px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
             }
         }
+        .speakers-class{
+            background: none;
+        }
     }
-    .speakers-class{
-        background:none;
-    }
+    
 }

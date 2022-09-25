@@ -10,74 +10,75 @@ import {
 
 const speakersData = [
   {
-    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021316/Website%20Content/Home/speaker1_xztgri.webp",
-    title: "Jishnu Chatterjee",
-    para: "Jishnu is a 25-year-old Motion Designer based in Mumbai, who uses his innate sense of aesthetics to create Motion Graphics and visuals-packed narratives for films and web series. His most recent valuable piece, 'Scam 1992: The Harshad Mehta Story' received a nomination for the 'Excellence in Title Design' category at the prestigious SXSW Film. Here's a talk by a title sequence whizz who creates strong chronicle graphics, gives deep insights into his ability and how to get started!",
+    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1652680090/Website%20Content/Home/Speaker/Samar_Nakhate_1_ltyjy8.png",
+    title: "Samar Nakhate",
+    para: "Samar is a filmmaker, media academic and a media consultant. He is a founder member of the theatre group, Theatre Academy, Pune. Samar is also the creative director of the Pune International Film Festival. Having directed various one-act plays and full- length plays and having made several documentaries for Doordarshan, Mr. Samar works ardently on bringing media to the common people.",
     link: "https://www.youtube.com/watch?v=RNnSrv3PqMI&t=188s",
-    year: 2020,
+    year: 2022,
   },
   {
-    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021317/Website%20Content/Home/speaker4_hkexq9.webp",
-    title: "Amira Gill",
-    para: "Amira, emboldened by the hall of famous singers, is a vocalist-songwriter and a certified neurological music therapist, who has worked with top minds of the industry like Shreya Ghoshal and Shankar Mahadevan. We present to you an autobiographical talk of her journey to the musical stage.",
+    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1652675916/Website%20Content/Home/Speaker/Suchitha_Champak_1_ptwegu.png",
+    title: "Suchita Champak",
+    para: "As the founder of SciRio, she is on a mission to transform how society perceives science. Her journey as a scientist turned entrepreneur has been featured in digital media outlets like The Assam Tribune and BioPatrika. She has a strong vision for a future where science and society co-evolve to build an equitable and accessible space for everyone to empower themselves.",
     link: "https://www.youtube.com/watch?v=WRmHNTV-uwo&t=20s",
-    year: 2020,
+    year: 2022,
   },
   {
-    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650302456/Website%20Content/Home/speaker5_utvfgt_vdjdgg.png",
-    title: "Stephano Pelle",
-    para: "The current founder and Director of SP Associates Management Consultants, Stephano is a lecturer, a writer by hobby, and an achiever by passion. Here's a talk from the knight commander who shares his experience of the market and leadership expertise gained all over the years.",
+    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1652676668/Website%20Content/Home/Speaker/Abhinav_Kafare_crop2_2_liesye.png",
+    title: "Abhinav Kafare",
+    para: "Labelling him as an artist and a photographer is an understatement. A visionary who seeks newness in the process of creating art and finds life in not knowing how his art will be perceived. The former advertisement designer runs an art collective called Bade Moochwale. He has also mastered the fields of painting and visual arts, among other fine arts.",
     link: "https://www.youtube.com/watch?v=5ZGg5BrbZQU",
-    year: 2020,
+    year: 2022,
   },
   {
-    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650302456/Website%20Content/Home/speaker2_fm1gdi_byqaat.png",
-    title: "Mahesh Kale",
-    para: "An alumnus of Vishwakarma Institute of Technology, Mahesh Kale is a world-renowned vocalist who has firmly established himself as the face of Indian classical music for the new generation. Here’s a talk by maestro singer Mahesh Kale who shattered all the common myths about Carnatic music and brought out the diamonds it holds inside.",
+    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1652677061/Website%20Content/Home/Speaker/Deepak_photo_2_1_lxtah2.png",
+    title: "Deepak Krishnan",
+    para: "Being at a chaired position, as the Associate Director for WRI India’s Energy Program, he leads work on Clean Energy Initiatives. As an activist and a dedicated global citizen, Deepak has published multiple research papers and has provided valuable insights in various fields under the clean energy movement. Our planet needs us now more than ever, and visionaries like Deepak are the ones guiding us into the new age of eco-living.",
     link: "https://www.youtube.com/watch?v=A_0ZqqlpByc",
-    year: 2020,
+    year: 2022,
   },
   {
-    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650895156/Website%20Content/Home/rohit_1_xkvtyy_yorbmt.png",
-    title: "Rohit Pandharkar",
-    para: "Rohit Pandharkar is the head of data science and artificial intelligence at the group strategy office of the $20BN Mahindra Group which spans across several industries and has a presence in more than 100 countries. We present to you a strategic expert in the field of artificial intelligence who teleports us to the future of AI and the impossible heights it could scale.",
+    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1652678016/Website%20Content/Home/Speaker/Speaker5_crop_1_qkuv8g.png",
+    title: "Karan Arjun Singh",
+    para: "A renowned Foley Artist, having worked in Bollywood for more than 35 yers and having more than 3000 films to his credit. He owns Just Foley, a Mumbai based sound production studio with a team comprising of he most talented foley artists, sound engineers and editors. A man who has perfected his skill, Karan is behind all types of sounds, from setting down coffee mugs to a sword being drawn from its sheath.",
     link: "https://www.youtube.com/watch?v=jFyc-Fwwbyo",
-    year: 2020,
+    year: 2022,
   },
   {
-    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650895265/Website%20Content/Home/avinash_qcyd5f_mpoby5.png",
-    title: "Avinash Dharmadhikari",
-    para: "Shri. Avinash Dharmadhikari is a former IAS officer. Before joining the IAS, he was a full-time social activist and a freelance journalist for ten years. An expert talk from the ex-IAS, neatly lays down those points that would lead to more transparent governance and empowerment of people.",
+    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1652678509/Website%20Content/Home/Speaker/sonal_mam_1_gblkz2.png",
+    title: "Sonal Barmecha",
+    para: "The Founder and Managing Director of Sante Spa and Hospitality, La Magia and Yumma Swami. Sonal has curated an impressive resume ranging from being a licensed Chartered Accountant, an entrepreneur, a founder of a national chain of restaurants and a food connoisseur among a whole plethora of other things. As an avid fitness freak, her vision is centered around a holistic diet, food which feeds the stomach and the soul.",
     link: "https://www.youtube.com/watch?v=sgL0E23O17I",
-    year: 2020,
+    year: 2022,
   },
   {
-    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650895347/Website%20Content/Home/niranjan_yhcprn_rtiwqs.png",
-    title: "Niranjan Pedanekar",
-    para: "Niranjan Pedanekar, an AI scientist is revolutionising theatre. Niranjan has a day job as a scientist and is also a playwright, who has written, directed, translated, and acted in numerous plays. Hear the talk of an AI playwright scientist, who shares a unique idea which we never thought of!",
+    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1652679083/Website%20Content/Home/Speaker/spea_7_1_xl8reh.png",
+    title: "Sandeep Godbole",
+    para: "Sandeep Godbole is a cybersecurity expert and the vice president for Atos Syntel. He documents old temples for truly understanding the history of Pune, and its people. Sandeep has organized numerous Heritage Walks in Pune, in a pursuit to familiarize and enlighten participants of the history and various historical structures in the city.",
     link: "https://www.youtube.com/watch?v=oKb131uCNxU&t=13s",
-    year: 2020,
+    year: 2022,
   },
   {
-    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650895449/Website%20Content/Home/anusree_ztacbo_hy7cnr.png",
-    title: "Anusree Raha",
-    para: "An economist by education and a bureaucrat by profession, Anusree Raha is an Indian Economic Service Officer, currently working in the capacity of Deputy Director to the Government of India. Hear the top bureaucrat speak of the great combination that technology makes with government schemes and the great opportunities.",
+    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1652679690/Website%20Content/Home/Speaker/speaker_8_1_wfzvnh.png",
+    title: "Swanandi Tikekar",
+    para: "Swanandi is an eminent actor, artist and singer. She debuted in acting with serial Abhalmaya as a child actor and continued to put forth captivating performances for the famous sitcom, Dil Dosti Duniyadari. Owing to her constant soulful performances, Swanandi has also won the first season of the famous reality show, Singing Star. From creating magic behind the big screen to charming all and sundry with her euphonious voice- her versatility remains sublime.",
     link: "https://www.youtube.com/watch?v=hCg_mSySd7Q",
-    year: 2020,
+    year: 2022,
   },
-  {
+  /*{
     img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650895585/Website%20Content/Home/nuphur_aipegj_plobhn.png",
     title: "Nupur Dhakephalkar",
     para: "Nupur Dhakephalkar is a clinical psychologist trained at the National Institute of Mental Health and Neuro Sciences, NIMHANS. Watch her as she ponders upon and shares her ideologies and experiences in the field of psychology through an acronym.",
     link: "https://www.youtube.com/watch?v=bNfT-3jGRCg",
-    year: 2020,
+    year: 2019,
   },
+
   {
     img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650895657/Website%20Content/Home/anryan_ky5a2c_f3aoqo.png",
     title: "Adithya Narayanan",
     para: "The manager of social innovation and advocacy at Teach for India (TFI), Adithya Narayanan is working on solutions to some of the most cardinal education-related issues prevalent in the country and has played varied roles in the development sector of India. Hear from this Education Activist, as he traverses us across his journey and his devoted life towards solving India's education challenges.",
     link: "https://www.youtube.com/watch?v=FUMsMLlPGvk",
-    year: 2020,
+    year: 2016,
   },
   {
     img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650172466/Website%20Content/Home/image_12_piavv3.png",
@@ -92,7 +93,7 @@ const speakersData = [
     para: "Daniel Waples is one of the world’s best-known handpan (hang drum) players having played in over 50 countries and amassing over 40 million views on YouTube. Having played the violin since he was just 9, Flavio feels comfortable within many different genres and musical ideas, adding a truly eclectic vibe to his sound, be it classical music or electronica.",
     link: "",
     year: 2020,
-  },
+  },*/
 ];
 
 const SpeakersSection = () => {
@@ -114,7 +115,7 @@ const SpeakersSection = () => {
   const [imageIndex, setImageIndex] = useState(0);
   const [singleContainer, setSingleContainer] = useState(false);
   const [singleImage, setsingleImage] = useState({
-    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021316/Website%20Content/Home/speaker1_xztgri.webp",
+    img: "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1652675487/Website%20Content/Home/Speaker/Samar_Nakhate_Speaker_1_3_qgfy1z.jpg",
     title: "Jishnu Chatterjee",
     para: "Jishnu is a 25-year-old Motion Designer based in Mumbai, who uses his innate sense of aesthetics to create Motion Graphics and visuals-packed narratives for films and web series. His most recent valuable piece, 'Scam 1992: The Harshad Mehta Story' received a nomination for the 'Excellence in Title Design' category at the prestigious SXSW Film. Here's a talk by a title sequence whizz who creates strong chronicle graphics, gives deep insights into his ability and how to get started!",
     link: "https://www.youtube.com/watch?v=RNnSrv3PqMI&t=188s",
@@ -178,7 +179,7 @@ const SpeakersSection = () => {
   };
 
   return (
-    <div className="speakers-container">
+    <div className="speakers-container" data-scroll-section>
       <h2>Stellar Lineup</h2>
       <div
         className="speakers-wrapper  sm-padding"
@@ -235,7 +236,7 @@ const SpeakersSection = () => {
                 href={singleImage.link}
               >
                 Watch Talk <FaCaretRight size={30}></FaCaretRight>
-              </a>
+      </a>
             </div>
           </div>
         </div>

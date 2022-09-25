@@ -21,26 +21,28 @@ const Contact = ({ dark }) => {
               Atharva Kulkarni:<a href="tel:+91973278541" target="_blank" rel="noreferrer"> +91 (973) 02 78541</a> 
             </p>
 
-            <form>
-              <label></label>
+            <form action="https://submit-form.com/KPISJyf7">
+              <label htmlFor="email"></label>
               <input
                 type="email"
                 placeholder="Your Email"
                 className="email"
                 name="email"
                 required=""
+                id="email"
               />
 
-              <label></label>
+              <label htmlFor="answer"></label>
               <input
                 type="text"
                 placeholder="Enter your message"
                 className="answer"
                 name="answer"
                 required=""
+                id="answer"
               ></input>
 
-              <button type="submit">Submit</button>
+              <button type="submit">Send</button>
             </form>
           </div>
           <div className={styles.touch_right}>

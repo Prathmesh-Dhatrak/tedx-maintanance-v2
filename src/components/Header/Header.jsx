@@ -119,6 +119,7 @@ const Header = ({ dark }) => {
                   color: dark ? "#aaaaaa" : "#474747",
                   fontStyle: "normal",
                 }}
+                to='/#'
               >
                 Endeavour <FiChevronDown />
               </Link>
@@ -266,6 +267,7 @@ const Header = ({ dark }) => {
                   color: dark ? "#aaaaaa" : "#474747",
                   fontStyle: "normal",
                 }}
+                to='/#'
               >
                 More <FiChevronDown />
               </Link>
@@ -314,7 +316,7 @@ const Header = ({ dark }) => {
                 </li>
               </ul>
             </li>
-            <li className="menu-item">
+            {/*<li className="menu-item">
               <NavLink
                 onClick={toggleClass}
                 activeClassName={dark ? "is-active-white" : "is-active-black"}
@@ -330,7 +332,7 @@ const Header = ({ dark }) => {
                   Register
                 </button>
               </NavLink>
-            </li>
+                </li>*/}
           </ul>
         </nav>
       </div>

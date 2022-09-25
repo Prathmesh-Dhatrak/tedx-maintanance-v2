@@ -11,10 +11,7 @@ const AboutSection = () => {
             Launched in 2015, TEDxVITPune is a collaboration between Vishwakarma
             Institute of Technology’s students and the large Pune community to
             bring Technology, Entertainment, and Design from various
-            visionaries, intellectuals, and doers, right to our doorstep. Our
-            events feature interdisciplinary presenters, expressing their
-            thoughts, experiences, projects, and visions to promote the ideals
-            of TED.
+            visionaries, intellectuals, and doers, right to our doorstep. 
           </p>
         </div>
         <div className="about-section2">

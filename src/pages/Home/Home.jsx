@@ -18,8 +18,8 @@ const Home = ({ dark }) => {
 
   return (
     <>
-      <div style={pageStyle} data-scroll-container>
-        <Suspense
+      <div style={pageStyle}>
+        {/*<Suspense
           fallback={
             <div
               style={{
@@ -33,14 +33,14 @@ const Home = ({ dark }) => {
             </div>
           }
         >
-          <NewBanner />
-        </Suspense>
+      </Suspense>*/}
+        <NewBanner />
         {/*<BannerSection />*/}
         {/*<CountdownSection/>*/}
         <PandemoniumSection />
         {/* <hr></hr> */}
         
-          <SpeakersSection />
+        <SpeakersSection />
         
         {/* <hr></hr> */}
         <TimelineSection />

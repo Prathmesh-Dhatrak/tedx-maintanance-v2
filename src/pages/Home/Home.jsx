@@ -1,13 +1,13 @@
 import React, { Suspense } from "react";
 //import BannerSection from "./BannerSection";
-//import NewBanner from "./NewBanner";
+import NewBanner from "./NewBanner";
 import PandemoniumSection from "./PandemoniumSection";
 //import CountdownSection from "./CountdownSection";
 import SpeakersSection from "./SpeakersSection";
 import TimelineSection from "./TimelineSection";
 import AboutSection from "./AboutSection";
 import { BarWave } from "react-cssfx-loading";
-const NewBanner = React.lazy(() => import("./NewBanner"));
+//const NewBanner = React.lazy(() => import("./NewBanner"));
 
 const Home = ({ dark }) => {
   const pageStyle = {

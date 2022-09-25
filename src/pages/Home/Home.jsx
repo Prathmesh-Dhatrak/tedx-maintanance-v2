@@ -39,20 +39,9 @@ const Home = ({ dark }) => {
         {/*<CountdownSection/>*/}
         <PandemoniumSection />
         {/* <hr></hr> */}
-        <Suspense fallback={
-          <div
-            style={{
-              height: "100vh",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <BarWave height="50px" color="#FF0000" width="100px" />
-          </div>
-        }>
+        
           <SpeakersSection />
-        </Suspense>
+        
         {/* <hr></hr> */}
         <TimelineSection />
         <AboutSection />

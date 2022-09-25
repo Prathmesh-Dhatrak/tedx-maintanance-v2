@@ -1,9 +1,8 @@
-import React,{ useState, useEffect } from "react";
+import React from "react";
 import { Route } from "react-router-dom";
 import { Header, Footer } from "./components";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { BarWave } from "react-cssfx-loading";
 
 import {
   Partners,
@@ -69,30 +68,6 @@ const routes = [
     name: "Unfold",
     Component: Unfold,
   },
-  // {
-  //   path: "/edition1",
-  //   darkHader: false,
-  //   name: "Edition 1",
-  //   Component: Edition1,
-  // },
-  // {
-  //   path: "/edition2",
-  //   darkHader: false,
-  //   name: "Edition 2",
-  //   Component: Edition2,
-  // },
-  // {
-  //   path: "/edition3",
-  //   darkHader: false,
-  //   name: "Edition 1",
-  //   Component: Edition3,
-  // },
-  // {
-  //   path: "/edition4",
-  //   darkHader: false,
-  //   name: "Edition1",
-  //   Component: Edition4,
-  // },
   {
     path: "/endeavour/edition5",
     darkHader: false,
@@ -114,23 +89,12 @@ const routes = [
 ];
 
 function App() {
-  const [loading, setLoading] = useState(false);
 
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 2000);
-  }, []);
 
 
   return (
     <div className="App" style={{ background: "black" }}>
-      {loading ? (
-        <div style={{height:'100vh',display:"flex",alignItems:'center',justifyContent:'center'}}>
-          <BarWave height="50px" color="#FF0000" width="100px" />
-        </div>
-      ):(
+      
       
             <>
             {routes.map(({ darkHader, path, Component }) => (
@@ -143,9 +107,6 @@ function App() {
             
             </>
 
-
-      )
-    }
 
       
 

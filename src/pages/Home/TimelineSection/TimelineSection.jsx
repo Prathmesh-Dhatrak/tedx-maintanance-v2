@@ -42,18 +42,19 @@ const EXAMPLE = [
     imgURL: `https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/19_zfvvop.svg`,
     videoLink: `https://www.youtube.com/playlist?list=PLsRNoUx8w3rPXX5LlzJQQNYrvIvz5nhOz`,
   },
-  {
+  /*{
     date: "2020",
     title: "TEDxVITPune Countdown | Towards Climate Change | 2020",
     paragraph:
       "It's now or never. We can change climate change. Keeping these words in mind, TEDxVITPune joined the Countdown with a vision to spread ideas for a change. Guest speakers, Stephan Crawford, Ulka Kelkar, and Shikhar Kamat imparted valuable cognizance, and musicians, Flavio Lopez and Daniel Waples added a spark of musical notes to the Sunday evening.",
     imgURL: `https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/21_wpmxtr.svg`,
-  },
+  }*/
   {
     date: "2021-05-29",
     title: "TEDxVITPune Reemergence | Resurfacing Amidst Turmoil | 2021",
     paragraph:
       "Delineating the perseverance to re-emerge stronger despite times of turmoil, the 6th edition of TEDxVITPune aimed at inciting social impact and endowed guidance to help resurface as the finest version of yourself. The online event unravelled as the remarkable lineup of speakers including Amira Gill, Debanshu Roy, Jishnu Chatterjee, Mark Hannant, and Avinash Ramanathan, put forth their striking ideas.",
+    imgURL:`https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650187442/Website%20Content/Home/eventSVG/21_wpmxtr.svg`,  
     videoLink: `https://www.youtube.com/playlist?list=PL0687I2dEWckuZn6AEuZF8FOnr7T1QcVV`,
   },
 ];
@@ -75,7 +76,7 @@ export default class TimelineSection extends React.Component {
     const videoLink = EXAMPLE[curIdx].videoLink;
 
     return (
-      <div className="time-container">
+      <div className="time-container" data-scroll-section>
         <h2>Past Editions: Our Journey </h2>
         <div className="time-inner-container">
           <div

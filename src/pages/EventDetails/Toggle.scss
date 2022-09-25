@@ -1,0 +1,198 @@
+/*.faqs {
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 5%;
+    font-family: $font-text;
+    font-size: 60px;
+    line-height: 70px;
+    color: #333333;
+}
+.category {
+    padding: 2%;
+    text-align: center;
+    font-family: $font-text;
+    font-size: 40px;
+    line-height: 50px;
+    color: #333333;
+}*/
+.questions_sections {
+    display: block;
+    margin: 1% 10% 1% 10%;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    position: relative;
+    justify-content: center;
+    text-align: left;
+    font-family: "Candara";
+    font-weight: 600;
+    color: #333333;
+    font-size: 25px;
+    line-height: 36px;
+    .questions {
+        &:hover, .active{
+            cursor: pointer;
+            color: rgb(155, 155, 155);
+
+        }
+        p {
+            padding: 2% 20% 2% 20%;
+            display: block;
+            text-align: center;
+            
+        }
+    }
+    .answer {
+
+        justify-content: center;
+        text-align: center;
+        font-family: "Candara";
+        font-weight: 400;
+        color: #333333;
+        font-size: 20px;
+        line-height: 26px;
+        //max-height: 100px;
+        
+        background-color: white;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+        
+        -webkit-transition: all .5s ease-in-out;
+        p {
+            padding: 0% 20% 2% 20%
+        }
+    }
+}
+
+.social_media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2%;
+}
+.para{
+    font-weight: bold;
+}
+
+@media (max-width:586px){
+    .faqs {
+        text-align: center;
+        //padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 48px;
+        line-height: 70px;
+        color: #333333;
+    }
+    .category {
+        padding: 2%;
+        text-align: center;
+        font-size: 38px;
+        line-height: 50px;
+        color: #333333;
+    }
+    .questions_sections {
+        display: block;
+        margin: 1% 10% 1% 10%;
+        border-bottom: 1px solid rgb(201, 201, 201);
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        color: #333333;
+        font-size: 24px;
+        line-height: 36px;
+        .questions {
+            &:hover, .active{
+                cursor: pointer;
+                color: rgb(155, 155, 155);
+    
+            }
+            p {
+                padding: 2% 20% 2% 20%;
+                display: block;
+                text-align: center;
+                
+            }
+        }
+        .answer {
+    
+            justify-content: center;
+            text-align: center;
+            font-weight: 400;
+            color: #333333;
+            font-size: 19px;
+            line-height: 26px;
+            //max-height: 100px;
+            
+            background-color: white;
+            overflow: hidden;
+            transition: max-height 0.5s ease;
+            p {
+                padding: 0% 20% 2% 20%
+            }
+        }
+    }
+}
+
+
+@media (max-width:482px){
+    .faqs {
+        text-align: center;
+        //padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 38px;
+        line-height: 55px;
+        color: #333333;
+    }
+    .category {
+        margin-top: 2%;
+        padding: 2%;
+        text-align: center;
+        font-size: 30px;
+        line-height: 40px;
+        color: #333333;
+    }
+    .questions_sections {
+        display: block;
+        margin: 1% 10% 1% 10%;
+        border-bottom: 1px solid rgb(201, 201, 201);
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        color: #333333;
+        font-size: 20px;
+        line-height: 30px;
+        .questions {
+            margin: 5% 0% 5% 0%;
+            text-align: left;
+            &:hover, .active{
+                cursor: pointer;
+                color: rgb(155, 155, 155);
+    
+            }
+            p {
+                text-align: left;
+                //padding: 2% 20% 2% 20%;
+                display: block;
+                padding: 0;
+                
+            }
+        }
+        .answer {
+    
+            justify-content: center;
+            text-align: left;
+            font-weight: 400;
+            color: #333333;
+            font-size: 19px;
+            line-height: 26px;
+            //max-height: 100px;
+            
+            background-color: white;
+            overflow: hidden;
+            transition: max-height 0.5s ease;
+            p {
+                padding: 0;
+            }
+        }
+    }
+}

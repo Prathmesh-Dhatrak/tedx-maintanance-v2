@@ -39,7 +39,6 @@
       transition: 0.3s ease all;
       color: $color-primary-light;
       letter-spacing: 1px;
-      
     }
   }
 }
@@ -138,14 +137,12 @@ li {
   background: white;
   border: 1px solid lavender;
   width: 150px;
-  left: 0
-  px;
+  left: 0 px;
   padding: 0px 0 0 0;
   z-index: 1000;
   box-shadow: 0 10px 12px rgb(22 33 39 / 25%);
 }
 .menu-item .sub__menus2 a {
-
   line-height: 15px;
   padding: 5px 0px;
   margin: 5px 10px;
@@ -273,6 +270,10 @@ li {
   }
   .menu-item .sub__menus__full a {
     text-align: left;
+  }
+  .sub__menus__arrows svg,
+  .sub__menus__arrows__full svg {
+    margin-left: 12px;
   }
 }
 

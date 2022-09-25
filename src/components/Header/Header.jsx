@@ -121,7 +121,7 @@ const Header = ({ dark }) => {
                 }}
                 to='/#'
               >
-                Endeavour <FiChevronDown />
+                Endeavours <FiChevronDown />
               </Link>
               <ul className={boxClassSubMenu2.join(" ")}>
                 <li>

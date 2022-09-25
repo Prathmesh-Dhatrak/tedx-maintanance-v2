@@ -22,27 +22,27 @@ const imageArray = [
   "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509175/Website%20Content/Home/CountdownIMGS/2_quvdpv.svg",
   "https://res.cloudinary.com/dfgz4hsg0/image/upload/v1651509072/Website%20Content/Home/CountdownIMGS/1_v5gqm4.svg",
 ];
+imageArray.reverse();
 
 const CountdownSection = () => {
-  // const [current, setCurrent] = React.useState(0);
+  const [day, setday] = React.useState(0);
 
-  // React.useEffect(() => {
-  //   const timerId = setInterval(() => {
-  //     setCurrent((cur) => (cur < imageArray.length - 1 ? cur + 1 : 0));
-  //   }, 1000 * 60 * 60 * 24);
-  //   return () => {
-  //     clearInterval(timerId);
-  //   };
-  // }, []);
+  React.useEffect(() => {
+    var today = new Date();
+    var day = today.getDate();
+    day = 21 - day;
+    console.log(day);
+    setday(day);
+  }, []);
 
   return (
     <div className="countdown-container">
       <div className="subCountainerLf">
         <div className="img_container">
-          <img src={imageArray[1]} alt="img" />
+          <img src={imageArray[day-1]} alt="img" />
         </div>
         <p>
-          Days to go, for the most <br /> awaited event of the year!{" "}
+          Day to go, for the most <br /> awaited event of the year!
         </p>
       </div>
     </div>

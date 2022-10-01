@@ -1,1 +1,1 @@
-# TEDxVITPUNE 
+# TEDxVITPUNE.com

@@ -16,9 +16,9 @@ const Contact = ({ dark }) => {
           <div className={styles.touch_left}>
             <h1>For event-specific queries reach out to:</h1>
             <p>
-            Niharika Rathi:<a href="tel:+919168404840" target="_blank" rel="noreferrer"> +91 (968) 98 98018</a> 
+            Niharika Rathi:<a href="tel:+919689898018" target="_blank" rel="noreferrer"> +91 (968) 98 98018</a> 
               <br />
-            Asawari Bapat:<a href="tel:+91973278541" target="_blank" rel="noreferrer"> +91 (766) 63 45498</a> 
+            Asawari Bapat:<a href="tel:+917666345498" target="_blank" rel="noreferrer"> +91 (766) 63 45498</a> 
             </p>
 
             <form>
@@ -64,9 +64,9 @@ const Contact = ({ dark }) => {
               <br />
               Contact :
               <br />
-              Niharika Rathi:<a href="tel:+919168404840" target="_blank" rel="noreferrer"> +91 (968) 98 98018</a> 
+              Niharika Rathi:<a href="tel:+919689898018" target="_blank" rel="noreferrer"> +91 (968) 98 98018</a> 
               <br />
-              Asawari Bapat:<a href="tel:+91973278541" target="_blank" rel="noreferrer"> +91 (766) 63 45498</a> 
+              Asawari Bapat:<a href="tel:+917666345498" target="_blank" rel="noreferrer"> +91 (766) 63 45498</a> 
             </p>
             <h4>
               Reach out to us:
@@ -86,9 +86,9 @@ const Contact = ({ dark }) => {
               <br />
               Contact :
               <br />
-              Niharika Rathi:<a href="tel:+919168404840" target="_blank" rel="noreferrer"> +91 (968) 98 98018</a> 
+              Niharika Rathi:<a href="tel:+919689898018" target="_blank" rel="noreferrer"> +91 (968) 98 98018</a> 
               <br />
-              Asawari Bapat:<a href="tel:+91973278541" target="_blank" rel="noreferrer"> +91 (766) 63 45498</a> 
+              Asawari Bapat:<a href="tel:+917666345498" target="_blank" rel="noreferrer"> +91 (766) 63 45498</a> 
             </p>
             <h4>
               Reach out to us:

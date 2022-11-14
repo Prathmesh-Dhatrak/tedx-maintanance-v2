@@ -203,7 +203,7 @@ const Privacy = ({ dark }) => {
         Personal Information as detailed above, will continue. You can opt out
         by following the unsubscribe instructions included in the relevant
         marketing communication, or by contacting us in writing at
-        tedxvitpune@gmail.com
+        tedx@vit.edu
         <br />
         <br />
         <span className={styles.headings_privacy}>9. TEDxVITPune website</span>
@@ -248,7 +248,7 @@ const Privacy = ({ dark }) => {
         <br />
         If you require further information regarding our Privacy Policy or
         wish to make a privacy complaint, please contact us at
-        tedxvitpune@gmail.com
+        tedx@vit.edu
         <br />
         <br />
         <span className={styles.headings_privacy}>12. Miscellaneous</span>

@@ -60,17 +60,20 @@ const Footer = () => {
           <h2>Contact</h2>
           <p>
             <a
-              href="mailto:tedxvitpune@gmail.com"
+              href="mailto:tedx@vit.edu"
               target="_blank"
               rel="noreferrer"
             >
             tedx@vit.edu
             </a>
           </p>
+          <p>
+          Niharika Rathi:<a href="tel:+919689898018" target="_blank" rel="noreferrer"> +91 (968) 98 98018</a> 
+          </p>
           <div className="footer-tedLine">
             <p>
-              <Link to="/">TEDxVITPune</Link>
-            </p>
+              <Link to="/"></Link>
+  </p>
           </div>
 
           <div className="icons">

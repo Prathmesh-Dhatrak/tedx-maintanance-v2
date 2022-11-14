@@ -13,8 +13,8 @@ const Home = ({ dark }) => {
   };
   return (
     <div style={pageStyle}>
-      <BannerSection />
-      <CountdownSection/>
+      {/*<BannerSection />
+  <CountdownSection/>*/}
       <PandemoniumSection />
       {/* <hr></hr> */}
       <SpeakersSection />

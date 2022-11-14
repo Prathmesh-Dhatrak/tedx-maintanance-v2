@@ -16,9 +16,9 @@ const Contact = ({ dark }) => {
           <div className={styles.touch_left}>
             <h1>For event-specific queries reach out to:</h1>
             <p>
-              Harshada Belgi:<a href="tel:+919168404840" target="_blank" rel="noreferrer"> +91 (916) 84 04840</a> 
+            Niharika Rathi:<a href="tel:+919168404840" target="_blank" rel="noreferrer"> +91 (968) 98 98018</a> 
               <br />
-              Atharva Kulkarni:<a href="tel:+91973278541" target="_blank" rel="noreferrer"> +91 (973) 02 78541</a> 
+            Asawari Bapat:<a href="tel:+91973278541" target="_blank" rel="noreferrer"> +91 (766) 63 45498</a> 
             </p>
 
             <form>
@@ -64,13 +64,13 @@ const Contact = ({ dark }) => {
               <br />
               Contact :
               <br />
-              Harshada Belgi:<a href="tel:+919168404840" target="_blank" rel="noreferrer"> +91 (916) 84 04840</a> 
+              Niharika Rathi:<a href="tel:+919168404840" target="_blank" rel="noreferrer"> +91 (968) 98 98018</a> 
               <br />
-              Atharva Kulkarni:<a href="tel:+91973278541" target="_blank" rel="noreferrer"> +91 (973) 02 78541</a> 
+              Asawari Bapat:<a href="tel:+91973278541" target="_blank" rel="noreferrer"> +91 (766) 63 45498</a> 
             </p>
             <h4>
               Reach out to us:
-              <a href="mailto:tedxvitpune@gmail.com" target="_blank" rel="noreferrer"> tedxvitpune@gmail.com</a>
+              <a href="mailto:tedx@vit.edu" target="_blank" rel="noreferrer"> tedx@vit.edu</a>
             </h4>
           </div>
 
@@ -86,9 +86,9 @@ const Contact = ({ dark }) => {
               <br />
               Contact :
               <br />
-              Harshada Belgi:<a href="tel:+919168404840" rel="noreferrer" target="_blank"> +91 (916) 84 04840</a> 
+              Niharika Rathi:<a href="tel:+919168404840" target="_blank" rel="noreferrer"> +91 (968) 98 98018</a> 
               <br />
-              Mugdha Pendse:<a href="tel:+917768897971" rel="noreferrer" target="_blank"> +91 (776) 88 97971</a>
+              Asawari Bapat:<a href="tel:+91973278541" target="_blank" rel="noreferrer"> +91 (766) 63 45498</a> 
             </p>
             <h4>
               Reach out to us:

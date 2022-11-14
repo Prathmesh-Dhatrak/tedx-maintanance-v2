@@ -64,7 +64,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              tedxvitpune@gmail.com
+            tedx@vit.edu
             </a>
           </p>
           <div className="footer-tedLine">

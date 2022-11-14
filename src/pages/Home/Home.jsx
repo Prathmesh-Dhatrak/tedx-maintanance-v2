@@ -1,7 +1,5 @@
 import React from "react";
-import BannerSection from "./BannerSection";
 import PandemoniumSection from "./PandemoniumSection";
-import CountdownSection from "./CountdownSection";
 import SpeakersSection from "./SpeakersSection";
 import TimelineSection from "./TimelineSection";
 import AboutSection from "./AboutSection";
@@ -13,8 +11,8 @@ const Home = ({ dark }) => {
   };
   return (
     <div style={pageStyle}>
-      <BannerSection />
-      <CountdownSection/>
+      {/*<BannerSection />
+  <CountdownSection/>*/}
       <PandemoniumSection />
       {/* <hr></hr> */}
       <SpeakersSection />

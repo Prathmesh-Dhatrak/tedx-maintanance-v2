@@ -3,7 +3,7 @@ import PandemoniumSection from "./PandemoniumSection";
 import SpeakersSection from "./SpeakersSection";
 import TimelineSection from "./TimelineSection";
 import AboutSection from "./AboutSection";
-import { BarWave } from "react-cssfx-loading";
+// import { BarWave } from "react-cssfx-loading";
 //const NewBanner = React.lazy(() => import("./NewBanner"));
 
 const Home = ({ dark }) => {

@@ -72,7 +72,7 @@ const About = ({ dark }) => {
         />
 
         <p>
-          TED is a non-profit organisation devoted to Ideas Worth Spreading.
+          TED is a non-profit organization devoted to Ideas Worth Spreading.
           It started as a four-day conference in California 30 years ago,
           believing passionately in the power of ideas to change attitudes,
           and lives and welcoming people from every discipline and culture
@@ -113,9 +113,9 @@ const About = ({ dark }) => {
         </div>
         <p>
           In the spirit of ideas worth spreading, TEDx is a TED-created
-          program of local, self-organised events that bring people together
+          program of local, self-organized events that bring people together
           to share a TED-like experience. These events are open-source and
-          local-community driven organised by passionate individuals who
+          local-community driven organized by passionate individuals who
           seek to uncover new ideas and share the latest research in their
           local areas that spark conversations in their communities and
           ultimately elevate them to a global stage.

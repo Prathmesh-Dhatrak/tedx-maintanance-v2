@@ -132,7 +132,8 @@ const Header = ({ dark }) => {
                     }
                     to={`/endeavour/community-conversations`}
                     style={{
-                      color: dark ? "#aaaaaa" : "#474747",
+                      color: dark ? "gray" : "#474747",
+                      
                     }}
                   >
                     Community Conversations
@@ -146,7 +147,7 @@ const Header = ({ dark }) => {
                     }
                     to={`/endeavour/unfold`}
                     style={{
-                      color: dark ? "#aaaaaa" : "#474747",
+                      color: dark ? "gray" : "#474747",
                     }}
                   >
                     Unfold
@@ -160,7 +161,7 @@ const Header = ({ dark }) => {
                     }
                     to={`/endeavour/Edition6`}
                     style={{
-                      color: dark ? "#aaaaaa" : "#474747",
+                      color: dark ? "gray" : "#474747",
                     }}
                   >
                     Edition 6
@@ -174,7 +175,7 @@ const Header = ({ dark }) => {
                     }
                     to={`/endeavour/Edition5`}
                     style={{
-                      color: dark ? "#aaaaaa" : "#474747",
+                      color: dark ? "gray" : "#474747",
                     }}
                   >
                     Edition 5
@@ -188,7 +189,7 @@ const Header = ({ dark }) => {
                     }
                     to={`/community-conversations`}
                     style={{
-                      color: dark ? "#aaaaaa" : "#474747",
+                      color: dark ? "gray" : "#474747",
                     }}
                   >
                     Edition 4
@@ -202,7 +203,7 @@ const Header = ({ dark }) => {
                     }
                     to={`/community-conversations`}
                     style={{
-                      color: dark ? "#aaaaaa" : "#474747",
+                      color: dark ? "gray" : "#474747",
                     }}
                   >
                     Edition 3
@@ -216,7 +217,7 @@ const Header = ({ dark }) => {
                     }
                     to={`/community-conversations`}
                     style={{
-                      color: dark ? "#aaaaaa" : "#474747",
+                      color: dark ? "gray" : "#474747",
                     }}
                   >
                     Edition 2
@@ -280,7 +281,7 @@ const Header = ({ dark }) => {
                     }
                     to={`/Contact`}
                     style={{
-                      color: dark ? "#aaaaaa" : "#474747",
+                      color: dark ? "gray" : "#474747",
                     }}
                   >
                     Contact
@@ -294,7 +295,7 @@ const Header = ({ dark }) => {
                     }
                     to={`/Privacy`}
                     style={{
-                      color: dark ? "#aaaaaa" : "#474747",
+                      color: dark ? "gray" : "#474747",
                     }}
                   >
                     Privacy
@@ -308,7 +309,7 @@ const Header = ({ dark }) => {
                     }
                     to={`/Faqs`}
                     style={{
-                      color: dark ? "#aaaaaa" : "#474747",
+                      color: dark ? "gray" : "#474747",
                     }}
                   >
                     FAQs

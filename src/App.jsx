@@ -1,4 +1,4 @@
-import React,{ useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Route } from "react-router-dom";
 import { Header, Footer } from "./components";
 import "slick-carousel/slick/slick.css";
@@ -123,31 +123,30 @@ function App() {
     }, 2000);
   }, []);
 
-
   return (
     <div className="App" style={{ background: "black" }}>
       {loading ? (
-        <div style={{height:'100vh',display:"flex",alignItems:'center',justifyContent:'center'}}>
+        <div
+          style={{
+            height: "100vh",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
           <BarWave height="50px" color="#FF0000" width="100px" />
         </div>
-      ):(
-      
-            <>
-            {routes.map(({ darkHader, path, Component }) => (
-              <Route key={path} exact path={path}>
-                <Header dark={darkHader} />
-                <Component dark={darkHader} />
-                <Footer />
-              </Route>
-            ))}
-            
-            </>
-
-
-      )
-    }
-
-      
+      ) : (
+        <>
+          {routes.map(({ darkHader, path, Component }) => (
+            <Route key={path} exact path={path}>
+              <Header dark={darkHader} />
+              <Component dark={darkHader} />
+              <Footer />
+            </Route>
+          ))}
+        </>
+      )}
 
       <Route path="/newsletter-signup" component={NewsletterSignup} />
       <Route
@@ -216,8 +215,6 @@ function App() {
           return null;
         }}
       />
-
-
     </div>
   );
 }

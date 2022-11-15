@@ -16,7 +16,6 @@ const Home = ({ dark }) => {
   return (
     <div style={pageStyle}>
       <Banner/>
-
       <PandemoniumSection />
       {/* <hr></hr> */}
       <SpeakersSection />

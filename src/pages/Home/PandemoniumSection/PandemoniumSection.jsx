@@ -1,7 +1,6 @@
-import React, { Suspense, useRef, useEffect } from "react";
+import React, {  useRef, useEffect } from "react";
 import "./PandemoniumSection.scss";
 import video from "../../../images/pande.webm";
-import { BarWave } from "react-cssfx-loading";
 
 const PandemoniumSection = () => {
   const vidRef = useRef();
@@ -10,30 +9,9 @@ const PandemoniumSection = () => {
   }, []);
 
   return (
-    <Suspense
-      fallback={
-        <div
-          style={{
-            height: "100vh",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <BarWave height="50px" color="#FF0000" width="100px" />
-        </div>
-      }
-    >
       <div className="pandemonium-container" data-scroll-section>
         <div className="pandemonium-section1 sm-padding">
           <h1 className="pandemonium-spanText">Edition 7</h1>
-          {/*<img
-            className="gifimg"
-            src={
-              "https://res.cloudinary.com/dfgz4hsg0/video/upload/v1659602486/Website%20Content/Home/pandemonium_cmx1fo_csmlbkweb_bcqffp.webm"
-            }
-            alt="image_gif"
-          />*/}
           <video src={video} ref={vidRef} muted autoPlay loop />
         </div>
         <div className="pandemonium-section2">
@@ -49,7 +27,7 @@ const PandemoniumSection = () => {
           </p>
         </div>
       </div>
-    </Suspense>
+   
   );
 };
 

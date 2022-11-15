@@ -1,9 +1,7 @@
 @import "../../../styles/_variables";
 
 .pandemonium-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: inline-flex;
   align-items: center;
   padding: 15rem 3rem;
   & .pandemonium-section1,
@@ -11,6 +9,10 @@
     display: flex;
     flex-direction: column;
     width: 50%;
+    video {
+      width: 100%;
+      height: auto;
+    }
     & .pandemonium-spanText {
       font-family: $font-text;
 
@@ -55,6 +57,7 @@
     & .pandemonium-section1,
     .pandemonium-section2 {
       width: 100%;
+      
       & .pandemonium-spanText {
         width: 100%;
         font-size: 12px;

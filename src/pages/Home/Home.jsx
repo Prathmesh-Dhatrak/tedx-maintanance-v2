@@ -3,8 +3,8 @@ import PandemoniumSection from "./PandemoniumSection";
 import SpeakersSection from "./SpeakersSection";
 import TimelineSection from "./TimelineSection";
 import AboutSection from "./AboutSection";
+import Banner from "./Banner/Banner";
 // import { BarWave } from "react-cssfx-loading";
-//const NewBanner = React.lazy(() => import("./NewBanner"));
 
 const Home = ({ dark }) => {
   const pageStyle = {
@@ -15,8 +15,8 @@ const Home = ({ dark }) => {
 
   return (
     <div style={pageStyle}>
-      {/*<BannerSection />
-  <CountdownSection/>*/}
+      <Banner/>
+
       <PandemoniumSection />
       {/* <hr></hr> */}
       <SpeakersSection />

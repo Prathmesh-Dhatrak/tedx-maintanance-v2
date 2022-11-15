@@ -119,8 +119,9 @@ const Header = ({ dark }) => {
                   color: dark ? "#aaaaaa" : "#474747",
                   fontStyle: "normal",
                 }}
+                to="/#"
               >
-                Endeavour <FiChevronDown />
+                Endeavours <FiChevronDown />
               </Link>
               <ul className={boxClassSubMenu2.join(" ")}>
                 <li>
@@ -266,6 +267,7 @@ const Header = ({ dark }) => {
                   color: dark ? "#aaaaaa" : "#474747",
                   fontStyle: "normal",
                 }}
+                to='/#'
               >
                 More <FiChevronDown />
               </Link>

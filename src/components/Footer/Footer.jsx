@@ -59,21 +59,21 @@ const Footer = () => {
         <div className="footer-contactSection">
           <h2>Contact</h2>
           <p>
-            <a
-              href="mailto:tedx@vit.edu"
-              target="_blank"
-              rel="noreferrer"
-            >
-            tedx@vit.edu
+            <a href="mailto:tedx@vit.edu" target="_blank" rel="noreferrer">
+              tedx@vit.edu
             </a>
           </p>
           <p>
-          Niharika Rathi:<a href="tel:+919689898018" target="_blank" rel="noreferrer"> +91 (968) 98 98018</a> 
+            Niharika Rathi:
+            <a href="tel:+919689898018" target="_blank" rel="noreferrer">
+              {" "}
+              +91 (968) 98 98018
+            </a>
           </p>
           <div className="footer-tedLine">
             <p>
               <Link to="/"></Link>
-  </p>
+            </p>
           </div>
 
           <div className="icons">
@@ -99,7 +99,7 @@ const Footer = () => {
                 >
                   <img
                     src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021457/Website%20Content/Footer/Insta_oqrxwy.svg"
-                    alt="Insta"
+                    alt="Instagram"
                   />
                 </a>
               </li>
@@ -138,7 +138,7 @@ const Footer = () => {
                 >
                   <img
                     src="https://res.cloudinary.com/dfgz4hsg0/image/upload/v1650021457/Website%20Content/Footer/YouTube_ykbsyi.svg"
-                    alt="utube"
+                    alt="youtube"
                   />
                 </a>
               </li>

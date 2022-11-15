@@ -38,6 +38,7 @@
     & .subCountainerLf {
       
       flex-direction: column;
+      justify-content: center;
       & p {
         width: 100%;
         font-family: $font-text;

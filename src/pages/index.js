@@ -9,3 +9,4 @@ export { default as Privacy } from "./Privacy";
 export { default as Lookbook } from "./Lookbook";
 export { default as Creatives } from "./Creatives";
 export { default as NewsletterSignup } from "./NewsletterSignup";
+export { default as EventDetails } from "./EventDetails";

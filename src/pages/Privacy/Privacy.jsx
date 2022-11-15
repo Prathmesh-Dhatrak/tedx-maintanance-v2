@@ -11,7 +11,7 @@ const Privacy = ({ dark }) => {
     <>
     <div className="page" style={privacyStyle}>
     <div className={styles.privacy_policy}>
-      <h1>Privacy Policy </h1>
+      <h1>Privacy Policyyyyy </h1>
       <p className={styles.para}>Dated- 5th February 2022.</p>
       <p>
         TEDxVITPune ("we", "us" or "our") is committed to respecting your

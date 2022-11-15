@@ -48,12 +48,12 @@ const Faqs = ({ dark }) => {
           answer="No, it is an independently organised TEDx event licensed by TED. "
         />
 
-        <Accordian
+        {/*<Accordian
           question="How do I suggest a Speaker for TEDxVITPune?"
           answer="
       If you’d like to nominate someone to be a speaker at TEDxVITPune, you can fill out our <a href=http://tedxvitpune.in/speaker-nomination><b>Speaker Nomination Form</b></a>  with a few details about the speaker and their ideas.
       "
-        />
+  />*/}
 
         <h2 className={styles.category}>Event specific queries</h2>
 
@@ -91,14 +91,13 @@ const Faqs = ({ dark }) => {
           answer="The ticket to TEDxVITPune is non-transferable and non-refundable."
         />
 
-        <Accordian
+     {/*}   <Accordian
           question="How do I buy a ticket from Townscript?"
           answer="Upon the selection of your attendee application, you can purchase your ticket to the event via Townscript after filling in all the necessary details.
       Apply as an attendee here!
       <a href=http://tedxvitpune.in/speaker-nomination><b>Register link</b></a>
-
       "
-        />
+/>*/}
 
         <Accordian
           question="What is the duration of the event?"

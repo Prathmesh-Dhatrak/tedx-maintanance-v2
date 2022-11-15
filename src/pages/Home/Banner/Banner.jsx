@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from "./Banner.module.scss";
-import video from "../../../images/Home/headergif.mp4";
 import xxx from "../../../images/Home/xx.png";
 
 

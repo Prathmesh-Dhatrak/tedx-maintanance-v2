@@ -188,7 +188,7 @@ function App() {
       <Route
         path="/speaker-nomination"
         component={() => {
-          window.location.href = "https://forms.gle/pZkejYwMKeTBJqcK8";
+          window.location.href = "https://forms.gle/U1cpvXZ2YVPpYJRcA";
           return null;
         }}
       />
